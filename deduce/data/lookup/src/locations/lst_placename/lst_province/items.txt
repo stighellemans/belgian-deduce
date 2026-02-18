@@ -1,12 +1,26 @@
-Drenthe
-Flevoland
-Friesland
-Gelderland
-Groningen
+Antwerpen
+Anvers
+Brabant flamand
+Brussels Hoofdstedelijk Gewest
+Flandre occidentale
+Flandre orientale
+Flämisch-Brabant
+Hainaut
+Henegouwen
+Hennegau
+Limbourg
 Limburg
-Noord-Brabant
-Noord-Holland
-Overijssel
-Utrecht
-Zeeland
-Zuid-Holland
+Liège
+Luik
+Luxembourg
+Luxemburg
+Lüttich
+Namen
+Namur
+Oost-Vlaanderen
+Ostflandern
+Region Brüssel-Hauptstadt
+Région de Bruxelles-Capitale
+Vlaams-Brabant
+West-Vlaanderen
+Westflandern

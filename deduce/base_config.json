@@ -1,14 +1,8 @@
 {
   "adjacent_annotations_slack": "[\\. \\-]?[\\. ]?",
   "resolve_overlap_strategy": {
-    "attributes": [
-      "priority",
-      "length"
-    ],
-    "ascending": [
-      false,
-      false
-    ]
+    "attributes": ["priority", "length"],
+    "ascending": [false, false]
   },
   "redactor_open_char": "[",
   "redactor_close_char": "]",
@@ -356,9 +350,7 @@
           {
             "name": "housenumber_right",
             "direction": "right",
-            "pre_tag": [
-              "straat"
-            ],
+            "pre_tag": ["straat"],
             "tag": "{tag}+huisnummer",
             "skip": [],
             "pattern": [
@@ -370,9 +362,7 @@
           {
             "name": "housenumber_housenumberletter_right",
             "direction": "right",
-            "pre_tag": [
-              "straat"
-            ],
+            "pre_tag": ["straat"],
             "tag": "{tag}+huisnummer+huisnummerletter",
             "skip": [],
             "pattern": [
@@ -384,9 +374,7 @@
           {
             "name": "housenumberletter_right",
             "direction": "right",
-            "pre_tag": [
-              "huisnummer"
-            ],
+            "pre_tag": ["huisnummer"],
             "tag": "{tag}+huisnummerletter",
             "skip": [],
             "pattern": [
@@ -402,7 +390,7 @@
       "annotator_type": "docdeid.process.RegexpAnnotator",
       "group": "locations",
       "args": {
-        "regexp_pattern": "(\\d{4}([A-Za-z]{2}| [A-Z]{2}))(?<!mg|MG|gr|ie)(\\W|$)",
+        "regexp_pattern": "((?<!\\w)(?:[Bb]-)?\\d{4}(?!\\d))",
         "capturing_group": 1,
         "tag": "locatie"
       }
@@ -411,9 +399,9 @@
       "annotator_type": "docdeid.process.RegexpAnnotator",
       "group": "locations",
       "args": {
-        "regexp_pattern": "([Pp]ostbus\\s\\d{1,5}(\\.\\d{2,4})?)",
+        "regexp_pattern": "((?i:(?:bus|postbus|boite\\s+postale|bp))\\s*\\d{1,5}(?:[\\./-]\\d{1,4})?)",
         "tag": "locatie",
-        "pre_match_words": ["postbus"]
+        "pre_match_words": ["bus", "postbus", "boite"]
       }
     },
     "hospital": {
@@ -450,7 +438,32 @@
         "regexp_pattern": "(?i)(?<!\\d)(([1-9]|0[1-9]|[12][0-9]|3[01])[-/\\. ]{,2}(januari|jan|februari|feb|maart|mrt|april|apr|mei|juni|jun|juli|jul|augustus|aug|september|sep|sept|oktober|okt|november|nov|december|dec)[-/\\. ]((19|20|\\'|`)?\\d{2}))(?!\\d)",
         "tag": "datum",
         "capturing_group": 1,
-        "pre_match_words": ["januari", "jan", "februari", "feb", "maart", "mrt", "april", "apr", "mei", "juni", "jun", "juli", "jul", "augustus", "aug", "september", "sep", "sept", "oktober", "okt", "november", "nov", "december", "dec"]
+        "pre_match_words": [
+          "januari",
+          "jan",
+          "februari",
+          "feb",
+          "maart",
+          "mrt",
+          "april",
+          "apr",
+          "mei",
+          "juni",
+          "jun",
+          "juli",
+          "jul",
+          "augustus",
+          "aug",
+          "september",
+          "sep",
+          "sept",
+          "oktober",
+          "okt",
+          "november",
+          "nov",
+          "december",
+          "dec"
+        ]
       }
     },
     "date_ymd_1": {
@@ -469,7 +482,32 @@
         "regexp_pattern": "(?i)(?<!\\d)(((19|20|\\'|`)\\d{2})[-/\\. ]{,2}(januari|jan|februari|feb|maart|mrt|april|apr|mei|juni|jun|juli|jul|augustus|aug|september|sep|sept|oktober|okt|november|nov|december|dec)[-/\\. ]([1-9]|0[1-9]|[12][0-9]|3[01]))(?!\\d)",
         "tag": "datum",
         "capturing_group": 1,
-        "pre_match_words": ["januari", "jan", "februari", "feb", "maart", "mrt", "april", "apr", "mei", "juni", "jun", "juli", "jul", "augustus", "aug", "september", "sep", "sept", "oktober", "okt", "november", "nov", "december", "dec"]
+        "pre_match_words": [
+          "januari",
+          "jan",
+          "februari",
+          "feb",
+          "maart",
+          "mrt",
+          "april",
+          "apr",
+          "mei",
+          "juni",
+          "jun",
+          "juli",
+          "jul",
+          "augustus",
+          "aug",
+          "september",
+          "sep",
+          "sept",
+          "oktober",
+          "okt",
+          "november",
+          "nov",
+          "december",
+          "dec"
+        ]
       }
     },
     "age": {
@@ -477,8 +515,35 @@
       "group": "ages",
       "args": {
         "regexp_pattern": "(?i)(?<![\\d,\\.])((1?\\d?\\d)([\\.,]5)?(-(1?\\d?\\d)([\\.,]5)?)?)([ -](jaar|jarig|jarige|jr))(?!\\w)",
-        "pre_pseudo": ["<", "al", "co", "controle", "de", "elke", "gedurende", "na", "nog", "ongeveer", "over", "policontrole", "sinds", "up", "vanaf"],
-        "post_pseudo": ["aanwezig", "gebruikt", "geleden", "gerookt", "gestaakt", "gestopt", "getrouwd", "na", "naar", "nadien"],
+        "pre_pseudo": [
+          "<",
+          "al",
+          "co",
+          "controle",
+          "de",
+          "elke",
+          "gedurende",
+          "na",
+          "nog",
+          "ongeveer",
+          "over",
+          "policontrole",
+          "sinds",
+          "up",
+          "vanaf"
+        ],
+        "post_pseudo": [
+          "aanwezig",
+          "gebruikt",
+          "geleden",
+          "gerookt",
+          "gestaakt",
+          "gestopt",
+          "getrouwd",
+          "na",
+          "naar",
+          "nadien"
+        ],
         "pre_match_words": ["jaar", "jarig", "jarige", "jr"],
         "tag": "leeftijd",
         "capturing_group": 1
@@ -518,7 +583,20 @@
       "args": {
         "regexp_pattern": "(([-a-zA-Z0-9:%._\\+~#=]{1,256})@([-a-zA-Z0-9:%._\\+~#=]{1,256})(\\.)(com|net|org|co|us|uk|nl|be|fr|sp|gov|nu))",
         "tag": "emailadres",
-        "pre_match_words": ["com", "net", "org", "co", "us", "uk", "nl", "be", "fr", "sp", "gov", "nu"]
+        "pre_match_words": [
+          "com",
+          "net",
+          "org",
+          "co",
+          "us",
+          "uk",
+          "nl",
+          "be",
+          "fr",
+          "sp",
+          "gov",
+          "nu"
+        ]
       }
     },
     "url": {
@@ -527,7 +605,20 @@
       "args": {
         "regexp_pattern": "((https?:\\/\\/(?:www\\.)?)?([-a-zA-Z0-9:%._\\+~#=]{1,256})(\\.)(com|net|org|co|us|uk|nl|be|fr|sp|gov|nu)(\\b)([():%_\\+.~,]*[-a-zA-Z-0-9#?&/=]+)*)",
         "tag": "url",
-        "pre_match_words": ["com", "net", "org", "co", "us", "uk", "nl", "be", "fr", "sp", "gov", "nu"]
+        "pre_match_words": [
+          "com",
+          "net",
+          "org",
+          "co",
+          "us",
+          "uk",
+          "nl",
+          "be",
+          "fr",
+          "sp",
+          "gov",
+          "nu"
+        ]
       }
     }
   }

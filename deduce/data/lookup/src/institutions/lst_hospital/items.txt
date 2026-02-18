@@ -1,368 +1,780 @@
-Academisch Medisch Centrum
-Academisch Ziekenhuis Amsterdam
-Academisch Ziekenhuis Groningen
-Academisch Ziekenhuis Leiden
-Academisch Ziekenhuis Maastricht
-Academisch Ziekenhuis Nijmegen
-Academisch Ziekenhuis Rotterdam
-Academisch Ziekenhuis Utrecht
-Admiraal De Ruyter
-Admiraal De Ruyter Ziekenhuis
-Albert Schweitzer
-Albert Schweitzer Ziekenhuis
-Aleida Kramer
-Aleida Kramer Ziekenhuis
-Alexander van der Leeuw Kliniek
-Algemeen Burger Gasthuis
-Algemeen Ziekenhuis
-Algemeen Ziekenhuis Zonnestraal
-Alrijne
-Alrijne Ziekenhuis
-Amphia
-Amphia Ziekenhuis
-Amsterdam Universitair Medisch Centrum
-Amsterdam Universitair Medisch Centrum locatie AMC
-Amsterdam Universitair Medisch Centrum locatie VU
-Amsterdam Universitair Medisch Centrum locatie VUmc
-Anna Zorggroep
-Antonius
-Antonius Ziekenhuis
-Atrium Medisch Centrum
-Azivo
-Azivo Ziekenhuis
-Barbara Ziekenhuis
-Beatrix Ziekenhuis
-Berg en Bosch
-Bergweg
-Bergweg Ziekenhuis
-Bergzicht
-Bernhoven
-Bethel
-Bethel Ziekenhuis
-Bethesda
-Bethesda Ziekenhuis
-Bethlehem
-Bethlehem Ziekenhuis
-Binnen Ziekenhuis
-Binnengasthuis
-Bleuland
-Bleuland Ziekenhuis
-Boerhaave
-Boerhaave Ziekenhuis
-Boerhaavekliniek
-BovenIJ
-BovenIJ Ziekenhuis
-Bravis
-Bravis Ziekenhuis
-Bronovo
-Bronovo Ziekenhuis
-Burger Ziekenhuis
-Burger Ziekenhuis Amsterdam
-Canisius-Wilhelmina Ziekenhuis
-Carolus Ziekenhuis
-Catharijnegasthuis
-Catharina Ziekenhuis
-Centraal Militair Hospitaal
-Centraal Militair Hospitaal Utrecht
-Centraal Ziekenhuis
-Charitas
-Coolsingel
-Coolsingel Ziekenhuis
-Daniel den Hoedkliniek
-De Gelderse Vallei
-De Klokkenberg
-De Sionsberg
-De Stadsmaten
-De Villa
-De Weezenlanden
-Delfzicht
-Delfzicht Ziekenhuis
-Deventer Ziekenhuis
-Diaconessen
-Diaconessen Ziekenhuis
-Diaconessenhuis
-Diaconessenhuis De Wijk
-Diakonessen
-Diakonessen Ziekenhuis
-Diakonessenhuis
-Dijklander
-Dijklander Ziekenhuis
-Dinkel
-Dinkel Ziekenhuis
-Dokter Jansen Ziekenhuis
-Elisabeth Twee Steden
-Elisabeth Twee Steden Ziekenhuis
-Elisabeth TweeSteden
-Elisabeth TweeSteden Ziekenhuis
-Elisabeth Ziekenhuis
-Elkerliek
-Elkerliek Ziekenhuis
-Erasmus
-Erasmus Medisch Centrum
-Eudokia
-Eudokia Ziekenhuis
-Fermerie
-Flevo
-Flevo Ziekenhuis
-Franciscus Gasthuis
-Gelderse Vallei
-Gelre
-Gelre Ziekenhuis
-Gelre Ziekenhuizen
-Gemeente Ziekenhuis
-Gemeentelijk Ziekenhuis
-Gemini Ziekenhuis
-Groene Hart
-Groene Hart Ziekenhuis
-Groot Ziekengasthuis
-Haaglanden
-Haaglanden Medisch Centrum
-Haga
-Haga Ziekenhuis
-Haven Ziekenhuis
-Heil der Kranken
-Hervormd Diaconessenhuis
-Hofpoort
-Hofpoort Ziekenhuis
-Holy
-Holy Ziekenhuis
-IJsselland
-IJsselland Ziekenhuis
-Ikazia
-Ikazia Ziekenhuis
-Irene Kinder
-Irene Kinder Ziekenhuis
-Isala
-Isala Ziekenhuis
-Isselwaerde
-Iterson
-Iterson Ziekenhuis
-Jeroen Bosch
-Jeroen Bosch Ziekenhuis
-Johannes
-Johannes De Deo
-Johannes Ziekenhuis
-Juliana Kinder
-Juliana Kinder Ziekenhuis
-Juliana Ziekenhuis
-Kennemer Gasthuis
-Kliniek Knol
-Laurentius
-Laurentius Ziekenhuis
-Leeuwenbergh Gasthuis
-Leids Universitair Medisch Centrum
-Lichtenberg
-Lichtenberg Ziekenhuis
-Liduina Ziekenhuis
-Liefdehuis
-Lievensberg
-Lievensberg Ziekenhuis
-Lorentz
-Lorentz Ziekenhuis
-Lucas Ziekenhuis
-Luthers Diaconessenhuis
-Maas Ziekenhuis Pantein
-Maasland
-Maasland Ziekenhuis
-Maasstad
-Maasstad Ziekenhuis
-Maastricht Universitair Medisch Centrum
-Maastricht Universitair Medisch Centrum+
-Majella
-Majella Ziekenhuis
-Maria Ziekenhuis
-Mariastichting
-Marinehospitaal
-Martini
-Martini Ziekenhuis
-Meander
-Meander Medisch Centrum
-Medisch Centrum Amstelveen
-Medisch Centrum Haaglanden
-Medisch Centrum Leeuwarden
-Medisch Centrum Leeuwarden Midden
-Medisch Centrum Leeuwarden Noord
-Medisch Spectrum Twente
-Mesos
-Mesos Medisch Centrum
-Militair Hospitaal
-Militair Hospitaal Dokter A. Mathijsen
-Máxima
-Máxima Medisch Centrum
-Nebo
-Nij Smellinghe
-Nolet
-Nolet Ziekenhuis
-Noordwest Ziekenhuis
-Ommelander
-Ommelander Ziekenhuis
-Onze Lieve Vrouwe Gasthuis
-Oude en Nieuwe Gasthuis
-P.W. Janssen Ziekenhuis
-Parkzicht
-Pasteur Ziekenhuis
-Pieter Pauw Ziekenhuis
-Pius
-Pius Ziekenhuis
-Prinsengracht Ziekenhuis
-Prinses Irene
-Prinses Irene Ziekenhuis
-Prinses Máxima Centrum
-Protestants
-Protestants Ziekenhuis
-Radboud
-Radboud Universitair Medisch Centrum
-Refaja
-Refaja Ziekenhuis
-Reinier De Graaf Gasthuis
-Rijks Psychiatrische Inrichting
-Rijnland
-Rijnland Ziekenhuis
-Rijnstate
-Rivas Zorggroep
-Rivierenland
-Rode Kruis
-Rode Kruis Ziekenhuis
-Rooms Katholiek
-Rooms Katholiek Ziekenhuis
-Ruwaard Van Putten
-Ruwaard Van Putten Ziekenhuis
-Salem
-Sanatorium Zonnestraal
-Santeon
-Saxenburgh
-Saxenburgh Medisch Centrum
-Schieland
-Schieland Ziekenhuis
-Sint Agnes Ziekenhuis
-Sint Andreas Ziekenhuis
-Sint Anna Ziekenhuis
-Sint Annadal
-Sint Antonius Stichting
-Sint Antonius Ziekenhuis
-Sint Barbara Ziekenhuis
-Sint Bonifatius Hospitaal
-Sint Catharinagasthuis
-Sint Clara Ziekenhuis
-Sint Elisabeth Gasthuis
-Sint Elisabeth Ziekenhuis
-Sint Elisabeths Gasthuis
-Sint Elizabeth Ziekenhuis
-Sint Franciscus Gasthuis
-Sint Geertruiden Ziekenhuis
-Sint Gerardus Majella
-Sint Gerardus Majella Ziekenhuis
-Sint Ignatius Ziekenhuis
-Sint Jan Ziekenhuis
-Sint Jans Gasthuis
-Sint Jansdal
-Sint Jansdal Ziekenhuis
-Sint Joanna Ziekenhuis
-Sint Joannes De Deo
-Sint Joannes De Deo Ziekenhuis
-Sint Johannes De Deo
-Sint Johannes De Deo Ziekenhuis
-Sint Josef Ziekenhuis
-Sint Joseph
-Sint Joseph Ziekenhuis
-Sint Jozef Ziekenhuis
-Sint Jozeph Ziekenhuis
-Sint Liduina Ziekenhuis
-Sint Lucas Andreas
-Sint Lucas Andreas Ziekenhuis
-Sint Nicolaas Ziekenhuis
-Sint Radboud Universitair Medisch Centrum
-Sint Ursula Kliniek
-Sint Vincentius Ziekenhuis
-Sint Walburgis Ziekenhuis
-Sint Willibrord Ziekenhuis
-Sint-Hippolytus Ziekenhuis
-Slingeland
-Slingeland Ziekenhuis
-Slotervaart
-Slotervaart Ziekenhuis
-Snouck van Loosen
-Snouck van Loosen Ziekenhuis
-Sophia Kinder
-Sophia Kinder Ziekenhuis
-Sophia Ziekenhuis
-Spaarne
-Spaarne Gasthuis
-Spaarne Ziekenhuis
-Spijkenisse Medisch Centrum
-Spinoza Kliniek
-Stads Ziekenhuis
-Stads en Academisch
-Stads en Academisch Ziekenhuis
-Stichting Engelenberg
-Streek Ziekenhuis
-Streek Ziekenhuis Koningin Beatrix
-Tergooi
-Tergooi Medisch Centrum
-Tergooi Ziekenhuis
-Tjongerschans
-Treant Zorggroep
-Triotel
-TweeSteden
-TweeSteden Ziekenhuis
-Twenteborg
-Twenteborg Ziekenhuis
-Universitair Medisch Centrum
-Universitair Medisch Centrum Groningen
-Universitair Medisch Centrum Sint Radboud
-Universitair Medisch Centrum Utrecht
-VU Medisch Centrum
-Van Weel-Bethesda Ziekenhuis
-VieCuri Medisch Centrum
-Vlietland
-Vlietland Ziekenhuis
-Volharding
-Vrije Universiteit Medisch Centrum
-Waterland
-Waterland Ziekenhuis
-Weesperplein
-Weesperplein Ziekenhuis
-Westeinde
-Westeinde Ziekenhuis
-Wilhelmina Gasthuis
-Wilhelmina Kinder
-Wilhelmina Kinder Ziekenhuis
-Wilhelmina Ziekenhuis
-Zaans Medisch Centrum
-Zeeweg
-Zeeweg Ziekenhuis
-Ziekenhuis Amstelland
-Ziekenhuis Amsterdam-Noord
-Ziekenhuis Bergzicht
-Ziekenhuis Bernhoven
-Ziekenhuis De Gelderse Vallei
-Ziekenhuis Enschede
-Ziekenhuis Gelderse Vallei
-Ziekenhuis Hilversum
-Ziekenhuis Isselwaerde
-Ziekenhuis Johannes De Deo
-Ziekenhuis Lievensberg
-Ziekenhuis Nebo
-Ziekenhuis Oldenzaal
-Ziekenhuis Rivierenland
-Ziekenhuis Salem
-Ziekenhuis Sint Annadal
-Ziekenhuis Sint Jansdal
-Ziekenhuis Sint Joseph
-Ziekenhuis Twente
-Ziekenhuis Walcheren
-Ziekenhuis Zuidwal
-Ziekenhuisgroep Twente
-Ziekenzorg
-ZorgSaam
-ZorgSaam Ziekenhuis
-Zuider Ziekenhuis
-Zuwe
-Zuwe Hofpoort
-Zuwe Hofpoort Ziekenhuis
-Zuyderland
-Zuyderland Medisch Centrum
-het Catharina Gasthuis
-het Lange Land
-het Lange Land Ziekenhuis
-mProve
+Addictions - Europa Ziekenhuis Site Sint-Michiel
+Afdeling Reproductieve Geneeskunde UZ Gent
+Aidsreferentiecentrum ULB - UMC Sint-Pieter
+Alexianen Zorggroep Tienen
+Algemeen Ziekenhuis Alma - Campus Eeklo
+Algemeen Ziekenhuis Alma - Campus Eeklo - Dienst Kinder- en Jeugdpsychiatrie Timanti
+Algemeen Ziekenhuis Alma - Campus Eeklo - erkende satellietborstkliniek
+Algemeen Ziekenhuis Alma - Campus Eeklo - Geriatrisch Dagziekenhuis
+Algemeen Ziekenhuis Alma - Campus Eeklo - Psychiatrische Afdeling
+Algemeen Ziekenhuis Alma - Campus Eeklo - Sociale dienst
+Algemeen Ziekenhuis Alma - Polikliniek Sijsele
+Algemeen Ziekenhuis Delta
+Algemeen Ziekenhuis Delta - Campus Brugsesteenweg - Palliatieve zorgeenheid Het Anker
+Algemeen Ziekenhuis Delta - Campus Brugsesteenweg Roeselare
+Algemeen Ziekenhuis Delta - Campus Brugsesteenweg Roeselare - Dienst Fysische Geneeskunde
+Algemeen Ziekenhuis Delta - Campus Brugsesteenweg Roeselare - Verpleegeenheid X0 (PAAZ)
+Algemeen Ziekenhuis Delta - Campus Menen
+Algemeen Ziekenhuis Delta - Campus Menen - Dienst Spoedgevallen
+Algemeen Ziekenhuis Delta - Campus Rembert Torhout
+Algemeen Ziekenhuis Delta - Campus Rumbeke
+Algemeen Ziekenhuis Delta - Campus Rumbeke - Dienst Revalidatie
+Algemeen Ziekenhuis Delta - Campus Rumbeke - Dienst Spoedgevallen
+Algemeen Ziekenhuis Delta - Campus Rumbeke - Het Vlinderhuis
+Algemeen Ziekenhuis Delta - Campus Rumbeke - Psychiatrische Afdeling in een Algemeen Ziekenhuis (PAAZ)
+Algemeen Ziekenhuis Delta - Campus Rumbeke - Slaaponderzoek
+Algemeen Ziekenhuis Delta - Campus Torhout - Dienst Fysische Geneeskunde
+Algemeen Ziekenhuis Delta - Campus Torhout - Dienst Spoedgevallen
+Algemeen Ziekenhuis Delta - Erkende Borstkliniek
+Algemeen Ziekenhuis Delta - Kinder- en jeugdpsychiatrie Twoape
+Algemeen Ziekenhuis Diest
+Algemeen Ziekenhuis Diest - Dienst voor Geriatrie
+Algemeen Ziekenhuis Diest - Sociale Dienst
+Algemeen Ziekenhuis Glorieux
+Algemeen Ziekenhuis Glorieux - Dagziekenhuis
+Algemeen Ziekenhuis Glorieux - Eenheid voor Palliatieve Zorg
+Algemeen Ziekenhuis Glorieux - Geriatrisch Dagziekenhuis en Dienst Geriatrie
+Algemeen Ziekenhuis Glorieux - Psychiatrische Afdeling
+Algemeen Ziekenhuis Glorieux - Revalidatiecentrum
+Algemeen Ziekenhuis Glorieux - Slaaplabo
+Algemeen Ziekenhuis Glorieux - Sociale Dienst
+Algemeen Ziekenhuis Groeninge
+Algemeen Ziekenhuis Groeninge - Campus Kennedylaan - Fysische Geneeskunde en Revalidatie
+Algemeen Ziekenhuis Groeninge - Campus Kennedylaan - Slaap- en Waakkliniek
+Algemeen Ziekenhuis Groeninge - Centrum Psychiatrie
+Algemeen Ziekenhuis Groeninge - Dagziekenhuis Psychiatrie De Bres
+Algemeen Ziekenhuis Groeninge - Dienst Spoedgevallen
+Algemeen Ziekenhuis Groeninge - Erkende Borstkliniek
+Algemeen Ziekenhuis Groeninge - Palliatieve eenheid Ten Oever
+Algemeen Ziekenhuis Groeninge - Spoedpsychiatrie
+ALGEMEEN ZIEKENHUIS HEILIG HART
+Algemeen Ziekenhuis Jan Palfijn Gent AV
+Algemeen Ziekenhuis Jan Palfijn Gent AV - Dagcentrum De Kolibrie
+Algemeen Ziekenhuis Jan Palfijn Gent AV - Geriatrisch Dagziekenhuis
+Algemeen Ziekenhuis Jan Palfijn Gent AV - Palliatieve Eenheid
+Algemeen Ziekenhuis Jan Palfijn Gent AV - Psychiatrische Afdeling
+Algemeen Ziekenhuis Jan Palfijn Gent AV - Psychogeriatrie
+Algemeen Ziekenhuis Jan Palfijn Gent AV - Sociale Dienst
+Algemeen Ziekenhuis Jan Portaels - Afdeling Fysische Geneeskunde en Revalidatie
+Algemeen Ziekenhuis Jan Portaels - Afdeling Geriatrie en Geriatrisch Dagziekenhuis
+Algemeen Ziekenhuis Jan Portaels - Dienst Levensbeschouwelijke Zorg
+Algemeen Ziekenhuis Jan Portaels - Dienst Spoedgevallen
+Algemeen Ziekenhuis Jan Portaels - Medisch Centrum Elewijt
+Algemeen Ziekenhuis Jan Portaels - Palliatief Support Team
+Algemeen Ziekenhuis Jan Portaels - Palliatieve eenheid De Cirkel
+Algemeen Ziekenhuis Jan Portaels - Psychiatrische Afdeling
+Algemeen Ziekenhuis Jan Portaels - Sociale Dienst
+Algemeen Ziekenhuis Jan Portaels Vilvoorde
+Algemeen Ziekenhuis Klina
+Algemeen Ziekenhuis Klina - Campus De Mick - Palliatieve Eenheid De Lotus
+Algemeen Ziekenhuis Klina - Dienst Levensbeschouwing
+Algemeen Ziekenhuis Klina - Dienst Spoedgevallen
+Algemeen Ziekenhuis Klina - Erkende Borstkliniek Voorkempen
+Algemeen Ziekenhuis Klina - Fysische Geneeskunde en Revalidatie
+Algemeen Ziekenhuis Klina - Geriatrisch Dagziekenhuis
+Algemeen Ziekenhuis Klina - Psychiatrisch dagcentrum
+Algemeen Ziekenhuis Klina - Psychiatrische Afdeling (PAAZ)
+Algemeen Ziekenhuis Klina - Sociale Dienst
+Algemeen Ziekenhuis Maria Middelares
+Algemeen Ziekenhuis Maria Middelares - Dienst voor Geriatrie
+Algemeen Ziekenhuis Maria Middelares - Erkende Borstkliniek
+Algemeen Ziekenhuis Maria Middelares - Geriatrisch Dagziekenhuis
+Algemeen Ziekenhuis Maria Middelares - Psychiatrische Afdeling
+Algemeen Ziekenhuis Maria Middelares - Slaapcentrum
+Algemeen Ziekenhuis Monica - APRA revalidatie
+Algemeen Ziekenhuis Monica - Campus Antwerpen
+Algemeen Ziekenhuis Monica - Campus Antwerpen - Dienst Geriatrie
+Algemeen Ziekenhuis Monica - Campus Antwerpen - Dienst spiritualiteit en zingeving
+Algemeen Ziekenhuis Monica - Campus Antwerpen - Slaapcentrum
+Algemeen Ziekenhuis Monica - Campus Antwerpen - Sociale Dienst
+Algemeen Ziekenhuis Monica - Campus Deurne
+Algemeen Ziekenhuis Monica - Campus Deurne - Dienst Geriatrie
+Algemeen Ziekenhuis Monica - Campus Deurne - Dienst spiritualiteit en zingeving
+Algemeen Ziekenhuis Monica - Campus Deurne - Dienst Spoedgevallen
+Algemeen Ziekenhuis Monica - Campus Deurne - Erkende Borstkliniek
+Algemeen Ziekenhuis Monica - Campus Deurne - Sociale Dienst
+Algemeen Ziekenhuis Oudenaarde
+Algemeen Ziekenhuis Oudenaarde - Dienst Revalidatie
+Algemeen Ziekenhuis Oudenaarde - Dienst voor Geriatrie
+Algemeen Ziekenhuis Oudenaarde - Slaapcentrum
+Algemeen Ziekenhuis Oudenaarde - Sociale Dienst
+Algemeen Ziekenhuis Rivierenland - Campus Bornem
+Algemeen Ziekenhuis Rivierenland - Campus Bornem - Dienst Geriatrie
+Algemeen Ziekenhuis Rivierenland - Campus Bornem - Pastorale dienst
+Algemeen Ziekenhuis Rivierenland - Campus Bornem - Psychiatrische Afdeling (PAAZ)
+Algemeen Ziekenhuis Rivierenland - Campus Bornem - Sociale Dienst
+Algemeen Ziekenhuis Rivierenland - Campus Rumst
+Algemeen Ziekenhuis Rivierenland - Campus Rumst - Dienst Geriatrie
+Algemeen Ziekenhuis Rivierenland - Campus Rumst - Pastorale dienst
+Algemeen Ziekenhuis Rivierenland - Campus Rumst - Sociale dienst
+Algemeen Ziekenhuis Rivierenland - Campus Willebroek
+Algemeen Ziekenhuis Sint-Blasius - Campus Dendermonde
+Algemeen Ziekenhuis Sint-Blasius - Campus Dendermonde - Dienst Fysische geneeskunde en Revalidatie
+Algemeen Ziekenhuis Sint-Blasius - Campus Dendermonde - Dienst Spoedgevallen
+Algemeen Ziekenhuis Sint-Blasius - Campus Dendermonde - Dienst voor Geriatrie
+Algemeen Ziekenhuis Sint-Blasius - Campus Dendermonde - Erkende Borstkliniek
+Algemeen Ziekenhuis Sint-Blasius - Campus Dendermonde - Psychiatrische Afdeling
+Algemeen Ziekenhuis Sint-Blasius - Campus Dendermonde - Slaapcentrum
+Algemeen Ziekenhuis Sint-Blasius - Campus Dendermonde - Sociale Dienst
+Algemeen Ziekenhuis Sint-Blasius - Campus Zele - Palliatieve Zorgeenheid 'De Haven'
+Algemeen Ziekenhuis Sint-Blasius - Campus Zele - Polikliniek, Pijnkliniek, Dialyse
+Algemeen Ziekenhuis Sint-Blasius - Campus Zele - Sociale Dienst
+Algemeen Ziekenhuis Sint-Blasius - Geheugenkliniek
+Algemeen Ziekenhuis Sint-Dimpna
+ALGEMEEN ZIEKENHUIS SINT-DIMPNA
+Algemeen Ziekenhuis Sint-Dimpna - Dienst Spoedgevallen
+Algemeen Ziekenhuis Sint-Dimpna - Erkende Satellietborstkliniek Geel-Mol
+Algemeen Ziekenhuis Sint-Dimpna - Fysische geneeskunde en Revalidatie
+Algemeen Ziekenhuis Sint-Dimpna - Slaapcentrum
+Algemeen Ziekenhuis Sint-Dimpna - Sociale Dienst
+Algemeen Ziekenhuis Sint-Elisabeth
+Algemeen Ziekenhuis Sint-Elisabeth - Dienst Spoedgevallen
+Algemeen Ziekenhuis Sint-Elisabeth - Dienst voor Geriatrie
+Algemeen Ziekenhuis Sint-Elisabeth - Fysische geneeskunde en Revalidatie
+Algemeen Ziekenhuis Sint-Elisabeth - Psychiatrische Afdeling
+Algemeen Ziekenhuis Sint-Elisabeth - Slaapcentrum
+Algemeen Ziekenhuis Sint-Elisabeth - Sociale Dienst
+Algemeen Ziekenhuis Sint-Elisabeth - Voet- en Wondzorgcentrum
+Algemeen Ziekenhuis Sint-Elisabeth Zottegem
+Algemeen Ziekenhuis Sint-Elisabeth Zottegem - Erkende Satellietborstkliniek
+Algemeen Ziekenhuis Sint-Elisabeth Zottegem - Slaapcentrum
+Algemeen Ziekenhuis Sint-Jan Brugge
+Algemeen Ziekenhuis Sint-Jan Brugge AV - campus Sint Franciscus Xaverius - Kinder- en Jeugdpsychiatrie
+Algemeen Ziekenhuis Sint-Jan Brugge AV - Campus Sint-Franciscus Xaverius
+Algemeen Ziekenhuis Sint-Jan Brugge AV - Campus Sint-Franciscus Xaverius - Sociale Dienst
+Algemeen Ziekenhuis Sint-Jan Brugge AV - campus Sint-Jan - Dienst Fysiotherapie en Revalidatie
+Algemeen Ziekenhuis Sint-Jan Brugge AV - campus Sint-Jan - Dienst Spoedgevallen
+Algemeen Ziekenhuis Sint-Jan Brugge AV - campus Sint-Jan - erkende borstkliniek
+Algemeen Ziekenhuis Sint-Jan Brugge AV - campus Sint-Jan - Geriatrisch Dagziekenhuis
+Algemeen Ziekenhuis Sint-Jan Brugge AV - campus Sint-Jan - Psychiatrische Afdeling van een Algemeen Ziekenhuis
+Algemeen Ziekenhuis Sint-Jan Brugge AV - campus Sint-Jan - Slaapcentrum
+Algemeen Ziekenhuis Sint-Jan Brugge AV - Campus Sint-Jan - Sociale Dienst
+Algemeen Ziekenhuis Sint-Jan Brugge AV - Neonatale Intensieve Zorg
+Algemeen Ziekenhuis Sint-Lucas
+Algemeen Ziekenhuis Sint-Lucas & Volkskliniek - Campus Sint-Lucas
+Algemeen Ziekenhuis Sint-Lucas & Volkskliniek - Campus Sint-Lucas - Erkende Borstkliniek
+Algemeen Ziekenhuis Sint-Lucas & Volkskliniek - Geriatrisch Dagziekenhuis
+Algemeen Ziekenhuis Sint-Lucas & Volkskliniek - Medisch Centrum Aalter
+Algemeen Ziekenhuis Sint-Lucas & Volkskliniek - Medisch Centrum Lochristi
+Algemeen Ziekenhuis Sint-Lucas & Volkskliniek - Medisch Centrum Zelzate
+Algemeen Ziekenhuis Sint-Lucas & Volkskliniek - Palliatief Supportteam
+Algemeen Ziekenhuis Sint-Lucas & Volkskliniek - Slaapcentrum
+Algemeen Ziekenhuis Sint-Lucas - Dienst Fysiotherapie en Revalidatie
+Algemeen Ziekenhuis Sint-Lucas - Dienst Kinder en Jeugdpsychiatrie - Mobiel team WINGG
+Algemeen Ziekenhuis Sint-Lucas - Dienst Kinder- en Jeugdpsychiatrie
+Algemeen Ziekenhuis Sint-Lucas - Dienst Spoedgevallen
+Algemeen Ziekenhuis Sint-Lucas - Erkende Borstkliniek
+Algemeen Ziekenhuis Sint-Lucas - Geriatrisch Dagziekenhuis
+Algemeen Ziekenhuis Sint-Lucas - Psychiatrische Afdeling
+Algemeen Ziekenhuis Sint-Lucas - Psychiatrische Afdeling van een Algemeen Ziekenhuis
+Algemeen Ziekenhuis Sint-Lucas - Sociale Dienst
+Algemeen Ziekenhuis Sint-Maarten
+Algemeen Ziekenhuis Sint-Maarten - Dienst Spoedgevallen
+Algemeen Ziekenhuis Sint-Maarten - Erkende Borstkliniek
+Algemeen Ziekenhuis Sint-Maarten - Fysische geneeskunde en revalidatie
+Algemeen Ziekenhuis Sint-Maarten - Geriatrisch Dagziekenhuis
+Algemeen Ziekenhuis Sint-Maarten - Pastorale dienst
+Algemeen Ziekenhuis Sint-Maarten - Psychiatrische Afdeling (PAAZ)
+Algemeen Ziekenhuis Sint-Maarten - Psychiatrische Dageenheid - Afdeling De Welving
+Algemeen Ziekenhuis Sint-Maarten - Psychiatrische Dageenheid - Afdeling Levanter
+Algemeen Ziekenhuis Sint-Maarten - Psychiatrische Dageenheid - Afdeling Psychotherapie
+Algemeen Ziekenhuis Sint-Maarten - Psychiatrische Dageenheid - Afdeling Socio-reva
+Algemeen Ziekenhuis Sint-Maarten - Revalidatiecentrum De Trede
+Algemeen Ziekenhuis Sint-Maarten - Slaapcentrum
+Algemeen Ziekenhuis Sint-Maarten - Sociale Dienst
+ALGEMEEN ZIEKENHUIS SINT-MARIA
+Algemeen Ziekenhuis Sint-Maria - Afdeling Geriatrie en Geriatrisch Dagziekenhuis
+Algemeen Ziekenhuis Sint-Maria - Campus Sint Maria
+Algemeen Ziekenhuis Sint-Maria - Dienst Kiné en Fysiotherapie
+Algemeen Ziekenhuis Sint-Maria - Groepsopvang De Kapoentjes
+Algemeen Ziekenhuis Sint-Maria - Neurocenter
+Algemeen Ziekenhuis Sint-Maria - Palliatieve Zorg
+Algemeen Ziekenhuis Sint-Maria - Psychiatrische Afdeling en Psychiatrisch Dagziekenhuis
+Algemeen Ziekenhuis Sint-Maria - Sociale Dienst
+Algemeen Ziekenhuis Sint-Maria Halle
+Algemeen Ziekenhuis Sint-Vincentius Deinze
+Algemeen Ziekenhuis Sint-Vincentius Deinze - Dienst Geriatrie
+ALGEMEEN ZIEKENHUIS ST. ELISABETH
+Algemeen Ziekenhuis Turnhout - Campus Sint-Elisabeth
+Algemeen Ziekenhuis Turnhout - Campus Sint-Elisabeth - Coördinerende Borstkliniek Turnhout - Herentals
+Algemeen Ziekenhuis Turnhout - Campus Sint-Elisabeth - Dienst Spoedgevallen
+Algemeen Ziekenhuis Turnhout - Campus Sint-Elisabeth - Fysische geneeskunde en Revalidatie
+Algemeen Ziekenhuis Turnhout - Campus Sint-Elisabeth - Geriatrisch Dagziekenhuis
+Algemeen Ziekenhuis Turnhout - Campus Sint-Elisabeth - Palliatieve Eenheid
+Algemeen Ziekenhuis Turnhout - Campus Sint-Elisabeth - Sociale Dienst
+Algemeen Ziekenhuis Turnhout - Campus Sint-Jozef
+Algemeen Ziekenhuis Turnhout - Campus Sint-Jozef - Fysische geneeskunde en Revalidatie
+Algemeen Ziekenhuis Turnhout - Campus Sint-Jozef - Psychiatrische Afdeling (PAAZ)
+Algemeen Ziekenhuis Turnhout - Campus Sint-Jozef - Slaapcentrum
+Algemeen Ziekenhuis Turnhout - Campus Sint-Jozef - Sociale Dienst
+Algemeen Ziekenhuis Vesalius
+Algemeen Ziekenhuis Vesalius - Dienst Geriatrie
+Algemeen Ziekenhuis Vesalius - Locomotorische Revalidatie
+Algemeen Ziekenhuis Vesalius - Palliatieve Eenheid De Schelp
+Algemeen Ziekenhuis Vesalius - Patiëntenbegeleiding
+Algemeen Ziekenhuis Vesalius - Polikliniek
+Algemeen Ziekenhuis Voorkempen
+Algemeen Ziekenhuis Voorkempen - Dienst Spoedgevallen
+Algemeen Ziekenhuis Voorkempen - Fysische geneeskunde en revalidatie
+Algemeen Ziekenhuis Voorkempen - Geriatrisch Dagziekenhuis
+Algemeen Ziekenhuis Voorkempen - Pastorale dienst
+Algemeen Ziekenhuis Voorkempen - Slaapcentrum
+Algemeen Ziekenhuis Voorkempen - Sociale dienst
+Algemeen Ziekenhuis West - Veurne
+Algemeen Ziekenhuis West - Veurne - Dienst Spoedgevallen
+Algemeen Ziekenhuis West - Veurne - Fysische geneeskunde en Revalidatie
+Algemeen Ziekenhuis West - Veurne - Geriatrisch Dagziekenhuis
+Algemeen Ziekenhuis West - Veurne - Psychiatrische Afdeling
+Algemeen Ziekenhuis West - Veurne - Slaaplabo
+Algemeen Ziekenhuis West - Veurne - Sociale Dienst
+Algemeen Ziekenhuis Zeno - Campus Blankenberge
+Algemeen Ziekenhuis Zeno - Campus Blankenberge - Dienst Fysiotherapie en Revalidatie
+Algemeen Ziekenhuis Zeno - Campus Blankenberge - Dienst Spoedgevallen
+Algemeen Ziekenhuis Zeno - Campus Knokke-Heist
+Algemeen Ziekenhuis Zeno - Campus Knokke-Heist - Dienst Fysiotherapie en Revalidatie
+Algemeen Ziekenhuis Zeno - Campus Knokke-Heist - Dienst Spoedgevallen
+Algemeen Ziekenhuis Zeno - Campus Maldegem
+Algemeen Ziekenhuis Zeno - Psychiatrische Afdeling van een Algemeen Ziekenhuis
+AZ ALMA
+AZ Alma Eeklo - Dienst Fysische geneeskunde en revalidatie
+AZ DELTA
+AZ DIEST
+AZ GLORIEUX
+AZ GROENINGE
+AZ Groeninge - Obesitaskliniek Kortrijk
+AZ JAN PALFIJN
+AZ Jan Palfijn Gent - Dienst fysische geneeskunde AV
+AZ JAN PORTAELS
+AZ KLINA
+AZ Klina - campus revalidatie De Mick - dienst patiëntenbegeleiding
+AZ MARIA MIDDELARES
+AZ Maria Middelares Gent - de dienst Fysische geneeskunde en Revalidatie
+AZ MONICA
+AZ Monica Antwerpen - APRA revalidatie
+AZ OOSTENDE
+AZ OOSTENDE - DAMIAAN
+AZ Oostende - Damiaan
+AZ Oostende - Damiaan - Dienst Spoedgevallen
+AZ Oostende - Damiaan - Erkende Borstkliniek
+AZ Oostende - Damiaan - Geriatrisch Dagziekenhuis
+AZ Oostende - Damiaan - Palliatieve Zorgeenheid
+AZ Oostende - Damiaan - Psychiatrische Afdeling van een Algemeen Ziekenhuis
+AZ Oostende - Damiaan - Revalidatiecentrum
+AZ Oostende - Damiaan - Sociale Dienst
+AZ Oostende - Serruys - de dienst fysische geneeskunde en revalidatie
+AZ Oostende - Serruys - Dienst Spoedgevallen
+AZ Oostende - Serruys - Psychiatrische Afdeling van een Algemeen Ziekenhuis
+AZ Oostende - Serruys - Slaaplabo
+AZ Oostende - Serruys - Sociale Dienst
+AZ OUDENAARDE
+AZ RIVIERENLAND
+AZ SINT- ELISABETH
+AZ SINT-BLASIUS
+AZ SINT-ELISABETH
+AZ Sint-Elisabeth Zottegem - Dienst Fyscische geneeskunde
+AZ SINT-JAN
+AZ SINT-LUCAS
+AZ Sint-Lucas & Volkskliniek - de dienst Fysiotherapie en Revalidatie
+AZ SINT-MAARTEN
+AZ SINT-VINCENTIUS
+AZ TURNHOUT
+AZ VESALIUS
+AZ VOORKEMPEN
+AZ WEST
+AZ ZENO
+AZORG
+AZORG - Aalst - Merestraat
+AZORG - Aalst - Merestraat - Psychiatrische Afdeling
+AZORG - Aalst - Merestraat - Slaapcentrum
+AZORG - Aalst - Merestraat - Sociale Dienst
+AZORG - Aalst - Moorselbaan
+AZORG - Aalst - Moorselbaan - Centrum voor Hartrevalidatie
+AZORG - Aalst - Moorselbaan - Dienst Kinder- en Jeugdpsychiatrie
+AZORG - Aalst - Moorselbaan - Erkende Borstkliniek
+AZORG - Aalst - Moorselbaan - Geriatrisch Dagziekenhuis
+AZORG - Aalst - Moorselbaan - Psychiatrische Afdeling
+AZORG - Aalst - Moorselbaan - Slaaplabo
+AZORG - Aalst - Moorselbaan - Sociale Dienst
+AZORG - Aalst - Moorselbaan - Vakantiedialyse
+AZORG - Asse
+AZORG - Asse - Dienst Kinder- en Jeugdpsychiatrie
+AZORG - Asse - Palliatieve Eenheid De Rank
+AZORG - Asse - Psychiatrische Afdeling
+AZORG - Geraardsbergen
+AZORG - Geraardsbergen - Psychiatrische Afdeling
+AZORG - Geraardsbergen - Sociale Dienst
+AZORG - Ninove
+AZORG - Wetteren
+AZORG - Wetteren - Sociale Dienst
+AZORG – dienst fysische geneeskunde en revalidatie
+BENU AZ Oostende
+Bethanië geestelijke gezondheidszorg
+Brugmann Ziekenhuis - Dienst Spoedgevallen
+Buitengewoon Secundair Onderwijs De Leerexpert - Ziekenhuisschool
+Cardiale revalidatie Ziekenhuis Geel
+Cardijnschool Inkendaal
+CENTRE HOSPITALIER BOIS DE L'ABBAYE
+CENTRE HOSPITALIER DE MOUSCRON
+CENTRE HOSPITALIER DE WALLONIE PICARDE (CHWAPI)
+Centre Hospitalier Jean Titeca
+CENTRE HOSPITALIER REGIONAL DE HUY
+CENTRE HOSPITALIER REINE ASTRID
+Centrum voor Ontwikkelingsstoornissen - UZ Gent
+Centrum voor visuele revalidatie en Low-Vision UZ Gent
+CH EPICURA - ATH - BELOEIL
+CH EPICURA - HORNU - BAUDOUR
+CHIREC - DELTA
+CHIREC - HOPITAL DELTA
+CHIREC - SARE
+CHR HAUTE SENNE
+CHR SAMBRE ET MEUSE
+CHR VERVIERS - EAST BELGIUM
+CHU - UCL NAMUR
+CHU CHARLEROI - CHIMAY - HOPITAL CIVIL MARIE CURIE
+CHU CHARLEROI-CHIMAY
+CHU DE LIEGE
+CHU HELORA - HOPITAL DE JOLIMONT - LOBBES
+CHU HELORA - HOPITAL DE MONS
+CHU HELORA - HOPITAL DE MONS - WARQUIGNIES
+CHU HELORA - HOPITAL DE MONS SITE KENNEDY
+CHU HELORA - HOPITAL DE NIVELLES - TUBIZE
+CHU HELORA - JOLIMONT - LOBBES
+CHU TIVOLI
+CHU UCL NAMUR - STE. ELISABETH
+CHU-UCL NAMUR
+CHU-UCL NAMUR - DINANT
+CHU-UCL NAMUR - GODINNE
+CLINIQUE CHC HEUSY - CHC HERMALLE
+CLINIQUE CHC HEUSY - CHC HERMALLLE
+CLINIQUE CHC MONTLEGIA - CHC WAREMME
+CLINIQUE NOTRE-DAME DE GRACE
+CLINIQUE NOTRE-DAME DE GRÂCE
+CLINIQUE SAINT PIERRE
+CLINIQUE SAINT-LUC
+CLINIQUE ST.-LUC
+Daghospitaal Paul Sivadon - UVC Brugmann
+E17-Ziekenhuisnetwerk
+Eenheid voor Psychiatrische Spoedinterventie - Algemeen Ziekenhuis Sint-Jan & Sint-Lucas
+Erasmus Ziekenhuis - Dienst Psychiatrie
+ERASMUSZIEKENHUIS (ULB)
+Erasmusziekenhuis - Centrum voor Traumatologie en Revalidatie
+EUROPA ZIEKENHUIZEN
+EUROPAZIEKENHUIZEN
+Gemeentelijke Basisschool voor Buitengewoon Onderwijs - De Leerexpert Ziekenhuisschool
+GRAND HOPITAL DE CHARLEROI
+GROUPE SANTE CHC - CHC MONTLEGIA LIEGE ET WAREMME
+GROUPE SANTE CHC -CHC HERMALLE ET HEUSY
+HEILIG HART ZIEKENHUIS
+Heilig Hartziekenhuis Lier
+Heilig Hartziekenhuis Lier - Dienst Spoedgevallen
+Heilig Hartziekenhuis Lier - Palliatieve Eenheid
+Heilig Hartziekenhuis Lier - Psychiatrische Afdeling (PAAZ)
+Heilig Hartziekenhuis Lier - RevaLier
+Heilig Hartziekenhuis Lier - Slaapcentrum
+Heilig Hartziekenhuis Lier - Sociale Dienst
+Heilig Hartziekenhuis Mol
+Heilig Hartziekenhuis Mol - Dienst Spoedgevallen
+Heilig Hartziekenhuis Mol - Geriatrisch Dagziekenhuis
+Heilig Hartziekenhuis Mol - Sociale Dienst
+HOPITAL DE LA CITADELLE
+Huisartsenwachtpost AZ Sint-Lucas Gent
+Huisartsenwachtpost UZ Gent
+Hulpcentrum voor Rokers - Erasmusziekenhuis
+Hulpcentrum voor Rokers - UMC Sint Pieter - Site Hallepoort
+Imelda Ziekenhuis
+IMELDA ZIEKENHUIS
+Imelda Ziekenhuis - Dienst Spoedgevallen
+Imelda Ziekenhuis - Erkende Borstkliniek
+Imelda Ziekenhuis - Fysische geneeskunde en revalidatie
+Imelda Ziekenhuis - Geriatrisch Dagziekenhuis
+Imelda Ziekenhuis - Psychiatrische Afdeling (PAAZ)
+Imelda Ziekenhuis - Slaapcentrum
+Imelda Ziekenhuis - Sociale Dienst
+Imelda Ziekenhuis - Spirituele zorg
+INSTITUUT JULES BORDET
+IRIS ZIEKENHUIZEN ZUID
+Jan Yperman Ziekenhuis
+JAN YPERMAN ZIEKENHUIS
+Jan Yperman Ziekenhuis - Campus Poli Poperinge
+Jan Yperman Ziekenhuis - Dienst Spoedgevallen
+Jan Yperman Ziekenhuis - Fysische Geneeskunde en Revalidatie
+Jan Yperman Ziekenhuis - Kinder- en jeugdpsychiatrie Twoape
+Jan Yperman Ziekenhuis - Kleuteropvang
+Jan Yperman Ziekenhuis - Palliatieve Eenheid
+Jan Yperman Ziekenhuis - Psychiatrische Afdeling in een Algemeen Ziekenhuis
+Jan Yperman Ziekenhuis - Slaapkliniek
+Jessa Ziekenhuis
+JESSA ZIEKENHUIS
+Jessa Ziekenhuis - Campus Salvator
+Jessa Ziekenhuis - Campus Salvator - Afdeling Psychogeriatrie
+Jessa Ziekenhuis - Campus Salvator - Dienst Geriatrie
+Jessa Ziekenhuis - Campus Salvator - Geheugenkliniek
+Jessa Ziekenhuis - Campus Salvator - Geriatrisch Dagziekenhuis
+Jessa Ziekenhuis - Campus Salvator - Levensbeschouwelijke Hulpverlening
+Jessa Ziekenhuis - Campus Salvator - Palliatieve Eenheid
+Jessa Ziekenhuis - Campus Salvator - Revalidatie
+Jessa Ziekenhuis - Campus Salvator - Sociale Dienst
+Jessa Ziekenhuis - Campus Sint-Ursula (Reva Herk)
+Jessa Ziekenhuis - Campus Sint-Ursula (Reva Herk) - Levensbeschouwelijke Hulpverlening
+Jessa Ziekenhuis - Campus Sint-Ursula (Reva Herk) - Revalidatiecentrum
+Jessa Ziekenhuis - Campus Sint-Ursula (Reva Herk) - Sociale Dienst
+Jessa Ziekenhuis - Campus Virga Jessa - Levensbeschouwelijke Hulpverlening
+Jessa Ziekenhuis - Campus Virga Jesse
+Jessa Ziekenhuis - Campus Virga Jesse - Dienst Fysische Geneeskunde & Revalidatie
+Jessa Ziekenhuis - Campus Virga Jesse - Erkende Borstkliniek
+Jessa Ziekenhuis - Campus Virga Jesse - Geheugenkliniek
+Jessa Ziekenhuis - Campus Virga Jesse - Psychiatrische Afdeling
+Jessa Ziekenhuis - Campus Virga Jesse - Raadplegingsafdeling
+Jessa Ziekenhuis - Campus Virga Jesse - Slaaplabo
+Jessa Ziekenhuis - Campus Virga Jesse - Sociale Dienst
+KARUS - Campus Melle
+Kinderpsychiatrisch Centrum Genk
+Kinderpsychiatrisch Centrum Genk - Dagziekenhuis Pelt
+Klief Zeedijk
+KLINIEK SINT-JAN
+Kliniek Sint-Jan - Palliatieve en continue zorg - Hospitalisatie - Kruidtuin
+KLINIEK ST.- JAN
+KLINIK ST. JOSEF
+Koningin Elisabeth Instituut - Ziekenhuis
+MDT-NMRC Inkendaal - UZ Brussel
+MDT-Referentie Centrum Autisme UZ Brussel
+Multiversum - Psychiatrisch Ziekenhuis - Campus Alexianen
+Multiversum - Psychiatrisch Ziekenhuis - Campus Alexianen - Afdeling Cadenza
+Multiversum - Psychiatrisch Ziekenhuis - Campus Alexianen - Afdeling deStudio
+Multiversum - Psychiatrisch Ziekenhuis - Campus Amedeus
+Multiversum - Psychiatrisch Ziekenhuis - Campus Amedeus - Afdeling Intermezzo
+Multiversum - Psychiatrisch Ziekenhuis - Campus Amedeus - Afdeling Intro
+Multiversum - Psychiatrisch Ziekenhuis - Campus Amedeus - Afdeling Knoop
+Multiversum - Psychiatrisch Ziekenhuis - Campus Amedeus - Afdeling mArquee
+Multiversum - Psychiatrisch Ziekenhuis - Campus Amedeus - Afdeling Narrante
+Nationaal Multiple Sclerose Centrum
+Neurocognitieve remediëringskliniek, UVC Brugmann in samenwerking met het UZ Brussel
+NOORDERHART
+NOORDERHART - MARIAZIEKENHUIS
+Noorderhart - Mariaziekenhuis - Dienst Geriatrie
+Noorderhart - Mariaziekenhuis - Geriatrisch Dagziekenhuis, Geheugenkliniek en Valkliniek
+Noorderhart - Mariaziekenhuis - Palliatieve Eenheid
+Noorderhart - Mariaziekenhuis - Psychiatrische Afdeling
+Noorderhart - Mariaziekenhuis - Revalidatie
+Noorderhart - Mariaziekenhuis - Slaapcentrum
+Noorderhart - Revalidatie en MS-Centrum
+Noorderhart Mariaziekenhuis
+O.L.V. VAN LOURDES ZIEKENHUIS
+Onze-Lieve-Vrouw van Lourdes Ziekenhuis Waregem
+Onze-Lieve-Vrouw van Lourdes Ziekenhuis Waregem - Dienst Revalidatie
+Onze-Lieve-Vrouw van Lourdes Ziekenhuis Waregem - Dienst Spoedgevallen
+Onze-Lieve-Vrouw van Lourdes Ziekenhuis Waregem - Erkende Satellietborstkliniek
+Onze-Lieve-Vrouw van Lourdes Ziekenhuis Waregem - Psychiatrische Afdeling van een Algemeen Ziekenhuis
+Onze-Lieve-Vrouw van Lourdes Ziekenhuis Waregem - Psychiatrische Zorg Thuis
+OPENBAAR PSYCHIATRISCH ZORGCENTRUM GEEL
+Openbaar Psychiatrisch Zorgcentrum Rekem
+Prenatale Consultatie UZ - Brussel in samenwerking met Kind en Gezin
+Psychiatrisch Centrum Dr. Guislain - Campus Dr. Guislain
+Psychiatrisch Centrum Gent-Sleidinge - Campus Gent
+Psychiatrisch Centrum Menen
+Psychiatrisch Centrum Sint-Amandus
+Psychiatrisch Ziekenhuis Ariadne
+Psychiatrisch Ziekenhuis Ariadne - Crisisopname
+Psychiatrisch Ziekenhuis en Revalidatiecentrum Sint-Hiëronymus
+Psychiatrisch Ziekenhuis Frapello - Campus Oosterzele
+Psychiatrisch Ziekenhuis Frapello - Campus Zottegem
+Psychiatrisch Ziekenhuis H. Familie
+Psychiatrisch Ziekenhuis H. Familie - De Fender - Psychiatrische Zorg in de Thuissituatie
+Psychiatrisch Ziekenhuis H. Familie - De Korbeel
+Psychiatrisch Ziekenhuis Heilig Hart
+Psychiatrisch Ziekenhuis Onze Lieve Vrouw
+Psychiatrisch Ziekenhuis Sanatia
+Psychiatrisch Ziekenhuis Sint-Alexius
+Psychiatrisch Ziekenhuis Sint-Jan
+Psychiatrisch Ziekenhuis Sint-Jan-Baptist
+Psychiatrisch Ziekenhuis Sint-Jan-Baptist - Centrum voor Arbeidszorg De Kade
+Psychiatrisch Ziekenhuis Sint-Jan-Baptist - Centrum voor Arbeidszorg Oostkade – Fietsenatelier
+Psychiatrisch Ziekenhuis Sint-Jan-Baptist - Forensische Zorg
+Psychiatrisch Ziekenhuis Sint-Jan-Baptist - Ouderenzorg Hemera
+Psychiatrisch Ziekenhuis Sint-Jan-Baptist - Sociaal koffiehuis De Kameleon
+Psychiatrisch Ziekenhuis Sint-Jan-Baptist - Sociaal Restaurant Het Slakkenhuisje
+Psychiatrisch Ziekenhuis Sint-Jan-Baptist - Verslavingszorg Vita
+Psychiatrisch Ziekenhuis Sint-Lucia
+Psychiatrisch Ziekenhuis Sint-Lucia - Centrum voor Psychiatrische Spoedgevallen
+Psychiatrisch Ziekenhuis Sint-Lucia - Intensieve Dienst
+Psychiatrisch Ziekenhuis Sint-Lucia - Kliniek voor Aanpak van Depressie en Angststoornissen
+Psychiatrisch Ziekenhuis Sint-Lucia - Kliniek voor Dagbehandeling Beveren
+Psychiatrisch Ziekenhuis Sint-Lucia - Kliniek voor Dagbehandeling Sint-Niklaas
+Psychiatrisch Ziekenhuis Sint-Lucia - Kliniek voor Forensische Psychiatrie
+Psychiatrisch Ziekenhuis Sint-Lucia - Kliniek voor Gerontopsychiatrie
+Psychiatrisch Ziekenhuis Sint-Lucia - Kliniek voor Ontwenning
+Psychiatrisch Ziekenhuis Sint-Lucia - Kliniek voor Opname en Re-integratie bij psychiatrische Aandoeningen met Aandacht voor Levenskwaliteit
+Psychiatrisch Ziekenhuis Sint-Lucia - Kliniek voor ouderen met een psychiatrische acute zorgvraag plus
+Psychiatrisch Ziekenhuis Sint-Lucia - Multi-Functionele Eenheid Waasland 'Het Klaverblad'
+Psycho-Sociaal Centrum Sint-Alexius Elsene
+Psychotherapeutisch Centrum Rustenburg
+Psychotherapeutisch en Psychiatrisch Centrum Pittem (PPC Pittem)
+RCA UZ Gent
+REGIONAAL ZIEKENHUIS HEILIG HART
+Regionaal Ziekenhuis Heilig Hart - Borstkliniek
+Regionaal Ziekenhuis Heilig Hart - Campus Mariëndal
+Regionaal Ziekenhuis Heilig Hart - Campus Mariëndal - Psychiatrische Afdeling
+Regionaal Ziekenhuis Heilig Hart - Campus Mariëndal - Sociale Dienst
+Regionaal Ziekenhuis Heilig Hart - Campus Sint-Jan
+Regionaal Ziekenhuis Heilig Hart - Campus Sint-Jan - Dagkliniek
+Regionaal Ziekenhuis Heilig Hart - Campus Sint-Jan - Sociale Dienst
+Regionaal Ziekenhuis Heilig Hart - Dienst fysische geneeskunde
+Regionaal Ziekenhuis Heilig Hart - Fysieke Geneeskunde en Revalidatie
+Regionaal Ziekenhuis Heilig Hart - Geriatrisch Daghospitaal Leuven
+Regionaal Ziekenhuis Heilig Hart - Geriatrisch Dagziekenhuis Tienen
+Regionaal Ziekenhuis Heilig Hart - Leuven
+Regionaal Ziekenhuis Heilig Hart - Leuven - Palliatieve Zorg Eenheid "De Brug
+Regionaal Ziekenhuis Heilig Hart - Leuven - Sociale Dienst
+Revales
+Revalidatieziekenhuis Inkendaal - Dienst revalidatie - site Inkendaal
+Revalidatieziekenhuis Inkendaal - Neuromusculair Referentiecentrum
+Revalidatieziekenhuis Inkendaal - Referentiecentrum voor Autismespectrumstoornissen
+Revalidatieziekenhuis Inkendaal - Resocialisatie Niet-Aangeboren-Hersenletsel
+Revalidatieziekenhuis RevArte - Sociale Dienst
+RevArte Revalidatieziekenhuis
+Rode Kruis Vlaanderen - Bloedbanklab Leuven – UZ Leuven
+Rookstopkliniek Algemeen Ziekenhuis Oudenaarde
+School na Ziekenhuis vzw
+SINT-ANDRIES ZIEKENHUIS
+SINT-ANDRIESZIEKENHUIS
+Sint-Andriesziekenhuis
+Sint-Andriesziekenhuis - Dienst Fysiotherapie-Revalidatie
+Sint-Andriesziekenhuis - Dienst Spoedgevallen
+Sint-Andriesziekenhuis - Psychiatrische Afdeling van een Algemeen Ziekenhuis
+SINT-FRANCISCUS ZIEKENHUIS
+Sint-Franciscusziekenhuis
+Sint-Franciscusziekenhuis - Dienst Geriatrie
+Sint-Franciscusziekenhuis - Dienst Patiëntenbegeleiding
+Sint-Franciscusziekenhuis - Geriatrisch Dagziekenhuis
+Sint-Franciscusziekenhuis - Pastorale Dienst
+Sint-Franciscusziekenhuis - Polikliniek
+Sint-Franciscusziekenhuis - Psychiatrische Afdeling
+Sint-Franciscusziekenhuis - Revalidatie
+SINT-JOZEFSKLINIEK
+Sint-Jozefskliniek vzw
+Sint-Trudo Ziekenhuis
+SINT-TRUDO ZIEKENHUIS
+Sint-Trudo Ziekenhuis - Dienst Fysische Geneeskunde en Revalidatie
+Sint-Trudo Ziekenhuis - Dienst Geriatrie
+Sint-Trudo Ziekenhuis - Geriatrisch Dagziekenhuis en Valkliniek
+Sint-Trudo Ziekenhuis - Pastorale Begeleiding
+Sint-Trudo Ziekenhuis - Polikliniek
+Sint-Trudo Ziekenhuis - Slaaplabo
+Sint-Trudo Ziekenhuis - Sociale Dienst
+Sportmedisch Centrum - AZ Jan Palfijn - Podologie Joris De Schepper
+ST. NIKOLAUS-HOSPITAL
+Stad Gent - UZ-School - Buitengewoon Basisonderwijs
+Stad Gent - UZ-School - Buitengewoon Secundair Onderwijs
+UMC Sint Pieter
+UMC Sint Pieter - SOS Kinderen
+UMC SINT-PIETER
+Universitair Kinderziekenhuis Koningin Fabiola
+UNIVERSITAIR KINDERZIEKENHUIS KONINGIN FABIOLA (HUDERF)
+Universitair Kinderziekenhuis Koningin Fabiola - Dienst Pedopsychiatrie
+Universitair Kinderziekenhuis Koningin Fabiola - Dienst Pedopsychiatrie - Contre Allée
+Universitair Kinderziekenhuis Koningin Fabiola - Pediatrische Spoed
+Universitair Psychiatrisch Centrum Duffel
+UNIVERSITAIR ZIEKENHUIS
+Universitair Ziekenhuis Antwerpen
+UNIVERSITAIR ZIEKENHUIS ANTWERPEN
+Universitair Ziekenhuis Antwerpen - Centrum voor Medische Genetica
+Universitair Ziekenhuis Antwerpen - Centrum voor Ontwikkelingsstoornissen
+Universitair Ziekenhuis Antwerpen - Dienst Patiëntenbegeleiding
+Universitair Ziekenhuis Antwerpen - Dienst Spoedgevallen
+Universitair Ziekenhuis Antwerpen - Erkende Satellietborstkliniek
+Universitair Ziekenhuis Antwerpen - Fysische revalidatie
+Universitair Ziekenhuis Antwerpen - Neonatale Intensieve Zorg
+Universitair Ziekenhuis Antwerpen - Neuromusculair Referentiecentrum
+Universitair Ziekenhuis Antwerpen - Pastorale dienst
+Universitair Ziekenhuis Antwerpen - Revalidatiecentrum voor Communicatiestoornissen
+Universitair Ziekenhuis Antwerpen - Slaapcentrum
+Universitair Ziekenhuis Antwerpen - Universitair Forensisch Centrum
+Universitair Ziekenhuis Antwerpen - Visuele revalidatie en low vision
+UNIVERSITAIR ZIEKENHUIS BRUSSEL
+Universitair Ziekenhuis Brussel - Campus Jette
+Universitair ziekenhuis Brussel - Centrum voor Reproductieve Geneeskunde
+Universitair Ziekenhuis Brussel - Dienst Psychiatrie Volwassenen
+Universitair Ziekenhuis Brussel - Geheugenkliniek
+Universitair Ziekenhuis Brussel - Geïntegreerde consultatie Kind & Gezin
+Universitair Ziekenhuis Brussel - Psychiatrie Kinderen - PAika
+Universitair Ziekenhuis Brussel - Spoedgevallendienst
+Universitair Ziekenhuis Brussel - Supportief Dagcentrum TOPAZ
+Universitair Ziekenhuis Brussel - Verloskunde - Adviezen Infectieziekten
+Universitair Ziekenhuis Brussel - Verloskunde en Prenatale Geneeskunde
+UNIVERSITAIR ZIEKENHUIS ERASME (ULB)
+Universitair Ziekenhuis Erasmus
+Universitair Ziekenhuis Gent
+Universitair Ziekenhuis Gent - Centrum voor Locomotorische en Neurologische Kinderrevalidatie
+Universitair Ziekenhuis Gent - Cerebral Palsy Referentiecentrum
+Universitair Ziekenhuis Gent - HIV-referentiecentrum
+Universitair Ziekenhuis Gent - Neuromusculair Referentiecentrum
+Universitair Ziekenhuis Gent - Referentiecentrum Spina Bifida
+Universitair Ziekenhuis Gent - Revalidatiecentrum Volwassenen
+Universitair Ziekenhuis Gent - Universitaire Dienst Psychiatrie
+Universitair Ziekenhuis Saint-Luc
+UNIVERSITAIR ZIEKENHUIS ST. LUC (UCL)
+Universitaire Ziekenhuizen Leuven - Campus Pellenberg - het Revalidatiecentrum UZ Leuven - Campus Pellenberg
+UPC KU Leuven
+UVC BRUGMANN
+Uw Apotheek AZ Delta
+UZ Brussel - Centrum Medische Genetica
+UZ Brussel - Dienst Kankerpreventie en Opsporing
+UZ Brussel - Kinderziekenhuis - Centrum voor Ontwikkelingsstoornissen
+UZ Brussel - Oncologisch Centrum Kanker
+UZ Brussel dienst Fysische Geneeskunde en Revalidatie
+UZ Brussel- Neonatale Intensieve Zorg
+UZ Gent - Afdeling Geriatrie en Geriatrisch Dagziekenhuis
+UZ Gent - Brandwondencentrum
+UZ Gent - Centrum voor Evaluatie en Revalidatie van Hartlijders
+UZ Gent - Centrum voor Gehoor- en Spraakrevalidatie RC Ter Sprake
+UZ Gent - Centrum voor Perinatale Mentale Gezondheid
+UZ Gent - Kinderdagverblijf De Knuffelboom XL
+UZ Gent - Medische Psychologie voor Kinderen en Jongeren
+UZ Gent - Neonatale Intensieve Zorg
+UZ Gent - Palliatieve eenheid
+UZ Gent - Podoloog Cédric Lannoo
+UZ Gent - Referentiecentrum Autismespectrumstoornissen - Antennepunt West-Vlaanderen
+UZ Gent - Slaapcentrum
+UZ Gent - Spoedpsychiatrie
+UZ Gent - UDP - Afdeling voor Kinder- en Jeugdpsychiatrie
+UZ LEUVEN
+UZ Leuven
+UZ Leuven - Campus Gasthuisberg - Aidsreferentiecentrum UZ Leuven
+UZ Leuven - Campus Gasthuisberg - Cardinaal Revalidatiecentrum
+UZ Leuven - Campus Gasthuisberg - Centra Motorische Revalidatie
+UZ Leuven - Campus Gasthuisberg - Centrum voor Menselijke Erfelijkheid
+UZ Leuven - Campus Gasthuisberg - Dienst Intensieve Geneeskunde - Brandwondeneenheid
+UZ Leuven - Campus Gasthuisberg - Dienst Respiratoire Revalidatie
+UZ Leuven - Campus Gasthuisberg - Geheugenkliniek
+UZ Leuven - Campus Gasthuisberg - Geriatrisch Dagziekenhuis
+UZ Leuven - Campus Gasthuisberg - het Revalidatiecentrum voor kinderen Campus Gasthuisberg
+UZ Leuven - Campus Gasthuisberg - IVF-behandeling
+UZ Leuven - Campus Gasthuisberg - Kinderziekenhuis
+UZ Leuven - Campus Gasthuisberg - MUCLA
+UZ Leuven - Campus Gasthuisberg - Muco-Referentiecentrum
+UZ Leuven - Campus Gasthuisberg - Multidisciplinair Borstcentrum
+UZ Leuven - Campus Gasthuisberg - Neonatale Intensieve Zorg
+UZ Leuven - Campus Gasthuisberg - Neuromusculair Referentiecentrum
+UZ Leuven - Campus Gasthuisberg - Palliatieve Eenheid
+UZ Leuven - Campus Gasthuisberg - Revalidatiecentrum
+UZ Leuven - Campus Gasthuisberg - Slaapcentrum
+UZ Leuven - Campus Gasthuisberg - Sociale Dienst
+UZ Leuven - Campus Gasthuisberg - Spoedgevallendienst
+UZ Leuven - Centrum voor Ontwikkelingsstoornissen
+UZ Leuven - Centrum voor Ontwikkelingsstoornissen - Antennepunt Limburg
+UZ Leuven - Kites Team
+Vereniging Gelaryngectomeerden UZ Leuven en Vlaams Brabant
+VITAZ
+Vitaz - Campus Beveren
+Vitaz - Campus Beveren - Afdeling Psychogeriatrie De Waaier
+Vitaz - Campus Beveren - Dienst Palliatieve zorgen
+Vitaz - Campus Beveren - Dienst voor Geriatrie
+Vitaz - Campus Hamme
+Vitaz - Campus Hamme - Polikliniek
+Vitaz - Campus Lokeren
+Vitaz - Campus Lokeren - Dienst Geriatrie
+Vitaz - Campus Lokeren - Geriatrisch Dagziekenhuis
+Vitaz - Campus Lokeren - Kraamzorg
+Vitaz - Campus Lokeren - Sociale Dienst
+Vitaz - Campus Sint-Gillis-Waas
+Vitaz - Campus Sint-Niklaas
+Vitaz - Campus Sint-Niklaas - Dienst Kinder- en Jeugdpsychiatrie Tilia
+Vitaz - Campus Sint-Niklaas - Erkende Borstkliniek
+Vitaz - Campus Sint-Niklaas - Psychiatrische Afdeling
+Vitaz - Campus Sint-Niklaas - Revalidatiecentrum
+Vitaz - Campus Sint-Niklaas - Slaapcentrum
+Vitaz - Campus Sint-Niklaas - Sociale Dienst
+Vitaz - Campus Temse
+Vitaz - Campus Temse - Sociale Dienst
+VIVALIA - CENTRE HOSPITALIER CENTRE ARDENNE
+VIVALIA - HOPITAL ARLON - VIRTON
+VIVALIA - HOPITAL DE MARCHE
+Vlaams Ziekenhuisnetwerk KU Leuven vzw
+Vriendenkring van Brandwondenpatiënten van het UZ Gent
+Woonzorg- en Revalidatiecentrum De Dennen
+ZAS AUGUSTINUS, VINCENTIUS, SINT-JOZEF
+ZAS MIDDELHEIM, CADIX, PALFIJN, HOGE BEUKEN, JOOSTENS
+Ziekenhuis aan de Stroom
+Ziekenhuis aan de Stroom - Augustinus
+Ziekenhuis aan de Stroom - Dienst Levensbeschouwelijke zorg
+Ziekenhuis aan de Stroom - Eenheid voor psychiatrische spoedinterventie (EPSI) Cadix
+Ziekenhuis aan de Stroom - Elisabeth
+Ziekenhuis aan de Stroom - Fysische geneeskunde en revalidatie
+Ziekenhuis aan de Stroom - Hoge Beuken
+Ziekenhuis aan de Stroom - Joostens
+Ziekenhuis aan de Stroom - Koningin Paola Kinderziekenhuis
+Ziekenhuis aan de Stroom - Medisch Centrum Kaai 142
+Ziekenhuis aan de Stroom - Middelheim
+Ziekenhuis aan de Stroom - Mobiel Psychiatrisch Team 15 24
+Ziekenhuis aan de Stroom - Mobiel Psychiatrisch Team ’t Stad (MPT ’t Stad)
+Ziekenhuis aan de Stroom - Obesitascentrum voor kinderen en jeugd
+Ziekenhuis aan de Stroom - Palfijn
+Ziekenhuis aan de Stroom - Psychiatrisch aanbod algemeen ziekenhuis (PAAZ)
+Ziekenhuis aan de Stroom - Psychiatrisch Ziekenhuis Stuivenberg
+Ziekenhuis aan de Stroom - PVT Antwerpen
+Ziekenhuis aan de Stroom - Sint-Jozef
+Ziekenhuis aan de Stroom - Slaaplabo
+Ziekenhuis aan de Stroom - Sociale Dienst
+Ziekenhuis aan de Stroom - Universitaire Kinder- en Jeugdpsychiatrie
+Ziekenhuis aan de Stroom - Vincentius
+ZIEKENHUIS OOST - LIMBURG
+ZIEKENHUIS OOST-LIMBURG
+Ziekenhuis Oost-Limburg - Campus Maas en Kempen
+Ziekenhuis Oost-Limburg - Campus Maas en Kempen - Ambulante Revalidatie
+Ziekenhuis Oost-Limburg - Campus Maas en Kempen - Geriatrisch Dagziekenhuis
+Ziekenhuis Oost-Limburg - Campus Maas en Kempen - Pastorale Zorg en Zingeving
+Ziekenhuis Oost-Limburg - Campus Maas en Kempen - Patiëntenbegeleiding
+Ziekenhuis Oost-Limburg - Campus Maas en Kempen - Polikliniek
+Ziekenhuis Oost-Limburg - Campus Maas en Kempen - Slaaplabo
+Ziekenhuis Oost-Limburg - Campus Sint Jan - Dienst Neonatale Zorgen
+Ziekenhuis Oost-Limburg - Campus Sint Jan - Psychiatrische Afdeling
+Ziekenhuis Oost-Limburg - Campus Sint Jan - Toxicomanie-Eenheid Psychiatrische Spoed Interventie
+Ziekenhuis Oost-Limburg - Campus Sint-Barbara
+Ziekenhuis Oost-Limburg - Campus Sint-Barbara - Afdeling Psychogeriatrie
+Ziekenhuis Oost-Limburg - Campus Sint-Barbara - Pastorale Zorg en Zingeving
+Ziekenhuis Oost-Limburg - Campus Sint-Barbara - Patiëntenbegeleiding
+Ziekenhuis Oost-Limburg - Campus Sint-Barbara - Polikliniek
+Ziekenhuis Oost-Limburg - Campus Sint-Barbara - Revalidatiecentrum
+Ziekenhuis Oost-Limburg - Campus Sint-Jan
+Ziekenhuis Oost-Limburg - Campus Sint-Jan - Dienst Geriatrie
+Ziekenhuis Oost-Limburg - Campus Sint-Jan - Erkende Borstkliniek
+Ziekenhuis Oost-Limburg - Campus Sint-Jan - Geheugencentrum
+Ziekenhuis Oost-Limburg - Campus Sint-Jan - Geriatrisch Dagziekenhuis
+Ziekenhuis Oost-Limburg - Campus Sint-Jan - Palliatieve Eenheid
+Ziekenhuis Oost-Limburg - Campus Sint-Jan - Pastorale Zorg en Zingeving
+Ziekenhuis Oost-Limburg - Campus Sint-Jan - Patiëntenbegeleiding
+Ziekenhuis Oost-Limburg - Campus Sint-Jan - Polikliniek
+Ziekenhuis Oost-Limburg - Campus Sint-Jan - Slaapcentrum
+Ziekenhuis voor Geriatrische Revalidatie
+Ziekenhuisnetwerk andreaz
+ZiekenhuisNetwerk Antwerpen - Referentiecentrum Autismespectrumstoornissen
+Ziekenhuisnetwerk Bonheiden-Lier-Mechelen-Vilvoorde
+Ziekenhuisnetwerk Helix
+Ziekenhuisnetwerk Kempen vzw
+Ziekenhuisnetwerk KOM - Kust-Ommeland-Meetjesland
+Ziekenhuisschool De Radar
+Ziekenhuisschool Inkendaal
+Ziekenhuisschool UZLeuven
+ZIEKENHUISVERENIGING U.C.V. BRUGMANN
+Ziekenhuisvereniging van Anderlecht Sint-Gillis Etterbeek en Elsene - Iris Ziekenhuizen Zuid - Site Molière Longchamp - Dienst Psychiatrie
+Ziekenhuisvereniging van Anderlecht Sint-Gillis Etterbeek en Elsene- Iris Ziekenhuizen Zuid - Site Joseph Bracops
+ZIEKENHUISVERENIGING VAN ANDERLECHT, VAN ETTERBEEK, VAN ELSENE, VAN SINT-GILLIS - IRIS ZIEKENHUIZEN ZUID
+Ziekenhuisvereniging van Brussel - Universitair Verplegingscentrum Jules Bordet
+Ziekenhuisvereniging van Brussel en van Schaarbeek - Universitair Verplegingscentrum Brugmann - Site Paul Brien
+Ziekenhuisvereniging van Brussel en van Schaarbeek - Universitair Verplegingscentrum Brugmann - Site Victor Horta - Dienst Psychiatrie
+Ziekenhuisvereniging van Brussel en van Schaarbeek - Universitair Verplegingscentrum Brugmann - Site Victor Horta - Dienst Psychiatrie - Stress Kliniek
+Ziekenhuisvereniging van Brussel en van Schaarbeek - Universitair Verplegingscentrum Brugmann - Site Victor Horta - Dienst Psychiatrie - Verslaving
+Ziekenhuisvereniging van Brussel en van Schaarbeek - UVC Brugmann - Site Victor Horta
+Ziekenhuisvereniging van Brussel en van Schaarbeek- UVC Brugmann- Site Koningin Astrid
+ZOL - ZIEKENHUIS MAAS EN KEMPEN
+Zorggroep Annendael Psychiatrisch ziekenhuis
+Zorggroep Myna
+Zorggroep Myna - Psychiatrisch Ziekenhuis Bilzen-Hoeselt - Campus Maaseik
+Zorggroep Myna - Psychiatrisch Ziekenhuis Bilzen-Hoeselt - Campus Munsterbilzen
+Zorggroep Myna - Psychiatrisch Ziekenhuis Bilzen-Hoeselt - Campus Munsterbilzen - Kinder- en Jeugdpsychiatrische Dienst
+Zorggroep Myna - Psychiatrisch Ziekenhuis Sint-Truiden - Campus Melveren
+Zorggroep Myna - Psychiatrisch Ziekenhuis Sint-Truiden - Campus Melveren - K-Dienst Kinder- en Jeugdpsychiatrie
+Zorggroep Myna - Psychiatrisch Ziekenhuis Sint-Truiden - Campus Melveren - Mobiele Outreaching
+Zorggroep Myna - Psychiatrisch Ziekenhuis Sint-Truiden - Campus Stad
+Zorggroep Myna - Psychiatrisch Ziekenhuis Sint-Truiden - Campus Stad - G-Badminton en G-Zaalvoetbal
+Zorggroep Sint Kamillus
