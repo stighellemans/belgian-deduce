@@ -8,7 +8,7 @@ import docdeid as dd
 from docdeid import Annotation, Document, Tokenizer
 from docdeid.process import RegexpAnnotator
 
-from deduce.utils import str_match
+from belgian_deduce.utils import str_match
 
 warnings.simplefilter(action="default")
 

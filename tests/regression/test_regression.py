@@ -3,7 +3,7 @@ from typing import Optional
 
 from docdeid import Annotation, AnnotationSet
 
-from deduce import Deduce
+from belgian_deduce import Deduce
 
 
 def regression_test(

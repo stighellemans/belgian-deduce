@@ -3,8 +3,8 @@ from pathlib import Path
 import docdeid as dd
 import pytest
 
-from deduce import utils
-from deduce.annotator import TokenPatternAnnotator
+from belgian_deduce import utils
+from belgian_deduce.annotator import TokenPatternAnnotator
 
 
 class TestStrMatch:

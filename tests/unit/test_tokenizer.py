@@ -1,7 +1,7 @@
 import docdeid as dd
 import pytest
 
-from deduce.tokenizer import DeduceTokenizer
+from belgian_deduce.tokenizer import DeduceTokenizer
 
 
 @pytest.fixture

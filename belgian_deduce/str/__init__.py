@@ -1,4 +1,4 @@
-from deduce.str.processor import (
+from belgian_deduce.str.processor import (
     Acronimify,
     FilterBasedOnLookupSet,
     RemoveValues,

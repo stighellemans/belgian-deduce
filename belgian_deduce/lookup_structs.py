@@ -11,8 +11,8 @@ import docdeid as dd
 from docdeid.ds import DsCollection
 from docdeid.tokenizer import Tokenizer
 
-from deduce.data.lookup.src import all_lists
-from deduce.lookup_struct_loader import (
+from belgian_deduce.data.lookup.src import all_lists
+from belgian_deduce.lookup_struct_loader import (
     load_eponymous_disease_lookup,
     load_first_name_lookup,
     load_hospital_lookup,
@@ -24,7 +24,11 @@ from deduce.lookup_struct_loader import (
     load_surname_lookup,
     load_whitelist_lookup,
 )
-from deduce.utils import apply_transform, optional_load_items, optional_load_json
+from belgian_deduce.utils import (
+    apply_transform,
+    optional_load_items,
+    optional_load_json,
+)
 
 _SRC_SUBDIR = "src"
 _CACHE_SUBDIR = "cache"

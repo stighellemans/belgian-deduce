@@ -1,6 +1,6 @@
 import docdeid as dd
 
-from deduce.annotation_processor import (
+from belgian_deduce.annotation_processor import (
     CleanAnnotationTag,
     DeduceMergeAdjacentAnnotations,
     PersonAnnotationConverter,

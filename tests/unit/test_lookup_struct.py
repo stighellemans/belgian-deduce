@@ -4,7 +4,7 @@ from unittest.mock import patch
 
 import docdeid as dd
 
-from deduce.lookup_structs import (
+from belgian_deduce.lookup_structs import (
     cache_lookup_structs,
     load_lookup_structs_from_cache,
     load_raw_itemset,

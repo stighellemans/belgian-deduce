@@ -4,7 +4,7 @@ from unittest.mock import patch
 import docdeid as dd
 import pytest
 
-from deduce.annotator import (
+from belgian_deduce.annotator import (
     BsnAnnotator,
     ContextAnnotator,
     PatientNameAnnotator,
@@ -13,8 +13,8 @@ from deduce.annotator import (
     TokenPatternAnnotator,
     _PatternPositionMatcher,
 )
-from deduce.person import Person
-from deduce.tokenizer import DeduceTokenizer
+from belgian_deduce.person import Person
+from belgian_deduce.tokenizer import DeduceTokenizer
 from tests.helpers import linked_tokens
 
 

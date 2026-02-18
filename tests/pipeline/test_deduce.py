@@ -1,6 +1,6 @@
 import docdeid as dd
 
-from deduce.person import Person
+from belgian_deduce.person import Person
 
 text = (
     "betreft: Jan Jansen, bsn 111222333, patnr 000334433. De patient J. Jansen is 64 "

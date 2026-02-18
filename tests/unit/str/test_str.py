@@ -1,6 +1,6 @@
 import docdeid as dd
 
-from deduce.str import (
+from belgian_deduce.str import (
     Acronimify,
     FilterBasedOnLookupSet,
     RemoveValues,

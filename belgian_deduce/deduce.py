@@ -11,17 +11,17 @@ from typing import Any, Optional, Union
 import docdeid as dd
 from frozendict import frozendict
 
-from deduce import utils
-from deduce.annotation_processor import (
+from belgian_deduce import utils
+from belgian_deduce.annotation_processor import (
     CleanAnnotationTag,
     DeduceMergeAdjacentAnnotations,
     PersonAnnotationConverter,
     RemoveAnnotations,
 )
-from deduce.lookup_struct_loader import load_interfix_lookup, load_prefix_lookup
-from deduce.lookup_structs import get_lookup_structs, load_raw_itemsets
-from deduce.redactor import DeduceRedactor
-from deduce.tokenizer import DeduceTokenizer
+from belgian_deduce.lookup_struct_loader import load_interfix_lookup, load_prefix_lookup
+from belgian_deduce.lookup_structs import get_lookup_structs, load_raw_itemsets
+from belgian_deduce.redactor import DeduceRedactor
+from belgian_deduce.tokenizer import DeduceTokenizer
 
 __version__ = importlib.metadata.version(__package__ or __name__)
 

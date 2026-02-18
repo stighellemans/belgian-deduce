@@ -1,12 +1,13 @@
 [tool.poetry]
-name = "deduce"
-version = "3.0.6"
-description = "Deduce: de-identification method for Dutch medical text"
+name = "belgian-deduce"
+version = "3.0.6.post1+belgian.1"
+packages = [{ include = "belgian_deduce" }]
+description = "Belgian-Deduce: de-identification method for Belgian medical text"
 authors = ["Vincent Menger <vmenger@protonmail.com>"]
 maintainers = ["Vincent Menger <vmenger@protonmail.com>"]
 license = "LGPL-3.0-or-later"
 readme = "README.md"
-repository = "https://github.com/vmenger/deduce/"
+repository = "https://github.com/stighellemans/belgian-deduce/"
 keywords = ["de-identification", "clinical text", "dutch", "nlp"]
 classifiers = [
     "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",

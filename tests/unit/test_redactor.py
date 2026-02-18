@@ -1,6 +1,6 @@
 import docdeid as dd
 
-from deduce.redactor import DeduceRedactor
+from belgian_deduce.redactor import DeduceRedactor
 
 
 class TestDeduceRedactor:

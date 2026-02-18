@@ -1,6 +1,6 @@
 import pytest
 
-from deduce import Deduce
+from belgian_deduce import Deduce
 
 
 @pytest.fixture(scope="session")
