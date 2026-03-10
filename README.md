@@ -49,6 +49,18 @@ If you use `deduce`, please cite the following paper:
 pip install deduce
 ```
 
+Install directly from the latest commit on the default branch of this fork:
+
+```bash
+pip install "git+https://github.com/stighellemans/belgian-deduce.git"
+```
+
+If you want to pin to a specific commit (recommended for reproducibility), use:
+
+```bash
+pip install "git+https://github.com/stighellemans/belgian-deduce.git@<commit-sha>"
+```
+
 ## Getting started
 
 The basic way to use `deduce`, is to pass text to the `deidentify` method of a `Deduce` object:
