@@ -33,7 +33,7 @@ class DeduceMergeAdjacentAnnotations(dd.process.MergeAdjacentAnnotations):
 
         return (left_tag == right_tag) or {left_tag, right_tag} == {
             "patient",
-            "persoon",
+            "person",
         }
 
     def _adjacent_annotations_replacement(
@@ -69,8 +69,8 @@ class PersonAnnotationConverter(dd.process.AnnotationProcessor):
 
     Any overlap with annotations that are  contain "pseudo" in their tag are removed, as
     are those annotations. Then resolves overlap between remaining annotations, and maps
-    the tags to either "patient" or "persoon", based on whether "patient" is in the tag
-    (e.g. voornaam_patient => patient, achternaam_onbekend => persoon).
+    the tags to either "patient" or "person", based on whether "patient" is in the tag
+    (e.g. first_name_patient => patient, last_name_unknown => person).
     """
 
     def __init__(self) -> None:
@@ -102,7 +102,7 @@ class PersonAnnotationConverter(dd.process.AnnotationProcessor):
                 text=annotation.text,
                 start_char=annotation.start_char,
                 end_char=annotation.end_char,
-                tag="patient" if "patient" in annotation.tag else "persoon",
+                tag="patient" if "patient" in annotation.tag else "person",
             )
             for annotation in new_annotations
             if ("pseudo" not in annotation.tag and len(annotation.text.strip()) != 0)
@@ -179,7 +179,7 @@ class PostalCodeLocalityFilter(dd.process.AnnotationProcessor):
             return False
 
         for annotation in annotations:
-            if annotation == postal_annotation or annotation.tag != "locatie":
+            if annotation == postal_annotation or annotation.tag != "location":
                 continue
 
             if (

@@ -13,29 +13,29 @@ class TestDeduceMergeAdjacent:
         proc = DeduceMergeAdjacentAnnotations()
 
         assert proc._tags_match("a", "a")
-        assert proc._tags_match("huisnummer", "huisnummer")
+        assert proc._tags_match("house_number", "house_number")
         assert proc._tags_match("patient", "patient")
-        assert proc._tags_match("persoon", "persoon")
-        assert proc._tags_match("patient", "persoon")
-        assert proc._tags_match("persoon", "patient")
+        assert proc._tags_match("person", "person")
+        assert proc._tags_match("patient", "person")
+        assert proc._tags_match("person", "patient")
 
         assert not proc._tags_match("a", "b")
-        assert not proc._tags_match("patient", "huisnummer")
-        assert not proc._tags_match("huisnummer", "patient")
-        assert not proc._tags_match("persoon", "huisnummer")
-        assert not proc._tags_match("huisnummer", "persoon")
+        assert not proc._tags_match("patient", "house_number")
+        assert not proc._tags_match("house_number", "patient")
+        assert not proc._tags_match("person", "house_number")
+        assert not proc._tags_match("house_number", "person")
 
     def test_annotation_replacement_equal_tags(self):
         proc = DeduceMergeAdjacentAnnotations()
         text = "Jan Jansen"
         left_annotation = dd.Annotation(
-            text="Jan", start_char=0, end_char=3, tag="naam"
+            text="Jan", start_char=0, end_char=3, tag="name"
         )
         right_annotation = dd.Annotation(
-            text="Jansen", start_char=4, end_char=10, tag="naam"
+            text="Jansen", start_char=4, end_char=10, tag="name"
         )
         expected_annotation = dd.Annotation(
-            text="Jan Jansen", start_char=0, end_char=10, tag="naam"
+            text="Jan Jansen", start_char=0, end_char=10, tag="name"
         )
 
         assert (
@@ -49,10 +49,10 @@ class TestDeduceMergeAdjacent:
         proc = DeduceMergeAdjacentAnnotations()
         text = "Jan Jansen"
         left_annotation = dd.Annotation(
-            text="Jan", start_char=0, end_char=3, tag="voornaam_patient"
+            text="Jan", start_char=0, end_char=3, tag="first_name_patient"
         )
         right_annotation = dd.Annotation(
-            text="Jansen", start_char=4, end_char=10, tag="achternaam_patient"
+            text="Jansen", start_char=4, end_char=10, tag="last_name_patient"
         )
         expected_annotation = dd.Annotation(
             text="Jan Jansen", start_char=0, end_char=10, tag="patient"
@@ -74,10 +74,10 @@ class TestPersonAnnotationConverter:
         annotations = dd.AnnotationSet(
             [
                 dd.Annotation(
-                    text="Jan", start_char=0, end_char=3, tag="voornaam_patient"
+                    text="Jan", start_char=0, end_char=3, tag="first_name_patient"
                 ),
                 dd.Annotation(
-                    text="Jansen", start_char=4, end_char=10, tag="achternaam_patient"
+                    text="Jansen", start_char=4, end_char=10, tag="last_name_patient"
                 ),
             ]
         )
@@ -98,10 +98,10 @@ class TestPersonAnnotationConverter:
         annotations = dd.AnnotationSet(
             [
                 dd.Annotation(
-                    text="Jan", start_char=0, end_char=3, tag="voornaam_patient"
+                    text="Jan", start_char=0, end_char=3, tag="first_name_patient"
                 ),
                 dd.Annotation(
-                    text="Jan Jansen", start_char=0, end_char=10, tag="naam_patient"
+                    text="Jan Jansen", start_char=0, end_char=10, tag="name_patient"
                 ),
             ]
         )
@@ -119,10 +119,10 @@ class TestPersonAnnotationConverter:
         annotations = dd.AnnotationSet(
             [
                 dd.Annotation(
-                    text="Jan", start_char=0, end_char=3, tag="voornaam_patient"
+                    text="Jan", start_char=0, end_char=3, tag="first_name_patient"
                 ),
                 dd.Annotation(
-                    text="Jansen", start_char=4, end_char=10, tag="achternaam_onbekend"
+                    text="Jansen", start_char=4, end_char=10, tag="last_name_unknown"
                 ),
             ]
         )
@@ -130,7 +130,7 @@ class TestPersonAnnotationConverter:
         expected_annotations = dd.AnnotationSet(
             [
                 dd.Annotation(text="Jan", start_char=0, end_char=3, tag="patient"),
-                dd.Annotation(text="Jansen", start_char=4, end_char=10, tag="persoon"),
+                dd.Annotation(text="Jansen", start_char=4, end_char=10, tag="person"),
             ]
         )
 
@@ -143,10 +143,10 @@ class TestPersonAnnotationConverter:
         annotations = dd.AnnotationSet(
             [
                 dd.Annotation(
-                    text="Jan", start_char=0, end_char=3, tag="voornaam_patient"
+                    text="Jan", start_char=0, end_char=3, tag="first_name_patient"
                 ),
                 dd.Annotation(
-                    text="Jan Jansen", start_char=0, end_char=10, tag="naam_onbekend"
+                    text="Jan Jansen", start_char=0, end_char=10, tag="name_unknown"
                 ),
             ]
         )
@@ -154,7 +154,7 @@ class TestPersonAnnotationConverter:
         expected_annotations = dd.AnnotationSet(
             [
                 dd.Annotation(text="Jan", start_char=0, end_char=3, tag="patient"),
-                dd.Annotation(text=" Jansen", start_char=3, end_char=10, tag="persoon"),
+                dd.Annotation(text=" Jansen", start_char=3, end_char=10, tag="person"),
             ]
         )
 
@@ -166,12 +166,12 @@ class TestPersonAnnotationConverter:
 
         annotations = dd.AnnotationSet(
             [
-                dd.Annotation(text="Henoch", start_char=0, end_char=6, tag="voornaam"),
+                dd.Annotation(text="Henoch", start_char=0, end_char=6, tag="first_name"),
                 dd.Annotation(
                     text="Henoch Schonlein",
                     start_char=0,
                     end_char=16,
-                    tag="pseudo_naam",
+                    tag="pseudo_name",
                 ),
             ]
         )
@@ -181,15 +181,15 @@ class TestPersonAnnotationConverter:
 
 class TestRemoveAnnotations:
     def test_remove_annotations(self):
-        ra = RemoveAnnotations(tags=["voornaam_patient", "nonexisting_tag"])
+        ra = RemoveAnnotations(tags=["first_name_patient", "nonexisting_tag"])
 
         annotations = dd.AnnotationSet(
             [
                 dd.Annotation(
-                    text="Jan", start_char=0, end_char=3, tag="voornaam_patient"
+                    text="Jan", start_char=0, end_char=3, tag="first_name_patient"
                 ),
                 dd.Annotation(
-                    text="Jansen", start_char=4, end_char=10, tag="achternaam_patient"
+                    text="Jansen", start_char=4, end_char=10, tag="last_name_patient"
                 ),
             ]
         )
@@ -199,7 +199,7 @@ class TestRemoveAnnotations:
         assert processed_annotations == dd.AnnotationSet(
             [
                 dd.Annotation(
-                    text="Jansen", start_char=4, end_char=10, tag="achternaam_patient"
+                    text="Jansen", start_char=4, end_char=10, tag="last_name_patient"
                 )
             ]
         )
@@ -208,16 +208,16 @@ class TestRemoveAnnotations:
 class TestCleanAnnotationTag:
     def test_remove_annotations(self):
         cat = CleanAnnotationTag(
-            tag_map={"voornaam_patient": "voornaam", "nonexistent": "test"}
+            tag_map={"first_name_patient": "first_name", "nonexistent": "test"}
         )
 
         annotations = dd.AnnotationSet(
             [
                 dd.Annotation(
-                    text="Jan", start_char=0, end_char=3, tag="voornaam_patient"
+                    text="Jan", start_char=0, end_char=3, tag="first_name_patient"
                 ),
                 dd.Annotation(
-                    text="Jansen", start_char=4, end_char=10, tag="achternaam_patient"
+                    text="Jansen", start_char=4, end_char=10, tag="last_name_patient"
                 ),
             ]
         )
@@ -226,9 +226,9 @@ class TestCleanAnnotationTag:
 
         assert processed_annotations == dd.AnnotationSet(
             [
-                dd.Annotation(text="Jan", start_char=0, end_char=3, tag="voornaam"),
+                dd.Annotation(text="Jan", start_char=0, end_char=3, tag="first_name"),
                 dd.Annotation(
-                    text="Jansen", start_char=4, end_char=10, tag="achternaam_patient"
+                    text="Jansen", start_char=4, end_char=10, tag="last_name_patient"
                 ),
             ]
         )

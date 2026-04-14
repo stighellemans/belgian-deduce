@@ -68,7 +68,7 @@ print(doc.deidentified_text)
 ```
 
 ```text
-betreft: [PERSOON-1], rijksregisternummer [RIJKSREGISTERNUMMER-1], patnr [ID-1]. De patient [PERSOON-1] is [LEEFTIJD-1] jaar oud en woont in [LOCATIE-1]. Hij werd op [DATUM-1] door arts [PERSOON-2] ontslagen uit [ZIEKENHUIS-1]. Voor nazorg kan hij worden bereikt via [EMAILADRES-1] of [TELEFOONNUMMER-1].
+betreft: [PERSON-1], rijksregisternummer [NATIONAL_REGISTER_NUMBER-1], patnr [ID-1]. De patient [PERSON-1] is [AGE-1] jaar oud en woont in [LOCATION-1]. Hij werd op [DATE-1] door arts [PERSON-2] ontslagen uit [HOSPITAL-1]. Voor nazorg kan hij worden bereikt via [EMAIL-1] of [PHONE_NUMBER-1].
 ```
 
 If patient metadata is known, pass it explicitly:
@@ -84,7 +84,7 @@ doc = model.deidentify(text, metadata={"patient": patient})
 Metadata can also be used for more than the primary patient. The pipeline supports:
 
 * `persons`: one or more additional `Person` objects treated as regular people
-* `addresses`: one or more `Address` objects that should be tagged as `locatie`
+* `addresses`: one or more `Address` objects that should be tagged as `location`
 * `entities`: arbitrary exact metadata matches via `MetadataEntity`
 * `Person.birth_date`, `Person.aliases`, and `Person.addresses`
 
@@ -117,12 +117,53 @@ metadata = {
         )
     ],
     "entities": [
-        MetadataEntity(text="UZ Gent", tag="ziekenhuis"),
+        MetadataEntity(text="UZ Gent", tag="hospital"),
         MetadataEntity(text="ABC-12345", tag="id"),
     ],
 }
 
 doc = deduce.deidentify(text, metadata=metadata)
+```
+
+French-speaking notes can be handled through the same API. A practical path is to
+provide metadata for names, birth dates, addresses, and institutions:
+
+```python
+from datetime import date
+
+from belgian_deduce import Address, Deduce, MetadataEntity, Person
+
+deduce = Deduce()
+
+text = (
+    "Patient Jean Dupont, né le 12 mars 1980, habite Rue de la Loi 12, "
+    "1000 Bruxelles. Sophie Martin consulte à Hôpital Erasme."
+)
+
+metadata = {
+    "patient": Person(
+        first_names=["Jean"],
+        surname="Dupont",
+        birth_date=date(1980, 3, 12),
+        addresses=[
+            Address(
+                street="Rue de la Loi",
+                house_number="12",
+                postal_code="1000",
+                city="Bruxelles",
+            )
+        ],
+    ),
+    "persons": [Person(first_names=["Sophie"], surname="Martin")],
+    "entities": [MetadataEntity(text="Hôpital Erasme", tag="hospital")],
+}
+
+doc = deduce.deidentify(text, metadata=metadata)
+print(doc.deidentified_text)
+```
+
+```text
+Patient [PATIENT], né le [DATE-1], habite [LOCATION-1]. [PERSON-1] consulte à [HOSPITAL-1].
 ```
 
 <!-- end getting started -->

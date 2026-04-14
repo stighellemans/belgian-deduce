@@ -8,7 +8,7 @@
                     "text": "Leuven",
                     "start_char": 0,
                     "end_char": 6,
-                    "tag": "locatie"
+                    "tag": "location"
                 }
             ]
         },
@@ -20,13 +20,13 @@
                     "text": "LEUVEN",
                     "start_char": 0,
                     "end_char": 6,
-                    "tag": "locatie"
+                    "tag": "location"
                 }
             ]
         },
         {
             "id": 2,
-            "text": "L\u00e9uven",
+            "text": "Léuven",
             "annotations": []
         },
         {
@@ -42,7 +42,7 @@
                     "text": "Brussel",
                     "start_char": 0,
                     "end_char": 7,
-                    "tag": "locatie"
+                    "tag": "location"
                 }
             ]
         },
@@ -54,7 +54,7 @@
                     "text": "Sint-Niklaas",
                     "start_char": 0,
                     "end_char": 12,
-                    "tag": "locatie"
+                    "tag": "location"
                 }
             ]
         },
@@ -76,7 +76,7 @@
                     "text": "Postbus 25",
                     "start_char": 0,
                     "end_char": 10,
-                    "tag": "locatie"
+                    "tag": "location"
                 }
             ]
         },

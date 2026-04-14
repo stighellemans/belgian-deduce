@@ -1,8 +1,14 @@
 {
   "adjacent_annotations_slack": "[\\. \\-]?[\\. ]?",
   "resolve_overlap_strategy": {
-    "attributes": ["priority", "length"],
-    "ascending": [false, false]
+    "attributes": [
+      "priority",
+      "length"
+    ],
+    "ascending": [
+      false,
+      false
+    ]
   },
   "redactor_open_char": "[",
   "redactor_close_char": "]",
@@ -11,8 +17,10 @@
       "annotator_type": "belgian_deduce.annotator.TokenPatternAnnotator",
       "group": "names",
       "args": {
-        "tag": "prefix+initiaal",
-        "skip": ["."],
+        "tag": "prefix+initial",
+        "skip": [
+          "."
+        ],
         "pattern": [
           {
             "lookup": "prefix"
@@ -34,8 +42,10 @@
       "annotator_type": "belgian_deduce.annotator.TokenPatternAnnotator",
       "group": "names",
       "args": {
-        "tag": "prefix+interfix+naam",
-        "skip": ["."],
+        "tag": "prefix+interfix+name",
+        "skip": [
+          "."
+        ],
         "pattern": [
           {
             "lookup": "prefix"
@@ -53,8 +63,10 @@
       "annotator_type": "belgian_deduce.annotator.TokenPatternAnnotator",
       "group": "names",
       "args": {
-        "tag": "prefix+naam",
-        "skip": ["."],
+        "tag": "prefix+name",
+        "skip": [
+          "."
+        ],
         "pattern": [
           {
             "lookup": "prefix"
@@ -76,7 +88,7 @@
       "annotator_type": "belgian_deduce.annotator.TokenPatternAnnotator",
       "group": "names",
       "args": {
-        "tag": "interfix+achternaam",
+        "tag": "interfix+last_name",
         "skip": [],
         "pattern": [
           {
@@ -99,8 +111,10 @@
       "annotator_type": "belgian_deduce.annotator.TokenPatternAnnotator",
       "group": "names",
       "args": {
-        "tag": "initiaal+naam",
-        "skip": ["."],
+        "tag": "initial+name",
+        "skip": [
+          "."
+        ],
         "pattern": [
           {
             "lookup": "initial"
@@ -125,8 +139,10 @@
       "annotator_type": "belgian_deduce.annotator.TokenPatternAnnotator",
       "group": "names",
       "args": {
-        "tag": "initiaal+interfix+naam",
-        "skip": ["."],
+        "tag": "initial+interfix+name",
+        "skip": [
+          "."
+        ],
         "pattern": [
           {
             "lookup": "initial"
@@ -144,7 +160,7 @@
       "annotator_type": "docdeid.process.MultiTokenLookupAnnotator",
       "group": "names",
       "args": {
-        "tag": "voornaam",
+        "tag": "first_name",
         "overlapping": true,
         "lookup_values": "first_name"
       }
@@ -153,7 +169,7 @@
       "annotator_type": "docdeid.process.MultiTokenLookupAnnotator",
       "group": "names",
       "args": {
-        "tag": "achternaam",
+        "tag": "last_name",
         "overlapping": true,
         "lookup_values": "surname"
       }
@@ -182,19 +198,22 @@
             "name": "interfix_right",
             "direction": "right",
             "pre_tag": [
-              "initiaal",
-              "naam",
-              "voornaam",
-              "achternaam",
-              "initiaal_patient",
-              "voornaam_patient",
-              "achternaam_patient",
-              "initiaal_persoon",
-              "voornaam_persoon",
-              "achternaam_persoon"
+              "initial",
+              "name",
+              "first_name",
+              "last_name",
+              "initial_patient",
+              "first_name_patient",
+              "last_name_patient",
+              "initial_person",
+              "first_name_person",
+              "last_name_person"
             ],
-            "tag": "{tag}+interfix+achternaam",
-            "skip": [".", "-"],
+            "tag": "{tag}+interfix+last_name",
+            "skip": [
+              ".",
+              "-"
+            ],
             "pattern": [
               {
                 "lookup": "interfix"
@@ -208,20 +227,22 @@
             "name": "initial_left",
             "direction": "left",
             "pre_tag": [
-              "initiaal",
-              "naam",
-              "voornaam",
-              "achternaam",
-              "initiaal_patient",
-              "voornaam_patient",
-              "achternaam_patient",
-              "initiaal_persoon",
-              "voornaam_persoon",
-              "achternaam_persoon",
+              "initial",
+              "name",
+              "first_name",
+              "last_name",
+              "initial_patient",
+              "first_name_patient",
+              "last_name_patient",
+              "initial_person",
+              "first_name_person",
+              "last_name_person",
               "interfix"
             ],
-            "tag": "initiaal+{tag}",
-            "skip": ["."],
+            "tag": "initial+{tag}",
+            "skip": [
+              "."
+            ],
             "pattern": [
               {
                 "lookup": "initial"
@@ -232,18 +253,20 @@
             "name": "naam_left",
             "direction": "left",
             "pre_tag": [
-              "naam",
-              "voornaam",
-              "achternaam",
-              "initiaal_patient",
-              "voornaam_patient",
-              "achternaam_patient",
-              "initiaal_persoon",
-              "voornaam_persoon",
-              "achternaam_persoon"
+              "name",
+              "first_name",
+              "last_name",
+              "initial_patient",
+              "first_name_patient",
+              "last_name_patient",
+              "initial_person",
+              "first_name_person",
+              "last_name_person"
             ],
-            "tag": "naam+{tag}",
-            "skip": ["-"],
+            "tag": "name+{tag}",
+            "skip": [
+              "-"
+            ],
             "pattern": [
               {
                 "and": [
@@ -265,20 +288,22 @@
             "direction": "right",
             "pre_tag": [
               "prefix",
-              "initiaal",
-              "naam",
-              "voornaam",
-              "achternaam",
-              "initiaal_patient",
-              "voornaam_patient",
-              "achternaam_patient",
-              "initiaal_persoon",
-              "voornaam_persoon",
-              "achternaam_persoon",
+              "initial",
+              "name",
+              "first_name",
+              "last_name",
+              "initial_patient",
+              "first_name_patient",
+              "last_name_patient",
+              "initial_person",
+              "first_name_person",
+              "last_name_person",
               "interfix"
             ],
-            "tag": "{tag}+naam",
-            "skip": ["-"],
+            "tag": "{tag}+name",
+            "skip": [
+              "-"
+            ],
             "pattern": [
               {
                 "and": [
@@ -300,16 +325,18 @@
             "direction": "left",
             "pre_tag": [
               "prefix",
-              "initiaal",
-              "naam",
-              "voornaam",
-              "achternaam",
-              "voornaam_patient",
-              "achternaam_patient",
+              "initial",
+              "name",
+              "first_name",
+              "last_name",
+              "first_name_patient",
+              "last_name_patient",
               "interfix"
             ],
             "tag": "prefix+{tag}",
-            "skip": ["."],
+            "skip": [
+              "."
+            ],
             "pattern": [
               {
                 "and": [
@@ -338,7 +365,7 @@
       "args": {
         "lookup_values": "placename",
         "overlapping": true,
-        "tag": "locatie"
+        "tag": "location"
       }
     },
     "street_pattern": {
@@ -350,7 +377,7 @@
             "re_match": "[A-Z][a-z]+(baan|bolwerk|dam|dijk|dreef|drf|dyk|gr|gracht|hf|hof|kade|laan|ln|markt|mrkt|pad|park|pd|plantsoen|plein|pln|plnts|prk|singel|sngl|st|steeg|stg|str|straat|weg|wg)$"
           }
         ],
-        "tag": "straat",
+        "tag": "street",
         "priority": 1
       }
     },
@@ -360,7 +387,7 @@
       "args": {
         "lookup_values": "street",
         "overlapping": true,
-        "tag": "straat",
+        "tag": "street",
         "priority": 1
       }
     },
@@ -373,8 +400,10 @@
           {
             "name": "housenumber_right",
             "direction": "right",
-            "pre_tag": ["straat"],
-            "tag": "{tag}+huisnummer",
+            "pre_tag": [
+              "street"
+            ],
+            "tag": "{tag}+house_number",
             "skip": [],
             "pattern": [
               {
@@ -385,8 +414,10 @@
           {
             "name": "housenumber_housenumberletter_right",
             "direction": "right",
-            "pre_tag": ["straat"],
-            "tag": "{tag}+huisnummer+huisnummerletter",
+            "pre_tag": [
+              "street"
+            ],
+            "tag": "{tag}+house_number+house_number_letter",
             "skip": [],
             "pattern": [
               {
@@ -397,8 +428,10 @@
           {
             "name": "housenumberletter_right",
             "direction": "right",
-            "pre_tag": ["huisnummer"],
-            "tag": "{tag}+huisnummerletter",
+            "pre_tag": [
+              "house_number"
+            ],
+            "tag": "{tag}+house_number_letter",
             "skip": [],
             "pattern": [
               {
@@ -415,7 +448,7 @@
       "args": {
         "regexp_pattern": "((?<!\\w)(?:[Bb]-)?\\d{4}(?!\\d))",
         "capturing_group": 1,
-        "tag": "locatie"
+        "tag": "location"
       }
     },
     "postbus": {
@@ -423,8 +456,12 @@
       "group": "locations",
       "args": {
         "regexp_pattern": "((?i:(?:bus|postbus|boite\\s+postale|bp))\\s*\\d{1,5}(?:[\\./-]\\d{1,4})?)",
-        "tag": "locatie",
-        "pre_match_words": ["bus", "postbus", "boite"]
+        "tag": "location",
+        "pre_match_words": [
+          "bus",
+          "postbus",
+          "boite"
+        ]
       }
     },
     "hospital": {
@@ -433,7 +470,8 @@
       "args": {
         "lookup_values": "hospital",
         "overlapping": true,
-        "tag": "ziekenhuis"
+        "tag": "hospital",
+        "priority": 1
       }
     },
     "institution": {
@@ -442,7 +480,7 @@
       "args": {
         "lookup_values": "healthcare_institution",
         "overlapping": true,
-        "tag": "zorginstelling"
+        "tag": "healthcare_institution"
       }
     },
     "date_dmy_1": {
@@ -450,7 +488,7 @@
       "group": "dates",
       "args": {
         "regexp_pattern": "(?<!\\d)(([1-9]|0[1-9]|[12][0-9]|3[01])(?P<sep>[-/\\. ])([1-9]|0[1-9]|1[012])(?P=sep)((19|20|\\'|`)?\\d{2}))(?!\\d)",
-        "tag": "datum",
+        "tag": "date",
         "capturing_group": 1
       }
     },
@@ -459,7 +497,7 @@
       "group": "dates",
       "args": {
         "regexp_pattern": "(?i)(?<!\\d)(([1-9]|0[1-9]|[12][0-9]|3[01])[-/\\. ]{,2}(januari|jan|februari|feb|maart|mrt|april|apr|mei|juni|jun|juli|jul|augustus|aug|september|sep|sept|oktober|okt|november|nov|december|dec)[-/\\. ]((19|20|\\'|`)?\\d{2}))(?!\\d)",
-        "tag": "datum",
+        "tag": "date",
         "capturing_group": 1,
         "pre_match_words": [
           "januari",
@@ -494,7 +532,7 @@
       "group": "dates",
       "args": {
         "regexp_pattern": "(?<!\\d)(((19|20|\\'|`)\\d{2})(?P<sep>[-/\\. ])([1-9]|0[1-9]|1[012])(?P=sep)([1-9]|0[1-9]|[12][0-9]|3[01]))(\\D|$)",
-        "tag": "datum",
+        "tag": "date",
         "capturing_group": 1
       }
     },
@@ -503,7 +541,7 @@
       "group": "dates",
       "args": {
         "regexp_pattern": "(?i)(?<!\\d)(((19|20|\\'|`)\\d{2})[-/\\. ]{,2}(januari|jan|februari|feb|maart|mrt|april|apr|mei|juni|jun|juli|jul|augustus|aug|september|sep|sept|oktober|okt|november|nov|december|dec)[-/\\. ]([1-9]|0[1-9]|[12][0-9]|3[01]))(?!\\d)",
-        "tag": "datum",
+        "tag": "date",
         "capturing_group": 1,
         "pre_match_words": [
           "januari",
@@ -538,7 +576,7 @@
       "group": "dates",
       "args": {
         "regexp_pattern": "(?<!\\d)(((19|20)\\d{2}))(?=:)",
-        "tag": "datum",
+        "tag": "date",
         "capturing_group": 1
       }
     },
@@ -576,8 +614,13 @@
           "naar",
           "nadien"
         ],
-        "pre_match_words": ["jaar", "jarig", "jarige", "jr"],
-        "tag": "leeftijd",
+        "pre_match_words": [
+          "jaar",
+          "jarig",
+          "jarige",
+          "jr"
+        ],
+        "tag": "age",
         "capturing_group": 1
       }
     },
@@ -588,7 +631,7 @@
         "national_number_regexp": "(?<!\\d)((?:\\d{2}[\\s./-]?){3}\\d{3}[\\s./-]?\\d{2})(?!\\d)",
         "capture_group": 1,
         "priority": 100,
-        "tag": "rijksregisternummer"
+        "tag": "national_register_number"
       }
     },
     "identifier": {
@@ -606,7 +649,7 @@
         "phone_regexp": "(?<!\\d)(?P<prefix>\\(?(?:(?:0032|\\+32|0))(?P<prefix_code>4\\d{2}|800|90[0-9]|78|[1-9]\\d|2|3|4|9)\\)?)(?P<number>(?:[\\s./-]?\\d){4,8})(?!\\d)",
         "min_digits": 9,
         "max_digits": 10,
-        "tag": "telefoonnummer"
+        "tag": "phone_number"
       }
     },
     "email": {
@@ -614,7 +657,7 @@
       "group": "email_addresses",
       "args": {
         "regexp_pattern": "(([-a-zA-Z0-9:%._\\+~#=]{1,256})@([-a-zA-Z0-9:%._\\+~#=]{1,256})(\\.)(com|net|org|co|us|uk|nl|be|fr|sp|gov|nu))",
-        "tag": "emailadres",
+        "tag": "email",
         "pre_match_words": [
           "com",
           "net",

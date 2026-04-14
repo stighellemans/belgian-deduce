@@ -8,7 +8,7 @@
                     "text": "10",
                     "start_char": 0,
                     "end_char": 2,
-                    "tag": "leeftijd"
+                    "tag": "age"
                 }
             ]
         },
@@ -20,7 +20,7 @@
                     "text": "10",
                     "start_char": 0,
                     "end_char": 2,
-                    "tag": "leeftijd"
+                    "tag": "age"
                 }
             ]
         },
@@ -47,7 +47,7 @@
                     "text": "11-12",
                     "start_char": 3,
                     "end_char": 8,
-                    "tag": "leeftijd"
+                    "tag": "age"
                 }
             ]
         },
@@ -64,7 +64,7 @@
                     "text": "1",
                     "start_char": 0,
                     "end_char": 1,
-                    "tag": "leeftijd"
+                    "tag": "age"
                 }
             ]
         },
@@ -73,7 +73,7 @@
             "text": "over 1 jaar controle",
             "annotations": []
         },
-     {
+        {
             "id": 9,
             "text": "klachten begonnen 1,5 jaar geleden",
             "annotations": []
@@ -86,7 +86,7 @@
                     "text": "2.5",
                     "start_char": 0,
                     "end_char": 3,
-                    "tag": "leeftijd"
+                    "tag": "age"
                 }
             ]
         },
@@ -98,7 +98,7 @@
                     "text": "3-4",
                     "start_char": 9,
                     "end_char": 12,
-                    "tag": "leeftijd"
+                    "tag": "age"
                 }
             ]
         },
@@ -110,7 +110,7 @@
                     "text": "6,5",
                     "start_char": 11,
                     "end_char": 14,
-                    "tag": "leeftijd"
+                    "tag": "age"
                 }
             ]
         },
@@ -122,7 +122,7 @@
                     "text": "12,5",
                     "start_char": 3,
                     "end_char": 7,
-                    "tag": "leeftijd"
+                    "tag": "age"
                 }
             ]
         },
@@ -134,7 +134,7 @@
                     "text": "11-12,5",
                     "start_char": 7,
                     "end_char": 14,
-                    "tag": "leeftijd"
+                    "tag": "age"
                 }
             ]
         },

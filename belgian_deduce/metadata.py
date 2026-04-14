@@ -29,7 +29,7 @@ class MetadataEntity:
 
     Args:
         text: The primary value to match.
-        tag: The tag that should be emitted, e.g. ``persoon`` or ``locatie``.
+        tag: The tag that should be emitted, e.g. ``person`` or ``location``.
         variants: Optional textual variants that should map to the same tag.
     """
 
@@ -103,7 +103,7 @@ class Address:
             texts.append(self.postal_code)
 
         return [
-            MetadataEntity(text=text, tag="locatie")
+            MetadataEntity(text=text, tag="location")
             for text in _dedupe_keep_order(texts)
         ]
 
@@ -217,7 +217,7 @@ class Person:
             entities.append(
                 MetadataEntity(
                     text=date_variants[0],
-                    tag="datum",
+                    tag="date",
                     variants=date_variants[1:],
                 )
             )

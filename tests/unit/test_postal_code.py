@@ -37,9 +37,9 @@ class TestPostalCodeLocalityFilter:
         text = "1000 Brussel"
         annotations = dd.AnnotationSet(
             [
-                dd.Annotation(text="1000", start_char=0, end_char=4, tag="locatie"),
+                dd.Annotation(text="1000", start_char=0, end_char=4, tag="location"),
                 dd.Annotation(
-                    text="Brussel", start_char=5, end_char=12, tag="locatie"
+                    text="Brussel", start_char=5, end_char=12, tag="location"
                 ),
             ]
         )
@@ -51,9 +51,9 @@ class TestPostalCodeLocalityFilter:
         text = "Brussel 1000"
         annotations = dd.AnnotationSet(
             [
-                dd.Annotation(text="1000", start_char=8, end_char=12, tag="locatie"),
+                dd.Annotation(text="1000", start_char=8, end_char=12, tag="location"),
                 dd.Annotation(
-                    text="Brussel", start_char=0, end_char=7, tag="locatie"
+                    text="Brussel", start_char=0, end_char=7, tag="location"
                 ),
             ]
         )
@@ -64,7 +64,7 @@ class TestPostalCodeLocalityFilter:
         proc = self._build_filter()
         text = "1000"
         annotations = dd.AnnotationSet(
-            [dd.Annotation(text="1000", start_char=0, end_char=4, tag="locatie")]
+            [dd.Annotation(text="1000", start_char=0, end_char=4, tag="location")]
         )
 
         assert proc.process_annotations(annotations, text) == dd.AnnotationSet()
@@ -74,13 +74,13 @@ class TestPostalCodeLocalityFilter:
         text = "8500 Gent"
         annotations = dd.AnnotationSet(
             [
-                dd.Annotation(text="8500", start_char=0, end_char=4, tag="locatie"),
-                dd.Annotation(text="Gent", start_char=5, end_char=9, tag="locatie"),
+                dd.Annotation(text="8500", start_char=0, end_char=4, tag="location"),
+                dd.Annotation(text="Gent", start_char=5, end_char=9, tag="location"),
             ]
         )
 
         assert proc.process_annotations(annotations, text) == dd.AnnotationSet(
-            [dd.Annotation(text="Gent", start_char=5, end_char=9, tag="locatie")]
+            [dd.Annotation(text="Gent", start_char=5, end_char=9, tag="location")]
         )
 
     def test_keeps_prefixed_postcode(self):
@@ -88,9 +88,9 @@ class TestPostalCodeLocalityFilter:
         text = "B-1000 Brussel"
         annotations = dd.AnnotationSet(
             [
-                dd.Annotation(text="B-1000", start_char=0, end_char=6, tag="locatie"),
+                dd.Annotation(text="B-1000", start_char=0, end_char=6, tag="location"),
                 dd.Annotation(
-                    text="Brussel", start_char=7, end_char=14, tag="locatie"
+                    text="Brussel", start_char=7, end_char=14, tag="location"
                 ),
             ]
         )
@@ -106,7 +106,7 @@ class TestPostalCodeLocalityFilter:
                     text="Heidelberglaan 1111",
                     start_char=0,
                     end_char=19,
-                    tag="locatie",
+                    tag="location",
                 )
             ]
         )

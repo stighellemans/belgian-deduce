@@ -31,8 +31,8 @@ _DIRECTION_MAP = {
 _PERSON_METADATA_KEYS = (
     ("patient", "patient"),
     ("patients", "patient"),
-    ("persons", "persoon"),
-    ("people", "persoon"),
+    ("persons", "person"),
+    ("people", "person"),
 )
 
 
@@ -545,12 +545,12 @@ class PatientNameAnnotator(dd.process.Annotator):
                     [
                         (
                             self._match_first_names,
-                            f"voornaam_{prepared_person.tag}",
+                            f"first_name_{prepared_person.tag}",
                             False,
                         ),
                         (
                             self._match_initial_from_name,
-                            f"initiaal_{prepared_person.tag}",
+                            f"initial_{prepared_person.tag}",
                             False,
                         ),
                     ]
@@ -558,12 +558,12 @@ class PatientNameAnnotator(dd.process.Annotator):
 
             if prepared_person.person.initials is not None:
                 matchers.append(
-                    (self._match_initials, f"initiaal_{prepared_person.tag}", False)
+                    (self._match_initials, f"initial_{prepared_person.tag}", False)
                 )
 
             if prepared_person.surname_pattern is not None:
                 matchers.append(
-                    (self._match_surname, f"achternaam_{prepared_person.tag}", True)
+                    (self._match_surname, f"last_name_{prepared_person.tag}", True)
                 )
 
             matchers_by_person.append((prepared_person, matchers))

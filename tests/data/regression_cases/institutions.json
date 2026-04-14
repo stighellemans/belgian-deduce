@@ -8,13 +8,13 @@
                     "text": "UZ Leuven",
                     "start_char": 0,
                     "end_char": 9,
-                    "tag": "ziekenhuis"
+                    "tag": "hospital"
                 },
                 {
                     "text": "UZ Leuven",
                     "start_char": 0,
                     "end_char": 9,
-                    "tag": "zorginstelling"
+                    "tag": "healthcare_institution"
                 }
             ]
         },
@@ -26,7 +26,7 @@
                     "text": "Universitair Ziekenhuis Brussel",
                     "start_char": 0,
                     "end_char": 31,
-                    "tag": "ziekenhuis"
+                    "tag": "hospital"
                 }
             ]
         },
@@ -38,13 +38,13 @@
                     "text": "Universitair Ziekenhuis Gent",
                     "start_char": 0,
                     "end_char": 28,
-                    "tag": "ziekenhuis"
+                    "tag": "hospital"
                 },
                 {
                     "text": "Universitair Ziekenhuis Gent",
                     "start_char": 0,
                     "end_char": 28,
-                    "tag": "zorginstelling"
+                    "tag": "healthcare_institution"
                 }
             ]
         },
@@ -56,13 +56,13 @@
                     "text": "AZ SINT-JAN",
                     "start_char": 0,
                     "end_char": 11,
-                    "tag": "ziekenhuis"
+                    "tag": "hospital"
                 },
                 {
                     "text": "AZ SINT-JAN",
                     "start_char": 0,
                     "end_char": 11,
-                    "tag": "zorginstelling"
+                    "tag": "healthcare_institution"
                 }
             ]
         },
@@ -79,7 +79,7 @@
                     "text": "Zorgcentrum na Seksueel Geweld - Gent",
                     "start_char": 0,
                     "end_char": 37,
-                    "tag": "zorginstelling"
+                    "tag": "healthcare_institution"
                 }
             ]
         }

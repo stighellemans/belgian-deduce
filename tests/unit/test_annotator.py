@@ -302,7 +302,7 @@ class TestContextAnnotator:
                     text="Andries",
                     start_char=12,
                     end_char=19,
-                    tag="voornaam",
+                    tag="first_name",
                     start_token=pattern_doc.get_tokens()[3],
                     end_token=pattern_doc.get_tokens()[3],
                 )
@@ -315,8 +315,8 @@ class TestContextAnnotator:
             {
                 "pattern": [{"like_name": True}],
                 "direction": "right",
-                "pre_tag": "voornaam",
-                "tag": "{tag}+naam",
+                "pre_tag": "first_name",
+                "tag": "{tag}+name",
             },
         ) == dd.AnnotationSet(
             [
@@ -324,7 +324,7 @@ class TestContextAnnotator:
                     text="Andries Meijer",
                     start_char=12,
                     end_char=26,
-                    tag="voornaam+naam",
+                    tag="first_name+name",
                 )
             ]
         )
@@ -338,7 +338,7 @@ class TestContextAnnotator:
                     text="Meijer",
                     start_char=20,
                     end_char=26,
-                    tag="achternaam",
+                    tag="last_name",
                     start_token=pattern_doc.get_tokens()[4],
                     end_token=pattern_doc.get_tokens()[4],
                 )
@@ -351,8 +351,8 @@ class TestContextAnnotator:
             {
                 "pattern": [{"like_name": True}],
                 "direction": "left",
-                "pre_tag": "achternaam",
-                "tag": "naam+{tag}",
+                "pre_tag": "last_name",
+                "tag": "name+{tag}",
             },
         ) == dd.AnnotationSet(
             [
@@ -360,7 +360,7 @@ class TestContextAnnotator:
                     text="Andries Meijer",
                     start_char=12,
                     end_char=26,
-                    tag="naam+achternaam",
+                    tag="name+last_name",
                 )
             ]
         )
@@ -374,7 +374,7 @@ class TestContextAnnotator:
                     text="Meijer",
                     start_char=20,
                     end_char=26,
-                    tag="achternaam",
+                    tag="last_name",
                     start_token=pattern_doc.get_tokens()[4],
                     end_token=pattern_doc.get_tokens()[4],
                 )
@@ -388,8 +388,8 @@ class TestContextAnnotator:
                 "pattern": [{"like_name": True}],
                 "direction": "right",
                 "skip": ["-"],
-                "pre_tag": "achternaam",
-                "tag": "{tag}+naam",
+                "pre_tag": "last_name",
+                "tag": "{tag}+name",
             },
         ) == dd.AnnotationSet(
             [
@@ -397,7 +397,7 @@ class TestContextAnnotator:
                     text="Meijer-Heerma",
                     start_char=20,
                     end_char=33,
-                    tag="achternaam+naam",
+                    tag="last_name+name",
                 )
             ]
         )
@@ -407,15 +407,15 @@ class TestContextAnnotator:
             {
                 "pattern": [{"like_name": True}],
                 "direction": "right",
-                "pre_tag": "voornaam",
-                "tag": "{tag}+naam",
+                "pre_tag": "first_name",
+                "tag": "{tag}+name",
             },
             {
                 "pattern": [{"like_name": True}],
                 "direction": "right",
                 "skip": ["-"],
-                "pre_tag": "achternaam",
-                "tag": "{tag}+naam",
+                "pre_tag": "last_name",
+                "tag": "{tag}+name",
             },
         ]
 
@@ -427,7 +427,7 @@ class TestContextAnnotator:
                     text="Andries",
                     start_char=12,
                     end_char=19,
-                    tag="voornaam",
+                    tag="first_name",
                     start_token=pattern_doc.get_tokens()[3],
                     end_token=pattern_doc.get_tokens()[3],
                 )
@@ -440,7 +440,7 @@ class TestContextAnnotator:
                     text="Andries Meijer-Heerma",
                     start_char=12,
                     end_char=33,
-                    tag="voornaam+naam+naam",
+                    tag="first_name+name+name",
                 )
             }
         )
@@ -451,8 +451,8 @@ class TestContextAnnotator:
                 "pattern": [{"like_name": True}],
                 "direction": "right",
                 "skip": ["-"],
-                "pre_tag": ["naam", "voornaam"],
-                "tag": "{tag}+naam",
+                "pre_tag": ["name", "first_name"],
+                "tag": "{tag}+name",
             }
         ]
 
@@ -464,7 +464,7 @@ class TestContextAnnotator:
                     text="Andries",
                     start_char=12,
                     end_char=19,
-                    tag="voornaam",
+                    tag="first_name",
                     start_token=pattern_doc.get_tokens()[3],
                     end_token=pattern_doc.get_tokens()[3],
                 )
@@ -477,7 +477,7 @@ class TestContextAnnotator:
                     text="Andries Meijer-Heerma",
                     start_char=12,
                     end_char=33,
-                    tag="voornaam+naam+naam",
+                    tag="first_name+name+name",
                 )
             }
         )
@@ -638,7 +638,7 @@ class TestPatientNameAnnotator:
                 text="Jan",
                 start_char=16,
                 end_char=19,
-                tag="voornaam_patient",
+                tag="first_name_patient",
             )
         ]
 
@@ -665,7 +665,7 @@ class TestPatientNameAnnotator:
                 text="JJ",
                 start_char=16,
                 end_char=18,
-                tag="initiaal_patient",
+                tag="initial_patient",
             )
         ]
 
@@ -692,7 +692,7 @@ class TestPatientNameAnnotator:
                 text="J.",
                 start_char=16,
                 end_char=18,
-                tag="initiaal_patient",
+                tag="initial_patient",
             )
         ]
 
@@ -719,7 +719,7 @@ class TestPatientNameAnnotator:
                 text="Jansen",
                 start_char=16,
                 end_char=22,
-                tag="achternaam_patient",
+                tag="last_name_patient",
             )
         ]
 
@@ -739,13 +739,13 @@ class TestPatientNameAnnotator:
                 text="Peter",
                 start_char=13,
                 end_char=18,
-                tag="voornaam_persoon",
+                tag="first_name_person",
             ),
             dd.Annotation(
                 text="de Visser",
                 start_char=19,
                 end_char=28,
-                tag="achternaam_persoon",
+                tag="last_name_person",
             ),
         ]
 
@@ -765,7 +765,7 @@ class TestMetadataEntityAnnotator:
                     )
                 ],
             ),
-            "entities": [MetadataEntity(text="UZ Gent", tag="ziekenhuis")],
+            "entities": [MetadataEntity(text="UZ Gent", tag="hospital")],
         }
         text = (
             "Jan Jansen-de Smet is geboren op 12 maart 1980 en woont op "
@@ -790,21 +790,79 @@ class TestMetadataEntityAnnotator:
             text="12 maart 1980",
             start_char=33,
             end_char=46,
-            tag="datum",
+            tag="date",
             priority=2,
         ) in annotations
         assert dd.Annotation(
             text="Kerkstraat 12A, 9000 Gent",
             start_char=59,
             end_char=84,
-            tag="locatie",
+            tag="location",
             priority=2,
         ) in annotations
         assert dd.Annotation(
             text="UZ Gent",
             start_char=98,
             end_char=105,
-            tag="ziekenhuis",
+            tag="hospital",
+            priority=2,
+        ) in annotations
+
+    def test_annotate_french_birth_date_and_address(self, tokenizer):
+        metadata = {
+            "patient": Person(
+                aliases=["Jean Dupont"],
+                birth_date=date(1980, 3, 12),
+                addresses=[
+                    Address(
+                        street="Rue de la Loi",
+                        house_number="12",
+                        postal_code="1000",
+                        city="Bruxelles",
+                    )
+                ],
+            ),
+            "entities": [MetadataEntity(text="Hôpital Erasme", tag="hospital")],
+        }
+        text = (
+            "Jean Dupont est né le 12 mars 1980 et habite Rue de la Loi 12, 1000 "
+            "Bruxelles. Contrôle à Hôpital Erasme."
+        )
+        tokens = tokenizer.tokenize(text)
+
+        ann = MetadataEntityAnnotator(tokenizer=tokenizer, tag="_", priority=2)
+        doc = dd.Document(text=text, metadata=metadata)
+
+        with patch.object(doc, "get_tokens", return_value=tokens):
+            annotations = ann.annotate(doc)
+
+        assert dd.Annotation(
+            text="Jean Dupont",
+            start_char=text.index("Jean Dupont"),
+            end_char=text.index("Jean Dupont") + len("Jean Dupont"),
+            tag="patient",
+            priority=2,
+        ) in annotations
+        assert dd.Annotation(
+            text="12 mars 1980",
+            start_char=text.index("12 mars 1980"),
+            end_char=text.index("12 mars 1980") + len("12 mars 1980"),
+            tag="date",
+            priority=2,
+        ) in annotations
+        assert dd.Annotation(
+            text="Rue de la Loi 12, 1000 Bruxelles",
+            start_char=text.index("Rue de la Loi 12, 1000 Bruxelles"),
+            end_char=text.index("Rue de la Loi 12, 1000 Bruxelles")
+            + len("Rue de la Loi 12, 1000 Bruxelles"),
+            tag="location",
+            priority=2,
+        ) in annotations
+        assert dd.Annotation(
+            text="Hôpital Erasme",
+            start_char=text.index("Hôpital Erasme"),
+            end_char=text.index("Hôpital Erasme") + len("Hôpital Erasme"),
+            tag="hospital",
             priority=2,
         ) in annotations
 

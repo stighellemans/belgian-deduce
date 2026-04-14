@@ -25,7 +25,7 @@
                     "text": "85.07.30-033.28",
                     "start_char": 0,
                     "end_char": 15,
-                    "tag": "rijksregisternummer"
+                    "tag": "national_register_number"
                 }
             ]
         },
@@ -37,7 +37,7 @@
                     "text": "85073003328",
                     "start_char": 0,
                     "end_char": 11,
-                    "tag": "rijksregisternummer"
+                    "tag": "national_register_number"
                 },
                 {
                     "text": "85073003328",
@@ -55,7 +55,7 @@
                     "text": "00.01.01-001.05",
                     "start_char": 0,
                     "end_char": 15,
-                    "tag": "rijksregisternummer"
+                    "tag": "national_register_number"
                 }
             ]
         },
@@ -79,7 +79,7 @@
                     "text": "85073003328",
                     "start_char": 21,
                     "end_char": 32,
-                    "tag": "rijksregisternummer"
+                    "tag": "national_register_number"
                 },
                 {
                     "text": "85073003328",

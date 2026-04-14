@@ -8,7 +8,7 @@
                     "text": "(02) 555 12 12",
                     "start_char": 0,
                     "end_char": 14,
-                    "tag": "telefoonnummer"
+                    "tag": "phone_number"
                 }
             ]
         },
@@ -20,7 +20,7 @@
                     "text": "016 55 55 55",
                     "start_char": 0,
                     "end_char": 12,
-                    "tag": "telefoonnummer"
+                    "tag": "phone_number"
                 }
             ]
         },
@@ -32,7 +32,7 @@
                     "text": "0470 12 34 56",
                     "start_char": 0,
                     "end_char": 13,
-                    "tag": "telefoonnummer"
+                    "tag": "phone_number"
                 }
             ]
         },
@@ -44,7 +44,7 @@
                     "text": "0470-12-34-56",
                     "start_char": 0,
                     "end_char": 13,
-                    "tag": "telefoonnummer"
+                    "tag": "phone_number"
                 }
             ]
         },
@@ -56,7 +56,7 @@
                     "text": "+32470123456",
                     "start_char": 0,
                     "end_char": 12,
-                    "tag": "telefoonnummer"
+                    "tag": "phone_number"
                 }
             ]
         },
@@ -68,7 +68,7 @@
                     "text": "0032470123456",
                     "start_char": 0,
                     "end_char": 13,
-                    "tag": "telefoonnummer"
+                    "tag": "phone_number"
                 }
             ]
         },
@@ -80,7 +80,7 @@
                     "text": "0800 12 345",
                     "start_char": 0,
                     "end_char": 11,
-                    "tag": "telefoonnummer"
+                    "tag": "phone_number"
                 }
             ]
         },
@@ -92,7 +92,7 @@
                     "text": "0900 12 345",
                     "start_char": 0,
                     "end_char": 11,
-                    "tag": "telefoonnummer"
+                    "tag": "phone_number"
                 }
             ]
         },

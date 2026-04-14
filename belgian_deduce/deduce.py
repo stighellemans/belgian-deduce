@@ -245,15 +245,15 @@ class _DeduceProcessorLoader:  # pylint: disable=R0903
         extras: dict,
     ) -> None:
         location_group.add_processor(
-            "remove_street_tags", RemoveAnnotations(tags=["straat"])
+            "remove_street_tags", RemoveAnnotations(tags=["street"])
         )
 
         location_group.add_processor(
             "clean_street_tags",
             CleanAnnotationTag(
                 tag_map={
-                    "straat+huisnummer": "locatie",
-                    "straat+huisnummer+huisnummerletter": "locatie",
+                    "street+house_number": "location",
+                    "street+house_number+house_number_letter": "location",
                 }
             ),
         )
