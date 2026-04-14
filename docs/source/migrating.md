@@ -24,7 +24,7 @@ New:
 
 ```python
 from belgian_deduce import Deduce
-from belgian_deduce.person import Person
+from belgian_deduce.metadata import Person
 ```
 
 ## Config Class Paths

@@ -16,7 +16,7 @@ from belgian_deduce.annotator import (
     TokenPatternAnnotator,
     _PatternPositionMatcher,
 )
-from belgian_deduce.person import Address, MetadataEntity, Person
+from belgian_deduce.metadata import Address, MetadataEntity, Person
 from belgian_deduce.tokenizer import DeduceTokenizer
 from tests.helpers import linked_tokens
 

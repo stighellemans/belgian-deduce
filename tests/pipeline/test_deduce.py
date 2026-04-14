@@ -2,7 +2,7 @@ from datetime import date
 
 import docdeid as dd
 
-from belgian_deduce.person import Address, MetadataEntity, Person
+from belgian_deduce.metadata import Address, MetadataEntity, Person
 
 text = (
     "betreft: Jan Janssens, rijksregisternummer 85.07.30-033.28, patnr 000334433. De "
