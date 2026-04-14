@@ -1,8 +1,16 @@
 """Contains components for processing AnnotationSet."""
 
+import re
+
 import docdeid as dd
 from docdeid import AnnotationSet
 from frozendict import frozendict
+
+from belgian_deduce.postal_code import (
+    build_postcode_locality_map,
+    normalize_locality_for_match,
+    normalize_postal_code,
+)
 
 
 class DeduceMergeAdjacentAnnotations(dd.process.MergeAdjacentAnnotations):
@@ -141,3 +149,55 @@ class CleanAnnotationTag(dd.process.AnnotationProcessor):
                 new_annotations.add(annotation)
 
         return new_annotations
+
+
+class PostalCodeLocalityFilter(dd.process.AnnotationProcessor):
+    """Keep postcode location annotations only when adjacent to a matching locality."""
+
+    def __init__(self, postal_code_locality_rows: dd.ds.LookupSet, slack_regexp: str):
+        self._postcode_locality_map = build_postcode_locality_map(
+            postal_code_locality_rows.items()
+        )
+        self._slack_regexp = re.compile(f"^(?:{slack_regexp})$")
+
+    def _is_adjacent(self, left: dd.Annotation, right: dd.Annotation, text: str) -> bool:
+        if left.end_char > right.start_char:
+            return False
+
+        gap = text[left.end_char : right.start_char]
+        return self._slack_regexp.fullmatch(gap) is not None
+
+    def _has_matching_locality(
+        self, postal_annotation: dd.Annotation, annotations: AnnotationSet, text: str
+    ) -> bool:
+        postal_code = normalize_postal_code(postal_annotation.text)
+        if postal_code is None:
+            return True
+
+        allowed_localities = self._postcode_locality_map.get(postal_code, set())
+        if len(allowed_localities) == 0:
+            return False
+
+        for annotation in annotations:
+            if annotation == postal_annotation or annotation.tag != "locatie":
+                continue
+
+            if (
+                self._is_adjacent(annotation, postal_annotation, text)
+                or self._is_adjacent(postal_annotation, annotation, text)
+            ) and (
+                normalize_locality_for_match(annotation.text) in allowed_localities
+            ):
+                return True
+
+        return False
+
+    def process_annotations(
+        self, annotations: AnnotationSet, text: str
+    ) -> AnnotationSet:
+        return AnnotationSet(
+            annotation
+            for annotation in annotations
+            if normalize_postal_code(annotation.text) is None
+            or self._has_matching_locality(annotation, annotations, text)
+        )

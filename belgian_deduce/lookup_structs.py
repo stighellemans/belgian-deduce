@@ -117,22 +117,24 @@ def load_raw_itemsets(base_path: Path, subdirs: list[str]) -> dict[str, set[str]
 
 
 def validate_lookup_struct_cache(
-    cache: dict, base_path: Path, deduce_version: str
+    cache: dict, base_path: Path, package_version: str
 ) -> bool:
     """
     Validates lookup structure data loaded from cache. Invalidates when changes in
-    source are detected, or when deduce version doesn't match.
+    source are detected, or when package version doesn't match.
 
     Args:
         cache: The data loaded from the pickled cache.
         base_path: The base path to check for changed files.
-        deduce_version: The current deduce version.
+        package_version: The current package version.
 
     Returns:
         True when the lookup structure data is valid, False otherwise.
     """
 
-    if cache["deduce_version"] != deduce_version:
+    cached_version = cache.get("package_version", cache.get("deduce_version"))
+
+    if cached_version != package_version:
         return False
 
     src_path = base_path / _SRC_SUBDIR
@@ -147,7 +149,7 @@ def validate_lookup_struct_cache(
 
 
 def load_lookup_structs_from_cache(
-    cache_path: Path, deduce_version: str
+    cache_path: Path, package_version: str
 ) -> Optional[dd.ds.DsCollection]:
     """
     Loads lookup struct data from cache. Returns None when no cache is present, or when
@@ -155,7 +157,7 @@ def load_lookup_structs_from_cache(
 
     Args:
         cache_base_path: The base path where to look for the cache.
-        deduce_version: The current deduce version, used to validate.
+        package_version: The current package version, used to validate.
 
     Returns:
         A DsCollection if present and valid, None otherwise.
@@ -170,7 +172,7 @@ def load_lookup_structs_from_cache(
         return None
 
     if validate_lookup_struct_cache(
-        cache=cache, base_path=cache_path, deduce_version=deduce_version
+        cache=cache, base_path=cache_path, package_version=package_version
     ):
         return cache["lookup_structs"]
 
@@ -178,7 +180,7 @@ def load_lookup_structs_from_cache(
 
 
 def cache_lookup_structs(
-    lookup_structs: dd.ds.DsCollection, cache_path: Path, deduce_version: str
+    lookup_structs: dd.ds.DsCollection, cache_path: Path, package_version: str
 ) -> None:
     """
     Saves lookup structs to cache, along with some metadata.
@@ -186,14 +188,15 @@ def cache_lookup_structs(
     Args:
         lookup_structs: The lookup structures to cache.
         cache_base_path: The base path for lookup structures.
-        deduce_version: The current deduce version.
+        package_version: The current package version.
     """
 
     cache_path = cache_path / _CACHE_SUBDIR
     cache_file = cache_path / _CACHE_FILE
 
     cache = {
-        "deduce_version": deduce_version,
+        "package_version": package_version,
+        "deduce_version": package_version,
         "saved_datetime": str(datetime.now()),
         "lookup_structs": lookup_structs,
     }
@@ -209,7 +212,7 @@ def get_lookup_structs(  # pylint: disable=R0913, R0917
     lookup_path: Path,
     cache_path: Path,
     tokenizer: Tokenizer,
-    deduce_version: str,
+    package_version: str,
     build: bool = False,
     save_cache: bool = True,
 ) -> dd.ds.DsCollection:
@@ -219,7 +222,7 @@ def get_lookup_structs(  # pylint: disable=R0913, R0917
         lookup_path: The base path for lookup sets.
         case_base_path: The base path for the cache.
         tokenizer: The tokenizer, used to create sequences for LookupTrie
-        deduce_version: The current deduce version, used to validate cache.
+        package_version: The current package version, used to validate cache.
         build: Whether to do a full build, even when cache is present and valid.
         save_cache: Whether to save to cache. Only used after building.
 
@@ -229,7 +232,7 @@ def get_lookup_structs(  # pylint: disable=R0913, R0917
 
     if not build:
         lookup_structs = load_lookup_structs_from_cache(
-            cache_path=cache_path, deduce_version=deduce_version
+            cache_path=cache_path, package_version=package_version
         )
 
         if lookup_structs is not None:
@@ -267,7 +270,7 @@ def get_lookup_structs(  # pylint: disable=R0913, R0917
         cache_lookup_structs(
             lookup_structs=lookup_structs,
             cache_path=cache_path,
-            deduce_version=deduce_version,
+            package_version=package_version,
         )
 
     return lookup_structs

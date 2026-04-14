@@ -19,149 +19,84 @@
         },
         {
             "id": 2,
-            "text": "12345678",
+            "text": "85.07.30-033.28",
             "annotations": [
                 {
-                    "text": "12345678",
+                    "text": "85.07.30-033.28",
                     "start_char": 0,
-                    "end_char": 8,
-                    "tag": "id"
+                    "end_char": 15,
+                    "tag": "rijksregisternummer"
                 }
             ]
         },
         {
             "id": 3,
-            "text": "99999999999999",
+            "text": "85073003328",
             "annotations": [
                 {
-                    "text": "99999999999999",
+                    "text": "85073003328",
                     "start_char": 0,
-                    "end_char": 14,
+                    "end_char": 11,
+                    "tag": "rijksregisternummer"
+                },
+                {
+                    "text": "85073003328",
+                    "start_char": 0,
+                    "end_char": 11,
                     "tag": "id"
                 }
             ]
         },
         {
             "id": 4,
-            "text": "99999 99999",
-            "annotations": []
+            "text": "00.01.01-001.05",
+            "annotations": [
+                {
+                    "text": "00.01.01-001.05",
+                    "start_char": 0,
+                    "end_char": 15,
+                    "tag": "rijksregisternummer"
+                }
+            ]
         },
         {
             "id": 5,
-            "text": "Serienummer: 1234567",
+            "text": "85073003329",
             "annotations": [
                 {
-                    "text": "1234567",
-                    "start_char": 13,
-                    "end_char": 20,
+                    "text": "85073003329",
+                    "start_char": 0,
+                    "end_char": 11,
                     "tag": "id"
                 }
             ]
         },
         {
             "id": 6,
-            "text": "(134258395)",
+            "text": "Rijksregisternummer: 85073003328",
             "annotations": [
                 {
-                    "text": "134258395",
-                    "start_char": 1,
-                    "end_char": 10,
+                    "text": "85073003328",
+                    "start_char": 21,
+                    "end_char": 32,
+                    "tag": "rijksregisternummer"
+                },
+                {
+                    "text": "85073003328",
+                    "start_char": 21,
+                    "end_char": 32,
                     "tag": "id"
                 }
             ]
         },
         {
             "id": 7,
-            "text": "345934583495 patnr",
+            "text": "Ander id 01234567890",
             "annotations": [
                 {
-                    "text": "345934583495",
-                    "start_char": 0,
-                    "end_char": 12,
-                    "tag": "id"
-                }
-            ]
-        },
-        {
-            "id": 8,
-            "text": "111222333 (bsn)",
-            "annotations": [
-                {
-                    "text": "111222333",
-                    "start_char": 0,
-                    "end_char": 9,
-                    "tag": "bsn"
-                },
-                {
-                    "text": "111222333",
-                    "start_char": 0,
-                    "end_char": 9,
-                    "tag": "id"
-                }
-            ]
-        },
-        {
-            "id": 9,
-            "text": "bsn: 111222334",
-            "annotations": [
-                {
-                    "text": "111222334",
-                    "start_char": 5,
-                    "end_char": 14,
-                    "tag": "id"
-                }
-            ]
-        },
-        {
-            "id": 10,
-            "text": "123456782",
-            "annotations": [
-                {
-                    "text": "123456782",
-                    "start_char": 0,
-                    "end_char": 9,
-                    "tag": "bsn"
-                },
-                {
-                    "text": "123456782",
-                    "start_char": 0,
-                    "end_char": 9,
-                    "tag": "id"
-                }
-            ]
-        },
-        {
-            "id": 11,
-            "text": "123456783",
-            "annotations": [
-                {
-                    "text": "123456783",
-                    "start_char": 0,
-                    "end_char": 9,
-                    "tag": "id"
-                }
-            ]
-        },
-        {
-            "id": 12,
-            "text": "111111111",
-            "annotations": [
-                {
-                    "text": "111111111",
-                    "start_char": 0,
-                    "end_char": 9,
-                    "tag": "id"
-                }
-            ]
-        },
-        {
-            "id": 13,
-            "text": "11122233",
-            "annotations": [
-                {
-                    "text": "11122233",
-                    "start_char": 0,
-                    "end_char": 8,
+                    "text": "01234567890",
+                    "start_char": 9,
+                    "end_char": 20,
                     "tag": "id"
                 }
             ]

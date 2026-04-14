@@ -44,7 +44,7 @@ class TestLookupStruct:
 
     def test_validate_lookup_struct_cache_valid(self):
         cache = {
-            "deduce_version": "2.5.0",
+            "package_version": "2.5.0",
             "saved_datetime": "2023-12-06 10:19:39.198133",
             "lookup_structs": "_",
         }
@@ -55,12 +55,12 @@ class TestLookupStruct:
         with patch("pathlib.Path.glob", return_value=[1, 2, 3]):
             with patch("os.stat", return_value=MockStats()):
                 assert validate_lookup_struct_cache(
-                    cache=cache, base_path=DATA_PATH, deduce_version="2.5.0"
+                    cache=cache, base_path=DATA_PATH, package_version="2.5.0"
                 )
 
     def test_validate_lookup_struct_cache_file_changes(self):
         cache = {
-            "deduce_version": "2.5.0",
+            "package_version": "2.5.0",
             "saved_datetime": "2023-12-06 10:19:39.198133",
             "lookup_structs": "_",
         }
@@ -71,31 +71,40 @@ class TestLookupStruct:
         with patch("pathlib.Path.glob", return_value=[1, 2, 3]):
             with patch("os.stat", return_value=MockStats()):
                 assert not validate_lookup_struct_cache(
-                    cache=cache, base_path=DATA_PATH, deduce_version="2.5.0"
+                    cache=cache, base_path=DATA_PATH, package_version="2.5.0"
                 )
 
-    @patch("deduce.lookup_structs.validate_lookup_struct_cache", return_value=True)
+    @patch(
+        "belgian_deduce.lookup_structs.validate_lookup_struct_cache",
+        return_value=True,
+    )
     def test_load_lookup_structs_from_cache(self, _):
         ds_collection = load_lookup_structs_from_cache(
-            cache_path=DATA_PATH, deduce_version="_"
+            cache_path=DATA_PATH, package_version="_"
         )
 
         assert len(ds_collection) == 2
         assert "test" in ds_collection
         assert "test_nested" in ds_collection
 
-    @patch("deduce.lookup_structs.validate_lookup_struct_cache", return_value=True)
+    @patch(
+        "belgian_deduce.lookup_structs.validate_lookup_struct_cache",
+        return_value=True,
+    )
     def test_load_lookup_structs_from_cache_nofile(self, _):
         ds_collection = load_lookup_structs_from_cache(
-            cache_path=DATA_PATH / "non_existing_dir", deduce_version="_"
+            cache_path=DATA_PATH / "non_existing_dir", package_version="_"
         )
 
         assert ds_collection is None
 
-    @patch("deduce.lookup_structs.validate_lookup_struct_cache", return_value=False)
+    @patch(
+        "belgian_deduce.lookup_structs.validate_lookup_struct_cache",
+        return_value=False,
+    )
     def test_load_lookup_structs_from_cache_invalid(self, _):
         ds_collection = load_lookup_structs_from_cache(
-            cache_path=DATA_PATH, deduce_version="_"
+            cache_path=DATA_PATH, package_version="_"
         )
 
         assert ds_collection is None
@@ -106,7 +115,7 @@ class TestLookupStruct:
         cache_lookup_structs(
             lookup_structs=dd.ds.DsCollection(),
             cache_path=DATA_PATH,
-            deduce_version="2.5.0",
+            package_version="2.5.0",
         )
 
         mock_pickle_dump.assert_called_once()

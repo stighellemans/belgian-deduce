@@ -1,8 +1,7 @@
-# Deduce documentation
+# Belgian Deduce Documentation
 
-Welcome to the documentation pages for `deduce`, the rule-based de-identification method for Dutch clinical text.
-
-Please use the nagivation bar to the left to find the information you are looking for.
+Welcome to the documentation for `belgian_deduce`, the standalone rule-based
+de-identification package for Belgian clinical text.
 
 ```{toctree}
 :caption: Documentation
@@ -10,7 +9,7 @@ Please use the nagivation bar to the left to find the information you are lookin
 
 Introduction <introduction>
 tutorial
-Migrating to version 2 <migrating>
+Migrating <migrating>
 links
 ```
 
@@ -20,14 +19,13 @@ links
 
 General index <genindex>
 Module index <modindex>
-
 ```
 
 ```{toctree}
 :caption: Development
 :hidden:
 
-API <api/deduce>
+API <api/belgian_deduce>
 changelog
 contributing
 license

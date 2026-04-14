@@ -5,10 +5,10 @@ format:
 
 lint:
 	python -m flake8 .
-	python -m pylint deduce/
+	python -m pylint belgian_deduce/
 
 build-docs:
-	sphinx-apidoc --module-first --force --templatedir=docs/templates -o docs/source/api deduce
+	sphinx-apidoc --module-first --force --templatedir=docs/templates -o docs/source/api belgian_deduce
 	sphinx-build docs/source docs/_build/html -c docs/
 	python docs/emojize.py docs/_build/html
 
@@ -19,4 +19,4 @@ clean:
 	rm -rf docs/_build
 	rm -rf docs/source/api
 
-.PHONY: format lint clean
+.PHONY: format lint build-docs clean

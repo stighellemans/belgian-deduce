@@ -3,6 +3,7 @@ all_lists = [
     "institutions/lst_hospital",
     "institutions/lst_hospital_abbr",
     "locations/lst_placename",
+    "locations/lst_postal_code_locality",
     "locations/lst_street",
     "names/lst_first_name",
     "names/lst_initial",

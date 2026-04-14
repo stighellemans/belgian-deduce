@@ -16,6 +16,7 @@ from belgian_deduce.annotation_processor import (
     CleanAnnotationTag,
     DeduceMergeAdjacentAnnotations,
     PersonAnnotationConverter,
+    PostalCodeLocalityFilter,
     RemoveAnnotations,
 )
 from belgian_deduce.lookup_struct_loader import load_interfix_lookup, load_prefix_lookup
@@ -43,7 +44,8 @@ class Deduce(dd.DocDeid):  # pylint: disable=R0903
 
     Args:
         load_base_config: Whether or not to load the base config that is packaged with
-            deduce. This loads some sensible defaults, although further customization
+            Belgian Deduce. This loads some sensible defaults, although further
+            customization
             is always recommended.
         config: A specific user config, either as a dict, or pointing to a `json` file.
             When `load_base_config` is set to `True`, only settings defined in `config`
@@ -52,7 +54,7 @@ class Deduce(dd.DocDeid):  # pylint: disable=R0903
             is applied.
         looup_data_path: The path to look for lookup data, by default included in
             the package. If you want to make changes to source files, it's recommended
-            to copy the source data and pointing deduce to this folder with this
+            to copy the source data and point Belgian Deduce to this folder with this
             argument.
         cache_path: The path to store cache files. This is used to store lookup
             structures, and is used to speed up loading times. By default, this is
@@ -83,7 +85,7 @@ class Deduce(dd.DocDeid):  # pylint: disable=R0903
             lookup_path=self.lookup_data_path,
             cache_path=self.cache_path,
             tokenizer=self.tokenizers["default"],
-            deduce_version=__version__,
+            package_version=__version__,
             build=build_lookup_structs,
         )
 
@@ -237,7 +239,11 @@ class _DeduceProcessorLoader:  # pylint: disable=R0903
         )
 
     @staticmethod
-    def _load_location_processors(location_group: dd.process.DocProcessorGroup) -> None:
+    def _load_location_processors(
+        location_group: dd.process.DocProcessorGroup,
+        config: frozendict,
+        extras: dict,
+    ) -> None:
         location_group.add_processor(
             "remove_street_tags", RemoveAnnotations(tags=["straat"])
         )
@@ -249,6 +255,14 @@ class _DeduceProcessorLoader:  # pylint: disable=R0903
                     "straat+huisnummer": "locatie",
                     "straat+huisnummer+huisnummerletter": "locatie",
                 }
+            ),
+        )
+
+        location_group.add_processor(
+            "postal_code_locality_filter",
+            PostalCodeLocalityFilter(
+                postal_code_locality_rows=extras["ds"]["postal_code_locality"],
+                slack_regexp=config["adjacent_annotations_slack"],
             ),
         )
 
@@ -315,7 +329,9 @@ class _DeduceProcessorLoader:  # pylint: disable=R0903
         self._load_location_processors(
             location_group=self._get_or_create_annotator_group(
                 group_name="locations", processors=processors
-            )
+            ),
+            config=config,
+            extras=extras,
         )
 
         post_group = dd.process.DocProcessorGroup()

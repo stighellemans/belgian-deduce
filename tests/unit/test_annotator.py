@@ -1,4 +1,5 @@
 import re
+from datetime import date
 from unittest.mock import patch
 
 import docdeid as dd
@@ -7,15 +8,23 @@ import pytest
 from belgian_deduce.annotator import (
     BsnAnnotator,
     ContextAnnotator,
+    MetadataEntityAnnotator,
+    NationalRegisterNumberAnnotator,
     PatientNameAnnotator,
     PhoneNumberAnnotator,
     RegexpPseudoAnnotator,
     TokenPatternAnnotator,
     _PatternPositionMatcher,
 )
-from belgian_deduce.person import Person
+from belgian_deduce.person import Address, MetadataEntity, Person
 from belgian_deduce.tokenizer import DeduceTokenizer
 from tests.helpers import linked_tokens
+
+BELGIAN_PHONE_REGEXP = (
+    r"(?<!\d)"
+    r"(?P<prefix>\(?(?:(?:0032|\+32|0))(?P<prefix_code>4\d{2}|800|90[0-9]|78|[1-9]\d|2|3|4|9)\)?)"
+    r"(?P<number>(?:[\s./-]?\d){4,8})(?!\d)"
+)
 
 
 @pytest.fixture
@@ -66,13 +75,21 @@ def bsn_doc():
 
 
 @pytest.fixture
+def national_register_doc():
+    d = dd.DocDeid()
+
+    return d.deidentify(
+        text="85.07.30-033.28 00.01.01-001.05 85.07.30-033.29 01234567890"
+    )
+
+
+@pytest.fixture
 def phone_number_doc():
     d = dd.DocDeid()
 
     return d.deidentify(
-        text="Telefoonnummers zijn 0314-555555, (088 755 55 55) of (06)55555555, "
-        "maar 065555 is te kort en 065555555555 is te lang. "
-        "Verwijsnummer is 0800-9003."
+        text="016 55 55 55 0470 12 34 56 +32470123456 0800 12 345 04701234 "
+        "047012345678"
     )
 
 
@@ -468,154 +485,135 @@ class TestContextAnnotator:
 
 class TestPatientNameAnnotator:
     def test_match_first_name_multiple(self, tokenizer):
-        metadata = {"patient": Person(first_names=["Jan", "Adriaan"])}
+        person = Person(first_names=["Jan", "Adriaan"])
         tokens = linked_tokens(["Jan", "Adriaan"])
         ann = PatientNameAnnotator(tokenizer=tokenizer, tag="_")
-        doc = dd.Document(text="_", metadata=metadata)
 
-        assert ann._match_first_names(doc=doc, token=tokens[0]) == (
+        assert ann._match_first_names(person=person, token=tokens[0]) == (
             tokens[0],
             tokens[0],
         )
 
-        assert ann._match_first_names(doc=doc, token=tokens[1]) == (
+        assert ann._match_first_names(person=person, token=tokens[1]) == (
             tokens[1],
             tokens[1],
         )
 
     def test_match_first_name_fuzzy(self, tokenizer):
-        metadata = {"patient": Person(first_names=["Adriaan"])}
+        person = Person(first_names=["Adriaan"])
         tokens = linked_tokens(["Adriana"])
 
         ann = PatientNameAnnotator(tokenizer=tokenizer, tag="_")
-        doc = dd.Document(text="_", metadata=metadata)
 
-        assert ann._match_first_names(doc=doc, token=tokens[0]) == (
+        assert ann._match_first_names(person=person, token=tokens[0]) == (
             tokens[0],
             tokens[0],
         )
 
     def test_match_first_name_fuzzy_short(self, tokenizer):
-        metadata = {"patient": Person(first_names=["Jan"])}
+        person = Person(first_names=["Jan"])
         tokens = linked_tokens(["Dan"])
 
         ann = PatientNameAnnotator(tokenizer=tokenizer, tag="_")
-        doc = dd.Document(text="_", metadata=metadata)
 
-        assert ann._match_first_names(doc=doc, token=tokens[0]) is None
+        assert ann._match_first_names(person=person, token=tokens[0]) is None
 
     def test_match_initial_from_name(self, tokenizer):
-        metadata = {"patient": Person(first_names=["Jan", "Adriaan"])}
+        person = Person(first_names=["Jan", "Adriaan"])
         tokens = linked_tokens(["A", "J"])
 
         ann = PatientNameAnnotator(tokenizer=tokenizer, tag="_")
-        doc = dd.Document(text="_", metadata=metadata)
 
-        assert ann._match_initial_from_name(doc=doc, token=tokens[0]) == (
+        assert ann._match_initial_from_name(person=person, token=tokens[0]) == (
             tokens[0],
             tokens[0],
         )
 
-        assert ann._match_initial_from_name(doc=doc, token=tokens[1]) == (
+        assert ann._match_initial_from_name(person=person, token=tokens[1]) == (
             tokens[1],
             tokens[1],
         )
 
     def test_match_initial_from_name_with_period(self, tokenizer):
-        metadata = {"patient": Person(first_names=["Jan", "Adriaan"])}
+        person = Person(first_names=["Jan", "Adriaan"])
         tokens = linked_tokens(["J", ".", "A", "."])
 
         ann = PatientNameAnnotator(tokenizer=tokenizer, tag="_")
-        doc = dd.Document(text="_", metadata=metadata)
 
-        assert ann._match_initial_from_name(doc=doc, token=tokens[0]) == (
+        assert ann._match_initial_from_name(person=person, token=tokens[0]) == (
             tokens[0],
             tokens[1],
         )
 
-        assert ann._match_initial_from_name(doc=doc, token=tokens[2]) == (
+        assert ann._match_initial_from_name(person=person, token=tokens[2]) == (
             tokens[2],
             tokens[3],
         )
 
     def test_match_initial_from_name_no_match(self, tokenizer):
-        metadata = {"patient": Person(first_names=["Jan", "Adriaan"])}
+        person = Person(first_names=["Jan", "Adriaan"])
         tokens = linked_tokens(["F", "T"])
 
         ann = PatientNameAnnotator(tokenizer=tokenizer, tag="_")
-        doc = dd.Document(text="_", metadata=metadata)
 
-        assert ann._match_initial_from_name(doc=doc, token=tokens[0]) is None
-        assert ann._match_initial_from_name(doc=doc, token=tokens[1]) is None
+        assert ann._match_initial_from_name(person=person, token=tokens[0]) is None
+        assert ann._match_initial_from_name(person=person, token=tokens[1]) is None
 
     def test_match_initials(self, tokenizer):
-        metadata = {"patient": Person(initials="AFTH")}
+        person = Person(initials="AFTH")
         tokens = linked_tokens(["AFTH", "THFA"])
 
         ann = PatientNameAnnotator(tokenizer=tokenizer, tag="_")
-        doc = dd.Document(text="_", metadata=metadata)
 
-        assert ann._match_initials(doc=doc, token=tokens[0]) == (tokens[0], tokens[0])
-        assert ann._match_initials(doc=doc, token=tokens[1]) is None
+        assert ann._match_initials(person=person, token=tokens[0]) == (
+            tokens[0],
+            tokens[0],
+        )
+        assert ann._match_initials(person=person, token=tokens[1]) is None
 
     def test_match_surname_equal(self, tokenizer, surname_pattern):
-        metadata = {"surname_pattern": surname_pattern}
         tokens = linked_tokens(["Van der", "Heide", "-", "Ginkel", "is", "de", "naam"])
 
         ann = PatientNameAnnotator(tokenizer=tokenizer, tag="_")
-        doc = dd.Document(text="_", metadata=metadata)
 
-        with patch.object(tokenizer, "tokenize", return_value=surname_pattern):
-            assert ann._match_surname(doc=doc, token=tokens[0]) == (
-                tokens[0],
-                tokens[3],
-            )
+        assert ann._match_surname(surname_pattern=surname_pattern, token=tokens[0]) == (
+            tokens[0],
+            tokens[3],
+        )
 
     def test_match_surname_longer_than_tokens(self, tokenizer, surname_pattern):
-        metadata = {"surname_pattern": surname_pattern}
         tokens = linked_tokens(["Van der", "Heide"])
 
         ann = PatientNameAnnotator(tokenizer=tokenizer, tag="_")
-        doc = dd.Document(text="_", metadata=metadata)
 
-        with patch.object(tokenizer, "tokenize", return_value=surname_pattern):
-            assert ann._match_surname(doc=doc, token=tokens[0]) is None
+        assert ann._match_surname(surname_pattern=surname_pattern, token=tokens[0]) is None
 
     def test_match_surname_fuzzy(self, tokenizer, surname_pattern):
-        metadata = {"surname_pattern": surname_pattern}
         tokens = linked_tokens(["Van der", "Heijde", "-", "Ginkle", "is", "de", "naam"])
 
         ann = PatientNameAnnotator(tokenizer=tokenizer, tag="_")
-        doc = dd.Document(text="_", metadata=metadata)
 
-        with patch.object(tokenizer, "tokenize", return_value=surname_pattern):
-            assert ann._match_surname(doc=doc, token=tokens[0]) == (
-                tokens[0],
-                tokens[3],
-            )
+        assert ann._match_surname(surname_pattern=surname_pattern, token=tokens[0]) == (
+            tokens[0],
+            tokens[3],
+        )
 
     def test_match_surname_unequal_first(self, tokenizer, surname_pattern):
-        metadata = {"surname_pattern": surname_pattern}
         tokens = linked_tokens(["v/der", "Heide", "-", "Ginkel", "is", "de", "naam"])
 
         ann = PatientNameAnnotator(tokenizer=tokenizer, tag="_")
-        doc = dd.Document(text="_", metadata=metadata)
 
-        with patch.object(tokenizer, "tokenize", return_value=surname_pattern):
-            assert ann._match_surname(doc=doc, token=tokens[0]) is None
+        assert ann._match_surname(surname_pattern=surname_pattern, token=tokens[0]) is None
 
     def test_match_surname_unequal_first_fuzzy(self, tokenizer, surname_pattern):
-        metadata = {"surname_pattern": surname_pattern}
         tokens = linked_tokens(["Van den", "Heide", "-", "Ginkel", "is", "de", "naam"])
 
         ann = PatientNameAnnotator(tokenizer=tokenizer, tag="_")
-        doc = dd.Document(text="_", metadata=metadata)
 
-        with patch.object(tokenizer, "tokenize", return_value=surname_pattern):
-            assert ann._match_surname(doc=doc, token=tokens[0]) == (
-                tokens[0],
-                tokens[3],
-            )
+        assert ann._match_surname(surname_pattern=surname_pattern, token=tokens[0]) == (
+            tokens[0],
+            tokens[3],
+        )
 
     def test_annotate_first_name(self, tokenizer):
         metadata = {
@@ -724,6 +722,91 @@ class TestPatientNameAnnotator:
                 tag="achternaam_patient",
             )
         ]
+
+    def test_annotate_person_metadata(self, tokenizer):
+        metadata = {"persons": [Person(first_names=["Peter"], surname="de Visser")]}
+        text = "De arts heet Peter de Visser"
+        tokens = tokenizer.tokenize(text)
+
+        ann = PatientNameAnnotator(tokenizer=tokenizer, tag="_")
+        doc = dd.Document(text=text, metadata=metadata)
+
+        with patch.object(doc, "get_tokens", return_value=tokens):
+            annotations = ann.annotate(doc)
+
+        assert annotations == [
+            dd.Annotation(
+                text="Peter",
+                start_char=13,
+                end_char=18,
+                tag="voornaam_persoon",
+            ),
+            dd.Annotation(
+                text="de Visser",
+                start_char=19,
+                end_char=28,
+                tag="achternaam_persoon",
+            ),
+        ]
+
+
+class TestMetadataEntityAnnotator:
+    def test_annotate_alias_birth_date_and_address(self, tokenizer):
+        metadata = {
+            "patient": Person(
+                aliases=["Jan Jansen-de Smet"],
+                birth_date=date(1980, 3, 12),
+                addresses=[
+                    Address(
+                        street="Kerkstraat",
+                        house_number="12A",
+                        postal_code="9000",
+                        city="Gent",
+                    )
+                ],
+            ),
+            "entities": [MetadataEntity(text="UZ Gent", tag="ziekenhuis")],
+        }
+        text = (
+            "Jan Jansen-de Smet is geboren op 12 maart 1980 en woont op "
+            "Kerkstraat 12A, 9000 Gent. Controle in UZ Gent."
+        )
+        tokens = tokenizer.tokenize(text)
+
+        ann = MetadataEntityAnnotator(tokenizer=tokenizer, tag="_", priority=2)
+        doc = dd.Document(text=text, metadata=metadata)
+
+        with patch.object(doc, "get_tokens", return_value=tokens):
+            annotations = ann.annotate(doc)
+
+        assert dd.Annotation(
+            text="Jan Jansen-de Smet",
+            start_char=0,
+            end_char=18,
+            tag="patient",
+            priority=2,
+        ) in annotations
+        assert dd.Annotation(
+            text="12 maart 1980",
+            start_char=33,
+            end_char=46,
+            tag="datum",
+            priority=2,
+        ) in annotations
+        assert dd.Annotation(
+            text="Kerkstraat 12A, 9000 Gent",
+            start_char=59,
+            end_char=84,
+            tag="locatie",
+            priority=2,
+        ) in annotations
+        assert dd.Annotation(
+            text="UZ Gent",
+            start_char=98,
+            end_char=105,
+            tag="ziekenhuis",
+            priority=2,
+        ) in annotations
 
 
 class TestRegexpPseudoAnnotator:
@@ -835,64 +918,117 @@ class TestBsnAnnotator:
         assert annotations == expected_annotations
 
 
-class TestPhoneNumberAnnotator:
-    def test_annotate_defaults(self, phone_number_doc):
-        an = PhoneNumberAnnotator(
-            phone_regexp=r"(?<!\d)"
-            r"(\(?(0031|\+31|0)"
-            r"(1[035]|2[0347]|3[03568]|4[03456]|5[0358]|6|7|88|800|91|90[069]|"
-            r"[1-5]\d{2})\)?)"
-            r" ?-? ?"
-            r"((\d{2,4}[ -]?)+\d{2,4})",
+class TestNationalRegisterNumberAnnotator:
+    def test_is_valid(self):
+        assert NationalRegisterNumberAnnotator._is_valid("85073003328")
+        assert NationalRegisterNumberAnnotator._is_valid("00010100105")
+        assert not NationalRegisterNumberAnnotator._is_valid("85073003329")
+        assert not NationalRegisterNumberAnnotator._is_valid("00130100105")
+
+    def test_annotate(self, national_register_doc):
+        an = NationalRegisterNumberAnnotator(
+            national_number_regexp=r"(?<!\d)((?:\d{2}[\s./-]?){3}\d{3}[\s./-]?\d{2})(?!\d)",
+            capture_group=1,
             tag="_",
         )
-        annotations = an.annotate(phone_number_doc)
+        annotations = an.annotate(national_register_doc)
 
         expected_annotations = [
-            dd.Annotation(text="0314-555555", start_char=21, end_char=32, tag="_"),
-            dd.Annotation(text="088 755 55 55", start_char=35, end_char=48, tag="_"),
-            dd.Annotation(text="(06)55555555", start_char=53, end_char=65, tag="_"),
-            dd.Annotation(text="0800-9003", start_char=135, end_char=144, tag="_"),
+            dd.Annotation(text="85.07.30-033.28", start_char=0, end_char=15, tag="_"),
+            dd.Annotation(text="00.01.01-001.05", start_char=16, end_char=31, tag="_"),
+        ]
+
+        assert annotations == expected_annotations
+
+    def test_annotate_without_separators(self):
+        an = NationalRegisterNumberAnnotator(
+            national_number_regexp=r"(?<!\d)(\d{11})(?!\d)",
+            capture_group=1,
+            tag="_",
+        )
+        doc = dd.Document("85073003328 85073003329")
+        annotations = an.annotate(doc)
+
+        expected_annotations = [
+            dd.Annotation(text="85073003328", start_char=0, end_char=11, tag="_"),
+        ]
+
+        assert annotations == expected_annotations
+
+
+class TestPhoneNumberAnnotator:
+    def test_annotate_defaults(self, phone_number_doc):
+        an = PhoneNumberAnnotator(phone_regexp=BELGIAN_PHONE_REGEXP, tag="_")
+        annotations = an.annotate(phone_number_doc)
+        text = phone_number_doc.text
+
+        expected_annotations = [
+            dd.Annotation(
+                text="016 55 55 55",
+                start_char=text.index("016 55 55 55"),
+                end_char=text.index("016 55 55 55") + len("016 55 55 55"),
+                tag="_",
+            ),
+            dd.Annotation(
+                text="0470 12 34 56",
+                start_char=text.index("0470 12 34 56"),
+                end_char=text.index("0470 12 34 56") + len("0470 12 34 56"),
+                tag="_",
+            ),
+            dd.Annotation(
+                text="+32470123456",
+                start_char=text.index("+32470123456"),
+                end_char=text.index("+32470123456") + len("+32470123456"),
+                tag="_",
+            ),
+            dd.Annotation(
+                text="0800 12 345",
+                start_char=text.index("0800 12 345"),
+                end_char=text.index("0800 12 345") + len("0800 12 345"),
+                tag="_",
+            ),
         ]
 
         assert annotations == expected_annotations
 
     def test_annotate_short(self, phone_number_doc):
         an = PhoneNumberAnnotator(
-            phone_regexp=r"(?<!\d)"
-            r"(\(?(0031|\+31|0)"
-            r"(1[035]|2[0347]|3[03568]|4[03456]|5[0358]|6|7|88|800|91|90[069]|"
-            r"[1-5]\d{2})\)?)"
-            r" ?-? ?"
-            r"((\d{2,4}[ -]?)+\d{2,4})",
-            min_digits=4,
+            phone_regexp=BELGIAN_PHONE_REGEXP,
+            min_digits=8,
             max_digits=8,
             tag="_",
         )
         annotations = an.annotate(phone_number_doc)
+        text = phone_number_doc.text
 
         expected_annotations = [
-            dd.Annotation(text="065555", start_char=72, end_char=78, tag="_")
+            dd.Annotation(
+                text="04701234",
+                start_char=text.index("04701234"),
+                end_char=text.index("04701234") + len("04701234"),
+                tag="_",
+            )
         ]
 
         assert annotations == expected_annotations
 
     def test_annotate_long(self, phone_number_doc):
         an = PhoneNumberAnnotator(
-            phone_regexp=r"(?<!\d)"
-            r"(\(?(0031|\+31|0)"
-            r"(1[035]|2[0347]|3[03568]|4[03456]|5[0358]|6|7|88|800|91|90[069]|"
-            r"[1-5]\d{2})\)?)"
-            r" ?-? ?"
-            r"((\d{2,4}[ -]?)+\d{2,4})",
+            phone_regexp=BELGIAN_PHONE_REGEXP,
             min_digits=11,
             max_digits=12,
             tag="_",
         )
         annotations = an.annotate(phone_number_doc)
+        text = phone_number_doc.text
 
         expected_annotations = [
-            dd.Annotation(text="065555555555", start_char=93, end_char=105, tag="_")
+            dd.Annotation(
+                text="047012345678",
+                start_char=text.index("047012345678"),
+                end_char=text.index("047012345678") + len("047012345678"),
+                tag="_",
+            )
         ]
 
         assert annotations == expected_annotations

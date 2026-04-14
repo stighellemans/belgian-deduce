@@ -1,14 +1,14 @@
 [tool.poetry]
 name = "belgian-deduce"
-version = "3.0.6.post1+belgian.1"
+version = "4.0.0"
 packages = [{ include = "belgian_deduce" }]
-description = "Belgian-Deduce: de-identification method for Belgian medical text"
-authors = ["Vincent Menger <vmenger@protonmail.com>"]
-maintainers = ["Vincent Menger <vmenger@protonmail.com>"]
+description = "Rule-based de-identification for Belgian clinical text"
+authors = ["Vincent Menger <vmenger@protonmail.com>", "Stig Hellemans"]
+maintainers = ["Stig Hellemans"]
 license = "LGPL-3.0-or-later"
 readme = "README.md"
 repository = "https://github.com/stighellemans/belgian-deduce/"
-keywords = ["de-identification", "clinical text", "dutch", "nlp"]
+keywords = ["de-identification", "clinical text", "belgium", "nlp"]
 classifiers = [
     "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
     "Topic :: Software Development :: Libraries :: Python Modules",
@@ -20,10 +20,10 @@ classifiers = [
     "Topic :: Text Processing",
     "Topic :: Text Processing :: Linguistic",
 ]
-include = ["base_config.json"]
+include = ["belgian_deduce/base_config.json"]
 
 [tool.sphinx]
-author = "Vincent Menger"
+author = "Stig Hellemans and contributors"
 
 [tool.poetry.dependencies]
 python = "^3.9"
@@ -38,6 +38,7 @@ optional = false
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.4.1"
 pytest-cov = "^6.2.1"
+beautifulsoup4 = "^4.13.5"
 black = "^25.1.0"
 isort = "^6.0.1"
 docformatter = "^1.7.7"
@@ -83,4 +84,4 @@ disable = ['C0114']
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = "--cov=deduce --cov-fail-under=85"
+addopts = "--cov=belgian_deduce --cov-fail-under=85"

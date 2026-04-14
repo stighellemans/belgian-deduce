@@ -65,9 +65,9 @@ class TestStr:
         processor = Acronimify()
 
         assert processor.process("Elizabeth Tweesteden Ziekenhuis") == "ETZ"
-        assert processor.process("Umcu") == "U"
-        assert processor.process("Universitair Medisch Centrum Utrecht") == "UMCU"
-        assert processor.process("universitair medisch centrum utrecht") == "umcu"
+        assert processor.process("Uzl") == "U"
+        assert processor.process("Universitair Ziekenhuis Leuven") == "UZL"
+        assert processor.process("universitair ziekenhuis leuven") == "uzl"
 
     def test_filter_based_on_lookupset(self):
         lookup_set = dd.ds.LookupSet()

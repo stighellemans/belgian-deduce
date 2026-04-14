@@ -31,7 +31,8 @@ class TestClassForName:
     def test_class_for_name(self):
         assert (
             utils.class_for_name(
-                module_name="deduce.annotator", class_name="TokenPatternAnnotator"
+                module_name="belgian_deduce.annotator",
+                class_name="TokenPatternAnnotator",
             )
             == TokenPatternAnnotator
         )

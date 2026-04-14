@@ -8,7 +8,7 @@
   "redactor_close_char": "]",
   "annotators": {
     "prefix_with_initial": {
-      "annotator_type": "deduce.annotator.TokenPatternAnnotator",
+      "annotator_type": "belgian_deduce.annotator.TokenPatternAnnotator",
       "group": "names",
       "args": {
         "tag": "prefix+initiaal",
@@ -31,7 +31,7 @@
       }
     },
     "prefix_with_interfix": {
-      "annotator_type": "deduce.annotator.TokenPatternAnnotator",
+      "annotator_type": "belgian_deduce.annotator.TokenPatternAnnotator",
       "group": "names",
       "args": {
         "tag": "prefix+interfix+naam",
@@ -50,7 +50,7 @@
       }
     },
     "prefix_with_name": {
-      "annotator_type": "deduce.annotator.TokenPatternAnnotator",
+      "annotator_type": "belgian_deduce.annotator.TokenPatternAnnotator",
       "group": "names",
       "args": {
         "tag": "prefix+naam",
@@ -73,7 +73,7 @@
       }
     },
     "interfix_with_name": {
-      "annotator_type": "deduce.annotator.TokenPatternAnnotator",
+      "annotator_type": "belgian_deduce.annotator.TokenPatternAnnotator",
       "group": "names",
       "args": {
         "tag": "interfix+achternaam",
@@ -96,7 +96,7 @@
       }
     },
     "initial_with_name": {
-      "annotator_type": "deduce.annotator.TokenPatternAnnotator",
+      "annotator_type": "belgian_deduce.annotator.TokenPatternAnnotator",
       "group": "names",
       "args": {
         "tag": "initiaal+naam",
@@ -122,7 +122,7 @@
       }
     },
     "initial_interfix": {
-      "annotator_type": "deduce.annotator.TokenPatternAnnotator",
+      "annotator_type": "belgian_deduce.annotator.TokenPatternAnnotator",
       "group": "names",
       "args": {
         "tag": "initiaal+interfix+naam",
@@ -159,14 +159,21 @@
       }
     },
     "patient_name": {
-      "annotator_type": "deduce.annotator.PatientNameAnnotator",
+      "annotator_type": "belgian_deduce.annotator.PatientNameAnnotator",
       "group": "names",
       "args": {
         "tag": "_"
       }
     },
+    "metadata_entities": {
+      "annotator_type": "belgian_deduce.annotator.MetadataEntityAnnotator",
+      "args": {
+        "tag": "_",
+        "priority": 2
+      }
+    },
     "name_context": {
-      "annotator_type": "deduce.annotator.ContextAnnotator",
+      "annotator_type": "belgian_deduce.annotator.ContextAnnotator",
       "group": "names",
       "args": {
         "iterative": true,
@@ -179,8 +186,12 @@
               "naam",
               "voornaam",
               "achternaam",
+              "initiaal_patient",
               "voornaam_patient",
-              "achternaam_patient"
+              "achternaam_patient",
+              "initiaal_persoon",
+              "voornaam_persoon",
+              "achternaam_persoon"
             ],
             "tag": "{tag}+interfix+achternaam",
             "skip": [".", "-"],
@@ -201,8 +212,12 @@
               "naam",
               "voornaam",
               "achternaam",
+              "initiaal_patient",
               "voornaam_patient",
               "achternaam_patient",
+              "initiaal_persoon",
+              "voornaam_persoon",
+              "achternaam_persoon",
               "interfix"
             ],
             "tag": "initiaal+{tag}",
@@ -220,8 +235,12 @@
               "naam",
               "voornaam",
               "achternaam",
+              "initiaal_patient",
               "voornaam_patient",
-              "achternaam_patient"
+              "achternaam_patient",
+              "initiaal_persoon",
+              "voornaam_persoon",
+              "achternaam_persoon"
             ],
             "tag": "naam+{tag}",
             "skip": ["-"],
@@ -250,8 +269,12 @@
               "naam",
               "voornaam",
               "achternaam",
+              "initiaal_patient",
               "voornaam_patient",
               "achternaam_patient",
+              "initiaal_persoon",
+              "voornaam_persoon",
+              "achternaam_persoon",
               "interfix"
             ],
             "tag": "{tag}+naam",
@@ -319,7 +342,7 @@
       }
     },
     "street_pattern": {
-      "annotator_type": "deduce.annotator.TokenPatternAnnotator",
+      "annotator_type": "belgian_deduce.annotator.TokenPatternAnnotator",
       "group": "locations",
       "args": {
         "pattern": [
@@ -342,7 +365,7 @@
       }
     },
     "housenumber": {
-      "annotator_type": "deduce.annotator.ContextAnnotator",
+      "annotator_type": "belgian_deduce.annotator.ContextAnnotator",
       "group": "locations",
       "args": {
         "iterative": true,
@@ -510,8 +533,17 @@
         ]
       }
     },
+    "date_year_before_colon": {
+      "annotator_type": "docdeid.process.RegexpAnnotator",
+      "group": "dates",
+      "args": {
+        "regexp_pattern": "(?<!\\d)(((19|20)\\d{2}))(?=:)",
+        "tag": "datum",
+        "capturing_group": 1
+      }
+    },
     "age": {
-      "annotator_type": "deduce.annotator.RegexpPseudoAnnotator",
+      "annotator_type": "belgian_deduce.annotator.RegexpPseudoAnnotator",
       "group": "ages",
       "args": {
         "regexp_pattern": "(?i)(?<![\\d,\\.])((1?\\d?\\d)([\\.,]5)?(-(1?\\d?\\d)([\\.,]5)?)?)([ -](jaar|jarig|jarige|jr))(?!\\w)",
@@ -549,14 +581,14 @@
         "capturing_group": 1
       }
     },
-    "bsn": {
-      "annotator_type": "deduce.annotator.BsnAnnotator",
+    "national_register_number": {
+      "annotator_type": "belgian_deduce.annotator.NationalRegisterNumberAnnotator",
       "group": "identifiers",
       "args": {
-        "bsn_regexp": "(?<!\\d)(\\d{9})(?!\\d)",
+        "national_number_regexp": "(?<!\\d)((?:\\d{2}[\\s./-]?){3}\\d{3}[\\s./-]?\\d{2})(?!\\d)",
         "capture_group": 1,
         "priority": 100,
-        "tag": "bsn"
+        "tag": "rijksregisternummer"
       }
     },
     "identifier": {
@@ -568,12 +600,12 @@
       }
     },
     "phone": {
-      "annotator_type": "deduce.annotator.PhoneNumberAnnotator",
+      "annotator_type": "belgian_deduce.annotator.PhoneNumberAnnotator",
       "group": "phone_numbers",
       "args": {
-        "phone_regexp": "(?<!\\d)(\\(?(0031|\\+31|0)(1[035]|2[0347]|3[03568]|4[03456]|5[0358]|6|7|88|800|91|90[069]|[1-5]\\d{2})\\)?) ?-? ?((\\d{2,4}[ -]?)+\\d{2,4})",
+        "phone_regexp": "(?<!\\d)(?P<prefix>\\(?(?:(?:0032|\\+32|0))(?P<prefix_code>4\\d{2}|800|90[0-9]|78|[1-9]\\d|2|3|4|9)\\)?)(?P<number>(?:[\\s./-]?\\d){4,8})(?!\\d)",
         "min_digits": 9,
-        "max_digits": 11,
+        "max_digits": 10,
         "tag": "telefoonnummer"
       }
     },

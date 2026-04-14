@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 4.0.0 (2026-04-14)
+
+### Changed
+
+- First standalone `belgian_deduce` release.
+- Removed runtime config dependencies on the upstream `deduce` package.
+- Switched default identifier detection from Dutch BSN to Belgian national register
+  numbers.
+- Switched default phone-number detection to Belgian numbering patterns.
+- Updated docs, tooling, and regression fixtures to use `belgian_deduce`.
+
+Entries below this section predate the standalone release and are preserved largely in
+their original wording for provenance.
+
 ## 3.0.6 (2025-07-18)
 
 ### Changed

@@ -589,6 +589,18 @@
                     "tag": "datum"
                 }
             ]
+        },
+        {
+            "id": 57,
+            "text": "2016:",
+            "annotations": [
+                {
+                    "text": "2016",
+                    "start_char": 0,
+                    "end_char": 4,
+                    "tag": "datum"
+                }
+            ]
         }
     ]
 }
