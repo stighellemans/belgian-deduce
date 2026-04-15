@@ -96,3 +96,11 @@ class TestTokenizer:
         ]
 
         assert tokenizer._split_text(text=text) == expected_tokens
+
+    def test_split_text_values(self):
+        tokenizer = DeduceTokenizer(merge_terms=["van der"])
+        text = "Pieter van der Zee"
+
+        assert tokenizer.split_text_values(text) == [
+            token.text for token in tokenizer._split_text(text=text)
+        ]

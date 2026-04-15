@@ -273,8 +273,12 @@ def lookup_set_to_trie(
     """
 
     trie = dd.ds.LookupTrie(matching_pipeline=lookup_set.matching_pipeline)
+    split_text_values = getattr(tokenizer, "split_text_values", None)
 
     for item in lookup_set.items():
-        trie.add_item([token.text for token in tokenizer.tokenize(item)])
+        if split_text_values is not None:
+            trie.add_item(split_text_values(item))
+        else:
+            trie.add_item([token.text for token in tokenizer._split_text(item)])
 
     return trie

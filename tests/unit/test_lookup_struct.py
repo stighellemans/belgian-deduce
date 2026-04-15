@@ -1,6 +1,5 @@
-import io
+import json
 from pathlib import Path
-from unittest.mock import patch
 
 import docdeid as dd
 
@@ -42,80 +41,109 @@ class TestLookupStruct:
         assert "test_nested" in raw_itemsets
         assert len(raw_itemsets["test_nested"]) == 4
 
-    def test_validate_lookup_struct_cache_valid(self):
-        cache = {
-            "package_version": "2.5.0",
-            "saved_datetime": "2023-12-06 10:19:39.198133",
-            "lookup_structs": "_",
-        }
+    def test_validate_lookup_struct_cache_valid(self, tmp_path):
+        (tmp_path / "src" / "lst_test").mkdir(parents=True)
+        (tmp_path / "src" / "lst_test" / "items.txt").write_text("a\n", encoding="utf-8")
 
-        class MockStats:
-            st_mtime = 1000000000  # way in the past
-
-        with patch("pathlib.Path.glob", return_value=[1, 2, 3]):
-            with patch("os.stat", return_value=MockStats()):
-                assert validate_lookup_struct_cache(
-                    cache=cache, base_path=DATA_PATH, package_version="2.5.0"
-                )
-
-    def test_validate_lookup_struct_cache_file_changes(self):
-        cache = {
-            "package_version": "2.5.0",
-            "saved_datetime": "2023-12-06 10:19:39.198133",
-            "lookup_structs": "_",
-        }
-
-        class MockStats:
-            st_mtime = 2000000000  # way in the future
-
-        with patch("pathlib.Path.glob", return_value=[1, 2, 3]):
-            with patch("os.stat", return_value=MockStats()):
-                assert not validate_lookup_struct_cache(
-                    cache=cache, base_path=DATA_PATH, package_version="2.5.0"
-                )
-
-    @patch(
-        "belgian_deduce.lookup_structs.validate_lookup_struct_cache",
-        return_value=True,
-    )
-    def test_load_lookup_structs_from_cache(self, _):
-        ds_collection = load_lookup_structs_from_cache(
-            cache_path=DATA_PATH, package_version="_"
+        cache_lookup_structs(
+            lookup_structs=dd.ds.DsCollection(),
+            cache_path=tmp_path,
+            package_version="2.5.0",
         )
 
-        assert len(ds_collection) == 2
-        assert "test" in ds_collection
-        assert "test_nested" in ds_collection
+        with open(
+            tmp_path / "cache" / "lookup_structs.meta.json", "r", encoding="utf-8"
+        ) as file:
+            cache_metadata = json.load(file)
 
-    @patch(
-        "belgian_deduce.lookup_structs.validate_lookup_struct_cache",
-        return_value=True,
-    )
-    def test_load_lookup_structs_from_cache_nofile(self, _):
+        assert validate_lookup_struct_cache(
+            cache=cache_metadata, base_path=tmp_path, package_version="2.5.0"
+        )
+
+    def test_validate_lookup_struct_cache_file_changes(self, tmp_path):
+        list_dir = tmp_path / "src" / "lst_test"
+        list_dir.mkdir(parents=True)
+        items_file = list_dir / "items.txt"
+        items_file.write_text("a\n", encoding="utf-8")
+
+        cache_lookup_structs(
+            lookup_structs=dd.ds.DsCollection(),
+            cache_path=tmp_path,
+            package_version="2.5.0",
+        )
+
+        items_file.write_text("a\nb\n", encoding="utf-8")
+
+        with open(
+            tmp_path / "cache" / "lookup_structs.meta.json", "r", encoding="utf-8"
+        ) as file:
+            cache_metadata = json.load(file)
+
+        assert not validate_lookup_struct_cache(
+            cache=cache_metadata, base_path=tmp_path, package_version="2.5.0"
+        )
+
+    def test_load_lookup_structs_from_cache(self, tmp_path):
+        (tmp_path / "src" / "lst_test").mkdir(parents=True)
+        (tmp_path / "src" / "lst_test" / "items.txt").write_text("a\n", encoding="utf-8")
+
+        ds_collection = dd.ds.DsCollection()
+        ds_collection["test"] = dd.ds.LookupSet()
+        ds_collection["test"].add_items_from_iterable(["a", "b"])
+        ds_collection["test_nested"] = dd.ds.LookupSet()
+        ds_collection["test_nested"].add_items_from_iterable(["c", "d"])
+
+        cache_lookup_structs(
+            lookup_structs=ds_collection,
+            cache_path=tmp_path,
+            package_version="_",
+        )
+
+        loaded = load_lookup_structs_from_cache(cache_path=tmp_path, package_version="_")
+
+        assert len(loaded) == 2
+        assert "test" in loaded
+        assert "test_nested" in loaded
+
+    def test_load_lookup_structs_from_cache_nofile(self):
         ds_collection = load_lookup_structs_from_cache(
             cache_path=DATA_PATH / "non_existing_dir", package_version="_"
         )
 
         assert ds_collection is None
 
-    @patch(
-        "belgian_deduce.lookup_structs.validate_lookup_struct_cache",
-        return_value=False,
-    )
-    def test_load_lookup_structs_from_cache_invalid(self, _):
+    def test_load_lookup_structs_from_cache_invalid(self, tmp_path):
+        list_dir = tmp_path / "src" / "lst_test"
+        list_dir.mkdir(parents=True)
+        items_file = list_dir / "items.txt"
+        items_file.write_text("a\n", encoding="utf-8")
+
+        ds_collection = dd.ds.DsCollection()
+        ds_collection["test"] = dd.ds.LookupSet()
+        ds_collection["test"].add_items_from_iterable(["a"])
+
+        cache_lookup_structs(
+            lookup_structs=ds_collection,
+            cache_path=tmp_path,
+            package_version="_",
+        )
+        items_file.write_text("a\nb\n", encoding="utf-8")
+
         ds_collection = load_lookup_structs_from_cache(
-            cache_path=DATA_PATH, package_version="_"
+            cache_path=tmp_path, package_version="_"
         )
 
         assert ds_collection is None
 
-    @patch("builtins.open", return_value=io.BytesIO())
-    @patch("pickle.dump")
-    def test_cache_lookup_structs(self, _, mock_pickle_dump):
+    def test_cache_lookup_structs(self, tmp_path):
+        (tmp_path / "src" / "lst_test").mkdir(parents=True)
+        (tmp_path / "src" / "lst_test" / "items.txt").write_text("a\n", encoding="utf-8")
+
         cache_lookup_structs(
             lookup_structs=dd.ds.DsCollection(),
-            cache_path=DATA_PATH,
+            cache_path=tmp_path,
             package_version="2.5.0",
         )
 
-        mock_pickle_dump.assert_called_once()
+        assert (tmp_path / "cache" / "lookup_structs.pickle").exists()
+        assert (tmp_path / "cache" / "lookup_structs.meta.json").exists()

@@ -778,3 +778,6 @@ Zorggroep Myna - Psychiatrisch Ziekenhuis Sint-Truiden - Campus Melveren - Mobie
 Zorggroep Myna - Psychiatrisch Ziekenhuis Sint-Truiden - Campus Stad
 Zorggroep Myna - Psychiatrisch Ziekenhuis Sint-Truiden - Campus Stad - G-Badminton en G-Zaalvoetbal
 Zorggroep Sint Kamillus
+PZ Stuivenberg
+ZAS Palfijn
+Hof ter Schelde

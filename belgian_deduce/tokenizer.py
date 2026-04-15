@@ -39,11 +39,53 @@ class DeduceTokenizer(dd.tokenizer.Tokenizer):  # pylint: disable=R0903
         trie = dd.ds.LookupTrie()
 
         for term in merge_terms:
-            tokens = [token.text for token in self._split_text(text=term)]
+            tokens = self.split_text_values(text=term)
             trie.add_item(tokens)
             self._start_words.add(tokens[0])
 
         self._trie = trie
+
+    def split_text_values(self, text: str) -> list[str]:
+        """
+        Split text into token texts without constructing a TokenList.
+
+        This is primarily used while building lookup tries, where token boundaries
+        matter but token linkage and positional indexing do not.
+        """
+
+        parts = [
+            (match.group(0), match.span()[0], match.span()[1])
+            for match in self._pattern.finditer(text)
+        ]
+
+        if self._trie is None:
+            return [token_text for token_text, _, _ in parts]
+
+        tokens_text = [token_text for token_text, _, _ in parts]
+        tokens_merged = []
+        i = 0
+
+        while i < len(parts):
+            if tokens_text[i] not in self._start_words:
+                tokens_merged.append(tokens_text[i])
+                i += 1
+                continue
+
+            longest_matching_prefix = self._trie.longest_matching_prefix(
+                tokens_text, start_i=i
+            )
+
+            if longest_matching_prefix is None:
+                tokens_merged.append(tokens_text[i])
+                i += 1
+            else:
+                num_tokens_to_merge = len(longest_matching_prefix)
+                tokens_merged.append(
+                    text[parts[i][1] : parts[i + num_tokens_to_merge - 1][2]]
+                )
+                i += num_tokens_to_merge
+
+        return tokens_merged
 
     @staticmethod
     def _join_tokens(text: str, tokens: list[dd.tokenizer.Token]) -> dd.tokenizer.Token:

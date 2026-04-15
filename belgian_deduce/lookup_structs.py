@@ -3,6 +3,7 @@
 import logging
 import os
 import pickle
+import json
 from datetime import datetime
 from pathlib import Path
 from typing import Optional
@@ -33,6 +34,7 @@ from belgian_deduce.utils import (
 _SRC_SUBDIR = "src"
 _CACHE_SUBDIR = "cache"
 _CACHE_FILE = "lookup_structs.pickle"
+_CACHE_META_FILE = "lookup_structs.meta.json"
 
 _LOOKUP_SET_LOADERS = {
     "prefix": load_prefix_lookup,
@@ -49,6 +51,44 @@ _LOOKUP_TRIE_LOADERS = {
     "healthcare_institution": load_institution_lookup,
     "eponymous_disease": load_eponymous_disease_lookup,
 }
+
+
+def _iter_lookup_source_files(base_path: Path) -> list[Path]:
+    src_path = base_path / _SRC_SUBDIR
+
+    return sorted(
+        path
+        for path in src_path.rglob("*")
+        if path.is_file() and "__pycache__" not in path.parts and path.suffix != ".pyc"
+    )
+
+
+def _get_lookup_source_snapshot(base_path: Path) -> dict[str, dict[str, int]]:
+    src_path = base_path / _SRC_SUBDIR
+
+    return {
+        str(path.relative_to(src_path)): {
+            "mtime_ns": path.stat().st_mtime_ns,
+            "size": path.stat().st_size,
+        }
+        for path in _iter_lookup_source_files(base_path)
+    }
+
+
+def _get_lookup_cache_metadata(package_version: str, base_path: Path) -> dict:
+    return {
+        "package_version": package_version,
+        "deduce_version": package_version,
+        "saved_datetime": str(datetime.now()),
+        "source_snapshot": _get_lookup_source_snapshot(base_path),
+    }
+
+
+def _write_lookup_cache_metadata(cache_path: Path, cache_metadata: dict) -> None:
+    cache_meta_file = cache_path / _CACHE_META_FILE
+
+    with open(cache_meta_file, "w", encoding="utf-8") as file:
+        json.dump(cache_metadata, file)
 
 
 def load_raw_itemset(path: Path) -> set[str]:
@@ -137,11 +177,19 @@ def validate_lookup_struct_cache(
     if cached_version != package_version:
         return False
 
-    src_path = base_path / _SRC_SUBDIR
+    source_snapshot = cache.get("source_snapshot")
 
-    for file in src_path.glob("**"):
+    if source_snapshot is not None:
+        return source_snapshot == _get_lookup_source_snapshot(base_path)
+
+    saved_datetime = cache.get("saved_datetime")
+
+    if saved_datetime is None:
+        return False
+
+    for file in _iter_lookup_source_files(base_path):
         if datetime.fromtimestamp(os.stat(file).st_mtime) > datetime.fromisoformat(
-            cache["saved_datetime"]
+            saved_datetime
         ):
             return False
 
@@ -163,7 +211,14 @@ def load_lookup_structs_from_cache(
         A DsCollection if present and valid, None otherwise.
     """
 
-    cache_file = cache_path / _CACHE_SUBDIR / _CACHE_FILE
+    cache_dir = cache_path / _CACHE_SUBDIR
+    cache_file = cache_dir / _CACHE_FILE
+    cache_meta = optional_load_json(cache_dir / _CACHE_META_FILE)
+
+    if cache_meta is not None and not validate_lookup_struct_cache(
+        cache=cache_meta, base_path=cache_path, package_version=package_version
+    ):
+        return None
 
     try:
         with open(cache_file, "rb") as file:
@@ -171,9 +226,18 @@ def load_lookup_structs_from_cache(
     except FileNotFoundError:
         return None
 
+    if cache_meta is not None:
+        return cache["lookup_structs"]
+
     if validate_lookup_struct_cache(
         cache=cache, base_path=cache_path, package_version=package_version
     ):
+        _write_lookup_cache_metadata(
+            cache_dir,
+            _get_lookup_cache_metadata(
+                package_version=package_version, base_path=cache_path
+            ),
+        )
         return cache["lookup_structs"]
 
     return None
@@ -191,21 +255,22 @@ def cache_lookup_structs(
         package_version: The current package version.
     """
 
+    cache_base_path = cache_path
     cache_path = cache_path / _CACHE_SUBDIR
     cache_file = cache_path / _CACHE_FILE
 
-    cache = {
-        "package_version": package_version,
-        "deduce_version": package_version,
-        "saved_datetime": str(datetime.now()),
-        "lookup_structs": lookup_structs,
-    }
+    cache_metadata = _get_lookup_cache_metadata(
+        package_version=package_version, base_path=cache_base_path
+    )
+    cache = {**cache_metadata, "lookup_structs": lookup_structs}
 
     if not cache_path.exists():
         os.makedirs(cache_path)
 
     with open(cache_file, "wb") as file:
         pickle.dump(cache, file)
+
+    _write_lookup_cache_metadata(cache_path, cache_metadata)
 
 
 def get_lookup_structs(  # pylint: disable=R0913, R0917
