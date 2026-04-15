@@ -123,6 +123,22 @@ class TestDeduce:
 
         assert dd.utils.annotate_intext(doc) == expected_intext_annotated
 
+    def test_trailing_initial_after_name(self, model):
+        text = "Dr. Vanassche B."
+        doc = model.deidentify(text)
+
+        assert doc.annotations == dd.AnnotationSet(
+            [
+                dd.Annotation(
+                    text=text,
+                    start_char=0,
+                    end_char=len(text),
+                    tag="person",
+                )
+            ]
+        )
+        assert doc.deidentified_text == "[PERSON-1]"
+
     def test_extended_metadata(self, model):
         text = (
             "Patient Jan Jansen, geboren op 12 maart 1980, woont op Kerkstraat 12A, "

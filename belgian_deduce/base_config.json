@@ -250,6 +250,59 @@
             ]
           },
           {
+            "name": "initial_right_dotted",
+            "direction": "right",
+            "pre_tag": [
+              "prefix",
+              "initial",
+              "name",
+              "first_name",
+              "last_name",
+              "initial_patient",
+              "first_name_patient",
+              "last_name_patient",
+              "initial_person",
+              "first_name_person",
+              "last_name_person",
+              "interfix"
+            ],
+            "tag": "{tag}+initial",
+            "skip": [],
+            "pattern": [
+              {
+                "lookup": "initial"
+              },
+              {
+                "equal": "."
+              }
+            ]
+          },
+          {
+            "name": "initial_right",
+            "direction": "right",
+            "pre_tag": [
+              "prefix",
+              "initial",
+              "name",
+              "first_name",
+              "last_name",
+              "initial_patient",
+              "first_name_patient",
+              "last_name_patient",
+              "initial_person",
+              "first_name_person",
+              "last_name_person",
+              "interfix"
+            ],
+            "tag": "{tag}+initial",
+            "skip": [],
+            "pattern": [
+              {
+                "lookup": "initial"
+              }
+            ]
+          },
+          {
             "name": "naam_left",
             "direction": "left",
             "pre_tag": [
