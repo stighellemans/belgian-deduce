@@ -1,4 +1,5 @@
-from belgian_deduce.deduce import Deduce, __version__
+from belgian_deduce._version import __version__
+from belgian_deduce.deduce import Deduce
 from belgian_deduce.metadata import Address, MetadataEntity, Person
 
 BelgianDeduce = Deduce

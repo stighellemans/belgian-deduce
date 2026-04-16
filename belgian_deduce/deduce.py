@@ -1,6 +1,5 @@
 """Loads Deduce and all its components."""
 
-import importlib.metadata
 import itertools
 import json
 import logging
@@ -11,6 +10,7 @@ from typing import Any, Optional, Union
 import docdeid as dd
 from frozendict import frozendict
 
+from belgian_deduce._version import __version__
 from belgian_deduce import utils
 from belgian_deduce.annotation_processor import (
     CleanAnnotationTag,
@@ -23,8 +23,6 @@ from belgian_deduce.lookup_struct_loader import load_interfix_lookup, load_prefi
 from belgian_deduce.lookup_structs import get_lookup_structs, load_raw_itemsets
 from belgian_deduce.redactor import DeduceRedactor
 from belgian_deduce.tokenizer import DeduceTokenizer
-
-__version__ = importlib.metadata.version(__package__ or __name__)
 
 
 _BASE_PATH = Path(__file__).parent

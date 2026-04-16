@@ -20,7 +20,11 @@ classifiers = [
     "Topic :: Text Processing",
     "Topic :: Text Processing :: Linguistic",
 ]
-include = ["belgian_deduce/base_config.json"]
+include = [
+    { path = "belgian_deduce/base_config.json", format = ["sdist", "wheel"] },
+    { path = "belgian_deduce/data/lookup/cache/lookup_structs.meta.json", format = ["wheel"] },
+    { path = "belgian_deduce/data/lookup/cache/lookup_structs.pickle", format = ["wheel"] },
+]
 
 [tool.sphinx]
 author = "Stig Hellemans and contributors"
@@ -55,8 +59,15 @@ karma-sphinx-theme = "^0.0.8"
 emoji = "^2.14.1"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+requires = [
+    "poetry-core>=1.0.0",
+    "docdeid==1.0.1",
+    "frozendict>=2.4.6,<3.0.0",
+    "rapidfuzz>=3.13.0,<4.0.0",
+    "regex>=2024.11.6,<2025.0.0",
+]
+build-backend = "build_backend"
+backend-path = ["."]
 
 [tool.black]
 line-length = 88
