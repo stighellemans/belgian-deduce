@@ -3,6 +3,7 @@ belgian_deduce/data/lookup/cache/*
 
 # Top level scripts ignored by default
 /*.py
+!/build_backend.py
 
 # Exclude the following filetypes
 *.sav
