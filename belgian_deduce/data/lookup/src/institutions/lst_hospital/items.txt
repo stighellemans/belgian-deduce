@@ -780,4 +780,20 @@ Zorggroep Myna - Psychiatrisch Ziekenhuis Sint-Truiden - Campus Stad - G-Badmint
 Zorggroep Sint Kamillus
 PZ Stuivenberg
 ZAS Palfijn
+ZAS Augustinus
+ZAS Cadix
+ZAS Elisabeth
+ZAS Hoge Beuken
+ZAS Joostens
+ZAS Medisch Centrum Kaai 142
+ZAS Middelheim
+ZAS Paola
+ZAS Polikliniek Hof ter Schelde
+ZAS Polikliniek Regatta
+ZAS PVT Antwerpen
+ZAS PZ Stuivenberg
+ZAS Sint-Jozef
+ZAS UKJA (Universitaire Kinder- en Jeugdpsychiatrie Antwerpen)
+ZAS UKJA
+ZAS Vincentius
 Hof ter Schelde
