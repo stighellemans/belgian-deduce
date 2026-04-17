@@ -43,6 +43,8 @@ Before opening a PR:
   `belgian_deduce` artifacts and not upstream `deduce` artifacts.
 * PyPI publishing uses GitHub Actions Trusted Publishing via the `pypi`
   environment in `.github/workflows/build.yml`.
-* For the first PyPI release, configure a pending trusted publisher on PyPI for
-  this repository, workflow file, and environment before publishing the GitHub
-  release.
+* Push a semantic version tag such as `v4.0.1` from the release commit on `main`
+  to trigger the release workflow.
+* The tag workflow publishes to PyPI first and only creates the GitHub release
+  after a successful publish, using the matching `CHANGELOG.md` section as the
+  release notes.
