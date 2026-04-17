@@ -42,18 +42,6 @@ Install the latest release from PyPI:
 pip install belgian-deduce
 ```
 
-For unreleased changes, install directly from GitHub:
-
-```bash
-pip install "git+https://github.com/stighellemans/belgian-deduce.git"
-```
-
-For reproducible environments, pin to a commit:
-
-```bash
-pip install "git+https://github.com/stighellemans/belgian-deduce.git@<commit-sha>"
-```
-
 ## Getting Started
 
 ```python
