@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "belgian-deduce"
-version = "4.0.0"
+version = "4.0.1"
 packages = [{ include = "belgian_deduce" }]
 description = "Rule-based de-identification for Belgian clinical text"
 authors = ["Vincent Menger <vmenger@protonmail.com>", "Stig Hellemans"]
