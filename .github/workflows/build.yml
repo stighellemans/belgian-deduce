@@ -32,14 +32,37 @@ jobs:
 
     - name: Setup testing dependencies
       run: |
-        pip install dist/deduce-*.whl
-        poetry install --only dev
+        pip install dist/belgian_deduce-*.whl
+        poetry install --only dev --no-root
 
     - name: Test build
       run: python -m pytest .
 
-    - name: Set up Pypi credentials
-      run: poetry config pypi-token.pypi ${{ SECRETS.PYPI_TOKEN }}
+    - name: Upload distribution artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: python-package-distributions
+        path: dist/
 
-    - name: Publish package
-      run: poetry publish
+  publish:
+
+    name: Publish package to PyPI
+    needs:
+    - build
+    if: github.event_name == 'release' && github.event.action == 'published'
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/p/belgian-deduce
+    permissions:
+      id-token: write
+
+    steps:
+    - name: Download distribution artifacts
+      uses: actions/download-artifact@v4
+      with:
+        name: python-package-distributions
+        path: dist/
+
+    - name: Publish package distributions to PyPI
+      uses: pypa/gh-action-pypi-publish@release/v1

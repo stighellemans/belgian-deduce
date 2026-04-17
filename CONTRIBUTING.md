@@ -41,3 +41,8 @@ Before opening a PR:
 * Use the changelog as the release note source of truth.
 * If docs or package publishing are automated, make sure they target
   `belgian_deduce` artifacts and not upstream `deduce` artifacts.
+* PyPI publishing uses GitHub Actions Trusted Publishing via the `pypi`
+  environment in `.github/workflows/build.yml`.
+* For the first PyPI release, configure a pending trusted publisher on PyPI for
+  this repository, workflow file, and environment before publishing the GitHub
+  release.

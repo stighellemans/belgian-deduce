@@ -21,6 +21,7 @@ classifiers = [
     "Topic :: Text Processing :: Linguistic",
 ]
 include = [
+    { path = "build_backend.py", format = ["sdist"] },
     { path = "belgian_deduce/base_config.json", format = ["sdist", "wheel"] },
     { path = "belgian_deduce/data/lookup/cache/lookup_structs.meta.json", format = ["wheel"] },
     { path = "belgian_deduce/data/lookup/cache/lookup_structs.pickle", format = ["wheel"] },

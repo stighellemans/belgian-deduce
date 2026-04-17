@@ -1,3 +1,6 @@
+from pathlib import Path
+import re
+
 import build_backend
 
 
@@ -33,3 +36,14 @@ def test_build_wheel_builds_cache_before_delegating(monkeypatch):
         "cache",
         ("build_wheel", "dist", {"opt": "1"}, "metadata"),
     ]
+
+
+def test_pyproject_includes_build_backend_in_sdist() -> None:
+    pyproject = (
+        Path(__file__).resolve().parents[2] / "pyproject.toml"
+    ).read_text(encoding="utf-8")
+
+    assert re.search(
+        r'\{\s*path\s*=\s*"build_backend\.py"\s*,\s*format\s*=\s*\[\s*"sdist"\s*\]\s*\}',
+        pyproject,
+    )

@@ -36,7 +36,13 @@ Informatics, 2017, ISSN 0736-5853](http://www.sciencedirect.com/science/article/
 
 ## Installation
 
-Install directly from GitHub:
+Install the latest release from PyPI:
+
+```bash
+pip install belgian-deduce
+```
+
+For unreleased changes, install directly from GitHub:
 
 ```bash
 pip install "git+https://github.com/stighellemans/belgian-deduce.git"
