@@ -15,9 +15,14 @@ _FORBIDDEN_KEYWORDS_PATTERN = re.compile(
     r"CHAMBRE|CHEQUE\w*|COMITE|COMMISSION|COMMISSIE|CONSEIL|CONTROL|"
     r"DIENST|EUROPA|EUROPEAN|FOD|FORCE\w*|GEMEENSCHAPSCOMMISSIE|"
     r"GOUVERNEMENT|IMMATRICULAT\w*|KAMER|MINISTER\w*|MOBILIT\w*|NAVO|"
-    r"OPTIRETOUR|OTAN|PARLEMENT|POSTCHEQUE|PRESS|PROMO|RADIO|REMAILING|"
-    r"RETOUR|RIJKSADMINISTRATIEF|RTBF|SCANNING|SECURITY|SENAAT|SENAT|"
-    r"SERVICE|SINTERKLAAS|SOCIALE|TRANSPORT\w*|TVI|VLAAMS|VRT)\b"
+    r"MAATSCHAPPIJ|OPTIRETOUR|ORGANISATION\w*|OTAN|PARLEMENT|POSTCHEQUE|"
+    r"PRESS|PROMO|RADIO|REMAILING|RETOUR|RIJKSADMINISTRATIEF|RTBF|"
+    r"SCANNING|SECURITY|SENAAT|SENAT|SERVICE|SINTERKLAAS|SOCIAL\w*|"
+    r"STRIJDKRACHT\w*|TELEVISI\w*|TRANSPORT\w*|TVI|VLAAMS|VRT)\b"
+)
+_FORBIDDEN_PHRASES_PATTERN = re.compile(
+    r"\b(?:ANCIEN\w*\s+COMMUNE|FUSION\s+ANNUL\w*|HAMEAU\s+DE|"
+    r"SOUS\s+LE\s+NOM)\b"
 )
 _STREET_SUFFIX_PATTERN = re.compile(
     r"(?i)(?:LAAN|STRAAT|STEENWEG|WEG|STEIGER|STEEG|DREEF|KAAI|KADE|PLEIN|"
@@ -25,6 +30,7 @@ _STREET_SUFFIX_PATTERN = re.compile(
     r"BAAN|PAD|DRIVE|ROAD)\b"
 )
 _WHITESPACE_PATTERN = re.compile(r"\s+")
+_LIST_SEPARATOR_PATTERN = re.compile(r"\s*,\s*")
 
 
 def clean_location_text(text: str) -> str:
@@ -82,7 +88,13 @@ def is_geographic_locality_candidate(candidate: str) -> bool:
     if _FORBIDDEN_KEYWORDS_PATTERN.search(normalized):
         return False
 
+    if _FORBIDDEN_PHRASES_PATTERN.search(normalized):
+        return False
+
     if _STREET_SUFFIX_PATTERN.search(normalized):
+        return False
+
+    if "," in candidate:
         return False
 
     if candidate.count(".") >= 2:
@@ -122,9 +134,15 @@ def derive_locality_candidates(raw_text: str) -> set[str]:
     for parenthetical_content in _PARENTHESIS_PATTERN.findall(text):
         candidates.add(parenthetical_content)
 
+    expanded_candidates = set()
+    for candidate in candidates:
+        expanded_candidates.add(candidate)
+        if "," in candidate:
+            expanded_candidates.update(_LIST_SEPARATOR_PATTERN.split(candidate))
+
     return {
         clean_location_text(candidate)
-        for candidate in candidates
+        for candidate in expanded_candidates
         if is_geographic_locality_candidate(candidate)
     }
 

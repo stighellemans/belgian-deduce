@@ -204,8 +204,6 @@ Beigem
 Bekegem
 Bekkerzeel
 Bekkevoort
-Belgische Strijdkrachten in Duitsland
-Belgische strijdkrachten in Duitsland
 België
 Belgrade
 Bellaire
@@ -1964,7 +1962,6 @@ Oostham
 Oostkamp
 Oostkerke
 Oostmalle
-Oostmalle , Westmalle
 Oostnieuwkerke
 Oostrozebeke
 Oostvleteren
@@ -1993,8 +1990,6 @@ Orcq
 Ordingen
 Oret
 Oreye
-Organisation du traité de l'Atlantique nord
-Organisations sociales chrétiennes
 Orgeo
 Ormeignies
 Orp-Jauche
@@ -2128,8 +2123,6 @@ Péruwelz
 Quaregnon
 Quaremont
 Quartes
-quelques années sous le nom de Haren, fusion annulée
-quelques années sous le nom de Kolmont, fusion annulée
 Quenast
 Queue-du-Bois
 Quevaucamps
@@ -2638,7 +2631,6 @@ Uitbergen
 Uitkerke
 Ukkel
 Ulbeek
-Une partie de l'ancienne commune de Kallo
 Upigny
 Ursel
 Vaalbeek
@@ -2738,7 +2730,6 @@ Vitrival
 Vive-Saint-Éloi
 Vivegnis
 Vivy
-Vlaamse Televisie Maatschappij
 Vladslo
 Vlamertinge
 Vlekkem
@@ -2775,7 +2766,6 @@ Vremde
 Vreren
 Vresse-sur-Semois
 Vroenhoven
-VTM, télévision privée flamande
 Vucht
 Vurste
 Vyle-et-Tharoul

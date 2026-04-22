@@ -24,6 +24,51 @@ class TestPostalCodeHelpers:
             == set()
         )
 
+    def test_derive_locality_candidates_rejects_descriptive_fragments(self):
+        assert (
+            derive_locality_candidates(
+                "Overrepen (quelques années sous le nom de Kolmont, fusion annulée)"
+            )
+            == {"Overrepen"}
+        )
+        assert (
+            derive_locality_candidates(
+                "Haren (hameau de Bommershoven, brièvement centre de fusion puis annulé)"
+            )
+            == {"Haren"}
+        )
+        assert (
+            derive_locality_candidates("Une partie de l'ancienne commune de Kallo")
+            == set()
+        )
+
+    def test_derive_locality_candidates_rejects_organisation_labels(self):
+        assert (
+            derive_locality_candidates(
+                "Organisation du traité de l'Atlantique nord (OTAN)"
+            )
+            == set()
+        )
+        assert (
+            derive_locality_candidates(
+                "Vlaamse Televisie Maatschappij (VTM, télévision privée flamande)"
+            )
+            == set()
+        )
+        assert (
+            derive_locality_candidates(
+                "B.S.D. (Belgische Strijdkrachten in Duitsland)"
+            )
+            == set()
+        )
+
+    def test_derive_locality_candidates_splits_parenthetical_locality_lists(self):
+        assert derive_locality_candidates("Malle (Oostmalle , Westmalle)") == {
+            "Malle",
+            "Oostmalle",
+            "Westmalle",
+        }
+
 
 class TestPostalCodeLocalityFilter:
     def _build_filter(self) -> PostalCodeLocalityFilter:
