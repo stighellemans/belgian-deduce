@@ -1,3 +1,4 @@
+ACIS HOPITAL PSYCHIATRIQUE SAINT-CHARLES
 Addictions - Europa Ziekenhuis Site Sint-Michiel
 Afdeling Reproductieve Geneeskunde UZ Gent
 Aidsreferentiecentrum ULB - UMC Sint-Pieter
@@ -120,8 +121,8 @@ Algemeen Ziekenhuis Sint-Blasius - Campus Zele - Palliatieve Zorgeenheid 'De Hav
 Algemeen Ziekenhuis Sint-Blasius - Campus Zele - Polikliniek, Pijnkliniek, Dialyse
 Algemeen Ziekenhuis Sint-Blasius - Campus Zele - Sociale Dienst
 Algemeen Ziekenhuis Sint-Blasius - Geheugenkliniek
-Algemeen Ziekenhuis Sint-Dimpna
 ALGEMEEN ZIEKENHUIS SINT-DIMPNA
+Algemeen Ziekenhuis Sint-Dimpna
 Algemeen Ziekenhuis Sint-Dimpna - Dienst Spoedgevallen
 Algemeen Ziekenhuis Sint-Dimpna - Erkende Satellietborstkliniek Geel-Mol
 Algemeen Ziekenhuis Sint-Dimpna - Fysische geneeskunde en Revalidatie
@@ -311,59 +312,134 @@ BENU AZ Oostende
 Bethanië geestelijke gezondheidszorg
 Brugmann Ziekenhuis - Dienst Spoedgevallen
 Buitengewoon Secundair Onderwijs De Leerexpert - Ziekenhuisschool
+C.H.S. CLINIQUE NOTRE DAME DES ANGES - Site CLINIQUE NEUROPSYCHIATRIQUE
 Cardiale revalidatie Ziekenhuis Geel
 Cardijnschool Inkendaal
 CENTRE HOSPITALIER BOIS DE L'ABBAYE
+CENTRE HOSPITALIER BOIS DE L'ABBAYE - Site SERAING
+CENTRE HOSPITALIER BOIS DE L'ABBAYE - Site WAREMME
+CENTRE HOSPITALIER CENTRE ARDENNE - Site BASTOGNE
+CENTRE HOSPITALIER CENTRE ARDENNE - Site LIBRAMONT
 CENTRE HOSPITALIER DE MOUSCRON
 CENTRE HOSPITALIER DE WALLONIE PICARDE (CHWAPI)
+CENTRE HOSPITALIER DE WALLONIE PICARDE (CHWAPI) - Site IMC
+CENTRE HOSPITALIER DE WALLONIE PICARDE (CHWAPI) - Site NOTRE-DAME
+CENTRE HOSPITALIER DE WALLONIE PICARDE (CHWAPI) - Site UNION
+CENTRE HOSPITALIER EPICURA - Site ATH
+CENTRE HOSPITALIER EPICURA - Site BAUDOUR
+CENTRE HOSPITALIER EPICURA - Site HOPITAL DE JOUR
+CENTRE HOSPITALIER EPICURA - Site HORNU
 Centre Hospitalier Jean Titeca
+CENTRE HOSPITALIER LE DOMAINE
+CENTRE HOSPITALIER MOUSCRON
+CENTRE HOSPITALIER NEUROLOGIQUE WILLIAM LENNOX
 CENTRE HOSPITALIER REGIONAL DE HUY
 CENTRE HOSPITALIER REINE ASTRID
+CENTRE HOSPITALIER SPECIALISE L’ACCUEIL
+CENTRE NEUROPSYCHIATRIQUE ST.-MARTIN
 Centrum voor Ontwikkelingsstoornissen - UZ Gent
 Centrum voor visuele revalidatie en Low-Vision UZ Gent
 CH EPICURA - ATH - BELOEIL
 CH EPICURA - HORNU - BAUDOUR
 CHIREC - DELTA
+CHIREC - DELTA - Campus DELTA ZIEKENHUIS
+CHIREC - DELTA - Campus MEDISCH CENTRUM EDITH CAVELL
 CHIREC - HOPITAL DELTA
 CHIREC - SARE
+CHIREC - SARE - Campus BASILIEK ZIEKENHUIS
+CHIREC - SARE - Campus ST. ANNE - ST. REMI
+CHIREC - SARE - Site Hôpital de BRAINE-L'ALLEUD
+CHP CHENE AUX HAIES
 CHR HAUTE SENNE
+CHR HAUTE SENNE - Site LE GOELAND
+CHR HAUTE SENNE - Site LE TILLERIAU
+CHR HAUTE SENNE - Site SAINT-VINCENT
+CHR SAMBRE & MEUSE - Site L’ACACIA
+CHR SAMBRE & MEUSE - Site MEUSE
+CHR SAMBRE & MEUSE - Site SAMBRE
 CHR SAMBRE ET MEUSE
 CHR VERVIERS - EAST BELGIUM
+CHR VERVIERS EAST BELGIUM - Site LA TOURELLE
+CHR VERVIERS EAST BELGIUM - Site PELTZER
 CHU - UCL NAMUR
 CHU CHARLEROI - CHIMAY - HOPITAL CIVIL MARIE CURIE
+CHU CHARLEROI - CHIMAY - Site HOPITAL ANDRE VESALE
+CHU CHARLEROI - CHIMAY - Site HOPITAL VINCENT VAN GOGH
+CHU CHARLEROI – CHIMAY - Site CENTRE DE SANTE DES FAGNES
 CHU CHARLEROI-CHIMAY
 CHU DE LIEGE
+CHU DE LIEGE - Site ANDRE RENARD
+CHU DE LIEGE - Site CENTRE LOGISTIQUE DE CHENEE
+CHU DE LIEGE - Site CNRF FRAITURE
+CHU DE LIEGE - Site NOTRE-DAME DES BRUYERES
+CHU DE LIEGE - Site OURTHE – AMBLEVE
+CHU DE LIEGE - Site SART-TILMAN
 CHU HELORA - HOPITAL DE JOLIMONT - LOBBES
 CHU HELORA - HOPITAL DE MONS
 CHU HELORA - HOPITAL DE MONS - WARQUIGNIES
 CHU HELORA - HOPITAL DE MONS SITE KENNEDY
 CHU HELORA - HOPITAL DE NIVELLES - TUBIZE
+CHU HELORA - Hôpital de MONS - Site KENNEDY
+CHU HELORA - Hôpital de MONS – site CONSTANTINOPLE
 CHU HELORA - JOLIMONT - LOBBES
+CHU HELORA - Site HOPITAL DE WARQUIGNIES
+CHU HELORA - Site LOBBES
+CHU HELORA - Site NIVELLES
+CHU HELORA - Site TUBIZE
+CHU HELORA – Hôpital de La Louvière - Site JOLIMONT
 CHU TIVOLI
+CHU UCL NAMUR - Site FOYER SAINT FRANCOIS
+CHU UCL NAMUR - Site GODINNE
+CHU UCL NAMUR - Site STE. ELISABETH
 CHU UCL NAMUR - STE. ELISABETH
+CHU UCL NAMUR – HOPITAL DINANT - Site SAINT-VINCENT
+CHU UCL NAMUR – HOPITAL DINANT - Site SAINTE- ANNE
 CHU-UCL NAMUR
 CHU-UCL NAMUR - DINANT
 CHU-UCL NAMUR - GODINNE
 CLINIQUE CHC HEUSY - CHC HERMALLE
 CLINIQUE CHC HEUSY - CHC HERMALLLE
 CLINIQUE CHC MONTLEGIA - CHC WAREMME
+CLINIQUE NEUROPSYCHIATRIQUE DE BONSECOURS
 CLINIQUE NOTRE-DAME DE GRACE
 CLINIQUE NOTRE-DAME DE GRÂCE
+CLINIQUE PSYCHIATRIQUE FRERES ALEXIENS - Site FRERES ALEXIENS
+CLINIQUE PSYCHIATRIQUE FRERES ALEXIENS - Site HOPITAL DE JOUR
 CLINIQUE SAINT PIERRE
 CLINIQUE SAINT-LUC
 CLINIQUE ST.-LUC
+CPI - LES GOELANDS
+CRP LES MARRONNIERS
+CSM SAINT-BERNARD
 Daghospitaal Paul Sivadon - UVC Brugmann
 E17-Ziekenhuisnetwerk
 Eenheid voor Psychiatrische Spoedinterventie - Algemeen Ziekenhuis Sint-Jan & Sint-Lucas
+EPSYLON Vzw - Campus AREA+
+EPSYLON Vzw - Campus FOND’ROY
+EPSYLON Vzw - Campus LA RAMEE
 Erasmus Ziekenhuis - Dienst Psychiatrie
 ERASMUSZIEKENHUIS (ULB)
 Erasmusziekenhuis - Centrum voor Traumatologie en Revalidatie
+ERASMUSZIEKENHUIS - ULB - Campus ERASMUS
+ERASMUSZIEKENHUIS - ULB - Campus GERIATRISCH REVALIDATIECENTRUM
+ERASMUSZIEKENHUIS - ULB - Campus TRAUMA- & REVALIDATIECENTRUM
 EUROPA ZIEKENHUIZEN
+EUROPA ZIEKENHUIZEN - Campus ST. ELISABETH
 EUROPAZIEKENHUIZEN
+EUROPAZIEKENHUIZEN - Campus ST. MICHIEL
+FEUX FOLLETS
 Gemeentelijke Basisschool voor Buitengewoon Onderwijs - De Leerexpert Ziekenhuisschool
 GRAND HOPITAL DE CHARLEROI
+GRAND HOPITAL DE CHARLEROI - CENTRE PSYCHOTHERAPEUTIQUE DE JOUR CHARLES-ALBERT FRERE
+GRAND HOPITAL DE CHARLEROI - Site LES VIVIERS
+GRAND HOPITAL DE CHARLEROI - Site NOTRE-DAME
 GROUPE SANTE CHC - CHC MONTLEGIA LIEGE ET WAREMME
+GROUPE SANTE CHC - Site CHC HEUSY
+GROUPE SANTE CHC - Site CHC WAREMME
+GROUPE SANTE CHC - Site FOYER HORIZON CHC MORESNET
+GROUPE SANTE CHC - Site HERMALLE
 GROUPE SANTE CHC -CHC HERMALLE ET HEUSY
+GROUPE SANTE CHC – Clinique CHC MONTLEGIA
 HEILIG HART ZIEKENHUIS
 Heilig Hartziekenhuis Lier
 Heilig Hartziekenhuis Lier - Dienst Spoedgevallen
@@ -376,13 +452,23 @@ Heilig Hartziekenhuis Mol
 Heilig Hartziekenhuis Mol - Dienst Spoedgevallen
 Heilig Hartziekenhuis Mol - Geriatrisch Dagziekenhuis
 Heilig Hartziekenhuis Mol - Sociale Dienst
+Hof ter Schelde
+HOPITAL DE JOUR UNIVERSITAIRE LA CLE
 HOPITAL DE LA CITADELLE
+HOPITAL DE LA CITADELLE - Site CITADELLE
+HOPITAL DE LA CITADELLE - Site HERSTAL
+HOPITAL DE LA CITADELLE - Site LAVEU
+HOPITAL LE VALDOR - Site AGORA 037
+HOPITAL LE VALDOR - Site VALDOR
+HOPITAL PSYCHIATRIQUE DU BEAU VALLON
+HOPITAL PSYCHIATRIQUE POUR ENFANTS ET ADOLESCENTS - Site LA PETITE MAISON
+HOPITAL PSYCHIATRIQUE ST.-JEAN DE DIEU
 Huisartsenwachtpost AZ Sint-Lucas Gent
 Huisartsenwachtpost UZ Gent
 Hulpcentrum voor Rokers - Erasmusziekenhuis
 Hulpcentrum voor Rokers - UMC Sint Pieter - Site Hallepoort
-Imelda Ziekenhuis
 IMELDA ZIEKENHUIS
+Imelda Ziekenhuis
 Imelda Ziekenhuis - Dienst Spoedgevallen
 Imelda Ziekenhuis - Erkende Borstkliniek
 Imelda Ziekenhuis - Fysische geneeskunde en revalidatie
@@ -393,8 +479,15 @@ Imelda Ziekenhuis - Sociale Dienst
 Imelda Ziekenhuis - Spirituele zorg
 INSTITUUT JULES BORDET
 IRIS ZIEKENHUIZEN ZUID
-Jan Yperman Ziekenhuis
+IRIS ZIEKENHUIZEN ZUID - Campus BARON LAMBERT
+IRIS ZIEKENHUIZEN ZUID - Campus ETTERBEEK/ELSENE
+IRIS ZIEKENHUIZEN ZUID - Campus JOSEPH BRACOPS
+IRIS ZIEKENHUIZEN ZUID - Campus MOLIERE LONGCHAMP
+IsoSL – HOPITAL PSYCHIATRIQUE DU PETIT BOURGOGNE - AGORA - Site AGORA 972
+IsoSL – HOPITAL PSYCHIATRIQUE DU PETIT BOURGOGNE - AGORA - Site LOUIS HILLIER
+IsoSL – HOPITAL PSYCHIATRIQUE DU PETIT BOURGOGNE - AGORA - Site PETIT BOURGOGNE
 JAN YPERMAN ZIEKENHUIS
+Jan Yperman Ziekenhuis
 Jan Yperman Ziekenhuis - Campus Poli Poperinge
 Jan Yperman Ziekenhuis - Dienst Spoedgevallen
 Jan Yperman Ziekenhuis - Fysische Geneeskunde en Revalidatie
@@ -403,8 +496,8 @@ Jan Yperman Ziekenhuis - Kleuteropvang
 Jan Yperman Ziekenhuis - Palliatieve Eenheid
 Jan Yperman Ziekenhuis - Psychiatrische Afdeling in een Algemeen Ziekenhuis
 Jan Yperman Ziekenhuis - Slaapkliniek
-Jessa Ziekenhuis
 JESSA ZIEKENHUIS
+Jessa Ziekenhuis
 Jessa Ziekenhuis - Campus Salvator
 Jessa Ziekenhuis - Campus Salvator - Afdeling Psychogeriatrie
 Jessa Ziekenhuis - Campus Salvator - Dienst Geriatrie
@@ -427,15 +520,23 @@ Jessa Ziekenhuis - Campus Virga Jesse - Psychiatrische Afdeling
 Jessa Ziekenhuis - Campus Virga Jesse - Raadplegingsafdeling
 Jessa Ziekenhuis - Campus Virga Jesse - Slaaplabo
 Jessa Ziekenhuis - Campus Virga Jesse - Sociale Dienst
+JULES BORDET INSTITUUT
 KARUS - Campus Melle
 Kinderpsychiatrisch Centrum Genk
 Kinderpsychiatrisch Centrum Genk - Dagziekenhuis Pelt
 Klief Zeedijk
+KLINIEK SANS SOUCI
+KLINIEK SINT - JAN - Campus KRUIDTUIN
+KLINIEK SINT - JAN - Campus MIDDAGLIJN
 KLINIEK SINT-JAN
+KLINIEK SINT-JAN - Campus LEOPOLD I
 Kliniek Sint-Jan - Palliatieve en continue zorg - Hospitalisatie - Kruidtuin
 KLINIEK ST.- JAN
 KLINIK ST. JOSEF
+KLINIK ST.-JOSEF
 Koningin Elisabeth Instituut - Ziekenhuis
+LE BIVOUAC
+L’EQUIPE - Campus DAGCENTRUM VOOR JONGEREN
 MDT-NMRC Inkendaal - UZ Brussel
 MDT-Referentie Centrum Autisme UZ Brussel
 Multiversum - Psychiatrisch Ziekenhuis - Campus Alexianen
@@ -468,7 +569,9 @@ Onze-Lieve-Vrouw van Lourdes Ziekenhuis Waregem - Psychiatrische Afdeling van ee
 Onze-Lieve-Vrouw van Lourdes Ziekenhuis Waregem - Psychiatrische Zorg Thuis
 OPENBAAR PSYCHIATRISCH ZORGCENTRUM GEEL
 Openbaar Psychiatrisch Zorgcentrum Rekem
+PARHELIE
 Prenatale Consultatie UZ - Brussel in samenwerking met Kind en Gezin
+PSC ELSENE
 Psychiatrisch Centrum Dr. Guislain - Campus Dr. Guislain
 Psychiatrisch Centrum Gent-Sleidinge - Campus Gent
 Psychiatrisch Centrum Menen
@@ -509,6 +612,7 @@ Psychiatrisch Ziekenhuis Sint-Lucia - Multi-Functionele Eenheid Waasland 'Het Kl
 Psycho-Sociaal Centrum Sint-Alexius Elsene
 Psychotherapeutisch Centrum Rustenburg
 Psychotherapeutisch en Psychiatrisch Centrum Pittem (PPC Pittem)
+PZ Stuivenberg
 RCA UZ Gent
 REGIONAAL ZIEKENHUIS HEILIG HART
 Regionaal Ziekenhuis Heilig Hart - Borstkliniek
@@ -535,6 +639,9 @@ RevArte Revalidatieziekenhuis
 Rode Kruis Vlaanderen - Bloedbanklab Leuven – UZ Leuven
 Rookstopkliniek Algemeen Ziekenhuis Oudenaarde
 School na Ziekenhuis vzw
+SILVA MEDICAL - Campus SCHEUTBOS
+SILVA MEDICAL Asbl - Site CLINIQUE DU BOIS DE LA PIERRE
+SILVA MEDICAL Asbl - Site WAVRE
 SINT-ANDRIES ZIEKENHUIS
 SINT-ANDRIESZIEKENHUIS
 Sint-Andriesziekenhuis
@@ -552,8 +659,8 @@ Sint-Franciscusziekenhuis - Psychiatrische Afdeling
 Sint-Franciscusziekenhuis - Revalidatie
 SINT-JOZEFSKLINIEK
 Sint-Jozefskliniek vzw
-Sint-Trudo Ziekenhuis
 SINT-TRUDO ZIEKENHUIS
+Sint-Trudo Ziekenhuis
 Sint-Trudo Ziekenhuis - Dienst Fysische Geneeskunde en Revalidatie
 Sint-Trudo Ziekenhuis - Dienst Geriatrie
 Sint-Trudo Ziekenhuis - Geriatrisch Dagziekenhuis en Valkliniek
@@ -563,20 +670,24 @@ Sint-Trudo Ziekenhuis - Slaaplabo
 Sint-Trudo Ziekenhuis - Sociale Dienst
 Sportmedisch Centrum - AZ Jan Palfijn - Podologie Joris De Schepper
 ST. NIKOLAUS-HOSPITAL
+ST.-NIKOLAUS HOSPITAL
 Stad Gent - UZ-School - Buitengewoon Basisonderwijs
 Stad Gent - UZ-School - Buitengewoon Secundair Onderwijs
 UMC Sint Pieter
 UMC Sint Pieter - SOS Kinderen
 UMC SINT-PIETER
+UMC SINT-PIETER - Campus CESAR DE PAEPE
+UMC SINT-PIETER - Campus HALLEPOORT
 Universitair Kinderziekenhuis Koningin Fabiola
 UNIVERSITAIR KINDERZIEKENHUIS KONINGIN FABIOLA (HUDERF)
 Universitair Kinderziekenhuis Koningin Fabiola - Dienst Pedopsychiatrie
 Universitair Kinderziekenhuis Koningin Fabiola - Dienst Pedopsychiatrie - Contre Allée
+UNIVERSITAIR KINDERZIEKENHUIS KONINGIN FABIOLA - HUDERF
 Universitair Kinderziekenhuis Koningin Fabiola - Pediatrische Spoed
 Universitair Psychiatrisch Centrum Duffel
 UNIVERSITAIR ZIEKENHUIS
-Universitair Ziekenhuis Antwerpen
 UNIVERSITAIR ZIEKENHUIS ANTWERPEN
+Universitair Ziekenhuis Antwerpen
 Universitair Ziekenhuis Antwerpen - Centrum voor Medische Genetica
 Universitair Ziekenhuis Antwerpen - Centrum voor Ontwikkelingsstoornissen
 Universitair Ziekenhuis Antwerpen - Dienst Patiëntenbegeleiding
@@ -612,10 +723,14 @@ Universitair Ziekenhuis Gent - Referentiecentrum Spina Bifida
 Universitair Ziekenhuis Gent - Revalidatiecentrum Volwassenen
 Universitair Ziekenhuis Gent - Universitaire Dienst Psychiatrie
 Universitair Ziekenhuis Saint-Luc
+UNIVERSITAIR ZIEKENHUIS ST. LUC
 UNIVERSITAIR ZIEKENHUIS ST. LUC (UCL)
 Universitaire Ziekenhuizen Leuven - Campus Pellenberg - het Revalidatiecentrum UZ Leuven - Campus Pellenberg
 UPC KU Leuven
 UVC BRUGMANN
+UVC BRUGMANN - Campus KONINGIN ASTRID
+UVC BRUGMANN - Campus PAUL BRIEN
+UVC BRUGMANN - Campus VICTOR HORTA
 Uw Apotheek AZ Delta
 UZ Brussel - Centrum Medische Genetica
 UZ Brussel - Dienst Kankerpreventie en Opsporing
@@ -663,7 +778,10 @@ UZ Leuven - Campus Gasthuisberg - Spoedgevallendienst
 UZ Leuven - Centrum voor Ontwikkelingsstoornissen
 UZ Leuven - Centrum voor Ontwikkelingsstoornissen - Antennepunt Limburg
 UZ Leuven - Kites Team
+VALISANA - Campus PSYCHIATRISCH INSTITUUT I.P.I.
+VALISANA - Campus VALIDA ZIEKENHUIS
 Vereniging Gelaryngectomeerden UZ Leuven en Vlaams Brabant
+VERPLEGINGSCENTRUM JEAN TITECA
 VITAZ
 Vitaz - Campus Beveren
 Vitaz - Campus Beveren - Afdeling Psychogeriatrie De Waaier
@@ -689,11 +807,32 @@ Vitaz - Campus Temse - Sociale Dienst
 VIVALIA - CENTRE HOSPITALIER CENTRE ARDENNE
 VIVALIA - HOPITAL ARLON - VIRTON
 VIVALIA - HOPITAL DE MARCHE
+VIVALIA - HOPITAL PSYCHIATRIQUE DE BERTRIX
+VIVALIA - Hôpital de MARCHE
+VIVALIA - Site HOPITAL D’ARLON
+VIVALIA - Site HOPITAL VIRTON
 Vlaams Ziekenhuisnetwerk KU Leuven vzw
 Vriendenkring van Brandwondenpatiënten van het UZ Gent
 Woonzorg- en Revalidatiecentrum De Dennen
+ZAS Augustinus
 ZAS AUGUSTINUS, VINCENTIUS, SINT-JOZEF
+ZAS Cadix
+ZAS Elisabeth
+ZAS Hoge Beuken
+ZAS Joostens
+ZAS Medisch Centrum Kaai 142
+ZAS Middelheim
 ZAS MIDDELHEIM, CADIX, PALFIJN, HOGE BEUKEN, JOOSTENS
+ZAS Palfijn
+ZAS Paola
+ZAS Polikliniek Hof ter Schelde
+ZAS Polikliniek Regatta
+ZAS PVT Antwerpen
+ZAS PZ Stuivenberg
+ZAS Sint-Jozef
+ZAS UKJA
+ZAS UKJA (Universitaire Kinder- en Jeugdpsychiatrie Antwerpen)
+ZAS Vincentius
 Ziekenhuis aan de Stroom
 Ziekenhuis aan de Stroom - Augustinus
 Ziekenhuis aan de Stroom - Dienst Levensbeschouwelijke zorg
@@ -778,22 +917,3 @@ Zorggroep Myna - Psychiatrisch Ziekenhuis Sint-Truiden - Campus Melveren - Mobie
 Zorggroep Myna - Psychiatrisch Ziekenhuis Sint-Truiden - Campus Stad
 Zorggroep Myna - Psychiatrisch Ziekenhuis Sint-Truiden - Campus Stad - G-Badminton en G-Zaalvoetbal
 Zorggroep Sint Kamillus
-PZ Stuivenberg
-ZAS Palfijn
-ZAS Augustinus
-ZAS Cadix
-ZAS Elisabeth
-ZAS Hoge Beuken
-ZAS Joostens
-ZAS Medisch Centrum Kaai 142
-ZAS Middelheim
-ZAS Paola
-ZAS Polikliniek Hof ter Schelde
-ZAS Polikliniek Regatta
-ZAS PVT Antwerpen
-ZAS PZ Stuivenberg
-ZAS Sint-Jozef
-ZAS UKJA (Universitaire Kinder- en Jeugdpsychiatrie Antwerpen)
-ZAS UKJA
-ZAS Vincentius
-Hof ter Schelde

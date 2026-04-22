@@ -1,56 +1,100 @@
 0612	Sinterklaas
 1000	Brussel (stad)
+1000	Bruxelles (Brussel)
+1005	Assemblée réunie de la Commission communautaire commune
 1005	Brussels Hoofdstedelijk Parlement
+1005	Bruxelles
+1005	Parlement de la Région de Bruxelles-Capitale
 1005	Verenigde Vergadering van de Gemeenschappelijke Gemeenschapscommissie
+1006	Conseil de la Commission communautaire flamande
 1006	Raad van de Vlaamse Gemeenschapscommissie
+1007	Parlement francophone bruxellois
 1007	Raad van de Franse Gemeenschapscommissie
+1008	Chambre des représentants
 1008	Kamer van Volksvertegenwoordigers
 1009	Belgische Senaat
+1009	Sénat de Belgique
+1010	Cité administrative de l'État
 1010	Rijksadministratief Centrum
+1011	Parlement flamand
 1011	Vlaams Parlement
+1012	Parlement de la Communauté française
 1012	Parlement van de Franse Gemeenschap
 1020	Brussel (Laken)
+1020	Laeken (Laken)
 1030	Brussel (Stephensonstraat)
+1030	Bruxelles (rue Stephenson)
 1030	Schaarbeek
+1030	Schaerbeek (Schaarbeek)
 1031	Christelijke Sociale Organisaties
+1031	Organisations sociales chrétiennes
 1033	RTL-TVI
+1033	RTL-TVI (télévision privée francophone)
 1035	Ministerie van het Brussels Hoofdstedelijk Gewest
+1035	Ministère de la Région de Bruxelles-Capitale
 1040	Brussel (oostelijke uitbreiding)
+1040	Bruxelles (extension est)
 1040	Etterbeek
 1041	International Press Center
+1043	Vlaamse Radio- en Televisieomroep (VRT, télévision publique flamande)
 1043	VRT
+1044	Radio-télévision belge de la Communauté française (RTBF, télévision publique francophone)
 1044	RTBF
 1045	D.I.V.
+1045	Direction d'Immatriculation des Véhicules (DIV)
 1046	European External Action Service
+1046	Service Européen pour l'action extérieure (SEAE/EEAS European External Action Service)
 1047	Europees Parlement
+1047	Parlement européen
+1048	Conseil de l'Union européenne
 1048	E.U.-Raad
+1049	Commission européenne
 1049	E.U.-Commissie
 1050	Brussel (Louizalaan)
+1050	Bruxelles (avenue Louise)
 1050	Elsene
+1050	Ixelles (Elsene)
+1050	Saint-Gilles (goulet de l'avenue Louise)
 1050	Sint-Gillis (Louizalaan)
+1060	Saint-Gilles (Sint-Gillis)
 1060	Sint-Gillis
 1070	Anderlecht
+1080	Molenbeek-Saint-Jean (Sint-Jans-Molenbeek)
 1080	Sint-Jans-Molenbeek
 1081	Koekelberg
+1082	Berchem-Sainte-Agathe (Sint-Agatha-Berchem)
 1082	Sint-Agatha-Berchem
 1083	Ganshoren
 1090	Jette
 1099	BPost Brussel X
+1100	Chèques postaux
 1100	Postcheque
 1101	Scanning (OptiRetour- en Scanning-dienst van bpost)
+1105	Service social de la Poste (SOC)
 1105	Sociale Dienst van bpost
 1110	NAVO
+1110	Organisation du traité de l'Atlantique nord (OTAN)
 1120	Brussel (Neder-Over-Heembeek)
+1120	Neder-Over-Heembeek
 1130	Brussel (Haren)
+1130	Haren
 1140	Evere
 1150	Sint-Pieters-Woluwe
+1150	Woluwe-Saint-Pierre (Sint-Pieters-Woluwe)
+1160	Auderghem (Oudergem)
 1160	Oudergem
 1170	Watermaal-Bosvoorde
+1170	Watermael-Boitsfort (Watermaal-Bosvoorde)
+1180	Uccle (Ukkel)
 1180	Ukkel
+1190	Forest (Vorst)
 1190	Vorst
 1200	Sint-Lambrechts-Woluwe
+1200	Woluwe-Saint-Lambert (Sint-Lambrechts-Woluwe)
+1210	Saint-Josse-ten-Noode (Sint-Joost-ten-Node)
 1210	Sint-Joost-ten-Node
 1212	FOD Mobiliteit
+1212	Service public fédéral Mobilité et Transports
 1300	Limal
 1300	Wavre
 1301	Bierges
@@ -62,9 +106,10 @@
 1315	Roux-Miroir
 1320	Beauvechain
 1320	Hamme-Mille
+1320	L'Écluse
+1320	l'Écluse
 1320	Nodebais
 1320	Tourinnes-la-Grosse
-1320	l'Écluse
 1325	Bonlez
 1325	Chaumont-Gistoux
 1325	Corroy-le-Grand
@@ -93,9 +138,10 @@
 1360	Malèves-Sainte-Marie-Wastines
 1360	Orbais
 1360	Perwez
-1360	Thorembais-Saint-Trond
 1360	Thorembais-les-Béguines
+1360	Thorembais-Saint-Trond
 1367	Autre-Église
+1367	Bomal
 1367	Bomal (Brabant)
 1367	Geest-Gérompont-Petit-Rosière
 1367	Grand-Rosière-Hottomont
@@ -126,11 +172,13 @@
 1390	Nethen
 1400	Monstreux
 1400	Nijvel (Nivelles)
+1400	Nivelles
 1400	Petit-Rœulx-lez-Nivelles
 1401	Baulers
 1402	Thines
 1404	Bornival
 1410	Waterloo
+1414	(Promo-Control)
 1414	Promo-Control
 1420	Braine-l'Alleud
 1421	Ophain-Bois-Seigneur-Isaac
@@ -169,56 +217,74 @@
 1480	Saintes
 1480	Tubize
 1490	Court-Saint-Étienne
+1495	Marbais
 1495	Marbais (Brabant)
 1495	Mellery
 1495	Sart-Dames-Avelines
 1495	Tilly
 1495	Villers-la-Ville
+1500	Hal (Halle)
 1500	Halle
 1501	Buizingen
 1502	Lembeek
 1540	Herfelingen
 1540	Herne
+1540	Hérinnes (Herne)
+1541	Saint-Pierre-Capelle (Sint-Pieters-Kapelle)
 1541	Sint-Pieters-Kapelle (Brabant)
 1547	Bever
+1547	Biévène (Bever)
 1560	Hoeilaart
 1570	Galmaarden
+1570	Gammerages (Galmaarden)
 1570	Tollembeek
 1570	Vollezele
+1600	Leeuw-Saint-Pierre (Sint-Pieters-Leeuw)
 1600	Oudenaken
 1600	Sint-Laureins-Berchem
 1600	Sint-Pieters-Leeuw
+1601	Ruisbroek
 1601	Ruisbroek (Brabant)
 1602	Vlezenbeek
 1620	Drogenbos
 1630	Linkebeek
+1640	Rhode-Saint-Genèse (Sint-Genesius-Rode)
 1640	Sint-Genesius-Rode
 1650	Beersel
 1651	Lot
 1652	Alsemberg
 1653	Dworp
+1653	Tourneppe (Dworp)
 1654	Huizingen
 1670	Bogaarden
+1670	Haute-Croix (Heikruis)
 1670	Heikruis
 1670	Pepingen
 1671	Elingen
 1673	Beert
+1673	Brages
 1674	Bellingen
+1700	Bodeghem-Saint-Martin (Sint-Martens-Bodegem)
+1700	Chapelle-Saint-Ulric
 1700	Dilbeek
 1700	Sint-Martens-Bodegem
 1700	Sint-Ulriks-Kapelle
 1701	Itterbeek
+1702	Grand-Bigard (Groot-Bijgaarden)
 1702	Groot-Bijgaarden
 1703	Schepdaal
 1730	Asse
 1730	Bekkerzeel
 1730	Kobbegem
+1730	Kobbeghem (Kobbegem)
 1730	Mollem
 1731	Relegem
+1731	Releghem (Relegem)
 1731	Zellik
 1733	HighCo DATA
 1740	Ternat
 1741	Wambeek
+1742	Lombeek-Sainte-Catherine (Sint-Katherina-Lombeek)
 1742	Sint-Katherina-Lombeek
 1745	Mazenzele
 1745	Opwijk
@@ -230,6 +296,7 @@
 1755	Kester
 1755	Leerbeek
 1755	Oetingen
+1760	Lombeek-Notre-Dame (Onze-Lieve-Vrouw-Lombeek)
 1760	Onze-Lieve-Vrouw-Lombeek
 1760	Pamel
 1760	Roosdaal
@@ -238,6 +305,7 @@
 1770	Liedekerke
 1780	Wemmel
 1785	Brussegem
+1785	Hamme
 1785	Hamme (Brabant)
 1785	Merchtem
 1790	Affligem
@@ -246,11 +314,14 @@
 1790	Teralfene
 1800	Peutie
 1800	Vilvoorde
+1800	Vilvorde (Vilvoorde)
 1804	Cargovil
+1818	Vlaamse Televisie Maatschappij (VTM, télévision privée flamande)
 1818	VTM
 1820	Melsbroek
 1820	Perk
 1820	Steenokkerzeel
+1830	Machelen
 1830	Machelen (Brabant)
 1831	Diegem
 1840	Londerzeel
@@ -262,9 +333,11 @@
 1853	Strombeek-Bever
 1860	Meise
 1861	Wolvertem
+1880	Capelle-au-Bois
 1880	Kapelle-op-den-Bos
 1880	Nieuwenrode
 1880	Ramsdonk
+1910	Berg
 1910	Berg (Brabant)
 1910	Buken
 1910	Kampenhout
@@ -273,48 +346,68 @@
 1930	Zaventem
 1931	Brucargo
 1932	Sint-Stevens-Woluwe
+1932	Woluwe-Saint-Étienne (Sint-Stevens-Woluwe)
 1933	Sterrebeek
 1934	Brussel X-Luchthaven Remailing
+1934	Bruxelles X-Aéroport Remailing
 1935	Corporate Village
 1950	Kraainem
 1970	Wezembeek-Oppem
 1980	Eppegem
 1980	Zemst
+1981	Hofstade
 1981	Hofstade (Brabant)
 1982	Elewijt
 1982	Weerde
 2000	Antwerpen 1 - Centrum
+2000	Anvers 1 (Antwerpen)
 2018	Antwerpen 7 - Zuid
+2018	Anvers 7
 2020	Antwerpen 2 - Kiel
+2020	Anvers 2
 2020	Kiel
 2020	Nachtegalenpark
 2030	Antwerpen 3 - Luchtbal
+2030	Anvers 3
 2030	Luchtbal
 2030	Oorderen
 2030	Wilmarsdonk
 2040	Antwerpen 4 - Berendrecht-Zandvliet-Lillo
+2040	Anvers 4
 2040	Berendrecht
 2040	Lillo
 2040	Zandvliet
 2050	Antwerpen 5 - Linkeroever
+2050	Anvers 5
 2060	Antwerpen 6 - Noord
+2060	Anvers 6
+2070	Burcht
 2070	Burcht (Oost-Vlaanderen)
+2070	Zwijndrecht
 2070	Zwijndrecht (Oost-Vlaanderen)
 2099	Antwerpen-X (Oorderen)
+2100	Deurne
 2100	Deurne (Antwerpen)
 2110	Wijnegem
+2140	Borgerhout
 2140	Borgerhout (Antwerpen)
+2150	Borsbeek
 2150	Borsbeek (Antwerpen)
 2160	Wommelgem
+2160	Wommelghem
+2170	Merksem
 2170	Merksem (Antwerpen)
+2180	Ekeren
 2180	Ekeren (Antwerpen)
 2200	Herentals
 2200	Morkhoven
 2200	Noorderwijk
 2220	Hallaar
+2220	Hallaer (Hallaar)
 2220	Heist-op-den-Berg
 2221	Booischot
 2222	Itegem
+2222	Iteghem (Itegem)
 2222	Wiekevorst
 2223	Schriek
 2230	Herselt
@@ -329,6 +422,7 @@
 2243	Pulle
 2250	Olen
 2260	Oevel
+2260	Tongerlo
 2260	Tongerlo (Antw.)
 2260	Westerlo
 2260	Zoerle-Parwijs
@@ -352,15 +446,21 @@
 2340	Vlimmeren
 2350	Vosselaar
 2360	Oud-Turnhout
+2360	Vieux-Turnhout (Oud-Turnhout)
 2370	Arendonk
 2380	Ravels
 2381	Weelde
 2382	Poppel
 2387	Baarle-Hertog
+2387	Baerle-Duc (Baarle-Hertog)
+2390	Malle
 2390	Malle (Oostmalle , Westmalle)
+2390	Oostmalle
+2390	Westmalle
 2400	Mol
 2430	Eindhout
 2430	Laakdal
+2430	Vorst
 2430	Vorst (Kempen)
 2431	Varendonk
 2431	Veerle
@@ -368,6 +468,7 @@
 2450	Meerhout
 2460	Kasterlee
 2460	Lichtaart
+2460	Lichtaert (Lichtaart)
 2460	Tielen
 2470	Retie
 2480	Dessel
@@ -375,9 +476,11 @@
 2491	Olmen
 2500	Koningshooikt
 2500	Lier
+2500	Lierre (Lier)
 2520	Broechem
 2520	Emblem
 2520	Oelegem
+2520	Oeleghem (Oelegem)
 2520	Ranst
 2530	Boechout
 2531	Vremde
@@ -385,6 +488,7 @@
 2547	Lint
 2550	Kontich
 2550	Waarloos
+2550	Waerloos (Waarloos)
 2560	Bevel
 2560	Kessel
 2560	Nijlen
@@ -393,19 +497,24 @@
 2580	Putte
 2590	Berlaar
 2590	Gestel
+2600	Berchem
 2600	Berchem (Antwerpen)
+2610	Wilrijk
 2610	Wilrijk (Antwerpen)
 2620	Hemiksem
 2627	Schelle
 2630	Aartselaar
 2640	Mortsel
 2650	Edegem
+2660	Hoboken
 2660	Hoboken (Antwerpen)
+2800	Malines (Mechelen)
 2800	Mechelen
 2800	Walem
 2801	Heffen
 2811	Hombeek
 2811	Leest
+2812	Muizen
 2812	Muizen (Mechelen)
 2820	Bonheiden
 2820	Rijmenam
@@ -419,17 +528,22 @@
 2845	Niel
 2850	Boom
 2860	Sint-Katelijne-Waver
+2860	Wavre-Sainte-Catherine (Sint-Katelijne-Waver)
 2861	Onze-Lieve-Vrouw-Waver
+2861	Wavre-Notre-Dame (Onze-Lieve-Vrouw-Waver)
 2870	Breendonk
 2870	Liezele
 2870	Puurs
+2870	Ruisbroek
 2870	Ruisbroek (Antw.)
 2880	Bornem
 2880	Hingene
+2880	Mariekerke
 2880	Mariekerke (Bornem)
 2880	Weert
 2890	Lippelo
 2890	Oppuurs
+2890	Saint-Amand (Sint-Amands)
 2890	Sint-Amands
 2900	Schoten
 2910	Essen
@@ -437,21 +551,27 @@
 2930	Brasschaat
 2940	Hoevenen
 2940	Stabroek
+2950	Kapellen
 2950	Kapellen (Antw.)
 2960	Brecht
+2960	Saint-Léonard (Sint-Lenaarts)
 2960	Sint-Job-in-'t-Goor
 2960	Sint-Lenaarts
 2970	's-Gravenwezel
 2970	Schilde
+2980	Halle
 2980	Halle (Zoersel)
 2980	Sint-Antonius
 2980	Zoersel
 2990	Loenhout
 2990	Wuustwezel
 3000	Leuven
+3000	Louvain (Leuven)
 3001	Heverlee
+3010	Kessel-Lo
 3010	Kessel-Lo (Leuven)
 3012	Wilsele
+3018	Wijgmaal
 3018	Wijgmaal (Brabant)
 3020	Herent
 3020	Veltem-Beisem
@@ -460,6 +580,7 @@
 3040	Loonbeek
 3040	Neerijse
 3040	Ottenburg
+3040	Rhode-Sainte-Agathe (Sint-Agatha-Rode)
 3040	Sint-Agatha-Rode
 3050	Oud-Heverlee
 3051	Sint-Joris-Weert
@@ -498,16 +619,21 @@
 3210	Lubbeek
 3211	Binkom
 3212	Pellenberg
+3220	Courtrai-Dutsel (Kortrijk-Dutsel)
 3220	Holsbeek
 3220	Kortrijk-Dutsel
+3220	Rhode-Saint-Pierre (Sint-Pieters-Rode)
 3220	Sint-Pieters-Rode
 3221	Nieuwrode
+3270	Montaigu (Scherpenheuvel)
+3270	Montaigu-Zichem (Scherpenheuvel-Zichem)
 3270	Scherpenheuvel
 3270	Scherpenheuvel-Zichem
 3271	Averbode
 3271	Zichem
 3272	Messelbroek
 3272	Testelt
+3290	Deurne
 3290	Deurne (Brabant)
 3290	Diest
 3290	Schaffen
@@ -516,14 +642,18 @@
 3294	Molenstede
 3300	Bost
 3300	Goetsenhoven
+3300	Gossoncourt (Goetsenhoven)
 3300	Hakendover
+3300	Hautem-Sainte-Marguerite (Sint-Margriete-Houtem)
 3300	Kumtich
 3300	Oorbeek
 3300	Oplinter
 3300	Sint-Margriete-Houtem (Tienen)
 3300	Tienen
+3300	Tirlemont (Tienen)
 3300	Vissenaken
 3320	Hoegaarden
+3320	Meldert
 3320	Meldert (Brabant)
 3321	Outgaarden
 3350	Drieslinter
@@ -546,12 +676,15 @@
 3370	Willebringen
 3380	Bunsbeek
 3380	Glabbeek-Zuurbemde
+3381	Kapellen
 3381	Kapellen (Brabant)
 3384	Attenrode
 3390	Houwaart
 3390	Sint-Joris-Winge
+3390	Tielt
 3390	Tielt (Brabant)
 3390	Tielt-Winge
+3390	Winghe-Saint-Georges (Sint-Joris-Winge)
 3391	Meensel-Kiezegem
 3400	Eliksem
 3400	Ezemaal
@@ -561,9 +694,12 @@
 3400	Overwinden
 3400	Rumsdorp
 3400	Wange
+3401	Houtain-l'Évêque (Walshoutem)
+3401	Vesdrin
 3401	Waasmont
 3401	Walsbets
 3401	Walshoutem
+3401	Wamont (Waasmont)
 3401	Wezeren
 3404	Attenhoven
 3404	Neerlanden
@@ -571,6 +707,7 @@
 3440	Dormaal
 3440	Halle-Booienhoven
 3440	Helen-Bos
+3440	Léau (Zoutleeuw)
 3440	Zoutleeuw
 3450	Geetbets
 3450	Grazen
@@ -584,8 +721,10 @@
 3472	Kersbeek-Miskom
 3473	Waanrode
 3500	Hasselt
+3500	Herck-Saint-Lambert (Sint-Lambrechts-Herk)
 3500	Sint-Lambrechts-Herk
 3501	Wimmertingen
+3510	Kermt
 3510	Kermt (Hasselt)
 3510	Spalbeek
 3511	Kuringen
@@ -597,20 +736,24 @@
 3530	Houthalen-Helchteren
 3540	Berbroek
 3540	Donk
+3540	Herck-la-Ville (Herk-de-Stad)
 3540	Herk-de-Stad
 3540	Schulen
 3545	Halen
 3545	Loksbergen
 3545	Zelem
+3550	Heusden
 3550	Heusden (Limb.)
 3550	Heusden-Zolder
 3550	Zolder
 3560	Linkhout
 3560	Lummen
+3560	Meldert
 3560	Meldert (Limb.)
 3570	Alken
 3580	Beringen
 3581	Beverlo
+3582	Coursel
 3582	Koersel
 3583	Paal
 3590	Diepenbeek
@@ -633,6 +776,7 @@
 3640	Kinrooi
 3640	Molenbeersel
 3640	Ophoven
+3650	Dilsen
 3650	Dilsen-Stokkem
 3650	Elen
 3650	Lanklaar
@@ -653,10 +797,13 @@
 3680	Opoeteren
 3690	Zutendaal
 3700	's Herenelderen
+3700	Berg
 3700	Berg (Limb.)
 3700	Diets-Heur
+3700	Frères (Vreren)
 3700	Haren (Tongeren)
 3700	Henis
+3700	Heure-le-Tixhe (Diets-Heur)
 3700	Kolmont (Tongeren)
 3700	Koninksem
 3700	Lauw
@@ -664,13 +811,19 @@
 3700	Neerrepen
 3700	Nerem
 3700	Overrepen (Kolmont)
+3700	Overrepen (quelques années sous le nom de Kolmont, fusion annulée)
 3700	Piringen (Haren)
+3700	Piringen (quelques années sous le nom de Haren, fusion annulée)
 3700	Riksingen
+3700	Russon (Rutten)
 3700	Rutten
 3700	Sluizen
+3700	Sluse (Sluizen)
 3700	Tongeren
+3700	Tongres (Tongeren)
 3700	Vreren
 3700	Widooie (Haren)
+3700	Widooie (quelques années sous le nom de Haren, fusion annulée)
 3717	Herstappe
 3720	Kortessem
 3721	Vliermaalroot
@@ -696,6 +849,7 @@
 3740	Waltwilder
 3742	Martenslinde
 3746	Hoelbeek
+3770	Flétange
 3770	Genoelselderen
 3770	Herderen
 3770	Kanne
@@ -707,20 +861,31 @@
 3770	Vroenhoven
 3770	Zichen-Zussen-Bolder
 3790	's-Gravenvoeren
+3790	Fouron-Saint-Martin (Sint-Martens-Voeren)
+3790	Fourons (Voeren)
 3790	Moelingen
+3790	Mouland (Moelingen)
 3790	Remersdaal
 3790	Sint-Martens-Voeren
 3790	Sint-Pieters-Voeren
 3790	Teuven
 3790	Voeren
+3791	Rémersdael (Remersdaal)
+3792	Fouron-Saint-Pierre (Sint-Pieters-Voeren)
+3793	Teuven
+3798	Fouron-le-Comte ('s Gravenvoeren)
 3800	Aalst (Limb.)
+3800	Alost (Aalst)
 3800	Brustem
 3800	Engelmanshoven
 3800	Gelinden
+3800	Grande-Jamine (Groot-Gelmen)
 3800	Groot-Gelmen
 3800	Halmaal
+3800	Kerckom-lez-Saint-Trond (Kerkom-bij-Sint-Truiden)
 3800	Kerkom-bij-Sint-Truiden
 3800	Ordingen
+3800	Saint-Trond (Sint-Truiden)
 3800	Sint-Truiden
 3800	Zepperen
 3803	Duras
@@ -733,38 +898,49 @@
 3831	Herten
 3832	Ulbeek
 3840	Bommershoven (Haren)
+3840	Bommershoven (quelques années sous le nom de Haren, fusion annulée)
 3840	Borgloon
 3840	Broekom
 3840	Gors-Opleeuw
 3840	Gotem
 3840	Groot-Loon
 3840	Haren (Borgloon)
+3840	Haren (hameau de Bommershoven, brièvement centre de fusion puis annulé)
 3840	Hendrieken
 3840	Hoepertingen
 3840	Jesseren (Kolmont)
+3840	Jesseren (quelques années sous le nom de Kolmont, fusion annulée)
 3840	Kerniel
 3840	Kolmont (Borgloon)
 3840	Kuttekoven
+3840	Looz (Borgloon)
 3840	Rijkel
+3840	Ryckel (Rijkel)
 3840	Voort
 3850	Binderveld
 3850	Kozen
+3850	Nieuwerkerken
 3850	Nieuwerkerken (Limb.)
 3850	Wijer
 3870	Batsheers
 3870	Bovelingen
+3870	Fologne (Veulen)
 3870	Gutschoven
 3870	Heers
 3870	Heks
 3870	Horpmaal
 3870	Klein-Gelmen
+3870	Marlinne (Mechelen-Bovelingen)
 3870	Mechelen-Bovelingen
 3870	Mettekoven
 3870	Opheers
+3870	Petite-Jamine (Klein-Gelmen)
 3870	Rukkelingen-Loon
 3870	Vechmaal
 3870	Veulen
 3890	Boekhout
+3890	Cortis (Kortijs)
+3890	Fresin (Vorsen)
 3890	Gingelom
 3890	Jeuk
 3890	Kortijs
@@ -774,8 +950,10 @@
 3891	Borlo
 3891	Buvingen
 3891	Mielen-boven-Aalst
+3891	Muizen
 3891	Muizen (Limb.)
 3900	Overpelt
+3910	Lille-Saint-Hubert
 3910	Neerpelt
 3910	Sint-Huibrechts-Lille
 3920	Lommel
@@ -793,9 +971,12 @@
 3950	Reppel
 3960	Beek
 3960	Bree
+3960	Brée (Bree)
 3960	Gerdingen
 3960	Opitter
+3960	Tongerlo
 3960	Tongerlo (Limb.)
+3970	Bourg-Léopold (Leopoldsburg)
 3970	Leopoldsburg
 3971	Heppen
 3980	Tessenderlo
@@ -804,14 +985,18 @@
 3990	Peer
 3990	Wijchmaal
 4000	Glain
+4000	Liège
 4000	Luik
 4000	Rocourt
 4000	Saint-Nicolas (Lg.)
 4020	Bressoux
 4020	Jupille-sur-Meuse
+4020	Liège
+4020	Longdoz
 4020	Luik
 4020	Wandre
 4030	Grivegnée
+4030	Liège
 4030	Luik
 4031	Angleur
 4032	Chênée
@@ -824,6 +1009,7 @@
 4052	Beaufays
 4053	Embourg
 4090	B.S.D. (Belgische Strijdkrachten in Duitsland)
+4090	Forces belges en Allemagne (Belgische strijdkrachten in Duitsland)
 4099	Bpost Liège X (distributiecentrum)
 4100	Boncelles
 4100	Seraing
@@ -832,6 +1018,7 @@
 4120	Ehein
 4120	Neupré
 4120	Rotheux-Rimière
+4120	Éhein
 4121	Neuville-en-Condroz
 4122	Plainevaux
 4130	Esneux
@@ -880,6 +1067,7 @@
 4257	Berloz
 4257	Corswarem
 4257	Roost-Krenwik (Rosoux-Crenwick)
+4257	Rosoux-Crenwick
 4260	Avennes
 4260	Braives
 4260	Ciplet
@@ -887,6 +1075,7 @@
 4260	Fumal
 4260	Ville-en-Hesbaye
 4261	Latinne
+4263	Tourinne
 4263	Tourinne (Lg.)
 4280	Abolens
 4280	Avernas-le-Bauduin
@@ -897,6 +1086,7 @@
 4280	Crehen
 4280	Grand-Hallet
 4280	Hannuit
+4280	Hannut
 4280	Lens-Saint-Remy
 4280	Merdorp
 4280	Moxhe
@@ -907,17 +1097,24 @@
 4280	Villers-le-Peuplier
 4280	Wansin
 4287	Lijsem (Lincent)
+4287	Lincent
+4287	Pellaines
 4287	Pellen (Pellaines)
 4287	Raatshoven (Racour)
+4287	Racour
 4300	Bettenhoven (Bettincourt)
+4300	Bettincourt
 4300	Bleret
 4300	Borgworm (Waremme)
 4300	Bovenistier
 4300	Grand-Axhe
 4300	Lantremange
 4300	Liek (Oleye)
+4300	Oleye
+4300	Waremme
 4317	Aineffe
 4317	Borlez
+4317	Celles
 4317	Celles (Lg.)
 4317	Faimes
 4317	Les Waleffes
@@ -929,6 +1126,7 @@
 4342	Hognoul
 4347	Fexhe-le-Haut-Clocher
 4347	Freloux
+4347	Noville
 4347	Noville (Lg.)
 4347	Roloux
 4347	Voroux-Goreux
@@ -939,12 +1137,15 @@
 4351	Hodeige
 4357	Donceel
 4357	Haneffe
+4357	Jeneffe
 4357	Jeneffe (Lg.)
 4357	Limont
 4360	Bergilers
 4360	Grandville
 4360	Lens-sur-Geer
 4360	Oerle (Oreye)
+4360	Oreye
+4360	Otrange
 4360	Wouteringen (Otrange)
 4367	Crisnée
 4367	Fize-le-Marsal
@@ -960,6 +1161,7 @@
 4400	Ivoz-Ramet
 4400	Mons-lez-Liège
 4420	Montegnée
+4420	Saint-Nicolas
 4420	Saint-Nicolas (Lg.)
 4420	Tilleur
 4430	Ans
@@ -972,6 +1174,7 @@
 4451	Voroux-lez-Liers
 4452	Nudorp (Wihogne)
 4452	Paifve
+4452	Wihogne
 4453	Villers-Saint-Siméon
 4458	Fexhe-Slins
 4460	Bierset
@@ -986,6 +1189,7 @@
 4480	Hermalle-sous-Huy
 4500	Ben-Ahin
 4500	Hoei (Huy)
+4500	Huy (Hoei)
 4500	Tihange
 4520	Antheit
 4520	Bas-Oha
@@ -998,6 +1202,7 @@
 4530	Vieux-Waleffe
 4530	Villers-le-Bouillet
 4530	Warnant-Dreye
+4537	Bodegnée
 4537	Chapon-Seraing
 4537	Seraing-le-Château
 4537	Verlaine
@@ -1008,6 +1213,7 @@
 4540	Ombret
 4550	Nandrin
 4550	Saint-Séverin
+4550	Saint-Séverin-en-Condroz
 4550	Villers-le-Temple
 4550	Yernée-Fraineux
 4557	Abée
@@ -1032,19 +1238,25 @@
 4590	Ellemelle
 4590	Ouffet
 4590	Warzée
+4600	Lanaye
 4600	Lieze (Lixhe)
+4600	Lixhe
 4600	Richelle
 4600	Ternaaien (Lanaye)
+4600	Visé (Wezet)
 4600	Wezet (Visé)
 4601	Argenteau
 4602	Cheratte
 4606	Saint-André
 4607	Berneau
 4607	Bolbeek (Bombaye)
+4607	Bombaye
 4607	Dalhem
 4607	Feneur
 4607	Mortroux
+4608	Neufchâteau
 4608	Neufchâteau (Lg.)
+4608	Warsage
 4608	Weerst (Warsage)
 4610	Bellaire
 4610	Beyne-Heusay
@@ -1058,10 +1270,13 @@
 4630	Soumagne
 4630	Tignée
 4631	Evegnée
+4631	Évegnée
+4632	Cerexhe-Heuseux
 4632	Cérexhe-Heuseux
 4633	Melen
 4650	Chaineux
 4650	Grand-Rechain
+4650	Herve
 4650	Hervé
 4650	Julémont
 4651	Battice
@@ -1075,40 +1290,53 @@
 4671	Cheratte
 4671	Housse
 4671	Saive
+4672	Saint-Remy
 4672	Saint-Remy (Lg.)
 4680	Hermée
 4680	Oupeye
 4681	Hermalle-sous-Argenteau
 4681	Heure-le-Romain
 4681	Houtain-Saint-Siméon
+4682	Heure-le-Romain
+4682	Houtain-Saint-Siméon
 4683	Vivegnis
 4684	Haccourt
+4690	Bassenge
 4690	Bitsingen (Bassenge)
 4690	Boirs
 4690	Eben-Emael
 4690	Glaaien (Glons)
+4690	Glons
+4690	Roclenge-sur-Geer
 4690	Rukkelingen-aan-de-Jeker (Roclenge-sur-Geer)
 4690	Wonck
+4690	Ében-Émael
 4700	Eupen
 4701	Kettenis
 4710	Lontzen
 4711	Walhorn
 4720	Kelmis (La Calamine)
+4720	La Calamine (Kelmis)
 4721	Neu-Moresnet
 4728	Hergenrath
 4730	Hauset
 4730	Raeren
 4731	Eynatten
+4750	Butgenbach (Bütgenbach)
 4750	Bütgenbach
 4750	Elsenborn
+4760	Bullange (Büllingen)
 4760	Büllingen
 4760	Manderfeld
 4761	Rocherath
+4770	Amblève (Amel)
 4770	Amel (Amblève)
 4770	Meyerode
 4771	Heppenbach
 4780	Recht
+4780	Saint-Vith (Sankt Vith)
 4780	Sankt Vith
+4782	Schoenberg (Schönberg)
 4782	Schönberg
 4783	Lommersweiler
 4784	Crombach
@@ -1123,13 +1351,17 @@
 4802	Heusy
 4820	Dison
 4821	Andrimont
+4830	Limbourg
 4830	Limburg
 4831	Bilstain
+4834	Goé
 4834	Gulke (Goé)
+4837	Baelen
 4837	Baelen (Lg.)
 4837	Membach
 4840	Welkenraedt
 4841	Hendrik-Kapelle (Henri-Chapelle)
+4841	Henri-Chapelle
 4845	Jalhay
 4845	Sart-lez-Spa
 4850	Montzen
@@ -1137,6 +1369,7 @@
 4850	Plombières
 4851	Gemmenich
 4851	Sippenaeken
+4852	Hombourg
 4852	Homburg
 4860	Cornesse
 4860	Pepinster
@@ -1148,6 +1381,7 @@
 4870	Trooz
 4877	Olne
 4880	Aubel
+4890	Clermont
 4890	Clermont (Lg.)
 4890	Thimister
 4890	Thimister-Clermont
@@ -1169,6 +1403,7 @@
 4960	Malmedy
 4970	Francorchamps
 4970	Stavelot
+4980	Fosse
 4980	Fosse (Lg.)
 4980	Trois-Ponts
 4980	Wanne
@@ -1187,6 +1422,7 @@
 5002	Saint-Servais
 5003	Saint-Marc
 5004	Bouge
+5012	Parlement Wallon
 5020	Champion
 5020	Daussoulx
 5020	Flawinne
@@ -1229,10 +1465,12 @@
 5080	Rhisnes
 5080	Villers-lez-Heest
 5080	Warisoulx
+5080	Émines
 5081	Bovesse
 5081	Meux
 5081	Saint-Denis-Bovesse
 5100	Dave
+5100	Jambes
 5100	Jambes (Namur)
 5100	Naninne
 5100	Wierde
@@ -1247,7 +1485,9 @@
 5150	Floreffe
 5150	Floriffoux
 5150	Franière
+5150	Soye
 5150	Soye (Nam.)
+5170	Arbre
 5170	Arbre (Nam.)
 5170	Bois-de-Villers
 5170	Lesve
@@ -1279,15 +1519,20 @@
 5310	Dhuy
 5310	Eghezée
 5310	Hanret
+5310	Leuze
 5310	Leuze (Nam.)
 5310	Liernu
+5310	Longchamps
 5310	Longchamps (Nam.)
 5310	Mehaigne
+5310	Noville-sur-Mehaigne
 5310	Noville-sur-Méhaigne
 5310	Saint-Germain
+5310	Taviers
 5310	Taviers (Nam.)
 5310	Upigny
 5310	Waret-la-Chaussée
+5310	Éghezée
 5330	Assesse
 5330	Maillen
 5330	Sart-Bernard
@@ -1303,6 +1548,7 @@
 5350	Evelette
 5350	Gesves
 5350	Ohey
+5350	Évelette
 5351	Haillot
 5352	Perwez-Haillot
 5353	Goesnes
@@ -1317,7 +1563,9 @@
 5370	Barvaux-Condroz
 5370	Flostoy
 5370	Havelange
+5370	Jeneffe
 5370	Jeneffe (Nam.)
+5370	Porcheresse
 5370	Porcheresse (Nam.)
 5370	Verlée
 5372	Méan
@@ -1325,6 +1573,7 @@
 5376	Miécret
 5377	Baillonville
 5377	Bonsin
+5377	Heure
 5377	Heure (Nam.)
 5377	Hogne
 5377	Nettinne
@@ -1337,6 +1586,7 @@
 5380	Fernelmont
 5380	Forville
 5380	Franc-Waret
+5380	Hemptinne
 5380	Hemptinne (Fernelmont)
 5380	Hingeon
 5380	Marchovelette
@@ -1366,10 +1616,12 @@
 5530	Evrehailles
 5530	Godinne
 5530	Houx
+5530	Mont
 5530	Mont (Nam.)
 5530	Purnode
 5530	Spontin
 5530	Yvoir
+5530	Évrehailles
 5537	Anhée
 5537	Annevoie-Rouillon
 5537	Bioul
@@ -1382,6 +1634,7 @@
 5540	Hermeton-sur-Meuse
 5540	Waulsort
 5541	Hastière-par-Delà
+5541	Hastière-par-delà
 5542	Blaimont
 5543	Heer
 5544	Agimont
@@ -1398,6 +1651,7 @@
 5550	Sugny
 5550	Vresse-sur-Semois
 5555	Baillamont
+5555	Bellefontaine
 5555	Bellefontaine (Nam.)
 5555	Bièvre
 5555	Cornimont
@@ -1413,6 +1667,7 @@
 5560	Hulsonniaux
 5560	Mesnil-Saint-Blaise
 5560	Mesnil-Église
+5561	Celles
 5561	Celles (Nam.)
 5562	Custinne
 5563	Hour
@@ -1471,6 +1726,7 @@
 5600	Jamagne
 5600	Jamiolle
 5600	Merlemont
+5600	Neuville
 5600	Neuville (Philippeville)
 5600	Omezée
 5600	Philippeville
@@ -1490,6 +1746,7 @@
 5620	Morville
 5620	Rosée
 5620	Saint-Aubin
+5621	(Florennes)
 5621	Hanzinelle
 5621	Hanzinne
 5621	Morialmé
@@ -1507,10 +1764,14 @@
 5640	Oret
 5640	Saint-Gérard
 5641	Furnaux
+5641	Furnaux (Mettet)
 5644	Ermeton-sur-Biert
+5644	Ermeton-sur-Biert (Mettet)
 5646	Stave
+5646	Stave (Mettet)
 5650	Castillon
 5650	Chastrès
+5650	Clermont
 5650	Clermont (Nam.)
 5650	Fontenelle
 5650	Fraire
@@ -1518,6 +1779,7 @@
 5650	Vogenée
 5650	Walcourt
 5650	Yves-Gomezée
+5651	(Walcourt)
 5651	Berzée
 5651	Gourdinne
 5651	Laneffe
@@ -1532,6 +1794,7 @@
 5660	Couvin
 5660	Cul-des-Sarts
 5660	Dailly
+5660	Frasnes
 5660	Frasnes (Nam.)
 5660	Gonrieux
 5660	Mariembourg
@@ -1559,20 +1822,35 @@
 5680	Vaucelles
 5680	Vodelée
 6000	Charleroi
+6001	Charleroi
 6001	Marcinelle
+6010	Charleroi
 6010	Couillet
 6010	Montignies-sur-Sambre
+6020	Charleroi
 6020	Dampremy
+6030	Charleroi
 6030	Goutroux
 6030	Marchienne-au-Pont
+6031	Charleroi
 6031	Monceau-sur-Sambre
+6032	Charleroi
 6032	Mont-sur-Marchienne
+6040	Charleroi
+6040	Jumet
 6040	Jumet (Charleroi)
+6041	Charleroi
 6041	Gosselies
+6042	Charleroi
 6042	Lodelinsart
+6043	Charleroi
 6043	Ransart
+6044	Charleroi
 6044	Roux
+6060	Charleroi
+6060	Gilly
 6060	Gilly (Charleroi)
+6061	Charleroi
 6061	Montignies-sur-Sambre
 6110	Montigny-le-Tilleul
 6111	Landelies
@@ -1580,16 +1858,23 @@
 6120	Ham-sur-Heure
 6120	Ham-sur-Heure-Nalinnes
 6120	Jamioulx
+6120	Marbaix
 6120	Marbaix (Ht.)
 6120	Nalinnes
 6140	Fontaine-l'Évêque
 6141	Forchies-la-Marche
+6141	Forchies-la-Marche (Fontaine-l'Évêque)
 6142	Leernes
+6142	Leernes (Fontaine-l'Évêque)
 6150	Anderlues
 6180	Courcelles
+6180	Courcelles (Charleroi)
 6181	Gouy-lez-Piéton
+6181	Gouy-lez-Piéton (Charleroi)
 6182	Souvret
+6182	Souvret (Charleroi)
 6183	Trazegnies
+6183	Trazegnies (Charleroi)
 6200	Bouffioulx
 6200	Châtelet
 6200	Châtelineau
@@ -1599,14 +1884,19 @@
 6210	Villers-Perwin
 6210	Wayaux
 6211	Mellet
+6211	Mellet (Les Bons Villers)
 6220	Fleurus
 6220	Heppignies
 6220	Lambusart
 6220	Wangenies
 6221	Saint-Amand
+6221	Saint-Amand (Fleurus)
 6222	Brye
+6222	Brye (Fleurus)
 6223	Wagnelée
+6223	Wagnelée (Fleurus)
 6224	Wanfercée-Baulet
+6224	Wanfercée-Baulet (Fleurus)
 6230	Buzet
 6230	Obaix
 6230	Pont-à-Celles
@@ -1614,6 +1904,7 @@
 6230	Viesville
 6238	Liberchies
 6238	Luttre
+6238	Pont-à-Celles
 6240	Farciennes
 6240	Pironchamps
 6250	Aiseau
@@ -1632,20 +1923,27 @@
 6440	Froidchapelle
 6440	Vergnies
 6441	Erpion
+6441	Erpion (Froidchapelle)
 6460	Bailièvre
 6460	Chimay
 6460	Robechies
+6460	Saint-Remy
 6460	Saint-Remy (Ht.)
 6460	Salles
 6460	Villers-la-Tour
 6461	Virelles
+6461	Virelles (Chimay)
 6462	Vaulx-lez-Chimay
+6462	Vaulx-lez-Chimay (Chimay)
 6463	Lompret
+6463	Lompret (Chimay)
 6464	Baileux
 6464	Bourlers
+6464	Chimay
 6464	Forges
-6464	Rièzes
+6464	L'Escaillère
 6464	l'Escaillère
+6464	Rièzes
 6470	Grandrieu
 6470	Montbliart
 6470	Rance
@@ -1659,19 +1957,28 @@
 6500	Renlies
 6500	Solre-Saint-Géry
 6500	Thirimont
+6511	Beaumont
+6511	Strée
 6511	Strée (Ht.)
 6530	Leers-et-Fosteau
 6530	Thuin
 6531	Biesme-sous-Thuin
+6531	Biesme-sous-Thuin (Thuin)
 6532	Ragnies
+6532	Ragnies (Thuin)
 6533	Biercée
+6533	Biercée (Thuin)
 6534	Gozée
+6534	Gozée (Thuin)
 6536	Donstiennes
 6536	Thuillies
+6536	Thuin
 6540	Lobbes
 6540	Mont-Sainte-Geneviève
 6542	Sars-la-Buissière
+6542	Sars-la-Buissière (Lobbes)
 6543	Bienne-lez-Happart
+6543	Bienne-lez-Happart (Lobbes)
 6560	Bersillies-l'Abbaye
 6560	Erquelinnes
 6560	Grand-Reng
@@ -1680,17 +1987,24 @@
 6560	Solre-sur-Sambre
 6567	Fontaine-Valmont
 6567	Labuissière
-6567	Merbes-Sainte-Marie
 6567	Merbes-le-Château
+6567	Merbes-Sainte-Marie
 6590	Momignies
+6591	Macon (Momignies)
 6591	Mâcon
 6592	Monceau-Imbrechies
+6592	Monceau-Imbrechies (Momignies)
 6593	Macquenoise
+6593	Macquenoise (Momignies)
 6594	Beauwelz
+6594	Beauwelz (Momignies)
 6596	Forge-Philippe
+6596	Momignies
 6596	Seloignes
 6600	Bastenaken
+6600	Bastogne
 6600	Longvilly
+6600	Noville
 6600	Noville (Lux.)
 6600	Villers-la-Bonne-Eau
 6600	Wardin
@@ -1707,6 +2021,7 @@
 6642	Juseret
 6660	Houffalize
 6660	Nadrin
+6661	Mont
 6661	Mont (Lux.)
 6661	Tailles
 6662	Tavigny
@@ -1724,6 +2039,7 @@
 6681	Lavacherie
 6686	Flamierge
 6687	Bertogne
+6688	Longchamps
 6688	Longchamps (Lux.)
 6690	Bihain
 6690	Vielsalm
@@ -1747,19 +2063,28 @@
 6723	Habay-la-Vieille
 6724	Houdemont
 6724	Rulles
+6730	Ansart (Tintigny)
+6730	Bellefontaine
 6730	Bellefontaine (Lux.)
+6730	Breuvanne (Tintigny)
+6730	Han (Tintigny)
+6730	Lahage (Tintigny)
+6730	Poncelle (Tintigny)
 6730	Rossignol
 6730	Saint-Vincent
 6730	Tintigny
 6740	Etalle
 6740	Sainte-Marie-sur-Semois
 6740	Villers-sur-Semois
+6740	Étalle
 6741	Vance
 6742	Chantemelle
 6743	Buzenol
 6747	Châtillon
-6747	Saint-Léger (Lux.)
+6747	Meix-le-Tige
 6747	meix-le-Tige
+6747	Saint-Léger
+6747	Saint-Léger (Lux.)
 6750	Musson
 6750	Mussy-la-Ville
 6750	Signeulx
@@ -1767,6 +2092,7 @@
 6760	Ethe
 6760	Ruette
 6760	Virton
+6760	Èthe
 6761	Latour
 6762	Saint-Mard
 6767	Dampicourt
@@ -1775,10 +2101,11 @@
 6767	Rouvroy
 6767	Torgny
 6769	Gérouville
+6769	Meix-devant-Virton
+6769	meix-Devant-Virton
 6769	Robelmont
 6769	Sommethonne
 6769	Villers-la-Loue
-6769	meix-Devant-Virton
 6780	Hondelange
 6780	Messancy
 6780	Wolkrange
@@ -1790,6 +2117,7 @@
 6792	Rachecourt
 6800	Bras
 6800	Freux
+6800	Libramont
 6800	Libramont-Chevigny
 6800	Moircy
 6800	Recogne
@@ -1839,6 +2167,7 @@
 6860	Léglise
 6860	Mellier
 6860	Witry
+6860	Ébly
 6870	Arville
 6870	Awenne
 6870	Bras
@@ -1862,12 +2191,15 @@
 6890	Transinne
 6890	Villance
 6900	Aye
+6900	Grimbiémont
 6900	Hargimont
 6900	Humain
+6900	Lignières
 6900	Marche-en-Famenne
 6900	Marloie
 6900	On
 6900	Roy
+6900	Verdenne
 6900	Waha
 6920	Rochefort
 6920	Sohier
@@ -1882,14 +2214,17 @@
 6929	Daverdisse
 6929	Gembes
 6929	Haut-Fays
+6929	Porcheresse
 6929	Porcheresse (Lux.)
 6940	Barvaux
+6940	Barvaux-sur-Ourthe
 6940	Durbuy
 6940	Grandhan
 6940	Septon
 6940	Wéris
 6941	Bende
 6941	Bomal
+6941	Bomal-sur-Ourthe
 6941	Borlon
 6941	Heyd
 6941	Izier
@@ -1932,24 +2267,44 @@
 6997	Soy
 6997	Érezée
 7000	Bergen
+7000	Mons
 7010	S.H.A.P.E. België
+7010	SHAPE
+7011	Ghlin
 7011	Ghlin (Bergen)
+7012	Flénu
 7012	Flénu (Bergen)
+7012	Jemappes
 7012	Jemappes (Bergen)
+7020	Maisières
 7020	Maisières (Bergen)
+7020	Nimy
 7020	Nimy (Bergen)
+7021	Havré
 7021	Havré (Bergen)
+7022	Harmignies
 7022	Harmignies (Bergen)
+7022	Harveng
 7022	Harveng (Bergen)
+7022	Hyon
 7022	Hyon (Bergen)
+7022	Mesvin
 7022	Mesvin (Bergen)
+7022	Nouvelles
 7022	Nouvelles (Bergen)
+7024	Ciply
 7024	Ciply (Bergen)
+7030	Saint-Symphorien
 7030	Saint-Symphorien (Bergen)
+7031	Villers-Saint-Ghislain
 7031	Villers-Saint-Ghislain (Bergen)
+7032	Spiennes
 7032	Spiennes (Bergen)
+7033	Cuesmes
 7033	Cuesmes (Bergen)
+7034	Obourg
 7034	Obourg (Bergen)
+7034	Saint-Denis
 7034	Saint-Denis (Bergen)
 7040	Asquillies
 7040	Aulnois
@@ -1957,6 +2312,7 @@
 7040	Bougnies
 7040	Genly
 7040	Goegnies-Chaussée
+7040	Gœgnies-Chaussée
 7040	Quévy
 7040	Quévy-le-Grand
 7040	Quévy-le-Petit
@@ -1964,12 +2320,16 @@
 7041	Havay
 7050	Erbaut
 7050	Erbisoeul
+7050	Erbisœul
 7050	Herchies
 7050	Jurbise
+7050	Masnuy-Saint-Jean
 7050	Masnuy-Saint-Jean (Jurbise)
 7050	Masnuy-Saint-Pierre
 7060	Horrues
+7060	Soignies
 7060	Zinnik
+7061	Casteau
 7061	Casteau (Soignies)
 7061	Thieusies
 7062	Naast
@@ -1979,18 +2339,22 @@
 7070	Le Rœulx
 7070	Mignault
 7070	Thieu
+7070	Ville-sur-Haine
 7070	Ville-sur-Haine (Le Rœulx)
+7080	Eugies
 7080	Eugies (Frameries)
 7080	Frameries
 7080	La Bouverie
 7080	Noirchain
 7080	Sars-la-Bruyère
 7090	's-Gravenbrakel
+7090	Braine-le-Comte
 7090	Hennuyères
 7090	Henripont
 7090	Petit-Rœulx-lez-Braine
 7090	Ronquières
 7090	Steenkerke (Hen.)
+7090	Steenkerque
 7100	Haine-Saint-Paul
 7100	Haine-Saint-Pierre
 7100	La Louvière
@@ -1999,6 +2363,7 @@
 7110	Boussoit
 7110	Houdeng-Aimeries
 7110	Houdeng-Goegnies (La Louvière)
+7110	Houdeng-Gœgnies
 7110	Maurage
 7110	Strépy-Bracquegnies
 7120	Croix-lez-Rouveroy
@@ -2006,8 +2371,10 @@
 7120	Estinnes-au-Mont
 7120	Estinnes-au-Val
 7120	Fauroeulx
+7120	Faurœulx
 7120	Haulchin
 7120	Peissant
+7120	Rouveroy
 7120	Rouveroy (Ht.)
 7120	Vellereille-le-Sec
 7120	Vellereille-les-Brayeux
@@ -2020,6 +2387,7 @@
 7134	Leval-Trahegnies
 7134	Péronnes-lez-Binche
 7134	Ressaix
+7134	Épinois
 7140	Morlanwelz
 7140	Morlanwelz-Mariemont
 7141	Carnières
@@ -2041,13 +2409,18 @@
 7190	Ecaussinnes
 7190	Ecaussinnes-d'Enghien
 7190	Marche-lez-Ecaussinnes
+7190	Marche-lez-Écaussinnes
+7190	Écaussinnes
+7190	Écaussinnes-d'Enghien
 7191	Ecaussinnes-Lalaing
+7191	Écaussinnes-Lalaing
 7300	Boussu
 7301	Hornu
 7320	Bernissart
 7321	Blaton
 7321	Harchies
 7322	Pommeroeul
+7322	Pommerœul
 7322	Ville-Pommeroeul
 7330	Saint-Ghislain
 7331	Baudour
@@ -2058,16 +2431,19 @@
 7334	Villerot
 7340	Colfontaine
 7340	Paturages
+7340	Pâturages
 7340	Warquignies
 7340	Wasmes
 7350	Hainin
 7350	Hensies
 7350	Montroeul-sur-Haine
+7350	Montrœul-sur-Haine
 7350	Thulin
 7370	Blaugies
 7370	Dour
 7370	Elouges
 7370	Wihéries
+7370	Élouges
 7380	Baisieux
 7380	Quiévrain
 7382	Audregnies
@@ -2087,6 +2463,7 @@
 7500	Doornik
 7500	Ere
 7500	Saint-Maur
+7500	Tournai
 7501	Orcq
 7502	Esplechin
 7503	Froyennes
@@ -2103,12 +2480,14 @@
 7522	Hertain
 7522	Lamain
 7522	Marquain
+7530	Gaurain-Ramecroix
 7530	Gaurain-Ramecroix (Doornik)
 7531	Havinnes
 7532	Beclers
 7533	Thimougies
 7534	Barry
 7534	Maulde
+7536	Vaulx
 7536	Vaulx (Doornik)
 7538	Vezon
 7540	Kain
@@ -2126,7 +2505,9 @@
 7604	Braffe
 7604	Brasmenil
 7604	Callenelle
+7604	Wasmes
 7604	Wasmes-Audemez-Briffoeil
+7604	Wasmes-Audemez-Briffœil
 7608	Wiers
 7610	Rumes
 7611	La Glanerie
@@ -2149,13 +2530,18 @@
 7643	Fontenoy
 7700	Luingne
 7700	Moeskroen
+7700	Mouscron
 7711	Dottenijs
+7711	Dottignies
+7712	Herseaux
 7712	Herzeeuw
 7730	Bailleul
 7730	Estaimbourg
 7730	Estaimpuis
+7730	Evregnies
 7730	Leers-Nord
 7730	Néchin
+7730	Saint-Léger
 7730	Saint-Léger (Hen.)
 7730	Évregnies
 7740	Pecq
@@ -2165,23 +2551,32 @@
 7743	Obigies
 7750	Amougies
 7750	Anseroeul
+7750	Anserœul
 7750	Mont-de-l'Enclus
 7750	Orroir
 7750	Russeignies
+7760	Celles
 7760	Celles (Ht.)
 7760	Escanaffles
 7760	Molenbaix
 7760	Popuelles
 7760	Pottes
 7760	Velaines
+7780	Comines
+7780	Comines-Warneton
 7780	Komen (Comines)
 7780	Komen-Waasten
+7781	Houthem
 7781	Houthem (Komen)
 7782	Ploegsteert
 7783	Bizet
+7783	Le Bizet
+7784	Bas-Warneton
 7784	Neerwaasten
 7784	Waasten (Warneton)
+7784	Warneton
 7800	Aat (Ath)
+7800	Ath
 7800	Lanquesaint
 7801	Irchonwelz
 7802	Ormeignies
@@ -2189,6 +2584,7 @@
 7804	Ostiches
 7804	Rebaix
 7810	Maffle
+7811	Arbre
 7811	Arbre (Henegouwen)
 7812	Houtaing
 7812	Ligne
@@ -2197,34 +2593,48 @@
 7812	Villers-Notre-Dame
 7812	Villers-Saint-Amand
 7822	Gellingen (Ghislenghien)
+7822	Ghislenghien
 7822	Isières
 7822	Meslin-l'Évêque
 7823	Gibecq
+7830	Bassilly
 7830	Fouleng
 7830	Gondregnies
 7830	Graty
 7830	Hellebecq
 7830	Hove (Hove)
+7830	Hoves
 7830	Opzullik (Silly)
+7830	Silly
 7830	Thoricourt
 7830	Zullik (Bassilly)
 7850	Edingen (Enghien)
+7850	Enghien
 7850	Lettelingen (Petit-Enghien)
+7850	Marcq
 7850	Mark (Marcq)
+7850	Petit-Enghien
 7860	Lessen (Lessines)
+7860	Lessines
 7861	Papegem (Papignies)
+7861	Papignies
 7861	Wannebecq
 7862	Ogy
 7863	Ghoy
+7864	Deux-Acren
 7864	Twee-Akren (Deux-Acren)
+7866	Bois-de-Lessines
 7866	Lessenbos (Bois-de-Lessines)
+7866	Ollignies
 7866	Woelingen (Ollignies)
 7870	Bauffe
 7870	Cambron-Saint-Vincent
 7870	Lens
 7870	Lombise
 7870	Montignies-lez-Lens
+7880	Flobecq
 7880	Vloesberg (Flobecq)
+7890	Ellezelles
 7890	Elzele (Ellezelles)
 7890	Lahamaide
 7890	Wodecq
@@ -2243,6 +2653,7 @@
 7910	Arc-Wattripont
 7910	Cordes
 7910	Ellignies-lez-Frasnes
+7910	Forest
 7910	Forest (Henegouwen)
 7910	Frasnes-lez-Anvaing
 7910	Wattripont
@@ -2251,6 +2662,7 @@
 7911	Hacquegnies
 7911	Herquegies
 7911	Montrœul-au-Bois
+7911	Moustier
 7911	Moustier (Henegouwen)
 7911	Œudeghien
 7912	Dergneau
@@ -2265,6 +2677,7 @@
 7950	Huissignies
 7950	Ladeuze
 7950	Tongre-Saint-Martin
+7951	Chièvres
 7951	Tongre-Notre-Dame
 7970	Belœil
 7971	Basècles
@@ -2276,13 +2689,17 @@
 7972	Quevaucamps
 7973	Grandglise
 7973	Stambruges
+8000	Bruges (Brugge)
 8000	Brugge
+8000	Koolkerke
 8000	Koolkerke (Brugge)
 8020	Hertsberge
 8020	Oostkamp
 8020	Ruddervoorde
 8020	Waardamme
+8200	Sint-Andries
 8200	Sint-Andries (Brugge)
+8200	Sint-Michiels
 8200	Sint-Michiels (Brugge)
 8210	Loppem
 8210	Veldegem
@@ -2291,14 +2708,19 @@
 8300	Knokke
 8300	Knokke-Heist
 8300	Westkapelle
+8301	Heist
 8301	Heist -aan-Zee
+8301	Ramskapelle
 8301	Ramskapelle (Knokke-Heist)
+8310	Assebroek
 8310	Assebroek (Brugge)
+8310	Sint-Kruis
 8310	Sint-Kruis (Brugge)
 8340	Damme
 8340	Hoeke
 8340	Lapscheure
 8340	Moerkerke
+8340	Oostkerke
 8340	Oostkerke (Damme)
 8340	Sijsele
 8370	Blankenberge
@@ -2307,21 +2729,29 @@
 8377	Meetkerke
 8377	Nieuwmunster
 8377	Zuienkerke
+8380	Dudzele
 8380	Dudzele (Brugge)
+8380	Lissewege
 8380	Lissewege (Brugge)
+8380	Zeebruges (Zeebrugge)
 8380	Zeebrugge (Brugge)
 8400	Oostende
+8400	Ostende (Oostende)
 8400	Stene
+8400	Zandvoorde
 8400	Zandvoorde (Oostende)
 8420	De Haan
 8420	Klemskerke
+8420	Le Coq (De Haan)
 8420	Wenduine
 8421	Vlissegem
 8430	Middelkerke
 8431	Wilskerke
 8432	Leffinge
 8433	Mannekensvere
+8433	Schore
 8433	Schore (Middelkerke)
+8433	Sint-Pieters-Kapelle
 8433	Sint-Pieters-Kapelle (Middelkerke)
 8433	Slijpe
 8433	Spermalie
@@ -2344,11 +2774,13 @@
 8490	Stalhille
 8490	Varsenare
 8490	Zerkegem
+8500	Courtrai (Kortrijk)
 8500	Kortrijk
 8501	Bissegem
 8501	Heule
 8510	Bellegem
 8510	Kooigem
+8510	Marke
 8510	Marke (België)
 8510	Rollegem
 8511	Aalbeke
@@ -2361,6 +2793,7 @@
 8551	Heestert
 8552	Moen
 8553	Otegem
+8554	Saint-Genois
 8554	Sint-Denijs
 8560	Gullegem
 8560	Moorsele
@@ -2376,11 +2809,15 @@
 8581	Waarmaarde
 8582	Outrijve
 8583	Bossuit
+8587	Espierres (Spiere)
+8587	Espierres-Helchin (Spiere-Helkijn)
+8587	Helchin (Helkijn)
 8587	Helkijn
 8587	Spiere
 8587	Spiere-Helkijn
 8600	Beerst
 8600	Diksmuide
+8600	Dixmude (Diksmuide)
 8600	Driekapellen
 8600	Esen
 8600	Kaaskerke
@@ -2388,6 +2825,7 @@
 8600	Lampernisse
 8600	Leke
 8600	Nieuwkapelle
+8600	Oostkerke
 8600	Oostkerke (Diksmuide)
 8600	Oudekapelle
 8600	Pervijze
@@ -2399,8 +2837,11 @@
 8610	Kortemark
 8610	Werken
 8610	Zarren
+8620	Nieuport (Nieuwpoort)
 8620	Nieuwpoort
+8620	Ramskapelle
 8620	Ramskapelle (Nieuwpoort)
+8620	Saint-Georges
 8620	Sint-Joris (Nieuwpoort)
 8630	Avekapelle
 8630	Beauvoorde
@@ -2408,7 +2849,10 @@
 8630	Bulskamp
 8630	De Moeren
 8630	Eggewaartskapelle
+8630	Furnes (Veurne)
+8630	Houtem
 8630	Houtem (West-Vlaanderen)
+8630	Steenkerke
 8630	Steenkerke (West-Vlaanderen)
 8630	Veurne
 8630	Vinkem
@@ -2427,9 +2871,13 @@
 8650	Klerken
 8650	Merkem
 8660	Adinkerke
+8660	Adinkerque (Adinkerke)
 8660	De Panne
+8660	La Panne (De Panne)
+8670	Coxyde (Koksijde)
 8670	Koksijde
 8670	Oostduinkerke
+8670	Ostdunkerque
 8670	Wulpen
 8680	Bovekerke
 8680	Koekelare
@@ -2439,6 +2887,7 @@
 8690	Oeren
 8690	Sint-Rijkers
 8691	Beveren-aan-den-IJzer
+8691	Beveren-aan-den-Ijzer
 8691	Gijverinkhove
 8691	Izenberge
 8691	Leisele
@@ -2466,14 +2915,19 @@
 8770	Ingelmunster
 8780	Oostrozebeke
 8790	Waregem
+8791	Beveren
 8791	Beveren-Leie
 8792	Desselgem
 8793	Sint-Eloois-Vijve
+8793	Vive-Saint-Éloi
+8800	Beveren
 8800	Beveren (Roeselare)
 8800	Oekene
 8800	Roeselare
+8800	Roulers (Roeselare)
 8800	Rumbeke
 8810	Lichtervelde
+8820	Thourout (Torhout)
 8820	Torhout
 8830	Gits
 8830	Hooglede
@@ -2484,17 +2938,21 @@
 8851	Koolskamp
 8860	Lendelede
 8870	Emelgem
+8870	Iseghem
 8870	Izegem
 8870	Kachtem
 8880	Ledegem
+8880	Ledeghem
 8880	Rollegem-Kapelle
 8880	Sint-Eloois-Winkel
+8880	Winkel-Saint-Éloi
 8890	Dadizele
 8890	Moorslede
 8900	Brielen
 8900	Dikkebus
 8900	Ieper
 8900	Sint-Jan
+8900	Ypres (Ieper)
 8902	Hollebeke
 8902	Voormezele
 8902	Zillebeke
@@ -2508,17 +2966,22 @@
 8920	Poelkapelle
 8930	Lauwe
 8930	Menen
+8930	Menin (Menen)
 8930	Rekkem
 8940	Geluwe
 8940	Wervik
 8950	Heuvelland
+8950	Neuve-Église
 8950	Nieuwkerke
 8951	Dranouter
+8951	Dranoutre
 8952	Wulvergem
+8952	Wulverghem
 8953	Wijtschate
 8954	Westouter
 8956	Kemmel
 8957	Mesen
+8957	Messines (Mesen)
 8958	Loker
 8970	Poperinge
 8970	Reningelst
@@ -2530,7 +2993,9 @@
 8980	Geluveld
 8980	Passendale
 8980	Zandvoorde (Zonnebeke)
+8980	Zanvoorde
 8980	Zonnebeke
+9000	Gand (Gent)
 9000	Gent
 9030	Mariakerke
 9031	Drongen
@@ -2540,13 +3005,16 @@
 9042	Desteldonk
 9042	Mendonk
 9042	Sint-Kruis-Winkel
+9042	Winkel-Sainte-Croix (Sint-Kruis-Winkel)
 9050	Gentbrugge
 9050	Ledeberg
 9051	Afsnee
+9051	Saint-Denis-Westrem (Sint-Denijs-Westrem)
 9051	Sint-Denijs-Westrem
 9052	Zwijnaarde
 9060	Zelzate
 9070	Destelbergen
+9070	Heusden
 9070	Heusden (Oost-Vlaanderen)
 9080	Beervelde
 9080	Lochristi
@@ -2555,20 +3023,27 @@
 9090	Gontrode
 9090	Melle
 9100	Nieuwkerken-Waas
+9100	Saint-Nicolas (Sint-Niklaas)
 9100	Sint-Niklaas
+9111	Belsele
 9111	Belsele (Sint-Niklaas)
+9112	Sinaai
 9112	Sinaai-Waas
 9120	Beveren-Waas
 9120	Haasdonk
 9120	Kallo (Beveren-Waas)
 9120	Melsele
+9120	Une partie de l'ancienne commune de Kallo
 9120	Vrasene
 9130	Doel
 9130	Kallo (Kieldrecht)
+9130	Kieldrecht
 9130	Kieldrecht (Beveren)
+9130	Une partie de l'ancienne commune de Kallo
 9130	Verrebroek
 9140	Elversele
 9140	Steendorp
+9140	Tamise (Temse)
 9140	Temse
 9140	Tielrode
 9150	Bazel
@@ -2578,7 +3053,10 @@
 9160	Eksaarde
 9160	Lokeren
 9170	De Klinge
+9170	La Clinge
 9170	Meerdonk
+9170	Saint-Gilles-Waes (Sint-Gillis-Waas)
+9170	Saint-Paul (Sint-Pauwels)
 9170	Sint-Gillis-Waas
 9170	Sint-Pauwels
 9180	Moerbeke-Waas
@@ -2586,13 +3064,18 @@
 9190	Kemzeke
 9190	Stekene
 9200	Appels
+9200	Audeghem (Oudegem)
 9200	Baasrode
+9200	Baesrode (Baasrode)
 9200	Dendermonde
 9200	Grembergen
 9200	Mespelare
 9200	Oudegem
+9200	Saint-Gilles-lez-Termonde (Sint-Gillis-bij-Dendermonde)
 9200	Schoonaarde
 9200	Sint-Gillis-bij-Dendermonde
+9200	Termonde (Dendermonde)
+9220	Hamme
 9220	Hamme (Oost-Vlaanderen)
 9220	Moerzeke
 9230	Massemen
@@ -2607,6 +3090,7 @@
 9260	Wichelen
 9270	Kalken
 9270	Laarne
+9270	Laerne
 9280	Denderbelle
 9280	Lebbeke
 9280	Wieze
@@ -2614,13 +3098,22 @@
 9290	Overmere
 9290	Uitbergen
 9300	Aalst
+9300	Alost (Aalst)
+9308	Gijzegem
 9308	Gijzegem (Aalst)
+9308	Hofstade
 9308	Hofstade (Aalst)
+9310	Baardegem
 9310	Baardegem (Aalst)
+9310	Herdersem
 9310	Herdersem (Aalst)
+9310	Meldert
 9310	Meldert (Aalst)
+9310	Moorsel
 9310	Moorsel (Aalst)
+9320	Erembodegem
 9320	Erembodegem (Aalst)
+9320	Nieuwerkerken
 9320	Nieuwerkerken (Aalst)
 9340	Impe
 9340	Lede
@@ -2648,6 +3141,7 @@
 9420	Mere
 9420	Ottergem
 9420	Vlekkem
+9450	Denderhautem (Denderhoutem)
 9450	Denderhoutem
 9450	Haaltert
 9450	Heldergem
@@ -2657,6 +3151,7 @@
 9473	Welle
 9500	Geraardsbergen
 9500	Goeferdinge
+9500	Grammont (Geraardsbergen)
 9500	Moerbeke
 9500	Nederboelare
 9500	Onkerzele
@@ -2672,12 +3167,15 @@
 9506	Waarbeke
 9506	Zandbergen
 9520	Bavegem
+9520	Hautem-Saint-Liévin (Sint-Lievens-Houtem)
 9520	Sint-Lievens-Houtem
 9520	Vlierzele
 9520	Zonnegem
 9521	Letterhoutem
+9550	Essche-Saint-Liévin (Sint-Lievens-Esse)
 9550	Herzele
 9550	Hillegem
+9550	Saint-Antelinkx (Sint-Antelinks)
 9550	Sint-Antelinks
 9550	Sint-Lievens-Esse
 9550	Steenhuize-Wijnhuize
@@ -2686,15 +3184,21 @@
 9552	Borsbeke
 9570	Deftinge
 9570	Lierde
+9570	Lierde-Sainte-Marie (Sint-Maria-Lierde)
 9570	Sint-Maria-Lierde
 9571	Hemelveerdegem
+9572	Lierde-Saint-Martin (Sint-Martens-Lierde)
 9572	Sint-Martens-Lierde
+9600	Renaix (Ronse)
 9600	Ronse
+9620	Audenhove-Saint-Géry (Sint-Goriks-Oudenhove)
+9620	Audenhove-Sainte-Marie (Sint-Maria-Oudenhove)
 9620	Elene
 9620	Erwetegem
 9620	Godveerdegem
 9620	Grotenberge
 9620	Leeuwergem
+9620	Oombergen
 9620	Oombergen (Zottegem)
 9620	Sint-Goriks-Oudenhove
 9620	Sint-Maria-Oudenhove (Zottegem)
@@ -2702,8 +3206,11 @@
 9620	Velzeke-Ruddershove
 9620	Zottegem
 9630	Beerlegem
+9630	Boucle-Saint-Blaise (Sint-Blasius-Boekel)
+9630	Boucle-Saint-Denis (Sint-Denijs-Boekel)
 9630	Dikkele
 9630	Hundelgem
+9630	Laethem-Sainte-Marie (Sint-Maria-Latem)
 9630	Meilegem
 9630	Munkzwalm
 9630	Paulatem
@@ -2716,25 +3223,34 @@
 9636	Nederzwalm-Hermelgem
 9660	Brakel
 9660	Elst
+9660	Everbecq
 9660	Everbeek
 9660	Michelbeke
 9660	Nederbrakel
 9660	Opbrakel
 9660	Zegelsem
 9661	Parike
+9667	Hoorebeke
+9667	Hoorebeke-Saint-Corneille (Sint-Kornelis-Horebeke)
+9667	Hoorebeke-Sainte-Marie (Sint-Maria-Horebeke)
 9667	Horebeke
 9667	Sint-Kornelis-Horebeke
 9667	Sint-Maria-Horebeke
 9680	Etikhove
 9680	Maarke-Kerkem
 9680	Maarkedal
+9680	Markedal
 9681	Nukerke
+9688	Escornaix
 9688	Schorisse
+9690	Berchem
 9690	Berchem (Oost-Vlaanderen)
 9690	Kluisbergen
 9690	Kwaremont
+9690	Quaremont (Kwaremont)
 9690	Ruien
 9690	Zulzeke
+9700	Audenarde (Oudenaarde)
 9700	Bevere
 9700	Edelare
 9700	Eine
@@ -2749,6 +3265,7 @@
 9700	Volkegem
 9700	Welden
 9750	Huise
+9750	Huysse
 9750	Ouwegem
 9750	Zingem
 9770	Kruishoutem
@@ -2756,14 +3273,17 @@
 9772	Wannegem-Lede
 9790	Elsegem
 9790	Moregem
+9790	Ooike
 9790	Ooike (Wortegem-Petegem)
 9790	Petegem-aan-de-Schelde
 9790	Wortegem
 9790	Wortegem-Petegem
 9800	Astene
 9800	Bachte-Maria-Leerne
+9800	Deinze
 9800	Gottem
 9800	Grammene
+9800	Leerne-Saint-Martin
 9800	Meigem
 9800	Petegem-aan-de-Leie
 9800	Sint-Martens-Leerne
@@ -2778,9 +3298,11 @@
 9820	Merelbeke
 9820	Munte
 9820	Schelderode
+9830	Laethem-Saint-Martin (Sint-Martens-Latem)
 9830	Sint-Martens-Latem
 9831	Deurle
 9840	De Pinte
+9840	La Pinte
 9840	Zevergem
 9850	Hansbeke
 9850	Landegem
@@ -2806,6 +3328,7 @@
 9890	Baaigem
 9890	Dikkelvenne
 9890	Gavere
+9890	Gavre
 9890	Semmerzake
 9890	Vurste
 9900	Eeklo
@@ -2819,6 +3342,7 @@
 9932	Ronsele
 9940	Ertvelde
 9940	Evergem
+9940	Everghem
 9940	Kluizen
 9940	Sleidinge
 9950	Waarschoot
@@ -2828,11 +3352,16 @@
 9968	Oosteeklo
 9970	Kaprijke
 9971	Lembeke
+9980	Saint-Laurent (Sint-Laureins)
 9980	Sint-Laureins
+9981	Sainte-Marguerite (Sint-Margriete)
 9981	Sint-Margriete
+9982	Saint-Jean-in-Eremo
 9982	Sint-Jan-in-Eremo
 9988	Waterland-Oudeman
 9988	Watervliet
 9990	Maldegem
+9990	Maldeghem
 9991	Adegem
+9992	Middelbourg
 9992	Middelburg

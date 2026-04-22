@@ -15,6 +15,15 @@ class TestPostalCodeHelpers:
         assert derive_locality_candidates("Europees Parlement") == set()
         assert derive_locality_candidates("Brussel (Louizalaan)") == {"Brussel"}
 
+    def test_derive_locality_candidates_rejects_french_special_entries(self):
+        assert derive_locality_candidates("Chambre des représentants") == set()
+        assert derive_locality_candidates("Chèques postaux") == set()
+        assert derive_locality_candidates("Sénat de Belgique") == set()
+        assert (
+            derive_locality_candidates("Direction d'Immatriculation des Véhicules")
+            == set()
+        )
+
 
 class TestPostalCodeLocalityFilter:
     def _build_filter(self) -> PostalCodeLocalityFilter:

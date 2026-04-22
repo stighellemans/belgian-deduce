@@ -1,8 +1,9 @@
-"""Extract Belgian postcode/locality data from Dutch Wikipedia."""
+"""Extract Belgian postcode/locality data from Dutch and French Wikipedia."""
 
 from __future__ import annotations
 
 import argparse
+import re
 import sys
 from dataclasses import dataclass
 from pathlib import Path
@@ -11,8 +12,12 @@ from typing import Iterable, Iterator, Optional
 import requests
 from bs4 import BeautifulSoup, NavigableString, Tag
 
-WIKIPEDIA_URL = "https://nl.wikipedia.org/wiki/Postnummers_in_België"
+DEFAULT_WIKIPEDIA_URLS = (
+    "https://nl.wikipedia.org/wiki/Postnummers_in_België",
+    "https://fr.wikipedia.org/wiki/Liste_des_codes_postaux_belges",
+)
 USER_AGENT = "belgian-deduce/1.0 (local development)"
+_POSTCODE_SECTION_HEADING_RE = re.compile(r"^\s*\d{4}\s*[–-]\s*\d{4}")
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 if str(REPO_ROOT) not in sys.path:
@@ -33,7 +38,18 @@ class PostalCodeEntry:
     locality: str
 
 
-def fetch_wikipedia_html(url: str = WIKIPEDIA_URL) -> str:
+def sort_postal_code_entries(
+    entries: Iterable[PostalCodeEntry],
+) -> list[PostalCodeEntry]:
+    """Return entries in a deterministic postcode/locality order."""
+
+    return sorted(
+        set(entries),
+        key=lambda entry: (entry.postcode, entry.locality.casefold(), entry.locality),
+    )
+
+
+def fetch_wikipedia_html(url: str) -> str:
     """Fetch the Wikipedia page with a descriptive user agent."""
 
     response = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=30)
@@ -55,11 +71,32 @@ def _direct_text(tag: Tag) -> str:
 
 def _iter_top_level_postcode_lists(main_content: Tag) -> Iterator[Tag]:
     columns = main_content.select_one("div.kolommen")
-    if columns is None:
-        raise RuntimeError("Could not find the postcode list container on the page.")
+    if columns is not None:
+        for postcode_list in columns.select("div.kolom > section > ul"):
+            yield postcode_list
+        return
 
-    for postcode_list in columns.select("div.kolom > section > ul"):
-        yield postcode_list
+    heading_blocks = main_content.select("div.mw-heading2")
+    if len(heading_blocks) == 0:
+        heading_blocks = main_content.find_all("h2")
+
+    for heading in heading_blocks:
+        heading_text = clean_location_text(heading.get_text(" ", strip=True))
+        if _POSTCODE_SECTION_HEADING_RE.match(heading_text) is None:
+            continue
+
+        sibling = heading.find_next_sibling()
+        while sibling is not None:
+            if sibling.name == "ul":
+                yield sibling
+                break
+
+            if sibling.name == "h2" or (
+                sibling.name == "div" and "mw-heading2" in sibling.get("class", [])
+            ):
+                break
+
+            sibling = sibling.find_next_sibling()
 
 
 def _parse_list_item(
@@ -110,7 +147,17 @@ def parse_postal_code_entries(html: str) -> list[PostalCodeEntry]:
         for entry in _parse_list_item(item)
     }
 
-    return sorted(entries)
+    return sort_postal_code_entries(entries)
+
+
+def fetch_and_parse_postal_code_entries(urls: Iterable[str]) -> list[PostalCodeEntry]:
+    """Fetch one or more Wikipedia postcode pages and merge their raw entries."""
+
+    entries = set()
+    for url in urls:
+        html = fetch_wikipedia_html(url=url)
+        entries.update(parse_postal_code_entries(html))
+    return sort_postal_code_entries(entries)
 
 
 def write_lookup_files(
@@ -120,13 +167,14 @@ def write_lookup_files(
 ) -> None:
     """Write the raw mapping snapshot and the derived locality list."""
 
-    entries = sorted(set(entries))
+    entries = sort_postal_code_entries(entries)
     localities = sorted(
         {
             locality
             for entry in entries
             for locality in derive_locality_candidates(entry.locality)
-        }
+        },
+        key=lambda locality: (locality.casefold(), locality),
     )
 
     raw_mapping_path.parent.mkdir(parents=True, exist_ok=True)
@@ -143,7 +191,14 @@ def parse_args() -> argparse.Namespace:
     """Parse CLI arguments."""
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--url", default=WIKIPEDIA_URL)
+    parser.add_argument(
+        "--url",
+        action="append",
+        help=(
+            "Wikipedia postcode page URL. Can be provided multiple times. "
+            "Defaults to the Dutch and French postcode pages."
+        ),
+    )
     return parser.parse_args()
 
 
@@ -151,8 +206,8 @@ def main() -> None:
     """Fetch the page and update the lookup source files."""
 
     args = parse_args()
-    html = fetch_wikipedia_html(url=args.url)
-    entries = parse_postal_code_entries(html)
+    urls = args.url if args.url else list(DEFAULT_WIKIPEDIA_URLS)
+    entries = fetch_and_parse_postal_code_entries(urls)
     write_lookup_files(entries)
     print(f"Saved {len(entries)} postcode/locality rows to {RAW_MAPPING_PATH}")
     print(f"Saved {len({l for e in entries for l in derive_locality_candidates(e.locality)})} localities to {LOCALITY_PATH}")

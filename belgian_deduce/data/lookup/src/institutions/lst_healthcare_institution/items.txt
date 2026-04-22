@@ -369,6 +369,8 @@
 @Home 18-24
 @penstaartje
 _PILI_
+A La Belle Fleur (MR)
+A la Récréation (CJ)
 A Place To Live
 A Priori
 A&O psycholoog: stress en burn-out begeleiding Zijn Zen Zin
@@ -382,6 +384,14 @@ A-Sem
 A-tension
 A-Tipi
 A.C. Pharma
+A.S.B.L. Antenne 110
+A.S.B.L. Centre Neurologique et de Réadaptation Fonctionnelle
+A.S.B.L. Club Andre Baillon
+A.S.B.L. Cothan
+A.S.B.L. Feux Follets
+A.S.B.L. PARENTHESE (MASS)
+A.S.B.L. PHENIX
+A.S.B.L. Trempoline
 A3 Tandartsenpraktijk
 A80
 Aa.Pharma Oosthoven
@@ -458,6 +468,9 @@ Accolage - Marollen
 Accolage - Neder-Over-Heembeek
 Accolage - Noordwijk
 Accolage - Sint-Jans-Molenbeek
+Accompagner
+ACCORD'AGE (RS)
+ACDI
 Aceso
 Achalhi Malika
 Achiel en Hector
@@ -470,6 +483,7 @@ Achtknoop - Het Boothuis
 Achtknoop - Het Vlot
 Achtknoop - Karwij
 Achturenpraktijk
+ACIS HOPITAL PSYCHIATRIQUE SAINT-CHARLES
 Ackinos
 ACLVB - Secretariaat Anderlecht (werkloosheidsdienst)
 ACLVB - Secretariaat Schaarbeek (werkloosheidsdienst)
@@ -479,6 +493,23 @@ Acoufijn
 Acrodent
 Acropolys
 ACSI
+AcSol - A l'Univers (RS)
+AcSol - Centre Sainte-Barbe (MR)
+AcSol - Clair Séjour (RS)
+AcSol - Clair Séjour - Résidence de l'Univers (MR)
+AcSol - Clos du Rivage (RS)
+AcSol - Jours Heureux (CJ)
+AcSol - Jours Heureux (MR)
+AcSol - La Résidence du Bord de Meuse (RS)
+AcSol - Le MANIL (RS)
+AcSol - Le Moulin à Vent (RS)
+AcSol - Le Quartier (CJ)
+AcSol - Les Centres d'Accueil de Bouge (MR)
+AcSol - Les Figuiers (CJ)
+AcSol - Les Oliviers (CJ)
+AcSol - Les Ombrelles (CJ)
+AcSol - Résidence La Villette (MR)
+AcSol - Résidence Sardanson (RS)
 ACT Academie
 ACT-Desiron
 Act-React
@@ -611,6 +642,7 @@ Advocatenlijn Antwerpen
 Advocatenlijn Gent
 Advocatenlijn Turnhout
 Aelbers Podologie
+AEQUALIS asbl
 Aerssens Evelyn
 Aertgeerts Annick
 Aertique +
@@ -638,6 +670,7 @@ Afrikaanse Solidariteit van Kortrijk
 Afrikana vzw
 Afstammingscentrum
 Agapè
+Age d'Or (MR)
 Agentschap Integratie en Inburgering - Antwerpen - Contactpunt Boom
 Agentschap Integratie en Inburgering - Antwerpen - Contactpunt Geel
 Agentschap Integratie en Inburgering - Antwerpen - Contactpunt Herentals
@@ -717,6 +750,9 @@ Aharouay Sarah
 Ahlaloum Hanane
 Aide & soins à domicile Bruxelles
 Aidsreferentiecentrum ULB - UMC Sint-Pieter
+AIGT - Résidence Le Chalon (MR)
+AIGT Le Touvent (MR)
+AIGT Résidence Le Chalon (RS)
 Aiguillages
 Aiky’s Weij
 Aila
@@ -1299,6 +1335,7 @@ Almanar vzw
 Almond Freya
 Aloha
 Alohi
+ALPA I (RS)
 Alpaca Reckheim
 Alpha Sport en Kine
 Alpha Thuisverpleging
@@ -1514,6 +1551,8 @@ Anick Van Gastel
 Anik Van Hemelen
 Aniksi Dental
 Anima - WZC Kruyenberg
+Anima Wallonie - Les Trois Arbres (MR)
+Anima Wallonie - Résidence Saint-Vincent (MR)
 Animate
 Animation Pirouettes et Psychomot
 ANIMO
@@ -3834,10 +3873,12 @@ Arcade - Verblijf - Afdeling Indigo
 Arcade - Verblijf - Afdeling Lotus
 Arcade - Verblijf - Afdeling Trainingscentrum Kamerwonen Lithops
 Arckens Ann
+ARCSPHO (Association Régionale de Concertation sur les Soins Palliatifs du Hainaut Occidental)
 Arcus - Neuropsychiatrische woonzorgcampus
 Arcus Thuisverpleging
 Ardeos
 Ardua-gym
+Aremis
 Arenbergh
 Arendonkse atletiekclub
 Arendsapotheek
@@ -3983,11 +4024,24 @@ Artsenpraktijk Zuid
 Artsenpraktijk Zuidstraat
 Artsenteam Borchtlombeek
 Asbestos Belgium Victims Association
+ASBL - CRF La Charnière
+ASBL Le Bosquet - site L'Espérance
+ASBL Le Chat Botté
+ASBL Le Ressort
+ASBL Santé & Prévoyance
 Ascendo Kinesitherapie
+ASD Arrondissement de Verviers
+ASD du Hainaut Oriental
+ASD en Brabant Wallon
+ASD en Province de Luxembourg
+ASD en Province de Namur
+ASD Liège-Huy-Waremme
+ASD Mons-Borinage
 Ashley Beckers
 Asmae El Kaddouri
 ASPADI - Residentie Vivaldi
 Aspiro
+ASPPN (Association des Soins Palliatifs en Province de Namur asbl)
 Assessmentteam PAKT
 Assistentiewoningen 't Roosje
 Assistentiewoningen Abbeyfieldhuis - De Notenkraker
@@ -4042,6 +4096,7 @@ Assistentiewoningen ’t Kanthof
 Assjette
 Associatie Gynaecologie Diest
 Associatie Huisartsen Kiezelweg Veldwezelt
+Association de Santé Intégrée de Spa et Sources
 Association Of Nigerians Belux
 Astma en Allergiekoepel
 Astrid De Munck
@@ -4072,6 +4127,7 @@ Atletiekvereniging Zuiderkempen
 Atma'Belle
 Atmãna
 Atome - Team Van Netwerkborgen
+Atout Santé
 Atrium
 atrium care
 Attentia - Externe Dienst voor Preventie en Bescherming op het Werk
@@ -4084,7 +4140,18 @@ Attentia - Externe Dienst voor Preventie en Bescherming op het Werk - Oostende
 Attentia - Externe Dienst voor Preventie en Bescherming op het Werk - Roeselare
 Attentia - Externe Dienst voor Preventie en Bescherming op het Werk - Sint-Niklaas
 Attentia - Externe Dienst voor Preventie en Bescherming op het Werk - Zeebrugge
+Au Bon Air (MR)
+Au Bonheur du Jour (CJ)
+Au Chant des Oiseaux (MR)
+Au Clos des Freesias (MR)
+Au Fil des Jours
+Au Jardin du Coeur (MR)
+Au privilège (MR)
+Au privilège (RS)
 Au Royaume des Couleurs
+Au Temps des Cerises (MR)
+Au Vert Bocage (CJ)
+Au Vert Bocage (MR)
 Audijolien
 Audika hoorcentrum Aalst
 Audika hoorcentrum Aalter
@@ -4194,6 +4261,10 @@ autisme Veurne & omstreken
 Autismeplus
 Auto-aanpassingen Mees Mobility Center
 Autonoom Gemeentebedrijf Stedelijk Onderwijs Antwerpen
+Aux Hirondelles (MR)
+Aux Lilas de Bonlez (MR)
+Aux Lilas de Bonlez (RS)
+Aux Plaisirs Part'agés (CJ)
 Auxilia vzw
 Auxilior 2000
 Auxilium
@@ -4550,6 +4621,7 @@ Be Nice Psychologenpraktijk
 Be-Cure
 Be-Strong
 be-TSC vzw
+Beau Séjour (RS)
 Beau Vroedvrouwpraktijk
 Beaux-Arts
 BeBalanced Kinepraktijk
@@ -5125,6 +5197,8 @@ Bollaert Stefanie
 Bollebuik
 Bollen Marleen
 BOMER Kinesitherapie & Osteopathie
+Bon Accueil (CJ)
+Bon Accueil (MR)
 BONA Sensa
 Bonaerde
 Bond der Bedienden Technici en Kaders Brussel-Halle-Vilvoorde - Bureau Brussel
@@ -5795,15 +5869,33 @@ C- Care Thuisverpleging Christl De Boever
 C-Dienst vzw
 C-Fit
 C.E. FARMA
+C.H. du Bois de l'Abbaye et de Hesbaye
+C.H. Neurologique William Lennox
+C.H. Peltzer- La Tourelle
+C.H.R. DU VAL DE SAMBRE
+C.H.R. ST JOSEPH WARQUIGNIES
+C.H.S. CLINIQUE NOTRE DAME DES ANGES
+C.H.S. CLINIQUE NOTRE DAME DES ANGES - Site CLINIQUE NEUROPSYCHIATRIQUE
+C.H.U. André Vésale
+C.H.U. de Charleroi Hôpital Civil
+C.H.U. Le Home de Seny (MR)
 C.J.M.I.B. vzw - Centrum voor Jongens en Meisjes met Individuele Begeleiding
+C.L.E.A.N.
+C.R.A. « C.E.L. » : Comité d'Entraide de Lesdain
+C.R.F. "LE MAILLET" à BEYNE-HEUSAY (AIGS)
+C.R.F. "LE SABLIER" à EBEN-EMAEL (AIGS)
+C.R.F. Ouïe et Parole
 Caballo
 Cabinet Dentaire Djurkin
 Cabinet Ketelaer
+Cabinet Medic'All
 Cabinet MediCale
+Cabinet Médical Harton
 Cachet
 Cadetje
 Cadix
 Cadiz
+CADO
 CADO Turnhout
 Caers Dorien
 Caes Hilde
@@ -5834,6 +5926,7 @@ Canossa-Medical
 Cantershof
 CAP - CAW FAMILY - Eenoudergezinnen 'Thuis
 CAP - CAW Family - Eenoudergezinnen'thuis
+CAPAL : Centre d'Action Pour l'Autisme en province du Luxembourg
 CAR Accent
 CAR De Hert
 CAR De Klinker Knokke-Heist
@@ -6639,24 +6732,90 @@ Centrale Dienst voor sociale en Culturele Actie van het Ministerie van Landsverd
 Centrale Gevangenis Leuven
 Centrale Huisartsenwachtpost Herkenrode
 Centre Anti - Poisons - Antigifcentrum
+Centre Arthur Regniers
+Centre Arthur Regniers-Province de Hainaut
+Centre Bernadette
 Centre Chapelle-Aux-Champs
+Centre CiNETiquE (intercommunale ISoSL)
 Centre Culturel Bruegel
+Centre d'Accueil de Jour "Les Oliviers" (CJ)
+Centre d'accueil de jour "Sacré-Cœur" (CJ)
+Centre d'Accueil de Jour de la Knippchen (CJ)
 Centre d'identité Culturelle Africaine
+Centre de convalescence de Spa-Nivezé
+Centre de Jour Catherine MAFA (CJ)
+Centre de Logopédie et de Psychomotricité
 Centre de Planning Familial et de Sexologie d'Ixelles
+Centre de repos du Tournaisis (MR)
+Centre de Réadaptation Fonctionnelle "L'Ancre
+Centre de référence en autisme CHU-UCL Namur
+Centre de référence en autisme Jean-Charles Salmon
+Centre de rééducation ambulatoire "C.R.A." du CPAS de Flémalle
+Centre de Rééducation et de Traitement Psychologique (CRE-SERAING)
+Centre de Rééducation Fonctionnelle "L'Oiseau Bleu
+Centre de rééducation fonctionnelle ''ALBA''
+Centre de Rééducation Psycho-sociale "Laurent Marechal", Site Centre Hospitalier Régional
+Centre de Rééducation Socio-professionnelle de l'Est (CRSE)
+Centre de santé de l'Amblève
+Centre de Santé Helios
+Centre de santé intégrée "Cap Santé
+Centre de Santé Intégrée des Carrières
+Centre de Santé Intégrée Sainte Walburge
+Centre de santé mentale ''Psycho J''
 Centre De Vie
 Centre Harvey Cushing - Harvey Cushing Centrum
 Centre Hellenique et Interculturel de Bruxelles
+Centre Henri Wallon Sections PSY
 CENTRE HOSPITALIER BOIS DE L'ABBAYE
+CENTRE HOSPITALIER BOIS DE L'ABBAYE - Site SERAING
+CENTRE HOSPITALIER BOIS DE L'ABBAYE - Site WAREMME
+CENTRE HOSPITALIER CENTRE ARDENNE
+CENTRE HOSPITALIER CENTRE ARDENNE - Site BASTOGNE
+CENTRE HOSPITALIER CENTRE ARDENNE - Site LIBRAMONT
+CENTRE HOSPITALIER DE DINANT
+Centre Hospitalier de Jolimont - Lobbes
+CENTRE HOSPITALIER DE L'ARDENNE
+Centre Hospitalier de l'Ardenne
 CENTRE HOSPITALIER DE MOUSCRON
+Centre Hospitalier de Wallonie picarde
 CENTRE HOSPITALIER DE WALLONIE PICARDE (CHWAPI)
+CENTRE HOSPITALIER DE WALLONIE PICARDE (CHWAPI) - Site IMC
+CENTRE HOSPITALIER DE WALLONIE PICARDE (CHWAPI) - Site NOTRE-DAME
+CENTRE HOSPITALIER DE WALLONIE PICARDE (CHWAPI) - Site UNION
+CENTRE HOSPITALIER EPICURA
+Centre Hospitalier EpiCURA
+CENTRE HOSPITALIER EPICURA - Site ATH
+CENTRE HOSPITALIER EPICURA - Site BAUDOUR
+CENTRE HOSPITALIER EPICURA - Site HOPITAL DE JOUR
+CENTRE HOSPITALIER EPICURA - Site HORNU
 Centre Hospitalier Jean Titeca
+CENTRE HOSPITALIER LE DOMAINE
+CENTRE HOSPITALIER MOUSCRON
+CENTRE HOSPITALIER NEUROLOGIQUE WILLIAM LENNOX
 CENTRE HOSPITALIER REGIONAL DE HUY
+CENTRE HOSPITALIER REGIONAL DE NAMUR
 CENTRE HOSPITALIER REINE ASTRID
+CENTRE HOSPITALIER SPECIALISE L’ACCUEIL
+CENTRE HOSPITALIER UNIVERSITAIRE DE TIVOLI
+Centre Interdisciplinaire de soins Bequet Medic
+Centre Médical d'Audiophonologie
+Centre Médical de rééducation logopédique
+Centre Médical du Châtaignier
+Centre médical du Parc
 Centre Médical Enaden
 Centre médical la Sauvagère
 Centre Médical Les Acacias
 Centre Médical Prince de Liège
+Centre Neurologique et de Réadaptation Fonctionnelle
+CENTRE NEUROPSYCHIATRIQUE ST.-MARTIN
+Centre Ouïe et Parole (CHWAPI - site Union)
 Centre paramédical Bogemans
+Centre Psychothérapeutique de Jour Charles-Albert FRERE (GHdC asbl)
+Centre Saint-Aubain - Rés "Les Hirondelles" (RS)
+Centre Sainte-Thérèse (MR)
+Centre Spartacus Huart (CJ)
+Centre Spartacus Huart (MR)
+Centres de rééducation ambulatoire "VIVA" (AIGS)
 Centrident
 Centrum Aanvullende Oncologische Ondersteuning (O2+)
 CENTRUM ADVOCATEN VOOR JONGEREN
@@ -7034,6 +7193,7 @@ CGG Mandel en Leie - TIPI (IMH-werking)
 CH EPICURA - ATH - BELOEIL
 CH EPICURA - HORNU - BAUDOUR
 Chaboken
+Champ de Saucy (RS)
 chan- tiers vzw
 Chan-Tiers
 Channouf Hadda
@@ -7052,13 +7212,19 @@ Chateau d'Hamont
 Chaïma kine
 Cherretté Anne
 Cherut Belgium vzw
+Chez Nous (MR)
 Chi-Fa
 CHIREC - DELTA
+CHIREC - DELTA - Campus DELTA ZIEKENHUIS
+CHIREC - DELTA - Campus MEDISCH CENTRUM EDITH CAVELL
 CHIREC - HOPITAL DELTA
 Chirec - Medisch Centrum - Edith Cavell
 Chirec - Medisch Centrum - Park Leopold
 Chirec - Medisch Centrum Europa - Lambermont
 CHIREC - SARE
+CHIREC - SARE - Campus BASILIEK ZIEKENHUIS
+CHIREC - SARE - Campus ST. ANNE - ST. REMI
+CHIREC - SARE - Site Hôpital de BRAINE-L'ALLEUD
 Chirec - Site Sint Anna - Sint Remi Kliniek
 Chirec - Site Sint Anna Sint Remi Kliniek - Dienst psychiatrie
 Chirec Ziekenhuizen - Kliniek van de Basiliek
@@ -7116,9 +7282,22 @@ Choeke Loeke
 Choner Daniel
 Choupettes Broechem 1
 Choupettes Broechem 2
+CHP CHENE AUX HAIES
+CHR de la Citadelle
+CHR de la Citadelle - Site de la Citadelle
 CHR HAUTE SENNE
+CHR HAUTE SENNE - Site LE GOELAND
+CHR HAUTE SENNE - Site LE TILLERIAU
+CHR HAUTE SENNE - Site SAINT-VINCENT
+CHR SAMBRE & MEUSE
+CHR SAMBRE & MEUSE - Site L’ACACIA
+CHR SAMBRE & MEUSE - Site MEUSE
+CHR SAMBRE & MEUSE - Site SAMBRE
 CHR SAMBRE ET MEUSE
 CHR VERVIERS - EAST BELGIUM
+CHR VERVIERS EAST BELGIUM
+CHR VERVIERS EAST BELGIUM - Site LA TOURELLE
+CHR VERVIERS EAST BELGIUM - Site PELTZER
 Chris De Baere
 Chris Deneyer
 Chris Kerfs
@@ -7151,20 +7330,54 @@ Christophe Struyve
 Christophe Tylleman - Osteopathie
 Chrysos
 CHU - UCL NAMUR
+CHU Ambroise Paré
+CHU CHARLEROI - CHIMAY
 CHU CHARLEROI - CHIMAY - HOPITAL CIVIL MARIE CURIE
+CHU CHARLEROI - CHIMAY - Site HOPITAL ANDRE VESALE
+CHU CHARLEROI - CHIMAY - Site HOPITAL VINCENT VAN GOGH
+CHU CHARLEROI – CHIMAY
+CHU CHARLEROI – CHIMAY - Site CENTRE DE SANTE DES FAGNES
 CHU CHARLEROI-CHIMAY
 CHU DE LIEGE
+CHU DE LIEGE - Site ANDRE RENARD
+CHU DE LIEGE - Site CENTRE LOGISTIQUE DE CHENEE
+CHU DE LIEGE - Site CNRF FRAITURE
+CHU DE LIEGE - Site NOTRE-DAME DES BRUYERES
+CHU DE LIEGE - Site OURTHE – AMBLEVE
+CHU DE LIEGE - Site SART-TILMAN
+CHU HELORA
 CHU HELORA - HOPITAL DE JOLIMONT - LOBBES
 CHU HELORA - HOPITAL DE MONS
 CHU HELORA - HOPITAL DE MONS - WARQUIGNIES
 CHU HELORA - HOPITAL DE MONS SITE KENNEDY
 CHU HELORA - HOPITAL DE NIVELLES - TUBIZE
+CHU HELORA - Hôpital de MONS - Site KENNEDY
+CHU HELORA - Hôpital de MONS – site CONSTANTINOPLE
 CHU HELORA - JOLIMONT - LOBBES
+CHU HELORA - Site HOPITAL DE WARQUIGNIES
+CHU HELORA - Site LOBBES
+CHU HELORA - Site NIVELLES
+CHU HELORA - Site TUBIZE
+CHU HELORA – Hôpital de La Louvière
+CHU HELORA – Hôpital de La Louvière - Site JOLIMONT
 CHU TIVOLI
+CHU UCL NAMUR
+CHU UCL NAMUR - Site FOYER SAINT FRANCOIS
+CHU UCL NAMUR - Site GODINNE
+CHU UCL NAMUR - Site STE. ELISABETH
 CHU UCL NAMUR - STE. ELISABETH
+CHU UCL NAMUR – HOPITAL DINANT
+CHU UCL NAMUR – HOPITAL DINANT - Site SAINT-VINCENT
+CHU UCL NAMUR – HOPITAL DINANT - Site SAINTE- ANNE
 CHU-UCL NAMUR
 CHU-UCL NAMUR - DINANT
 CHU-UCL NAMUR - GODINNE
+Château d'Awans (MR)
+Château d'Ochain (MR)
+Château d'Ochain (RS)
+Château de Fonteny (RS)
+Château de la Providence (MR)
+Château Sous-Bois (MR)
 Cielen Hilde
 CIG CONVENTO
 Cil Cellens
@@ -7228,17 +7441,33 @@ CLBchat
 Clemens Gwendy
 Cleo
 Cleys Esmé
+Clinique André Renard
 CLINIQUE CHC HEUSY - CHC HERMALLE
 CLINIQUE CHC HEUSY - CHC HERMALLLE
 CLINIQUE CHC MONTLEGIA - CHC WAREMME
+Clinique de l'Esplanade (MR)
+CLINIQUE DE L'IPAL
 Clinique Dermatologie Gent
+CLINIQUE NEUROPSYCHIATRIQUE DE BONSECOURS
+CLINIQUE NOTRE DAME DE GRACE
 CLINIQUE NOTRE-DAME DE GRACE
 CLINIQUE NOTRE-DAME DE GRÂCE
+CLINIQUE PSYCHIATRIQUE FRERES ALEXIENS
+CLINIQUE PSYCHIATRIQUE FRERES ALEXIENS - Site FRERES ALEXIENS
+CLINIQUE PSYCHIATRIQUE FRERES ALEXIENS - Site HOPITAL DE JOUR
 CLINIQUE SAINT PIERRE
 CLINIQUE SAINT-LUC
+Clinique Saint-Pierre
+Clinique Saint-Pierre - ophtalmologie "Points de Vue
 CLINIQUE ST.-LUC
 Clivia
 Clos de la Quietude
+Clos de la Rivelaine (MR)
+Clos de la Rivelaine (RS)
+Clos du Rapois (RS)
+Clos Val du Héron (MR)
+Closerie Sainte-Walburge (CJ)
+Closerie Sainte-Walburge (MR)
 Club 80 Malle
 Club Antonin Artaud ASBL
 Club De Grijze Kat - Voedselbedeling
@@ -7467,6 +7696,8 @@ CM-Mobiel - Limburg
 CM-Mobiel - Oost-Vlaanderen
 CM-Mobiel - West-Vlaanderen
 CM-Mobiel Vlaams-Brabant & Brussel
+CMDPA
+CMDTournaisis
 CMW Brabantia - Sociale dienst van Kuregem
 Co-consult
 CO2 centrum ouders
@@ -7518,6 +7749,8 @@ Collectactif
 Collectief Jeugdhulp Noord-West-Vlaanderen
 Collectief straatdoden te Brussel
 Collectieve Solidariteit
+Collectif santé de Charleroi Nord
+Collectif Santé de Gilly-Haies
 Collette Brigitte
 Colman Evy
 Coma Vereniging Limburg
@@ -7616,6 +7849,7 @@ Compagnie de Sporen
 Compimento
 COMPL-EET
 Compostela
+Comte d'Egmont (MR)
 Con Cura
 Condijts Petra
 Confident
@@ -7708,18 +7942,26 @@ Corporella
 Corposs
 Corpus
 Corpus Sanum
+CORSADE
 Corsala
 Corstjens Els
 Corstjens Hilde
 Corthouts Ellen
+CORTO A.S.B.L.
 Corvia
 CoSA Brussel
 Cosco Romina
+COSEDI Brabant Wallon
+COSEDI Hainaut- Namur
 Coskun Belgin
 Cosmos - Vives
+Cottage Rose Séniorie (MR)
 Cottyn Kim
 Coucou Winnie
 Coutteau Ruben
+Couvent de la Chartreuse (CJ)
+Couvent de la Chartreuse (MR)
+Couvent de la Chartreuse (RS)
 Covemaecker Catherine
 Coverwerking Oost-Vlaanderen - Regio Gent-Deinze-Eeklo
 Coverwerking Oost-Vlaanderen - Regio Schelde Dender Waas
@@ -7748,8 +7990,13 @@ CoZorg BV
 Coördinatie van het Maatschappelijk Welzijn van Jette
 Coördinatie van het Maatschappelijk Welzijn van Vorst
 Coördination Et Initiatives Pour Et Avec Les Réfugiés Et Etrangers
+CPAS Maison médicale " L'Etoile
+CPI - LES GOELANDS
+CRA du C.H.U. de Tivoli
+CRA Ouïe et Parole - ISPPC Espace Santé
 Crabbe Eva
 Craeyenhof
+CRE : Centre de Réadaptation de l'Enfant ASBL
 Credo
 Crescente
 Crisisfonds Caritas Limburg
@@ -7767,11 +8014,20 @@ Crisispunt -18 Limburg
 Crohn en Colitis Ulcerosa Vereniging
 Croix-Rouge de Belgique - Section Locale Ganshoren - Koekelberg
 croodent
+CRP LES MARRONNIERS
 Cruynaershof
 Crèche Bambi
 Crèche De Blokkendoos
 Crème Brûlée
 Crédit Immobilier Ouvrier
+CSD CS
+CSD de Mons Wallonie Picarde
+CSD en Brabant Wallon
+CSD en Province de Luxembourg
+CSD Liège
+CSD Province de Namur
+CSDMouscron Comines
+CSM SAINT-BERNARD
 CT Paramedics
 Culture Kids Community
 Cultureghem
@@ -9587,6 +9843,7 @@ Delis'ke
 Dellebron
 Delombaerde Katrien
 Delporte Walter
+Delta
 Demaj Berat
 deMensentuin
 dementie@home
@@ -9775,6 +10032,7 @@ Diana Ordaz Salvat
 Diane
 Diane Vandendaele
 Diane Vroedvrouw aan Huis
+Diapason (MASS)
 Diathe
 Didden Marie
 Didi
@@ -11797,6 +12055,20 @@ Dol-Fijn Geel
 Dolfijn Klokkenlaan
 DOMA psychotherapie
 Domain d'Arconati
+Domaine de l'Ambra (MR)
+Domaine de la Rose Blanche (MR)
+Domaine de la Rose Blanche (RS)
+Domaine des Alizés (MR)
+Domaine des Blés Dorés (CJ)
+Domaine des Blés Dorés (MR)
+Domaine des Blés Dorés (RS)
+Domaine des Moulins (MR)
+Domaine des Moulins (RS)
+Domaine des Riezes et Sarts (MR)
+Domaine du Bel'Fays (MR)
+Domaine du Berny (MR)
+Domaine du Parc (MR)
+Domaine du Parc (RS)
 Domein du Neckersgat
 Domein Polderwind
 Domein van Steenbrugge
@@ -11815,10 +12087,12 @@ Domino - Groep van Assistentiewoningen Dobbelhof
 Domino vzw - Groepsopvang Bengelhof
 Domitys - Assistentiewoningen Emerald Haven
 Domitys - Assistentiewoningen Vaart der Brouwers
+DOMITYS AU FIL DE LA DYLE (RS)
 Domitys Het Reihof
 Domitys L'Ecrin Vert
 Doms Anita
 Doms Marijke Joni
+Domus
 Domus Medica
 Domus vrije prijs
 Don Bosco - Buitengewoon Secundair Onderwijs
@@ -11886,6 +12160,7 @@ dOT ONDERSTEUNINGSTEAM
 dOT Ondersteuningsteam Vlaams-Brabant en Brussel
 Doucheflux
 DouDou
+Doux Repos (RS)
 DovenActie Brugge
 DovenActie Knokke-Heist
 DovenActie Oostende-Middenkust
@@ -12045,6 +12320,7 @@ Dynamisio Kinesitherapie
 Dysmelia
 Dyspraxis
 Dyzo
+Dé No Costé (CJ)
 E-Fit Zottegem
 E-Motion Kinesitherapie & Personal Training
 E-Psyche
@@ -12289,6 +12565,7 @@ Ellen Verhoeven - Psychotherapie
 Ellen's Thuisverpleging
 Elles Schoonackers
 Ellips
+Ellipse (ASBL Alises)
 ELLO
 Ello Logopedie
 Elly Ledez
@@ -12359,6 +12636,8 @@ Emma vzw - Groepsopvang 't Eekhoorntje
 Emma vzw - Groepsopvang 't Elandje
 Emmanuel Declercq
 Emmaüs
+Emmaüs (MR)
+Emmaüs (RS)
 Emmaüs - Centrum Inclusieve Kinderopvang
 Emmaüs - Groepsopvang De Hummeltjes
 Emmaüs - Groepsopvang De Zonnebloem
@@ -12371,6 +12650,7 @@ EMS Belgium
 En Bord De Soigne - Oudergem
 En Bord De Soigne - Sint-Pieters-Woluwe
 En Bord De Soigne - Watermaal-Bosvoorde
+En Famille (MR)
 En Route
 Enaden - Dagcentrum
 Enaden - Kortverblijf
@@ -12409,6 +12689,7 @@ Engels Ilse
 Enjoy2Move Kinesitherapie
 Ennea
 Enso
+Entour'Age (RS)
 Envia Dender
 Envia Waas
 EnVie
@@ -12429,6 +12710,10 @@ Epsylon - Consultatiecentrum Boetendael
 Epsylon - Initiatief Beschut Wonen
 Epsylon - Initiatieven Beschut Wonen - La Lisière
 Epsylon - Site Fond'Roy
+EPSYLON Vzw
+EPSYLON Vzw - Campus AREA+
+EPSYLON Vzw - Campus FOND’ROY
+EPSYLON Vzw - Campus LA RAMEE
 Equal.Brussels
 Equi-librium
 Equi-Lo zorgboerderij Lanselot
@@ -12437,6 +12722,7 @@ Equilibrium
 Equilibrya
 Equimio
 Equipe Groepspraktijk
+Equipe mobile de répit pédiatrique La Villa du Phare
 Equisource Ponyclub
 Equitherapeutisch Centrum Darcy
 Equitherapie Jana Maes
@@ -12451,8 +12737,14 @@ eqwal.Ability - Sint-Truiden
 Erasmus Ziekenhuis - Dienst Psychiatrie
 ERASMUSZIEKENHUIS (ULB)
 Erasmusziekenhuis - Centrum voor Traumatologie en Revalidatie
+ERASMUSZIEKENHUIS - ULB
+ERASMUSZIEKENHUIS - ULB - Campus ERASMUS
+ERASMUSZIEKENHUIS - ULB - Campus GERIATRISCH REVALIDATIECENTRUM
+ERASMUSZIEKENHUIS - ULB - Campus TRAUMA- & REVALIDATIECENTRUM
 Erbay Kadir
 Erca thuisverpleging
+ERCB (Heureux Séjour) (RS)
+ERCB - Heureux Séjour (MR)
 Ercken Sandrine
 Ergasia vzw
 Ergo Maya
@@ -12513,6 +12805,8 @@ Escalante
 Esencia Wellness - Kinesitherapie
 ESF - Departement Werk, Economie, Wetenschap, Innovatie en Sociale Economie
 Eskahoeve
+Espace Marguerite Yourcenar (CJ)
+Espace Santé Maison médicale d'Ottignies
 Espace Social Tele-Service
 Espazo
 Esperanza
@@ -12533,10 +12827,12 @@ EureKadee
 Eurochild
 Europa Apotheek
 EUROPA ZIEKENHUIZEN
+EUROPA ZIEKENHUIZEN - Campus ST. ELISABETH
 Europa Ziekenhuizen - Sint-Elisabeth
 Europa Ziekenhuizen - Site Sint-Elisabeth - Dienst Psychiatrie
 Europa Ziekenhuizen - Site Sint-Michiel - Dienst Psychiatrie
 EUROPAZIEKENHUIZEN
+EUROPAZIEKENHUIZEN - Campus ST. MICHIEL
 European Anti-Poverty Network
 Eva Bailleul
 Eva Deca
@@ -13937,6 +14233,7 @@ Ferme de Rêves
 Fertiliteitscentrum Aalter
 Fertilys
 Festina Lente
+FEUX FOLLETS
 Fickx Kinesitherapie
 Fie & Ola Geraardsbergen - Inclusief KDV
 Fie & Ola Herzele
@@ -14064,6 +14361,16 @@ Foyer - Dienst Roma en Woonwagenbewoners
 Foyer - Interculturele Bemiddelaars in de Gezondheidszorg
 Foyer - Jongerenwerking - WMKJ
 Foyer - Partners in Meertaligheid
+Foyer de la Providence (CJ)
+Foyer de la Providence (MR)
+Foyer de la Providence (RS)
+Foyer Espérance (MR)
+Foyer Marie Martine (MR)
+Foyer Notre-Dame de Paix (MR)
+Foyer Notre-Dame de Paix (RS)
+Foyer Saint-Antoine (MR)
+Foyer Sainte-Anne (MR)
+Foyer Sainte-Elisabeth (MR)
 Fraidy's play group 2
 Fran Degroote
 Francis Bosschaerts
@@ -16451,6 +16758,10 @@ GPWijgmaal
 GR35
 Graaf van Loon
 GRAND HOPITAL DE CHARLEROI
+GRAND HOPITAL DE CHARLEROI - CENTRE PSYCHOTHERAPEUTIQUE DE JOUR CHARLES-ALBERT FRERE
+GRAND HOPITAL DE CHARLEROI - Site LES VIVIERS
+GRAND HOPITAL DE CHARLEROI - Site NOTRE-DAME
+Grand Hôpital de Charleroi
 Grauwels Niels
 Gravenkasteel
 Graziëlla Vanalderweireldt
@@ -17838,8 +18149,16 @@ Grondwettelijk Hof
 Grootenbosch
 Grosemans Agnes
 Grosemans Lieve
+GROUPE SANTE CHC
 GROUPE SANTE CHC - CHC MONTLEGIA LIEGE ET WAREMME
+GROUPE SANTE CHC - Site CHC HEUSY
+GROUPE SANTE CHC - Site CHC WAREMME
+GROUPE SANTE CHC - Site FOYER HORIZON CHC MORESNET
+GROUPE SANTE CHC - Site HERMALLE
 GROUPE SANTE CHC -CHC HERMALLE ET HEUSY
+GROUPE SANTE CHC – Clinique CHC MONTLEGIA
+Groupe Santé C.H.C. ASBL - Clinique MontLégia
+Groupement Pluraliste Liégeois des Services et Soins à Domicile (GLS)
 Groven Martine
 Grow | Praktijk voor Vrouw & Kind
 GT Wimbledon
@@ -18592,6 +18911,7 @@ Het ‘KINDER’dorpje
 HetPowerplan
 Heughebaert Ilse
 Heureux Séjour
+Heureux Séjour (MR)
 Heuvelheem
 Heuvelheem - Bistro & Shop Den Burg
 Heuvelheem - Dagondersteuning
@@ -18704,6 +19024,7 @@ Hof ter Moere
 Hof Ter Motte
 Hof ter Noten
 Hof Ter Schelde
+Hof ter Schelde
 Hof ter Veldeken
 Hof ter Waarbeek
 Hof Ter Welle
@@ -18747,29 +19068,67 @@ Home 1 Berkenhof
 Home 2 Berkenhof
 Home 3 Berkenhof
 Home Adagio
+Home Alphonse-Marie (MR)
 Home Baudouin
+Home Bellefleur (MR)
+Home Béthanie (MR)
 Home Castel
+Home Chant des Oiseaux (MR)
+Home Chassart (RS)
 Home Clinic Renata Pirc
 Home Dageraad
 Home Dageraad - Begeleidingstehuis
 Home De Kever
+Home de la Peupleraie (MR)
+Home Doux Repos (MR)
+Home du Gros Buisson (MR)
+Home du Moulin à Cailloux (MR)
 Home Elisabeth
 Home Emmaus
 Home Emmaüs - Dagcentrum
 Home Emmaüs - Mobiele en Ambulante begeleiding voor Doven en Slechthorenden
 Home Emmaüs - Woonondersteuning in Emmaüs
+Home Franchimontois (MR)
+Home Gai Logis (MR)
+Home Guérin (MR)
+Home Général Le Maire (MR)
 Home Heiberg
+Home Henri Destrebecq (MR)
+Home Herman (MR)
 Home Heydeken
+Home Jamotte (MR)
+Home Jean Renard (MR)
+Home Joseph Vandevelde (CJ)
+Home Joseph Vandevelde (MR)
+Home L'Amitié - CPAS de Virton (MR)
+Home La Concille (MR)
+Home La Quiétude / Monjoie (MR)
+Home Le Bon Repos (MR)
+Home Le Grand Pré (CJ)
+Home Les Marronniers (MR)
 Home Magnolia
 Home Magnolia I - Ons Geluk
 Home Magnolia II - Ons Geluk
 Home Marjorie
+Home Notre-Dame de la Fontaine (MR)
 Home Onze Lieve Vrouw van de Kempen
+Home Petit-Gobert (MR)
 Home Philippe Speth
 Home Philippe Speth - Kamertraining Studio Speth
 Home Philippe Speth - Leefgroep Het Kasteel
 Home Philippe Speth - Leefgroep Paviljoen
+Home Philippin (MR)
+Home Pierre Mullie (MR)
+Home Résidence du Plateau (MR)
+Home Saint-Jacques (MR)
+Home Saint-Jean (MR)
+Home Saint-Jean-Baptiste (MR)
 Home Saint-Joseph
+Home Saint-Joseph (CJ)
+Home Saint-Joseph (MR)
+Home Saint-Joseph (RS)
+Home Saint-Nicolas (MR)
+Home Saint-Vincent de Paul (MR)
 Home Scheut
 Home Sebrechts - La Petite île
 Home Sint-Franciscus
@@ -18866,7 +19225,18 @@ Hoornveld vzw
 Hoorpunt Optiek Neirynck
 Hoorstudio Fem Van Symaeys
 Hop-in
+HOPITAL DE JOUR UNIVERSITAIRE LA CLE
 HOPITAL DE LA CITADELLE
+HOPITAL DE LA CITADELLE - Site CITADELLE
+HOPITAL DE LA CITADELLE - Site HERSTAL
+HOPITAL DE LA CITADELLE - Site LAVEU
+HOPITAL LE VALDOR
+HOPITAL LE VALDOR - Site AGORA 037
+HOPITAL LE VALDOR - Site VALDOR
+HOPITAL PSYCHIATRIQUE DU BEAU VALLON
+HOPITAL PSYCHIATRIQUE POUR ENFANTS ET ADOLESCENTS
+HOPITAL PSYCHIATRIQUE POUR ENFANTS ET ADOLESCENTS - Site LA PETITE MAISON
+HOPITAL PSYCHIATRIQUE ST.-JEAN DE DIEU
 Hopliedou
 Hopliefantje
 Hopliema vof
@@ -20417,6 +20787,7 @@ Hygge vroedvrouwen
 Hypostart
 Hälsa Health
 Häsler Klinisch Psycholoog
+Hôtel des Bains (MR)
 I-care
 I-Focus Coaching
 I-improve
@@ -20749,8 +21120,8 @@ Ilse Pappyn
 Ilse Peeters
 Ilse Spits
 Imane Denguir
-Imelda Ziekenhuis
 IMELDA ZIEKENHUIS
+Imelda Ziekenhuis
 Imelda Ziekenhuis - Dienst Spoedgevallen
 Imelda Ziekenhuis - Erkende Borstkliniek
 Imelda Ziekenhuis - Fysische geneeskunde en revalidatie
@@ -20776,6 +21147,8 @@ Impuls Kine
 Impuls Kinesitherapie
 Impuls thuisverpleging
 Impulse - manuele therapie en kinesitherapie
+IMPULSO
+IMSTAM
 In 't moment
 In Balans
 In balans Mechelen
@@ -21000,6 +21373,13 @@ Inspirant vzw
 Instapwonen
 InStatera
 Institut Jaspar
+Institut Notre-Dame de Banneux (CJ)
+Institut Notre-Dame de Banneux (MR)
+Institut Notre-Dame de Banneux (RS)
+Institut Notre-Dame de la Merci (MR)
+Institut Notre-Dame de la Merci de Blandain (MR)
+Institut Saint-Joseph (MR)
+Institut Saint-Joseph (RS)
 INSTITUUT JULES BORDET
 Instituut Sint-Rafaël - Buitengewoon Secundair Onderwijs
 Instituut voor de Gelijkheid van Vrouwen en Mannen
@@ -21045,8 +21425,10 @@ Inter - Tussen mens en omgeving - Secretariaat Brugge
 Inter - Tussen Mens en Omgeving - Secretariaat Hasselt
 Inter - Tussen mens en omgeving - Secretariaat Roeselare (Events)
 Inter - Tussen Mens en Omgeving - Secretariaat Sint-Niklaas
+Inter-Action
 Inter-Med-Zo CommV
 Inter-Vilvoordse Maatschappij voor Huisvesting
+Intercommunale Gabrielle Passelecq
 Intergemeentelijke preventiedienst gezondheid Pajottenland
 Intergemeentelijke Preventiedienst Tabak-, Alcohol- en Druggebruik Begijnendijk, Rotselaar, Tremelo
 Intergemeentelijke Samenwerking Wonen - Heuvelland-Poperinge-Vleteren
@@ -21104,6 +21486,10 @@ Iris Daems Diëtistenpraktijk
 Iris Roelandt BV
 IRIS Sociaal Verhuurkantoor
 IRIS ZIEKENHUIZEN ZUID
+IRIS ZIEKENHUIZEN ZUID - Campus BARON LAMBERT
+IRIS ZIEKENHUIZEN ZUID - Campus ETTERBEEK/ELSENE
+IRIS ZIEKENHUIZEN ZUID - Campus JOSEPH BRACOPS
+IRIS ZIEKENHUIZEN ZUID - Campus MOLIERE LONGCHAMP
 Iris Ziekenhuizen Zuid - Site Baron Lambert - Polikliniek
 Iris Ziekenhuizen Zuid - Site Etterbeek-Elsene
 Iris Ziekenhuizen Zuid - Site Molière-Longchamp
@@ -21121,6 +21507,7 @@ Isabeau Van Acker - Klinisch psycholoog
 Isabel Boënne
 Isabella T'Jonck
 Isabelle Alpi
+Isabelle Brunelle (RS)
 Isabelle de Nobel
 Isabelle De Proost
 Isabelle Deschuyteneer
@@ -21129,6 +21516,10 @@ ISC Tennisclub
 Isenborghs Heidi
 ISF International Daycare
 Isolde Demeyere
+IsoSL – HOPITAL PSYCHIATRIQUE DU PETIT BOURGOGNE - AGORA
+IsoSL – HOPITAL PSYCHIATRIQUE DU PETIT BOURGOGNE - AGORA - Site AGORA 972
+IsoSL – HOPITAL PSYCHIATRIQUE DU PETIT BOURGOGNE - AGORA - Site LOUIS HILLIER
+IsoSL – HOPITAL PSYCHIATRIQUE DU PETIT BOURGOGNE - AGORA - Site PETIT BOURGOGNE
 Ispahan - Palliatieve Thuiszorg
 Ispahan - Palliatieve Zorgen Kempen
 Itaca - Praktijk voor Psychotherapie
@@ -21196,8 +21587,8 @@ Jan Lathouwers
 Jan Thiels
 Jan Van Reybroeck
 Jan Vertriest
-Jan Yperman Ziekenhuis
 JAN YPERMAN ZIEKENHUIS
+Jan Yperman Ziekenhuis
 Jan Yperman Ziekenhuis - Campus Poli Poperinge
 Jan Yperman Ziekenhuis - Dienst Spoedgevallen
 Jan Yperman Ziekenhuis - Fysische Geneeskunde en Revalidatie
@@ -21255,8 +21646,8 @@ Jerry's Labyrint
 JES
 JES GENT
 JeS Thuisverpleging
-Jessa Ziekenhuis
 JESSA ZIEKENHUIS
+Jessa Ziekenhuis
 Jessa Ziekenhuis - Campus Salvator
 Jessa Ziekenhuis - Campus Salvator - Afdeling Psychogeriatrie
 Jessa Ziekenhuis - Campus Salvator - Dienst Geriatrie
@@ -21534,6 +21925,7 @@ Josha
 JoTa+
 Jotam Vermeesch
 Joujou
+Jour de Mai (MR)
 Jourdan Village
 Jouw Kine
 Joyce Heusdens
@@ -21554,6 +21946,7 @@ Judoclub Lokeren - G-Judo De Buitenbeentjes
 Judoclub Sint-Truiden (JCST) - G-Judo
 Judoteam Agglorex
 Juffertje in't groen
+JULES BORDET INSTITUUT
 Julie - Diëtiste en diabeteseducator
 Julie Claes
 Julie Dewulf
@@ -25182,9 +25575,14 @@ KLIM - Huis Michielsheem - Woonondersteuning
 KLIM Basisschool
 Klim-Op
 Klimop - praktijk voor persoonlijke groei
+KLINIEK SANS SOUCI
 Kliniek Sans Souci
 Kliniek Sans Souci - Het Huis Aan De Overkant
+KLINIEK SINT - JAN
+KLINIEK SINT - JAN - Campus KRUIDTUIN
+KLINIEK SINT - JAN - Campus MIDDAGLIJN
 KLINIEK SINT-JAN
+KLINIEK SINT-JAN - Campus LEOPOLD I
 Kliniek Sint-Jan - Geda-Geriatrisch daghospitaal Campus Kruidtuin
 Kliniek Sint-Jan - Palliatieve en continue zorg - Hospitalisatie - Kruidtuin
 Kliniek Sint-Jan - Site Kruidtuin - Dienst Psychiatrie
@@ -25195,6 +25593,7 @@ Kliniek Sint-Jan Site Leopold I
 KLINIEK ST.- JAN
 Kliniek Van Gucht
 KLINIK ST. JOSEF
+KLINIK ST.-JOSEF
 Klinisch orthopedagoog Laïni Abedi Amisi
 Klinisch orthopedagoog Rien Van Hove
 Klinisch Psychologe Anneleen Vanbets
@@ -25404,6 +25803,7 @@ KORPS
 Korpus
 Kose Nihal
 Koshine Health & Performance
+Kot-Age Services (RS)
 Kouterhof
 Kozze
 KPNI Huis
@@ -25564,27 +25964,113 @@ Kyo-Instituut - Kinesitherapie
 Kyvos
 Kzitermee
 KòMee
+L'Abbaye - Les Jours Heureux (MR)
 L'Abri
+L'Adret (MR)
+l'anCRAge - CRA (CRF) - Centre de guidanCe pour enfants et ados
+L'Ancre
+L'Arbre de Jade (MR)
+L'Arbre de Vie (MR)
+L'Arche de Vie (MR)
+L'Auberge du Vivier (MR)
 L'Aurore
+L'Automne Ensoleillé (MR)
+L'Azalée (RS)
+L'Esplanade (RS)
+L'Espoir (MR)
+L'Esterel (MR)
+L'Etrier d'Argent (MR)
+L'Ile au Pré (MR)
+L'Intervalle
 L'Olivier
+L'Olivier (CJ)
+L'Orchidée (MR)
+L'Orée du Bois (MR)
 L-aTent vzw
 L.O.B. Mechelen
+La Bienvenue (MR)
+La Bonne Maison de Bouzanton (CJ)
+La Bonne Maison de Bouzanton (MR)
 La Casi Tania
 La Casita
+La Chanterelle (CJ)
+La Chanterelle (MR)
+La Chanterelle (RS)
+La Charmille (MR)
+La Cigale (CJ)
+La Cité (RS)
+La Clairière de Fayenbois (CJ)
+La Clairière de Fayenbois (MR)
+La Clairière de Fayenbois (RS)
+La Closière (MR)
+La Closière (Nouv.Site) (MR)
+La Cordée
+La Coudraie (MR)
+La Coursive
+La Fabrique du pré - Centre psychothérapeutique de jour
 La Familia
+La Ferme Blanche (MR)
+La Ferme du Soleil
 La Leche League Vlaanderen
 LA Logopedie
+La Lumière
 La Lune pour Rêver - Bois De La Cambre
 La Maison - Internaat
 La Maison Africaine - Sociale dienst voor studenten van Afrika
 La Maison Anna-Martha
+La Maison d'Harscamp (Nouv.Site) (MR)
+La Maison de Mariemont (CJ)
+La Maison de Mariemont (MR)
+La Maison de Mariemont (RS 1)
+La Maison de Mariemont (RS 3)
 la maison de mickey
+La Maison de Vie et de Soins (MR)
+La Maison Dieu (MR)
+La Maison Grugeon (MR)
+La Manivelle
 La Mariposa
+La Moisson Multi-sites (MR)
+La Méridienne S.A. (MR)
+La Pairelle (MR)
+La Parenthèse (CJ)
+La Passerinette (MR)
+La Petite Maison
 La Plume de Lune
+La Providence (MR)
+La Quiétude (CJ)
+La Radieuse Senior Resort (RS)
+La Reine des Prés (MR)
 La Relève
+La Retraite Fleurie (MR)
+La Rose des Vents (MR)
+La Roselle (MR)
+La Roseraie (RS)
+La Roseraie - La Colombière (MR)
+La Roseraie de Celles (MR)
+La Rosière
 La Rosteehoeve
 La Roue Pharma
+La RS de Hotton (RS)
 La Rue
+La Sapinière (MR)
+La Seigneurie (RS)
+La Seniorerie des Ardennes (MR)
+La Solidarité (MR)
+La Strée (RS)
+La Séniorie de Longtain (MR)
+La Séniorie de Tinlot (MR)
+La Séniorie de Tinlot (RS)
+La Sérénité (MR)
+La Sérénité (Nouv. Site) (CJ)
+La Tonnelle (MR)
+La Tonnelle (RS)
+La Traversière
+La Vertefeuille (CJ)
+La Vertefeuille (MR)
+La Vertefeuille (RS)
+La Villa Fleurie (MR)
+La Visitation (MR)
+La Visitation (RS)
 La Vita Nuova
 La Vitale
 La Voliere
@@ -25718,18 +26204,84 @@ LDC Warlandis
 LDC Weidevogel
 LDC ZILVERENHOEK
 Le 6e Sens
+Le Balloir (Tour) (RS)
+Le Belvédère (CJ)
+Le Belvédère (RS)
+Le Bien Etre (MR)
+LE BIVOUAC
 Le Bivouac
 Le Bivouac - La Grignotière
+Le Bois d'Havré (MR)
+Le Bois d'Havré (RS)
+Le Bois Joli (MR)
 Le Bébé-jour
+Le Cap - ALTER EGAUX
+Le Centenaire (MR)
+Le Chemin des Mimosas (Site 1) (MR)
+Le Château Belle Chasse (MR)
+Le Château Belle Chasse (RS)
+Le Château de Ramioul (CJ)
+Le Château de Ramioul (MR)
+Le Clair Séjour (MR)
+Le Clairval (MR)
+Le Clairval (RS)
+Le Clos des Roses (MR)
+Le Cocon (MR)
+Le Coin du Bonheur (MR)
+Le Colvert (MR)
+Le Couquemont (MR)
+Le Creuset - Centre thérapeutique pour enfants et adolescents
+Le Cèdre Bleu (MR)
+Le Cèdre Bleu (RS)
+Le Domaine d'Archis (MR)
+Le Domaine d'Archis (RS)
+Le Domaine d'Argenteuil (MR)
+Le Doux Repos (MR)
+Le Doux Repos de Neupré (RS)
+Le Fontiloy (MR)
+Le Fontiloy (RS)
+Le Gai Séjour (MR)
+Le Gibloux (MR)
+Le Grand Pré (MR)
+Le Hanois (MR)
+Le Jardin Argenté (RS)
 Le Jardin D'eden - Ukkel
 Le Jardin d'Elmer
+Le Jardin de Waterloo (RS)
+Le Jardin des Chantoirs (MR)
+Le Jardin des Chantoirs (RS)
+Le Jardin des couleurs du temps (RS)
 Le Logement Molenbeekois
 Le Logis - Floréal
+Le Manoir du Ménil (MR)
+Le Manoir du Ménil (RS)
 Le Norois
+Le Palatin (MR)
+Le Parc de la Cense (MR)
 Le Petit Monde de Melotif
+Le Petit Paradis (MR)
 Le Petit Propriétaire
+Le Phalanstère (MR)
+Le Planty (RS)
 Le Potelier
+Le Pré Fleuri (RS)
 Le Relais
+Le Renouveau de Saint-Joseph (MR)
+Le Repos des Vallées (MR)
+Le Riv'âge (RS)
+Le Rouveroy (CJ)
+Le Sart-Allet (MR)
+Le Sart-Allet (RS)
+Le Temps des Cerisiers (MR)
+Le Tilleul d'Edouard (MR)
+Le Tournaisis (RS)
+Le Val Brunehaut (MR)
+Le Val d'Ambroise (MR)
+Le Val d'Orbais (MR)
+Le Val d'Orbais (RS)
+Le Vignoble (CJ)
+Le Vignoble (MR)
+Le Vignoble (RS)
 Lebbe Emmily - Voetverzorging
 Lebedova Iva
 Ledemaatjes
@@ -25828,18 +26380,80 @@ Lerend Netwerk Onderwijs-Welzijn Vlaams-Brabant
 Lerend Netwerk Onderwijs-Welzijn West-Vlaanderen
 Lerne Lier
 Les 1001 Bêtises
+Les Acacias (MR)
+Les Adrets (MR)
+Les Allumoirs (CJ)
+Les Alouettes (RS)
+Les Amandiers (MR)
+Les Amarantes Multi-Services (MR)
+Les Amis des Aveugles
 Les Amis Resto Du Coeur de Saint-Gilles
+Les Ardenelles (RS)
+Les Arilles (RS)
+Les Bastions (MR)
+Les Bosquets (MR)
+Les Bruyères (MR)
+Les Bruyères sur Senne (MR)
+Les Buissonnets (MR)
+Les Buissonnets 1 (RS)
+Les Buissonnets 2 (RS)
+Les Cerisiers (MR)
+Les Chardonnerets (MR)
+Les Charmes en Famenne (MR)
+Les Chèvrefeuilles (CJ)
+LES CLINIQUES DU SUD LUXEMBOURG
+Les Comtes de Méan (MR)
+Les Comtes de Méan (RS)
+Les Deux Vallées (MR)
+Les Ecureuils (MR)
 Les Etoiles
 Les Floralies
+Les Fougères (MR)
 Les Gazelles de Bruxelles
+Les Glycines (MR)
+Les Glycines (RS)
+Les Goélands
+Les Hautes Fagnes a.s.b.l.
+Les Heures Claires (CJ)
+Les Heures Claires (MR)
+Les Heures Claires (RS)
+Les Hêtres de Florès (RS)
+Les Jardins d'Astrid (MR)
+Les Jardins de la Sille (MR)
 Les Jardins de Longchamp
+Les Jardins de Picardie (MR)
+Les Jardins de Scailmont (MR)
+Les Jolis Bois (MR)
+Les Jolis Bois (RS)
+Les Jonquilles (RS)
+Les Jours Heureux (MR)
+Les Jours Paisibles (MR)
+Les Jours Paisibles (RS)
+Les Marguerites (RS)
+Les Mimosas (RS)
+Les Myosotis (CJ)
+Les Myosotis (MR)
+Les Néfliers (RS)
 Les Orangeries
+Les Orchidées (MR)
+Les Patios - Multi sites (MR)
+Les Pauvres Soeurs (MR)
+Les Pauvres Soeurs (RS)
+Les Perce-Neige
 Les petits Anges
 Les Petits Filous
+Les Peupliers (RS)
 Les Pitchounets
 Les Pléiades
+Les Quatre Saisons (MR)
+Les Remparts (RS)
+Les Roseaux (MR)
+Les Sorbiers (MR)
+Les Tournesols (CJ)
+Les Tournesols (MR)
 Les Trois Pommiers - De Drie Appelbomen
 Les Uns et Les Autres
+Les Verts Potagers (RS)
 Lesley Schotte
 Let's Grow
 LETS Aalst-Oudenaarde
@@ -26359,6 +26973,7 @@ LMent: Osteo & Fysio
 LMFysio
 LMNTS
 Lo-Kiné
+Lobelys (RS)
 Locologo
 Locotof
 Lode Declercq
@@ -27758,6 +28373,7 @@ Lou Verstraete
 Lou'tje
 Louax
 Loubna Ksabi
+Louis Palange (MR)
 Louis-Louise
 Louwies Ine
 Love in Action vzw
@@ -27820,6 +28436,8 @@ Lynn Van Maele - psycholoog / psychotherapeut - Praktijk voor studenten Gent
 Lynn Van Vynckt
 Lynn Vanhecke
 LYS
+L’EQUIPE
+L’EQUIPE - Campus DAGCENTRUM VOOR JONGEREN
 M-accent vzw - Kringloopwinkel Aalter
 M-accent vzw - Kringloopwinkel Assenede
 M-accent vzw - Kringloopwinkel Eeklo
@@ -27877,6 +28495,7 @@ Maatwerkplaats Rodea
 Machet Anoushka
 Machiels Bart
 Macken Ilse
+MAD Liège
 madelief
 Madeliefjes
 MADOSA - MAatschappij voor DOven en Slechthorenden te Antwerpen
@@ -27901,10 +28520,129 @@ Magnus Kinesitherapie Leuven
 Mahmood Sadia
 Mahmoud Hebah
 Maison Amani
+Maison Beloeil (MR)
+Maison Beloeil (RS)
 Maison Biloba Huis
+Maison de la Sainte Famille (MR)
+Maison de la Sainte Famille (RS)
+Maison de la Sainte Union (RS)
+Maison de Providence (CJ)
+Maison de Providence (RS)
+Maison de Providence et de la Sainte Union (MR)
+Maison de retraite Dr Cyrille Dusollier (MR)
+Maison de Retraite Libert (MR)
+Maison de santé ANS'emble
+Maison de Santé Clémentine
+Maison de Santé du Viroin
+Maison de santé Espace Avicenne
+Maison de santé Espace temps
+Maison de Santé Globale
+Maison de Santé Orion
+Maison de Vie Le Laetare (MR)
+Maison de Vie Les Aubépines (MR)
+Maison du Grand Chemin (CJ)
+Maison du Grand Chemin (MR)
+Maison du Sacré-Coeur (RS)
+Maison L'Edelweiss (MR)
 Maison Luc Medical
+Maison Médicale "Portes Sud
+Maison médicale Agora
+Maison Médicale Aiseau
+Maison médicale Aquarelle
+Maison Médicale Baobab
+Maison médicale Bautista Van Schowen
+Maison médicale Cella Santé
+Maison Médicale Chênée
 Maison Médicale Cite Santé
+Maison médicale Coquelicot ASBL
+Maison médicale d'Anhée ASBL
+Maison médicale d'Ougrée
+Maison médicale de Aye
+Maison médicale de Barvaux
+Maison Médicale de Beauraing
+Maison médicale de Bièvre
+Maison médicale de Bomel
+Maison Médicale de Dampremy
+Maison Médicale de Fauvillers
+Maison Médicale de Frasnes ASBL
+Maison médicale de Gesves
+Maison Médicale de Grez-Doiceau
+Maison médicale de Habay
+Maison Médicale de Jemeppe
+Maison médicale de l'Ernelle ASBL
+Maison médicale de La Plante
+Maison médicale de la Thyle
+Maison médicale de Libin
+Maison Médicale de Limal
+Maison Médicale de Mont-Saint-Guibert
+Maison médicale de Ransart
+Maison médicale de Tilleur
+Maison médicale de Tournai
+Maison Médicale de Trooz Santé
+Maison Médicale des Balances
+Maison médicale des Coquelicots ASBL
+Maison Médicale Dispens'Air
+Maison médicale du Centre
+Maison Médicale du Faubourg
+Maison médicale du Laveu
+Maison médicale du Quartier des Arsouilles
+Maison médicale du Rempart
+Maison Médicale d’Angleur Centre de Santé Intégré
 Maison Médicale Flagey
+Maison Médicale Gilles de Chin
+Maison Médicale Humilis ASBL
+Maison médicale Jumetoise
+Maison médicale l'Alizé
+Maison médicale l'Atlante
+Maison médicale l'Atoll
+Maison médicale l'Esplanade
+Maison médicale l'Herma
+Maison médicale la Bruyère
+Maison médicale la Brèche
+Maison médicale la Chenevière
+Maison médicale La Glaise
+Maison Médicale La Légia
+Maison médicale la Passerelle
+Maison Médicale La Poudrière
+Maison médicale la Venelle
+Maison médicale Le Brasero
+Maison médicale le Cadran
+Maison médicale le Car d'Or
+Maison Médicale Le Colibri
+Maison médicale le Gué
+Maison médicale Les Genêts
+Maison Médicale Les Houlpays
+Maison Médicale Lhomme et santé ASBL
+Maison Médicale Marche et Santé
+Maison Médicale Medi Celles ASBL
+Maison médicale MediCi
+Maison médicale Montagnarde
+Maison Médicale Mosaïque
+Maison médicale Moulin à Vent
+Maison médicale Oxygène
+Maison médicale Passerelle santé LLN asbl
+Maison médicale Rive Droixhe ASBL
+Maison médicale Saint Léonard Centre de Santé intégré
+Maison Médicale Saint-Samuel
+Maison Médicale Sambr'santé
+Maison Médicale Solidarités
+Maison Médicale Sur Lesse
+Maison Médicale Tournesol
+Maison Médicale Walhéroise
+Maison NEO (MR)
+Maison Notre-Dame (MR)
+Maison Pannesheydt (MR)
+Maison Posteau (MR)
+Maison Posteau (RS)
+Maison Saint-Joseph (CJ)
+Maison Saint-Joseph (MR)
+Maison Saint-Joseph (RS)
+Maison Sainte-Joséphine (MR)
+Maison Sainte-Joséphine (RS)
+Maison Senette (MR)
+Maison Viveo (MR)
+Maison Waldetrudis (MR)
+Maison Waldetrudis (RS)
 Majaiti Latifa
 Make it Work
 Makka Soultoukhanova
@@ -27951,6 +28689,9 @@ Mannaerts Greet
 Manneke Jaan
 Mannetje Maan
 Mano Dar Logopedie leeratelier
+Manoir Notre-Dame (CJ)
+Manoir Notre-Dame (MR)
+Manoir Notre-Dame 1 (RS)
 Manos
 Manpower Belgium
 Manshoven Niki
@@ -28024,6 +28765,7 @@ Marie Raymaekers
 Marie Van Hauwe
 Marie Vandeplas
 Marie Vandeputte
+Marie-Anahis (RS)
 Marie-France Roeland
 Marieke
 Marieke Meulewaeter
@@ -29051,7 +29793,12 @@ Myriam Declerck
 MYSA
 Mysak Wolfs
 MàsKiné
+Mènolou (site de la Polyclinique de l'Enfant - CHU Tivoli)
 Mères et Femmes
+Médecine pour le Peuple
+Médecine pour le peuple
+Médik'OH
+Médélite ASBL
 Mélodie Ottoy
 N8R+ Praktijk
 Naadloos Flexibel Traject Vlaams-Brabant- Meldpunt Schoolexterne Interventies
@@ -29343,6 +30090,7 @@ Nivo 10
 NjaNja vzw
 NK Orthopedics
 Nkonga
+No P'tit Nid (RS)
 NOAH Aartselaar
 NOAH Anzegem
 NOAH Beersel
@@ -29422,7 +30170,11 @@ Noortje Aernouts
 Noozo
 Noppe Dominique
 Norwest
+Nos Doubleûs (RS)
+Nos Tayons (MR)
 Notebaert Nancy
+Notre Foyer (MR)
+Notre-Dame (RS)
 Nottebohm - Dagverzorgingscentrum De Meander
 Nottebohm - Medisch Centrum Brecht
 Nottebohm - Woonzorgcentrum
@@ -29431,6 +30183,10 @@ Nouamar Navila
 Nouls Nathalie
 Nounou Leen
 Nourish
+Nouveau Home de Joncret (MR)
+Nouvelle Quiétude (CJ)
+Nouvelle Quiétude (MR)
+Nouvelle Résidence de la Fontaine (MR)
 Nova Huisartsen
 Nova Vida Recovery
 NOVA vzw - Cohesie
@@ -29449,6 +30205,7 @@ Noémie Castro
 Nuppienoek
 Nuppienop
 NURSE@HOME
+Nursing Home Saint-Joseph (RS)
 Nursing Miriam Deforce
 Nursingtehuis Pamele
 Nurza - Verpleging aan Huis
@@ -31293,6 +32050,7 @@ ODRIS
 Oefenmomenten Nederlands
 Oelegem Pharma
 Off the record
+Office d'Aide aux Famille LXB
 OHANA
 OHO
 Oikonde vzw
@@ -31644,6 +32402,8 @@ Orde van Advocaten Rechtbank - Afdeling Antwerpen
 Orde van Advocaten Rechtbank - Afdeling Mechelen
 Orde van Geneesheren - Provinciale Raad van Limburg
 Orde van Vlaamse Balies
+ORELIA Le Jardin Intérieur (MR)
+ORELIA Le Jardin Intérieur (RS)
 Orelia Ter Beuken
 Orelia Wiart 126
 OREVO Hoorcentrum
@@ -32210,6 +32970,8 @@ Paramedische Praktijk De Driehoek
 Paramedische praktijk Genk
 Paramedische Praktijk Loogenbergh
 Paramedische Praktijk Wichelen
+Parc de l'Alliance (MR)
+Parc de l'Alliance (RS)
 Parc Palace
 PARCOER vzw
 Pardoes - Dienst voor Onthaalouders
@@ -32224,6 +32986,7 @@ Parentia Vlaanderen - Hasselt
 Parentia Vlaanderen - Kortrijk
 Parentia Vlaanderen - Leuven
 Parentia Vlaanderen - Ternat
+PARHELIE
 Park aan Zee
 Park Oase
 Park van Hillare
@@ -32294,6 +33057,8 @@ Pauline Cordonnier
 Pauwels Tom
 Pauwels-Orthopedie BVBA
 Paviljoen
+Pavillon de la Cense (CJ)
+Pavillons Pourtois (RS)
 Pavio Curly's
 PAVOK - Gezinsopvang Bergmans Jenny
 PAVOK - Gezinsopvang Coppens Peggy
@@ -32570,6 +33335,7 @@ Planeet Mama
 Plantijn
 PlasPraat
 Plasschaert Nathalie
+Plate-forme de soins palliatifs de l'Est francophone
 Platform kinderen op de vlucht
 Platform Noodhulp onder Protest
 Platform van Onderwijs aan Zieke Leerlingen in Vlaanderen
@@ -32859,6 +33625,8 @@ Polderparel
 Poldervliet
 Poldervroedvrouwen
 Polderzicht
+Poliade
+Policlinique Neutre de Charleroi
 Polikliniek de Bist
 Polikliniek Hippocampus
 Polikliniek Rode Heuvel
@@ -34237,6 +35005,7 @@ Projectvereniging Wijk-Werken Midden-Limburg - Diepenbeek
 Projectvereniging Wijk-Werken Midden-Limburg - Hasselt
 Projectvereniging Wijk-Werken Midden-Limburg - Zonhoven
 Projet de Cohésion Sociale du Centre Culturel de Jette
+Projet Start (MASS)
 Prokine
 Prolexa Kinesitherapie
 Prolong vzw
@@ -34291,6 +35060,7 @@ Prutske - Gezinsopvang Vanden Eede Stephanie
 Prutske - Groepsopvang Samenwerking - Oyen Ramona & Vanhove Grietkin
 Prutske - Groepsopvang Samenwerking De Kolibrie
 Prutske - Informatie- en Coördinatiepunt Kinderopvang
+PSC ELSENE
 Psi-praktijk
 Psidok
 PSY CONSULTS
@@ -34748,6 +35518,7 @@ PVMT Wim Dankaerts
 PVT Sanatia
 Pyzo kliniek
 PZ Boortmeerbeek - Haacht - Keerbergen
+PZ Stuivenberg
 Q-Care
 Q2Q
 Qi-Balance
@@ -35045,6 +35816,7 @@ Relaxatie Kine
 Relaxatie Van Eynde
 Release - Els Spandel
 Releghem
+Reliance
 Reling
 Reling Kruispunt Haspengouw
 Reling Kruispunt Herkenrode
@@ -35069,9 +35841,12 @@ Renovassistance
 RENVA Thuisverpleging
 Renzo Frulleux
 Renée De Ben
+Reposoir Saint-Antoine (MR)
+Repère Santé
 Resagante
 RESET
 Residence Malibran ACIS
+Residence Notre-Dame (CJ)
 Residentie 't Spelthof
 Residentie 't Zout
 Residentie Acacias
@@ -35731,6 +36506,8 @@ Rozemarijn
 Rozemarijn - Dagondersteuning
 Rozemarijn - Woonondersteuning
 Rozenberg
+RS EMILIA (RS)
+RS Larivière (RS)
 RSL Op Post
 RTJ DE TAFELS
 Ruben Iyanda
@@ -35776,10 +36553,337 @@ Ruyskensveld - Project De Kaai
 Ruyskensveld vzw
 Ruytenburg
 Ruythooren Caroline
+Ry du Chevreuil (MR)
+Ry du Chevreuil (RS)
 Ryckebusch Geert
 Ryssen An (Ferm Kinderopvang)
 Réseau Art et Prison
+Résidence Acacia (MR)
+Résidence Alégria (MR)
+Résidence Amadeus (MR)
+Résidence Anaïs (MR)
+Résidence Ange-Raymond Gilles (MR)
+Résidence Argenteuil (RS)
+Résidence Au Bon Vieux Temps (MR)
+Résidence Au Bon Vieux Temps (RS)
+Résidence au Fil de Hoëgne (CJ)
+Résidence au Fil de Hoëgne (MR)
+Résidence Au R'Cwé du Vi Clotchi (CJ)
+Résidence Au R'Cwé du Vi Clotchi (MR)
+Résidence Aurore (MR)
+Résidence Balzac (MR)
+Résidence BAORY (RS)
+Résidence Belle Alliance (MR)
+Résidence Belle Rive et Bailleul (MR)
+Résidence Bellevue (MR)
+Résidence Bois de Bernihè (MR)
+Résidence Bois de Bernihè (RS)
+Résidence Bois de la Pierre (MR)
+Résidence Bois du Manil (MR)
+Résidence Bon Air (CJ)
+Résidence Bon Air (MR)
+Résidence Bon Air (RS)
+Résidence Bon Conseil (MR)
+Résidence Bonaparte (MR)
+Résidence Bouvière (CJ)
+Résidence Bouvière (MR)
+Résidence Bouvière (RS)
+Résidence Brichart (CJ)
+Résidence Brichart (MR)
+Résidence Brunehault (MR)
+Résidence Bughin-Durant (CJ)
+Résidence Bughin-Durant (MR)
+Résidence Caraman (MR)
+Résidence Catherine MAFA (MR)
+Résidence Central Park (MR)
+Résidence Champ de Huleu (MR)
+Résidence Champagnat (MR)
+Résidence Chantraine (MR)
+Résidence Charlemagne (MR)
+Résidence Chassart (MR)
+Résidence CHC Banneux Fawes (MR)
+Résidence CHC Banneux Nusbaum (MR)
+Résidence CHC Hermalle (MR)
+Résidence CHC Heusy (MR)
+Résidence CHC Landenne (MR)
+Résidence CHC Liège Mativa (MR)
+Résidence CHC Liège Mativa (RS)
+Résidence CHC Mehagne (MR)
+Résidence CHC Mehagne (RS)
+Résidence CHC Membach (MR)
+Résidence CHC Racour (MR)
+Résidence CHC Racour (RS)
+Résidence Chez vous (RS)
+Résidence Churchill (CJ)
+Résidence Churchill (MR)
+Résidence Château Chenois (MR)
+Résidence Château Dumont (MR)
+Résidence Clairefontaine (MR)
+Résidence Clos Sur La Fontaine (MR)
+Résidence Closière Cornet (MR)
+Résidence Cocoon (MR)
+Résidence Comme Chez Soi (MR)
+Résidence Comme chez soi (MR)
+Résidence Comtesse Madeleine d'Oultremont (MR)
+Résidence Corbisier (MR)
+Résidence Corbisier (RS)
+Résidence Célinie (MR)
+Résidence d'Arenberg (MR)
+Résidence d'Arquennes (MR)
+Résidence de Bavière (MR)
+Résidence de Boiron (MR)
+Résidence de Joncret (RS)
+Résidence de l'Orne (MR)
+Résidence de la Dame (MR)
+Résidence de la Fontaine (MR)
+Résidence de la Fontaine (RS)
+Résidence de la Houssière (MR)
+Résidence de la Knippchen (MR)
+Résidence de la Knippchen (RS)
+Résidence de la Tourette (MR)
+Résidence de Scaussene (MR)
+Résidence de Vie et Service Comte d'Egmont (RS)
+Résidence Dejaifve (MR)
+Résidence des Arcades (MR)
+Résidence des Ardennes (MR)
+Résidence des Ardennes (RS)
+Résidence des Ducs (MR)
+Résidence des Oliviers (CJ)
+Résidence des Oliviers (MR)
+Résidence des Saules (MR)
+Résidence des Sources (MR)
+Résidence des Sources II (RS)
+Résidence Do Grand Fa (MR)
+Résidence Do Grand Fa (RS)
+Résidence Domaine du Château (MR)
+Résidence Douce Quiétude (MR)
+Résidence Dr J. Hustin (CJ)
+Résidence Dr J. Hustin (MR)
+Résidence Drion (MR) (Nouv. Site)
+Résidence du Bois d'Avroy (MR)
+Résidence du Bon Pasteur (MR)
+Résidence du Chemin de Loncin (CJ)
+Résidence du Chemin de Loncin (MR)
+Résidence du Chemin de Loncin (RS)
+Résidence du Lac (MR)
+Résidence du Lothier-Balzat (MR)
+Résidence du Mont Falise (MR)
+Résidence du Nil (MR)
+Résidence du Parc (MR)
+Résidence du Parc au Chêne (MR)
+Résidence du Parc au Chêne (RS)
+Résidence du Plateau (RS)
+Résidence du Quartier Fleuri (MR)
+Résidence du Quartier Fleuri (RS)
+Résidence du Sartâge (MR)
+Résidence Edelweiss (MR)
+Résidence Eden-Park (MR)
+Résidence Eglantine (MR)
+Résidence Elisabeth (MR)
+Résidence EMILIA (MR)
+Résidence Ferdinand Nicolay (MR)
+Résidence Franki (MR)
+Résidence Franki (RS)
+Résidence Frère Hugo (MR)
+Résidence Hespérides (RS)
+Résidence Héliades (MR)
+Résidence Héris (MR)
+Résidence Jean de Nivelles (MR)
+Résidence Jeanne d'Arc (Nouv.Site) (MR)
+Résidence Jeanne d'Arc (RS)
+Résidence Jeanne Mertens (MR)
+Résidence Joie et Santé (MR)
+Résidence Joli Bois (MR)
+Résidence Joseph Marthoz (RS)
+Résidence Jules Bosse (MR)
+Résidence L'Age Tranquille (MR)
+Résidence L'Age tranquille (RS)
+Résidence L'Air du Temps (MR)
+Résidence L'Air du Temps (RS)
+Résidence L'Arcadie (MR)
+Résidence L'Aurore (MR)
+Résidence L'Harmonie (MR)
+Résidence La Barcarolle (MR)
+Résidence La Biercée (MR)
+Résidence La Charmille (MR)
+Résidence La Clairefontaine (MR)
+Résidence La Clé des Champs (MR)
+Résidence La Fontaine (MR)
+Résidence La Grange (MR)
+Résidence La Grange des Champs (MR)
+Résidence La Kan (CJ)
+Résidence La Kan (MR)
+Résidence La Lainière (MR)
+Résidence La Marache (RS)
+Résidence La Pierre de Lune (MR)
+Résidence La Plaine (CJ)
+Résidence La Plaine (MR)
+Résidence La Rotonde (MR)
+Résidence La Sérénité (MR)
+Résidence Laetare (CJ)
+Résidence Laetare (RS)
+Résidence Lauzelle (MR)
+Résidence Le Balloir (MR)
+Résidence Le Bien Etre (MR)
+Résidence Le Castel (MR)
+Résidence Le Chatelet (MR)
+Résidence Le Chenoy (MR)
+Résidence Le Closi (RS)
+Résidence Le Douaire (MR)
+Résidence Le Douaire (RS)
+Résidence le Doux Séjour (CJ)
+Résidence le Doux Séjour (MR)
+Résidence Le Hesbin (MR)
+Résidence Le Liberty (MR)
+Résidence Le Lys (MR)
+Résidence Le Moulin (MR)
+Résidence Le Ménil (MR)
+Résidence Le P'tit Quévy (MR)
+Résidence Le P'tit Quévy (RS)
+Résidence Le Phénix (RS)
+Résidence Le Pic au Vent (MR)
+Résidence Le Pic au Vent (RS)
+Résidence Le Point du Jour (MR)
+Résidence Le Pont d'Amour (MR)
+Résidence Le Progrès (MR)
+Résidence Le Rambour (MR)
+Résidence Le Richemont (MR)
+Résidence Le Royal (MR)
+Résidence Le Temps des Cerises (MR)
+Résidence Le Thines (MR)
+Résidence Le Trianon (MR)
+Résidence Le Verseuil (MR)
+Résidence Leonardo da Vinci (CJ)
+Résidence Leonardo da Vinci (MR)
+Résidence Leonardo da Vinci (RS)
+Résidence Les Acanthes (MR)
+Résidence Les Aquarelles (MR)
+Résidence Les Aubépines (CJ)
+Résidence Les Avelines (CJ)
+Résidence Les Avelines (MR)
+Résidence Les Avelines (RS)
+Résidence Les Bassins (RS)
+Résidence Les Beaux Chênes (MR)
+Résidence Les Blés d'Or (MR)
+Résidence Les Bruyères (MR)
+Résidence Les Cayoteux (MR)
+Résidence Les Charmilles (MR)
+Résidence Les Chartriers (MR)
+Résidence Les Cheveux d'Argent (MR)
+Résidence Les Cheveux d'Argent (RS)
+Résidence Les Chèvrefeuilles (MR)
+Résidence Les Fagnes (RS)
+Résidence Les Floricots (MR)
+Résidence Les Forsythias (MR)
+Résidence Les Genêts (MR)
+Résidence Les Glycines (MR)
+Résidence Les Heures Paisibles (MR)
+Résidence Les Hêtres (MR)
+Résidence Les Jardins d'Ameline (CJ)
+Résidence Les Jardins d'Ameline (MR)
+Résidence Les Jardins d'Ameline (RS)
+Résidence Les Jardins d'Elisabeth (MR)
+Résidence Les Jardins d'Elisabeth (RS)
+Résidence Les Jonquilles (MR)
+Résidence Les Lauriers (MR)
+Résidence Les Lilas (MR)
+Résidence Les Orchidées (MR)
+Résidence Les Orchidées (RS)
+Résidence Les Peupliers (MR)
+Résidence Les Piges (MR)
+Résidence Les Prés Brion (MR)
+Résidence Les Prés Brion (RS)
+Résidence Les Prés Fleuris (MR)
+Résidence Les Prés Fleuris (RS)
+Résidence Les Rosiers (MR)
+Résidence Les Récollets (MR)
+Résidence Les Saules (MR)
+Résidence Les Sittelles (MR)
+Résidence Les Templiers (MR)
+Résidence Les Trois Couronnes (MR)
+Résidence Les Trois Rois (CJ)
+Résidence Les Trois Rois (MR)
+Résidence Les Trois Sources (MR)
+Résidence Les Trois Tilleuls (RS)
+Résidence Les VII Voyes (MR)
+Résidence Lobelia (MR)
+Résidence Loriers (MR)
+Résidence Loriers (RS)
+Résidence Louis Demeuse (MR)
+Résidence Louis Theys (MR)
+Résidence Léon d'Andrimont (CJ)
+Résidence Léon d'Andrimont (MR)
+Résidence Léon d'Andrimont (RS)
+Résidence Léopold (MR)
+Résidence Malevé (MR)
+Résidence Malevé (RS)
+Résidence Malvina (MR)
+Résidence Marcel Marlier (RS)
+Résidence MARYGO (RS)
+Résidence Mathelin (MR)
+Résidence Mozart (RS)
+Résidence Mélody (Nouv. Site) (MR)
+Résidence No P'tit nid (MR)
+Résidence Notre-Dame (MR)
+Résidence Nouvelle Le Châtelet (MR)
+Résidence OHANA (MR)
+Résidence Paradis du Bouhay (MR)
+Résidence Pierre Paulus (MR)
+Résidence Plein Sud (MR)
+Résidence Pont Canal (MR)
 Résidence Porte de Hal
+Résidence Prestige (MR)
+Résidence Prestige (RS)
+Résidence Préfleuri (MR)
+Résidence Préhyr (MR)
+Résidence Raoul Hicguet (CJ)
+Résidence Raoul Hicguet (MR)
+Résidence René Magritte (MR)
+Résidence Rey (MR)
+Résidence Régina (CJ)
+Résidence Régina (MR)
+Résidence Régina (RS)
+Résidence Saint-Charles Château des Moines (MR)
+Résidence Saint-François (MR)
+Résidence Saint-Hubert (MR)
+Résidence Saint-Jean (MR)
+Résidence Saint-Joseph (MR)
+Résidence Saint-Joseph (RS)
+Résidence Saint-Remacle (Star du Bien-être) (MR)
+Résidence Saint-Thomas de Villeneuve (MR)
+Résidence Sainte-Anne (MR)
+Résidence Sainte-Anne (RS)
+Résidence Sainte-Claire (MR)
+Résidence Sans Souci (MR)
+Résidence Sart Saint-Nicolas (MR)
+Résidence Seigneurie du Val (MR)
+Résidence Springuel-Hellin (MR)
+Résidence Top-Senior (MR)
+Résidence Trémouroux (MR)
+Résidence Val des Seniors (MR)
+Résidence Vallée du Hoyoux (MR)
+Résidence Vauban (MR)
+Résidence Vedette (MR)
+Résidence Vedette (RS)
+Résidence Vivaldi (MR)
+Résidence Vivaldi (RS)
+Résidence Véronique (CJ)
+Résidence Véronique (MR)
+Résidence Véronique (RS)
+Résidence Willy (RS)
+Résidence-services "Les Cerisiers" (RS)
+Résidence-Services "Sé-Rey-nité" (RS)
+Résidence-services Champagnat (RS)
+Résidence-Services CHIARADIA (RS)
+Résidence-services Ernest Glinne (RS)
+Résidence-Services L'Escaut Tranquille (RS)
+Résidence-Services Le Lothier (RS)
+Résidence-services Mont Saint-Roch (RS)
+Résidence-Services Saint-François (RS)
+Résidence-Services Saint-Vincent (RS)
+Résidence-services Vallée du Hoyoux (RS)
+Résidences de Saint-Jean (RS)
+RésiGouvy (RS)
 Rézone
 S&H Pharma
 S-PLUS
@@ -35831,8 +36935,19 @@ Sacha
 Sacre Francine
 Saenen Marleen
 Safe Space vzw
+SAFPA
 Sahin Vanysacker
 Sahn Houtmeyers
+Saint-Charles (MR)
+Saint-James (MR)
+Saint-Joseph (MR)
+Saint-Joseph du Beauregard (MR)
+Sainte Famille (MR)
+Sainte-Anne (RS)
+Sainte-Elisabeth (CJ)
+Sainte-Elisabeth (MR)
+Sainte-Elisabeth (RS)
+Sainte-Joséphine (CJ)
 Sakkali Najima
 Salaets Dorien Thuisverpleging
 Salama Care
@@ -36048,6 +37163,7 @@ Scouts & Gidsen Vlaanderen - Inclusieve Werking Were Di Serskamp
 Scouts & Gidsen Vlaanderen - Scouts Wezenplein Heverlee - Akabegroep
 Scouts & Gidsen Vlaanderen - Sjim Akabe Gent
 Scouts en Gidsen - Akabe Brussel
+SCSAD Charleroi
 Sdw Dendermonde Thuisverpleging
 Sdw Vinderhoute Thuisverpleging
 Section Syndrome d'Angelman d'Inclusion
@@ -36067,6 +37183,11 @@ Securex - Welzijn op het Werk - Sint-Niklaas
 Seeuws Sophie
 Segers Dorien
 Segers Jana Thuisverpleging
+Seigneurie de l'Europe (MR)
+Seigneurie de Ville-en-Pré (MR)
+Seigneurie du Moulin (MR)
+Seigneurie MICHELANGE (MR)
+Seigneurie MICHELANGE (RS)
 Seksuoloog Alexander Witpas
 Seksuoloog Anouk Meeus
 Seksuoloog Indra
@@ -36111,6 +37232,10 @@ Seniorenwoningen Residentie Zeventiendorpen
 Seniorenzorg Lendelede - Dagverzorgingscentrum De Maretak
 Seniorie Adrienne
 Seniorie Bizet
+Seniorie d'Omalius (CJ)
+Seniorie d'Omalius (MR)
+Seniorie d'Omalius (RS)
+Seniorie de Braine-Le-Château (MR)
 Seniorie Eden Park
 Seniorie Golf Residentie
 Seniorie Hortensia
@@ -36118,6 +37243,12 @@ Seniorie Houtemhof
 Seniorie Houtemhof 2
 Seniorie Minneveld
 Seniorie Ter Minne
+Seniories Floradant (MR)
+SENIORISSIM - Maison de Châtelet (MR)
+SENIORISSIM - Maison de Mons (MR)
+SENIORISSIM - Maison de Morlanwelz (MR)
+SENIORISSIM - Maison de Quévy (MR)
+SENIORISSIM - Résidence de Mons (RS)
 Seniornet Vlaanderen
 Seniorplaza
 Seniors-Service-Anderlecht
@@ -36130,12 +37261,133 @@ Sensoa vzw
 Sensum - Praktijk voor hoogsensitieve kinderen & jongeren
 Sentum
 SENZO - Sensitieve Zorg
+SERENIA (MR)
+SERENIA (RS)
+SERENITAS (MR)
 Serge De Caesstecker
 Serge Vermijlen
 Sering vzw
 Serrenhof
 Servaes Acupunctuur
+Service de Santé Mentale "ALFA
+Service de Santé Mentale "ALFA" - Initiative spécifique - Assuétudes
+Service de Santé Mentale "Centre de guidance de Charleroi
+Service de Santé Mentale "CLIPS
+Service de santé mentale "CLIPS" - Initiative spécifique - Assuétudes
+Service de Santé Mentale "Club André Baillon
+Service de Santé Mentale "Club André Baillon" - Initiative spécifique "Tabane" - Personnes étrangères ou d'origine étrangère
+Service de Santé Mentale "Club André Baillon" - Initiative spécifique - Troubles psychiatriques sévères et chroniques
+Service de Santé Mentale "Entre Mots
+Service de Santé Mentale "L'Accueil
+Service de Santé Mentale "L'Accueil" - Initiative spécifique - AICS
+Service de Santé Mentale "La Kalaude
+Service de Santé Mentale "La Passerelle
+Service de Santé Mentale "La Pioche
+Service de Santé Mentale "La Pioche" - Club Thérapeutique "L'Esquisse
+Service de Santé Mentale "Le Dièse
+Service de Santé Mentale "Le Padelin
+Service de Santé Mentale "Le Padelin" - Club Thérapeutique - Population enfants
+Service de Santé Mentale "Oxalys''
+Service de Santé Mentale "SAFRANS
+Service de Santé Mentale "SAFRANS" - Initiative spécifique "Le Gerseau" - Petite enfance, de 0 à 6 ans
+Service de Santé Mentale "SIAJEF
+Service de Santé Mentale ''Accolade''
+Service de Santé Mentale ''Accolade'' Enfants
+Service de Santé Mentale ''Psy Chic''
+Service de Santé Mentale - Club Thérapeutique "André Baillon
+Service de Santé Mentale accolade Enfants - Inititative spécifique "Fil-à-Fil" - Parents en souffrance psychologique
+Service de Santé Mentale d'Oupeye
+Service de Santé Mentale de Comblain-Nandrin
+Service de Santé Mentale de Herstal
+Service de Santé Mentale de Herstal - Initiative spécifique "Epsylon" - AICS
+Service de Santé Mentale de Herstal - Initiative spécifique "Paroles d'Ainés" - Personnes âgées
+Service de Santé Mentale de Herstal - Inititative spécifique "Les lieux dits" - Assuétudes
+Service de Santé Mentale de Jambes
+Service de Santé Mentale de Jolimont
+Service de Santé Mentale de Jolimont - Initiative spécifique - AICS
+Service de Santé Mentale de Libramont
+Service de Santé Mentale de Libramont - Inititative spécifique - "Réseau Enfants Adolescents
+Service de Santé Mentale de Libramont - Inititative spécifique - AICS
+Service de Santé Mentale de Louvain-la-Neuve
+Service de Santé Mentale de Louvain-la-Neuve - Initiative spécifique "SAMRAVI" - Personnes âgées
+Service de Santé Mentale de Malmedy
+Service de Santé Mentale de Malmedy - Club thérapeutique adultes
+Service de Santé Mentale de Malmedy - Club thérapeutique enfants adolescents
+Service de Santé Mentale de Montegnée "Le Taquet
+Service de Santé Mentale de Montignies-sur-Sambre
+Service de Santé Mentale de Montignies-sur-Sambre - Initiative spécifique "Santé en Exil" - Personnes étrangères ou d'origine étrangère
+Service de Santé Mentale de Morlanwelz
+Service de Santé Mentale de Perwez ''Champ des Mots''
+Service de Santé Mentale de Rixensart
+Service de Santé Mentale de Seraing-Ougrée
+Service de Santé Mentale de Soignies
+Service de Santé Mentale de Soumagne
+Service de Santé Mentale de Verviers
+Service de Santé Mentale de Verviers - Club Thérapeutique
+Service de Santé Mentale de Verviers - Initiative spécifique - AICS
+Service de Santé Mentale de Verviers - Initiative spécifique - Assuétudes
+Service de Santé Mentale de Verviers - Initiative spécifique - Personnes avec difficultés intellectuelles
+Service de Santé Mentale de Visé
+Service de Santé Mentale de Visé - Initiative spécifique "SYGMA" - AICS
+Service de Santé Mentale de Waremme
+Service de Santé Mentale de Waremme - Club thérapeutique ''Le Phoenix''
+Service de Santé Mentale de Waremme - Initiative spécifique - Assuétudes
+Service de Santé Mentale de Waremme - Initiative spécifique - Petite enfance
+Service de Santé Mentale de Wavre
+Service de Santé Mentale de Wavre - Initiative spécifique - AICS
+Service de Santé Mentale du ''Tournaisis''
+Service de Santé Mentale du CPAS de Charleroi - Gosselies - Club thérapeutique ''Théo Van Gogh''
+Service de santé mentale du CPAS de Charleroi - Initiative spécifique - Assuétudes
+Service de santé mentale du CPAS de Charleroi - Service de Charleroi
+Service de Santé Mentale du CPAS de Charleroi - Service de Gosselies
+Service de Santé Mentale du CPAS de Flémalle
+Service de Santé Mentale du Tournaisis - Initiative spécifique - Assuétudes
+Service de Santé Mentale Généraliste Accolade - Club thérapeutique
 Service de Santé Mentale Le Méridien
+Service de Santé Mentale Liège-universitaire
+Service de Santé Mentale Provincial de Tournai
+Service de Santé Mentale Tandem du CPAS de Nivelles
+Service de Santé Mentale Visé Basse-Meuse
+Service de Senta Mentale de Malmedy - Initiative Spécifique - Personnes âgées
+Service intégré de soins à domicile Carolo (SISD Carolo)
+Service intégré de soins à domicile de l'est francophone (SISDEF)
+Service intégré de soins à domicile de Namur Ouest (SISD Namur Ouest)
+Service intégré de soins à domicile du Brabant Wallon (ECCOSAD)
+Service intégré de soins à domicile Nord et Sud du Luxembourg
+Service Provincial de Santé Mentale d'Andenne
+Service Provincial de Santé Mentale d'Arlon
+Service Provincial de Santé Mentale d'Arlon - Club Thérapeutique
+Service Provincial de Santé Mentale d'Arlon - Initiative spécifique ''Trait d'Union'' - Accompagnement à domicile
+Service Provincial de Santé Mentale d'Ath
+Service Provincial de Santé Mentale de Bastogne
+Service Provincial de Santé Mentale de Bastogne - Club Thérapeutique
+Service Provincial de Santé Mentale de Beauraing
+Service Provincial de Santé Mentale de Binche
+Service Provincial de Santé Mentale de Charleroi
+Service Provincial de Santé Mentale de Charleroi - Initiative spécifique - AICS
+Service Provincial de Santé Mentale de Ciney
+Service Provincial de Santé Mentale de Colfontaine
+Service Provincial de Santé Mentale de Courcelles
+Service Provincial de Santé mentale de Couvin
+Service Provincial de Santé mentale de Couvin - Club Thérapeutique
+Service Provincial de Santé mentale de Dinant
+Service Provincial de Santé mentale de Dinant - Club Thérapeutique
+Service Provincial de Santé mentale de Dinant - Initiative spécifique - AICS
+Service Provincial de santé mentale de Marche
+Service Provincial de Santé Mentale de Mons
+Service Provincial de Santé Mentale de Mons - Initiative spécifique - AICS
+Service Provincial de Santé Mentale de Mouscron
+Service Provincial de Santé Mentale de Saint-Ghislain
+Service Provincial de Santé Mentale de Tamines
+Service Provincial de Santé Mentale de Tournai - Initiative spécifique - AICS
+Service Provincial de Santé Mentale de Virton
+Service Provincial de Santé Mentale de Virton - Club thérapeutique - Population adultes
+Service Provincial de Santé Mentale du BRABANT WALLON
+Service Provincial de Santé Mentale du Brabant Wallon
+Service Provincial de Santé Mentale Namur-Astrid
+Service Provincial de Santé Mentale Namur-Astrid - Initiative spécifique "Avec nos Ainés" - Personnes âgées
+Service Provincial de Santé Mentale Namur-Astrid - Initiative spécifique "Clinique de l'Exil" - Personnes étrangères ou d'origine étrangère
+Service Provincial de Santé Mentale Namur-Balances
 Service Residentie De Linden - OCMW Sint-Gillis
 Service Residentie Helios
 Serviceflat Duinenhove
@@ -36159,6 +37411,7 @@ Serviceresidentie Integra
 Serviceresidentie Numa & Maria
 Serviceresidentie Parkhof
 Servicestudio's Triangel
+SESMARA (RS)
 Seven Kinesitherapie
 Severine De Vuyst
 Sexaholics Anonymous
@@ -36196,7 +37449,12 @@ Silke Verbeeck
 Silke Verheyen Thuisverpleging
 Silke Verhoeyen
 Silsomzorg
+SILVA MEDICAL
+SILVA MEDICAL - Campus SCHEUTBOS
 Silva Medical - Stichting Voor De Psychogeriatrie
+SILVA MEDICAL Asbl
+SILVA MEDICAL Asbl - Site CLINIQUE DU BOIS DE LA PIERRE
+SILVA MEDICAL Asbl - Site WAVRE
 Silver Linings Hippotherapie
 Silvia Electeur
 Sima
@@ -36333,8 +37591,8 @@ Sint-Rafaël - Residentie Sara
 Sint-Rafaël - residentie Sint-Rafaël
 Sint-Remigius
 Sint-Rochus
-Sint-Trudo Ziekenhuis
 SINT-TRUDO ZIEKENHUIS
+Sint-Trudo Ziekenhuis
 Sint-Trudo Ziekenhuis - Dienst Fysische Geneeskunde en Revalidatie
 Sint-Trudo Ziekenhuis - Dienst Geriatrie
 Sint-Trudo Ziekenhuis - Geriatrisch Dagziekenhuis en Valkliniek
@@ -36379,6 +37637,10 @@ Sint-Vincentiusvereniging Provinciale Raad Limburg vzw
 Siraj Amal
 Siraj Latifa
 Siraj Rachida
+SISD Namur-Meuse
+SISD Région du Centre et Soignies (SISD RCS)
+SISD UOAD
+SISD WAPI (service intégré de soins à domicile en wallonie picarde)
 Siska Cools
 Siska Vulsteke
 Sisters of Mother Teresa In Belgium - Zusters van Moeder Theresa
@@ -37015,6 +38277,7 @@ Sofit & Relax
 SoFit Diëtiste
 Sogeha
 Soigné
+Soins intégrés de la Neuville
 Solentra - Team Antwerpen
 Solentra - Team Brussel & Vlaams-Brabant
 Solentra - Team Limburg
@@ -37820,6 +39083,7 @@ SPRS.kortrijk I Sports. Performance. Recovery. Success.
 St Jozef Klein Seminarie
 St. Camillius - Oude Molenstraat
 ST. NIKOLAUS-HOSPITAL
+ST.-NIKOLAUS HOSPITAL
 STA-AN Samen Tegen Armoede - Antwerps Netwerk
 Stable Coaching
 Stacey ten Brink
@@ -38827,6 +40091,7 @@ Styrka Lager Onderwijs - De Deynestraat
 Styrka Lager Onderwijs @ waterkant
 Styrka Secundair Onderwijs
 Styrka Secundair Onderwijs @ Waterkant
+Stéthoplus ASBL
 Subashini Indipalage
 Suggnomé Bemiddelingsdienst Brussel - Halle - Vilvoorde
 Summit
@@ -38862,8 +40127,19 @@ Synkroon vzw
 Sysoo
 Systeemtherapie Leuven - Marieke Steunenberg
 Sémiramis
+Séniorie Bellevue (MR)
+Séniorie de l'Enclos (CJ)
+Séniorie de l'Enclos (MR)
+Séniorie du Parc (MR)
+Séniorie du Val (MR)
+Séniorie Les Aulnois (MR)
+Séniorie Ma Maison (MR)
+Séniorie Ma Maison (RS)
+Séniories Floradant (CJ)
+Sénorie de Nandrin (MR)
 Séverine Van De Voorde
 Sézar Snoezel
+Sûr Abri (MR)
 t berenhuisje
 t Berennestje
 t Boeleke
@@ -41474,6 +42750,7 @@ Transgenderkring Vlaams-Brabant
 Transit
 Transitiehuis Gentbrugge
 Transitiehuis Mechelen
+Transition
 Transition - Ilse Jacobs
 Transkript - Lectuur en informatie voor mensen met een leesbeperking
 Transport et Vie
@@ -41572,6 +42849,9 @@ Umare Vroedvrouwen
 UMC Sint Pieter
 UMC Sint Pieter - SOS Kinderen
 UMC SINT-PIETER
+UMC SINT-PIETER - Campus CESAR DE PAEPE
+UMC SINT-PIETER - Campus HALLEPOORT
+Un Temps pour Vivre (RS)
 Unia
 Unia Regio Antwerpen en het Waasland
 Unia Regio Limburg en de Kempen
@@ -41602,6 +42882,7 @@ Universitair Kinderziekenhuis Koningin Fabiola
 UNIVERSITAIR KINDERZIEKENHUIS KONINGIN FABIOLA (HUDERF)
 Universitair Kinderziekenhuis Koningin Fabiola - Dienst Pedopsychiatrie
 Universitair Kinderziekenhuis Koningin Fabiola - Dienst Pedopsychiatrie - Contre Allée
+UNIVERSITAIR KINDERZIEKENHUIS KONINGIN FABIOLA - HUDERF
 Universitair Kinderziekenhuis Koningin Fabiola - Pediatrische Spoed
 Universitair Medisch Centrum Sint Pieter - Site Cesar De Paepe
 Universitair Medisch Centrum Sint-Pieter
@@ -41665,6 +42946,7 @@ Universitair Ziekenhuis Gent - Referentiecentrum Spina Bifida
 Universitair Ziekenhuis Gent - Revalidatiecentrum Volwassenen
 Universitair Ziekenhuis Gent - Universitaire Dienst Psychiatrie
 Universitair Ziekenhuis Saint-Luc
+UNIVERSITAIR ZIEKENHUIS ST. LUC
 UNIVERSITAIR ZIEKENHUIS ST. LUC (UCL)
 Universitaire Groepspraktijk VUB (UGPVUB)
 Universitaire Huisartsen Groepspraktijk
@@ -41693,6 +42975,7 @@ UPC KU Leuven - Mobiele Crisiszorg
 UPC KU Leuven - Mobiele zorg psychose Vrint
 UPC KU Leuven - Referentiecentrum Expertisecentrum voor Autismespectrumstoornissen - Antennepunt Limburg
 Update Orthopaedics Associates
+UPDI (Un Pass Dans l'Impasse)
 UpMind
 Ups & Downs - Engelstalige online lotgenotengroep
 Ups & Downs - Maatschappelijke Zetel en Secretariaat
@@ -41717,6 +43000,9 @@ Utopia vzw
 Utopia_BXL
 Utsopi
 UVC BRUGMANN
+UVC BRUGMANN - Campus KONINGIN ASTRID
+UVC BRUGMANN - Campus PAUL BRIEN
+UVC BRUGMANN - Campus VICTOR HORTA
 Uw Apotheek AZ Delta
 Uw Thuiszorg
 Uw Verpleegpunt - Elena La Monaca Thuisverpleging
@@ -41773,6 +43059,10 @@ UZ Leuven - Centrum voor Ontwikkelingsstoornissen - Antennepunt Limburg
 UZ Leuven - Kites Team
 V V CAREP
 V.O.F. Peter Pauwels & Co
+VAD BRABANT WALLON
+VAD PLG
+VAD province de Namur
+VAD SH
 Vaderinstituut vzw
 Vaerewijck Christine
 Vagevuur Open Jeugdwerk
@@ -41784,9 +43074,13 @@ Vakantieopvang Bijzonder
 Vakantieopvang De Sprinkhaan
 Vakantieopvang Holder de Bolder
 Val Des Roses
+Val Mosan (MR)
 Valerie David Thuisverpleging
 Valerie Verbakel Ergotherapeut
 Valetudo Care
+VALISANA
+VALISANA - Campus PSYCHIATRISCH INSTITUUT I.P.I.
+VALISANA - Campus VALIDA ZIEKENHUIS
 Valisana - ZH Valida
 Van Achte Conny (Ferm Kinderopvang)
 Van Acker Nathalie
@@ -41803,6 +43097,7 @@ Van Bulck Tinne
 Van Calster Jacqy
 Van Campenhout Johan
 Van Cauwenbergh Patricia Kine
+Van Cutsem (MR)
 Van Cutsem Leen
 Van Daele Jolinde
 Van Dam-Collys bvba
@@ -42310,12 +43605,14 @@ Verpleging Ruth Cools
 Verpleging Zonder Zorgen
 Verpleging3202
 Verpleging@home
+VERPLEGINGSCENTRUM JEAN TITECA
 Verra Laura
 Versailles Seniors
 Verschuere Marleen
 Verslavingskoepel Kempen vzw
 Verstraete An
 Verstraete Ann
+Verte Fontaine (MR)
 Vertelles
 Vertommen Sonja
 Vertonghen Els Thuisverpleging
@@ -42562,6 +43859,7 @@ Viro - Ter Dreve
 Viro - Ter Dreve - Dagbesteding
 Viro - Ter Dreve - Woonondersteuning
 Viro vzw
+Virvolti
 VISO Gent - Onthaalklassen voor Anderstalige Nieuwkomers
 VISO Mariakerke - Onthaalklassen voor Anderstalige Nieuwkomers
 Vissenaekens Tatjana
@@ -42610,9 +43908,14 @@ Vitori Sports & Medical Centre
 VIVA ! Residentie
 Viva Bambini
 Viva Huisartsen
+VIVALIA
 VIVALIA - CENTRE HOSPITALIER CENTRE ARDENNE
 VIVALIA - HOPITAL ARLON - VIRTON
 VIVALIA - HOPITAL DE MARCHE
+VIVALIA - HOPITAL PSYCHIATRIQUE DE BERTRIX
+VIVALIA - Hôpital de MARCHE
+VIVALIA - Site HOPITAL D’ARLON
+VIVALIA - Site HOPITAL VIRTON
 Vivalys
 Vivath
 Vivendo
@@ -44800,8 +46103,25 @@ Zara Dental
 Zarakine
 Zare Reza
 Zarja
+ZAS Augustinus
 ZAS AUGUSTINUS, VINCENTIUS, SINT-JOZEF
+ZAS Cadix
+ZAS Elisabeth
+ZAS Hoge Beuken
+ZAS Joostens
+ZAS Medisch Centrum Kaai 142
+ZAS Middelheim
 ZAS MIDDELHEIM, CADIX, PALFIJN, HOGE BEUKEN, JOOSTENS
+ZAS Palfijn
+ZAS Paola
+ZAS Polikliniek Hof ter Schelde
+ZAS Polikliniek Regatta
+ZAS PVT Antwerpen
+ZAS PZ Stuivenberg
+ZAS Sint-Jozef
+ZAS UKJA
+ZAS UKJA (Universitaire Kinder- en Jeugdpsychiatrie Antwerpen)
+ZAS Vincentius
 Zaveldal - School voor buitengewoon secundair onderwijs
 Zavelhuis
 Zavelput GO!

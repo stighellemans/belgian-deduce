@@ -62,3 +62,33 @@ class TestExtractBePostcodesFromWikipedia:
             PostalCodeEntry(postcode="9000", locality="Gent"),
             PostalCodeEntry(postcode="9030", locality="Mariakerke"),
         ]
+
+    def test_parse_french_wikipedia_heading_layout(self):
+        html = """
+        <div class="mw-parser-output">
+          <div class="mw-heading2">
+            <h2>6600–6999 : Province de Luxembourg</h2>
+          </div>
+          <ul>
+            <li>6600
+              <ul>
+                <li>Bastogne</li>
+                <li>Longvilly</li>
+              </ul>
+            </li>
+            <li>6747
+              <ul>
+                <li>Châtillon</li>
+                <li>Meix-le-Tige</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        """
+
+        assert parse_postal_code_entries(html) == [
+            PostalCodeEntry(postcode="6600", locality="Bastogne"),
+            PostalCodeEntry(postcode="6600", locality="Longvilly"),
+            PostalCodeEntry(postcode="6747", locality="Châtillon"),
+            PostalCodeEntry(postcode="6747", locality="Meix-le-Tige"),
+        ]

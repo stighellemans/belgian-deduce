@@ -310,8 +310,8 @@ A.L. Huxleystraat
 A.Preud'Hommelaan
 A.Vereeckestraat
 A.Woutersstraat
-Aachener Straße
 Aachener Strasse
+Aachener Straße
 Aaigembergstraat
 Aaigemdorp
 Aaigemdries
@@ -984,8 +984,8 @@ Albert Grisarstraat
 Albert Gysbrechtsstraat
 Albert Hubertyweg
 Albert I -square
-Albert I laan
 Albert I Laan
+Albert I laan
 Albert I-laan
 Albert I-Promenade
 Albert I-straat
@@ -1069,8 +1069,8 @@ Albertvest
 Albertwal
 Albertynlaan
 Albijn Van den Abeelelaan
-Albijn Van den Abeelestraat
 Albijn Van Den Abeelestraat
+Albijn Van den Abeelestraat
 Albinusstraße
 Alboom
 Albrecht Ardevelstraat
@@ -1472,8 +1472,8 @@ Allée des Familles
 Allée des Fauvettes
 Allée des Fleurs
 Allée des Foires
-allée des Fougères
 Allée des Fougères
+allée des Fougères
 Allée des Freesias
 Allée des Friquets
 Allée des Frênes
@@ -1523,8 +1523,8 @@ Allée des Noisetiers
 Allée des Novateurs
 Allée des Oiseaux
 Allée des Orchidées
-Allée des Ormes
 Allée Des Ormes
+Allée des Ormes
 Allée des Orpins
 Allée des Papillons
 Allée des Pastures
@@ -1804,8 +1804,8 @@ Alsputweg
 Alsteen
 Alt-Herbesthaler Straße
 Altaarhoeve
-Alte Aachener Straße
 Alte Aachener Strasse
+Alte Aachener Straße
 Alte Hofstraße
 Altebijstraat
 Altembrouck
@@ -2322,8 +2322,8 @@ Antwerpenplein
 Antwerpenstraat
 Antwerpse Heerweg
 Antwerpse Heirweg
-Antwerpse steenweg
 Antwerpse Steenweg
+Antwerpse steenweg
 Antwerpsebaan
 Antwerpsedreef
 Antwerpsedries
@@ -3082,8 +3082,8 @@ Avenue Albert Dumont
 avenue Albert Einstein
 Avenue Albert et Elisabeth
 Avenue Albert Giraud
-avenue Albert Ier
 Avenue Albert Ier
+avenue Albert Ier
 Avenue Albert Ier (MM)
 Avenue Albert Jonnart
 Avenue Albert Lancaster
@@ -3190,8 +3190,8 @@ Avenue Beethoven
 Avenue Behault
 Avenue Bel Air
 Avenue Bel Heid
-avenue Bel Horizon
 Avenue Bel Horizon
+avenue Bel Horizon
 Avenue Bel-Air
 Avenue Belle Etoile
 Avenue Belle Vue
@@ -3558,8 +3558,8 @@ avenue de l'Etoile
 Avenue de l'Etoile Polaire
 Avenue de l'Etrier
 Avenue de l'Eté
-Avenue de l'Europe
 Avenue de L'Europe
+Avenue de l'Europe
 Avenue de l'Europe (CH)
 Avenue de l'Europe (CT)
 Avenue de l'Excursion
@@ -3749,8 +3749,8 @@ Avenue de la Nielle
 Avenue de la Nivéole
 Avenue de la Nouvelle Synthèse
 Avenue de la Pairelle
-avenue de la Paix
 Avenue de la Paix
+avenue de la Paix
 Avenue de la Palestre
 avenue de la Palette
 Avenue de la Pelouse
@@ -3978,8 +3978,8 @@ Avenue des 3 Sources
 Avenue des 7 Bonniers
 Avenue des Abeilles
 Avenue des Ablettes
-avenue des Acacias
 Avenue des Acacias
+avenue des Acacias
 Avenue des Aduatiques
 Avenue des Airelles
 Avenue des Aisemences
@@ -4004,8 +4004,8 @@ Avenue des Ardennes
 Avenue des Argus
 Avenue des Armures
 Avenue des Artisans
-avenue des Arts
 Avenue des Arts
+avenue des Arts
 Avenue des Arums
 Avenue des Asters
 Avenue des Athlètes
@@ -4030,11 +4030,11 @@ Avenue des Blés
 Avenue des Blés d'Or
 Avenue des Boignées
 Avenue des Bois
-avenue des Bouleaux
 Avenue des Bouleaux
+avenue des Bouleaux
 Avenue des Boutons d'Or
-avenue des Bouvreuils
 Avenue des Bouvreuils
+avenue des Bouvreuils
 Avenue des Briqueteries
 Avenue des Bruyères
 Avenue des Buissonnets
@@ -4048,8 +4048,8 @@ Avenue des Campanules
 Avenue des Camélias
 Avenue des Canards
 Avenue des Canaris
-avenue des Capucines
 Avenue des Capucines
+avenue des Capucines
 Avenue des Cardamines
 Avenue des Casernes
 Avenue des Cattleyas
@@ -4057,8 +4057,8 @@ Avenue des Cavaliers
 Avenue des Cayoteux
 Avenue des Celtes
 Avenue des Cerfs
-avenue des Cerisiers
 Avenue des Cerisiers
+avenue des Cerisiers
 Avenue des Cerisiers Roses
 Avenue des Chalets
 Avenue des Champs
@@ -4080,8 +4080,8 @@ avenue des Chevreuils
 Avenue des Chouettes
 Avenue des Chrysanthèmes
 Avenue des Châtaignes
-avenue des Châtaigniers
 Avenue des Châtaigniers
+avenue des Châtaigniers
 Avenue des Châteaux
 Avenue des Chênes
 Avenue des Cigognes
@@ -4089,18 +4089,18 @@ Avenue des Cinq Arbres
 Avenue des Cinq Bonniers
 Avenue des Citrinelles
 Avenue des Citronniers
-avenue des Clos
 Avenue des Clos
+avenue des Clos
 Avenue des Coccinelles
 Avenue des Colombes
-avenue des Combattants
 Avenue des Combattants
+avenue des Combattants
 Avenue des Commandants Borlée
 Avenue des Communautés
 Avenue des Comtes
 Avenue des Constellations
-avenue des Coquelicots
 Avenue des Coquelicots
+avenue des Coquelicots
 Avenue des Cormiers
 Avenue des Cormorans
 Avenue des Cossettes
@@ -4151,8 +4151,8 @@ Avenue des Ecoliers
 Avenue des Ecureuils
 Avenue des Edelweiss
 Avenue des Eglantiers
-avenue des Eglantines
 Avenue des Eglantines
+avenue des Eglantines
 Avenue des Elfes
 Avenue des Eoliennes
 Avenue des Eperons d'Or
@@ -4171,8 +4171,8 @@ Avenue des Faisandeaux
 Avenue des Faisans
 Avenue des Familles
 Avenue des Faons
-avenue des Fauvettes
 Avenue des Fauvettes
+avenue des Fauvettes
 Avenue des Feux-Follets
 Avenue des Flandres
 Avenue des Fleurs
@@ -4191,8 +4191,8 @@ Avenue des Frères Legrain
 Avenue des Frères Mabille
 Avenue des Frênes
 Avenue des Gaulois
-avenue des Genêts
 Avenue des Genêts
+avenue des Genêts
 Avenue des Gerfauts
 Avenue des Gloires Nationales
 Avenue des Glycines
@@ -4232,8 +4232,8 @@ Avenue des Jacinthes
 Avenue des Jardinets
 Avenue des Jardins
 Avenue des Jockeys
-avenue des Joncs
 Avenue des Joncs
+avenue des Joncs
 Avenue des Jonquilles
 Avenue des Klauwaerts
 Avenue des Lanciers
@@ -4251,8 +4251,8 @@ Avenue des Longues Waides
 Avenue des Loriots
 Avenue des Lucanes
 Avenue des Lucioles
-avenue des Magnolias
 Avenue des Magnolias
+avenue des Magnolias
 Avenue des Mantes
 Avenue des Marguerites
 Avenue des Marnières
@@ -4281,10 +4281,10 @@ Avenue des Muses
 avenue des Musiciens
 Avenue des Myosotis
 Avenue des Myrtes
-avenue des Myrtilles
 Avenue des Myrtilles
-avenue des Mélèzes
+avenue des Myrtilles
 Avenue des Mélèzes
+avenue des Mélèzes
 Avenue des Ménestrels
 Avenue des Mésanges
 Avenue des Métallurgistes
@@ -4297,8 +4297,8 @@ Avenue des Nerviens
 Avenue des Neuf Provinces
 Avenue des Neugis
 Avenue des Neuvelettes
-avenue des Noisetiers
 Avenue des Noisetiers
+avenue des Noisetiers
 Avenue des Nouvelles Technologies
 Avenue des Noyers
 Avenue des Nymphes
@@ -4329,8 +4329,8 @@ Avenue des Paysages
 Avenue des Perce-Neige
 avenue des Perdreaux
 Avenue des Perdrix
-avenue des Pervenches
 Avenue des Pervenches
+avenue des Pervenches
 Avenue des Petites-Epines
 Avenue des Petits Bois
 Avenue des Petits Champs
@@ -4375,8 +4375,8 @@ Avenue des Ronces
 Avenue des Roses
 avenue des Roses
 Avenue des Rosiers
-avenue des Rossignols
 Avenue des Rossignols
+avenue des Rossignols
 Avenue des Rouge-Gorges
 Avenue des Rouges-Gorges
 Avenue des Rousserolles
@@ -4389,11 +4389,11 @@ Avenue des Saules
 Avenue des Scarabées
 Avenue des Sept Bonniers
 Avenue des Sillons
-avenue des Sittelles
 Avenue des Sittelles
+avenue des Sittelles
 Avenue des Sophoras
-avenue des Sorbiers
 Avenue des Sorbiers
+avenue des Sorbiers
 Avenue des Sources
 Avenue des Spirées
 Avenue des Sports
@@ -4438,8 +4438,8 @@ Avenue des Vieux Amis
 Avenue des Vieux Belges
 Avenue des Vieux Murs
 Avenue des Vignes
-avenue des Villas
 Avenue des Villas
+avenue des Villas
 Avenue des Vingt Bonniers
 Avenue des Violettes
 Avenue des Volontaires
@@ -4686,8 +4686,8 @@ Avenue du Haut-Pont
 Avenue du Heymbosch
 Avenue du Hockey
 Avenue du Hoef
-avenue du Houx
 Avenue du Houx
+avenue du Houx
 Avenue du Hoyoux
 Avenue du Hunderenveld
 Avenue du Hérisson
@@ -4749,8 +4749,8 @@ Avenue du Paepedelle
 Avenue du Panorama
 Avenue du Panthéon
 Avenue du Paradis
-avenue du Parc
 Avenue du Parc
+avenue du Parc
 Avenue du Parc d'Andoy
 Avenue du Parc d'Aventures Scientifiques
 Avenue du Parc de Woluwe
@@ -4812,8 +4812,8 @@ Avenue du Reposoir
 Avenue du Rinval
 Avenue du Robinier
 Avenue du Roi
-avenue du Roi Albert
 Avenue du Roi Albert
+avenue du Roi Albert
 Avenue du Roi Baudouin
 Avenue du Roi Chevalier
 Avenue du Roi Soleil
@@ -5256,8 +5256,8 @@ Avenue Jacqueline
 Avenue Jacques Brel
 Avenue Jacques de Meurers
 Avenue Jacques Dormont
-avenue Jacques Georgin
 Avenue Jacques Georgin
+avenue Jacques Georgin
 Avenue Jacques Grégoire
 Avenue Jacques Pastur
 Avenue Jacques Sermon
@@ -5701,11 +5701,11 @@ Avenue Raymond de Meester
 Avenue Raymond Foucart
 Avenue Raymond Vander Bruggen
 Avenue Reinaert de Vos
-avenue Reine Astrid
 Avenue Reine Astrid
+avenue Reine Astrid
 Avenue Reine Elisabeth
-avenue Reine Fabiola
 Avenue Reine Fabiola
+avenue Reine Fabiola
 Avenue Reine Louise-Marie
 Avenue Reine Marie-Henriette
 Avenue Reine-Astrid
@@ -5725,8 +5725,8 @@ Avenue René Stevens
 Avenue Richard Mazza
 Avenue Richard Neybergh
 Avenue Robert Dalechamp
-avenue Robert Schuman
 Avenue Robert Schuman
+avenue Robert Schuman
 Avenue Rodolphe Gossia
 Avenue Roger de Grimberghe
 Avenue Roger Dejardin
@@ -5887,8 +5887,8 @@ Avenue Wielemans Ceuppens
 Avenue William et Philippe Grisard
 Avenue Wilmart
 Avenue Wilson
-avenue Winston Churchill
 Avenue Winston Churchill
+avenue Winston Churchill
 Avenue Wolfers
 Avenue Wolfgang Amadeus Mozart
 Avenue Wolvendael
@@ -9619,8 +9619,8 @@ Bouvriestraat
 Bouw
 Bouwdreef
 Bouwelheide
-Bouwelse steenweg
 Bouwelse Steenweg
+Bouwelse steenweg
 Bouwelsesteenweg
 Bouwelven
 Bouwensstraat
@@ -11600,8 +11600,8 @@ Charles d'Orjo de Marchovelettelaan
 Charles Darwinstraat
 Charles de Broquevillelaan
 Charles De Buckstraat
-Charles de Costerlaan
 Charles De Costerlaan
+Charles de Costerlaan
 Charles De Costerstraat
 Charles de Costerstraat
 Charles de Gaullestraat
@@ -13184,8 +13184,8 @@ Chemin des Cortis
 Chemin des Cosaques
 Chemin des Coteaux
 Chemin des Cotillages
-chemin des Coutures
 Chemin des Coutures
+chemin des Coutures
 Chemin des Couvalles
 Chemin des Coyautes
 Chemin des Crahauts
@@ -13276,8 +13276,8 @@ Chemin des Haldes de Bure
 Chemin des Halleux
 Chemin des Hauts Prés
 Chemin des Hayes
-chemin des Hayettes
 Chemin des Hayettes
+chemin des Hayettes
 Chemin des Hiercheuses
 Chemin des Hochequeues
 Chemin des Holifosses
@@ -13319,8 +13319,8 @@ Chemin des Manettes
 Chemin des Maquettes
 Chemin des Maquisards
 Chemin des Maraudeurs
-chemin des Marronniers
 Chemin des Marronniers
+chemin des Marronniers
 Chemin des Maréchaux
 Chemin des Massennes
 Chemin des Matines
@@ -15111,8 +15111,8 @@ Clos des Acacias
 Clos des Adalias
 clos des Albatros
 Clos des Aliziers
-clos des Alouettes
 Clos des Alouettes
+clos des Alouettes
 Clos des Angéliques des Prés
 Clos des Annonciades
 Clos des Anémones
@@ -15264,8 +15264,8 @@ Clos des Lauriers
 Clos des Lauriers Roses
 Clos des Lavandières
 Clos des Libellules
-clos des Lilas
 Clos des Lilas
+clos des Lilas
 Clos des Lilas Blancs
 Clos des Lipizzans
 Clos des Longues Pièces
@@ -15284,14 +15284,14 @@ Clos des Marteleurs
 Clos des Merisiers
 Clos des Messes
 Clos des Meuniers
-clos des Mimosas
 Clos des Mimosas
+clos des Mimosas
 Clos des Mines
 Clos des Moineaux
 clos des Molons
 Clos des Morilles
-clos des Mouettes
 Clos des Mouettes
+clos des Mouettes
 Clos des Mountches
 Clos des Mousserons
 Clos des Muguets
@@ -15320,12 +15320,12 @@ Clos des Peupliers
 Clos des Phosphatières
 Clos des Pierrailles
 Clos des Pins Sylvestres
-clos des Pinsons
 Clos des Pinsons
+clos des Pinsons
 Clos des Platanes
 Clos des Pleurotes
-Clos des pommiers
 Clos des Pommiers
+Clos des pommiers
 Clos des Pommiers Fleuris
 Clos des Poplis
 Clos des Porions
@@ -16900,8 +16900,8 @@ De Biest
 De Biezen
 De Billemontstraat
 de Biolleylaan
-de Bist
 De Bist
+de Bist
 De Bisthovenlei
 De Biststraat
 De Blauken
@@ -17374,8 +17374,8 @@ De Pont
 De Poot
 De Populierkens
 de Potterstraat
-de Praeterestraat
 De Praeterestraat
+de Praeterestraat
 De Preterij
 De Pretlaan
 de Pretlaan
@@ -17431,8 +17431,8 @@ De Roten
 De Royaertstraat
 De Rozentuin
 de Rubempréstraat
-de Rudderstraat
 De Rudderstraat
+de Rudderstraat
 De Ruggen
 De Saedeleerhelling
 De Saedeleerstraat (Valerius)
@@ -17599,8 +17599,8 @@ De Wandeling
 De Wandstraat
 de Wansijnstraat
 De Wantlaan
-de Warande
 De Warande
+de Warande
 De Warandestraat
 De Watermolen
 De Waterwilgen
@@ -17944,8 +17944,8 @@ Dendermondebaan
 Dendermondesteenweg
 Dendermondestraat
 Dendermondeweg
-Dendermondse steenweg
 Dendermondse Steenweg
+Dendermondse steenweg
 Dendermondsesteenweg
 Dendermondsestraat
 Denderoordstraat
@@ -20662,20 +20662,20 @@ Elf Julistraat
 Elf Novemberlaan
 Elf Novemberstraat
 Elf-Julilaan
-Elf-julistraat
 Elf-Julistraat
+Elf-julistraat
 Elf-Juliwijk
 Elf-Novemberlaan
-Elf-novemberstraat
 Elf-Novemberstraat
+Elf-novemberstraat
 Elf-Septemberlaan
 Elfbunderen
 Elfbunderslaan
 Elfbunderweg
 Elfdagwandkouter
 Elfde Julilaan
-Elfde-julilaan
 Elfde-Julilaan
+Elfde-julilaan
 Elfde-julistraat
 Elfde-Liniestraat
 Elfde-novemberlaan
@@ -20935,8 +20935,8 @@ Emiel Stalmanslaan
 Emiel Van Boschstraat
 Emiel Van Dorenlaan
 Emiel van Hammestraat
-Emiel van Hemeldonckstraat
 Emiel Van Hemeldonckstraat
+Emiel van Hemeldonckstraat
 Emiel van Roeystraat
 Emiel Van Swedenlaan
 Emiel Van Winckellaan
@@ -21359,8 +21359,8 @@ Espenhoek
 Espenstraat
 Espenveldstraat
 Espenweg
-Esperantolaan
 ESPERANTOLAAN
+Esperantolaan
 Esperantostraat
 Espestraat
 Esplanade
@@ -22050,8 +22050,8 @@ Filip Bourletstraat
 Filip De Pillecijnstraat
 Filip De Pillecynlaan
 Filip de Pillecynlaan
-Filip de Pillecynstraat
 Filip De Pillecynstraat
+Filip de Pillecynstraat
 Filip Dekleermaekerstraat
 Filip van Arteveldestraat
 Filip Van Maestrichtplein
@@ -22563,8 +22563,8 @@ Frans De Manstraat
 Frans De Meyerstraat
 Frans De Mildreef
 Frans De Peuterstraat
-Frans de Potterstraat
 Frans De Potterstraat
+Frans de Potterstraat
 Frans De Schutterlaan
 Frans De Vriendtstraat
 Frans De Wolfstraat
@@ -26518,8 +26518,8 @@ Haute Rue
 Haute Rue d'Ogy
 Haute Ruelle
 Haute Vainière
-Haute voie
 Haute Voie
+Haute voie
 Haute Voie de Marche
 Haute Wegge
 Haute Wimbreucq
@@ -27377,8 +27377,8 @@ Hendrik Van Rietlaan
 Hendrik Van Uffelslaan
 Hendrik van Veldekenstraat
 Hendrik van Veldekesingel
-Hendrik van Veldekestraat
 Hendrik Van Veldekestraat
+Hendrik van Veldekestraat
 Hendrik van Wassenaarstraat
 Hendrik van Zellestraat
 Hendrik Vangassenstraat
@@ -27665,8 +27665,8 @@ Herenpolderlaan
 Herenput
 Herenstraat
 Herent
-Herentalse steenweg
 Herentalse Steenweg
+Herentalse steenweg
 Herentalsebaan
 Herentalsedijk
 Herentalsesteenweg
@@ -28260,8 +28260,8 @@ Hippoliet Meertwijk
 Hippoliet Persoonsstraat
 Hippoliet Raesstraat
 Hippoliet Spilleboutdreef
-Hippoliet van Peenestraat
 Hippoliet Van Peenestraat
+Hippoliet van Peenestraat
 Hippolyte Boulengerlaan
 Hippolyte Meeùsstraat
 Hippolyte Metdepenningenstraat
@@ -29933,8 +29933,8 @@ Ijslandvaardersstraat
 IJsmolenstraat
 Ijsselbeekstraat
 Ijsselsteinstraat
-Ijsvogellaan
 IJsvogellaan
+Ijsvogellaan
 IJsvogelstraat
 Ijsvogelstraat
 Ijzendijkestraat
@@ -29948,14 +29948,14 @@ Ijzeren Getouwkens
 Ijzeren Hand
 IJzeren Rijnstraat
 IJzerenberglaan
-Ijzerenkruisstraat
 IJzerenkruisstraat
+Ijzerenkruisstraat
 IJzerenleen
 Ijzerenmolenstraat
 IJzerenpoortkaai
 Ijzerenpoortstraat
-Ijzerenveld
 IJzerenveld
+Ijzerenveld
 IJzerenwaag
 IJzerenweg
 Ijzerenweg
@@ -29969,8 +29969,8 @@ Ijzerhandstraat
 Ijzerheemplein
 Ijzerkaai
 IJzerkruisenlaan
-Ijzerlaan
 IJzerlaan
+Ijzerlaan
 IJzerland
 Ijzerlegerstraat
 IJzerlei
@@ -29978,14 +29978,14 @@ Ijzerlei
 Ijzermaal
 Ijzermaalberg
 Ijzermolenstraat
-Ijzerplein
 IJzerplein
+Ijzerplein
 Ijzerpoort
 Ijzersteenpad
 Ijzersteenweg
 Ijzersteinlei
-Ijzerstraat
 IJzerstraat
+Ijzerstraat
 Ijzersveld
 Ijzertijdweg
 Ijzerveld
@@ -30876,12 +30876,12 @@ Jacob Smitsdreef
 Jacob Smitslaan
 Jacob Smitsstraat
 Jacob Van Arteveldelaan
-Jacob van Arteveldestraat
 Jacob Van Arteveldestraat
+Jacob van Arteveldestraat
 Jacob van den Ertweghestraat
 Jacob van Maerlantlaan
-Jacob van Maerlantstraat
 Jacob Van Maerlantstraat
+Jacob van Maerlantstraat
 Jacobetswegel
 Jacobinessenstraat
 Jacobs Fontainestraat
@@ -31191,8 +31191,8 @@ Jan Van den Eyndelaan
 Jan Van der Aa Laan
 Jan Van Droogenbroeckstraat
 Jan Van Dyckstraat
-Jan van Eycklaan
 Jan Van Eycklaan
+Jan van Eycklaan
 Jan Van Eycklei
 Jan van Eyckplein
 Jan Van Eyckstraat
@@ -31230,8 +31230,8 @@ Jan van Reuschenbergstraat
 Jan Van Rijswijcklaan
 Jan Van Rijswijckstraat
 Jan van Rodelaan
-Jan van Ruusbroeckstraat
 Jan Van Ruusbroeckstraat
+Jan van Ruusbroeckstraat
 Jan van Ruusbroeclaan
 Jan van Ruusbroecpark
 Jan van Ruusbroecplein
@@ -32021,8 +32021,8 @@ Jozef Van De Veldestraat
 Jozef Van Den Berghestraat
 Jozef Van Elewijckstraat
 Jozef Van Esschestraat
-Jozef van Gansenstraat
 Jozef Van Gansenstraat
+Jozef van Gansenstraat
 Jozef Van Goeystraat
 Jozef Van Gorpstraat
 Jozef Van Herbruggenstraat
@@ -34264,8 +34264,8 @@ Klein Bien
 Klein Blokt
 Klein Boom
 Klein Borgtstraat
-Klein broek
 Klein Broek
+Klein broek
 Klein Broekstraat
 Klein Brusselstraat
 Klein Dalenstraat
@@ -34514,8 +34514,8 @@ Kleine Heerbosstraat
 Kleine Heerestraat
 Kleine Heerweg
 Kleine Hees
-Kleine heide
 Kleine Heide
+Kleine heide
 Kleine Heidelaan
 Kleine Heidestraat
 Kleine Heideweg
@@ -34736,8 +34736,8 @@ Kleine Waregemsestraat
 Kleine Warmestraat
 Kleine Waterstraat
 Kleine Wedepad
-Kleine weg
 Kleine Weg
+Kleine weg
 Kleine Werfstraat
 Kleine Wervikstraat
 Kleine Weststraat
@@ -37233,8 +37233,8 @@ La Clairière
 La Clef des Champs
 La Clergerie
 La Closière
-la Clé des Champs
 La Clé des Champs
+la Clé des Champs
 La Clé-des-Champs
 La Collerie
 La Comté
@@ -38097,8 +38097,8 @@ Lapstraat
 Laputstraat
 Lapzeisstraat
 Lar
-Lar Blok Z
 LAR Blok Z
+Lar Blok Z
 Larbois
 Larbuisson
 Laremolenweg
@@ -38921,13 +38921,13 @@ Leopold I straat
 Leopold I-laan
 Leopold I-plein
 Leopold I-straat
-Leopold II laan
 Leopold II Laan
+Leopold II laan
 Leopold II straat
 Leopold II-dam
 Leopold II-laan
-Leopold III laan
 Leopold III Laan
+Leopold III laan
 Leopold III pad
 Leopold III-laan
 Leopold III-lei
@@ -40922,8 +40922,8 @@ Mallebaan
 Mallebergplaats
 Mallekotstraat
 Mallorystraat
-Malmedyer Straße
 Malmedyer Strasse
+Malmedyer Straße
 Malmedyer Weg
 Malmy
 Malodreef
@@ -41896,8 +41896,8 @@ Meester Richard Goossensstraat
 Meester Saklaan
 Meester Surinxstraat
 Meester Van den Eeckhautstraat
-Meester van der Borghtstraat
 Meester Van der Borghtstraat
+Meester van der Borghtstraat
 Meester Van Wijnsberghelaan
 Meester Verdonckstraat
 Meester Vlaemyncklaan
@@ -42647,8 +42647,8 @@ Minister A. De Clercklaan
 Minister A. De Taeyestraat
 Minister Alfred De Taeyelaan
 Minister Beernaertstraat
-Minister de Taeyelaan
 Minister De Taeyelaan
+Minister de Taeyelaan
 Minister Delbekelaan
 Minister E. Rubbenslaan
 Minister Lavensstraat
@@ -43802,8 +43802,8 @@ Möringen
 Möschenberg
 Mühlbachstraße
 Mühle
-Mühlenbachstraße
 Mühlenbachstrasse
+Mühlenbachstraße
 Mühlenberg
 Mühlengasse
 Mühlenkaul
@@ -44340,8 +44340,8 @@ Nieuwdorpdreef
 Nieuwdorpstraat
 Nieuwdreef
 Nieuwe Abelestraat
-Nieuwe baan
 Nieuwe Baan
+Nieuwe baan
 Nieuwe Barrierestraat
 Nieuwe Beggaardenstraat
 Nieuwe Berkenstraat
@@ -44411,8 +44411,8 @@ Nieuwe Vosvijvers
 Nieuwe Walstraat
 Nieuwe Wandeling
 Nieuwe Weerd
-Nieuwe weg
 Nieuwe Weg
+Nieuwe weg
 Nieuwe Westweg
 Nieuwe Wijk
 Nieuwe Wolsemlaan
@@ -45784,11 +45784,11 @@ Oud-Sasplein
 Oud-Smetlede
 Oud-Stationsplein
 Oud-steengelaagstraat
-Oud-strijderslaan
 Oud-Strijderslaan
+Oud-strijderslaan
 Oud-strijdersplein
-Oud-strijdersstraat
 Oud-Strijdersstraat
+Oud-strijdersstraat
 Oud-Termienstraat
 Oud-Veerstraat
 Oud-Zoute
@@ -45893,8 +45893,8 @@ Oude Doorniksesteenweg
 Oude Dorpsstraat
 Oude Dorpsweg
 Oude Dosweg
-Oude dreef
 Oude Dreef
+Oude dreef
 Oude Driesstraat
 Oude Duinkerkestraat
 Oude Durme
@@ -47228,8 +47228,8 @@ Pastoor de Neveplein
 Pastoor De Nevestraat
 Pastoor De Swaeflaan
 Pastoor de Tiliastraat
-Pastoor de Vosstraat
 Pastoor De Vosstraat
+Pastoor de Vosstraat
 Pastoor De Witstraat
 Pastoor de Witstraat
 Pastoor Deensstraat
@@ -47641,8 +47641,8 @@ Paul Van Goethemstraat
 Paul Van Malderenplein
 Paul Van Ostaijenlaan
 Paul van Ostaijenlaan
-Paul van Ostaijenstraat
 Paul Van Ostaijenstraat
+Paul van Ostaijenstraat
 Paul Van Ostayenstraat
 Paul Van Roosbroecklaan
 Paul van Tieghemlaan
@@ -48058,8 +48058,8 @@ Petite rue de la Source
 Petite Rue de la Vallée
 Petite rue de Monaco
 Petite rue de Nord
-Petite rue des Bouchers
 Petite Rue des Bouchers
+Petite rue des Bouchers
 Petite rue des Brigittines
 Petite Rue des Communes
 Petite Rue des Jardins
@@ -48744,9 +48744,9 @@ Place Colonel Peckham
 Place Combattants et Déportés
 Place Commandant Bultot
 Place Commandant Evrard
-place Communale
 Place Communale
 Place communale
+place Communale
 Place Communale d'Auderghem
 Place Comte Cornet
 Place Constant Vanderbemden
@@ -48946,8 +48946,8 @@ Place de l'Avoué
 Place de l'Ecole des Cadets
 Place de l'Ecole du Génie
 Place de l'Ecole Moyenne
-place de l'Eglise
 Place de l'Eglise
+place de l'Eglise
 Place de l'Eglise Romane
 Place de l'Enfance
 place de l'Equerre
@@ -48959,8 +48959,8 @@ Place de l'Esplanade
 Place de l'Esro
 Place de l'Etang
 Place de l'Etoile
-place de l'Europe
 Place de l'Europe
+place de l'Europe
 Place de l'Evêché
 Place de l'Hôtel de Ville
 Place de l'Impératrice
@@ -49386,8 +49386,8 @@ Place du Baty
 Place du Beau Site
 Place du Becquerelle
 Place du Belvédère
-place du Bia Bouquet
 Place du Bia Bouquet
+place du Bia Bouquet
 Place du Bicentenaire
 Place du Bourgmestre Jean-Louis Thys
 Place du Brabant wallon
@@ -49402,11 +49402,11 @@ Place du Campanile
 Place du Carcan
 Place du Carillon
 Place du Carré
-place du Centenaire
 Place du Centenaire
+place du Centenaire
 Place du Centenaire Flechet
-place du Centre
 Place du Centre
+place du Centre
 Place du Champ de Mars
 Place du Chant d'Alouette
 Place du Chapitre
@@ -49498,8 +49498,8 @@ Place du Palais de Justice
 Place du Paquis
 Place du Parc
 Place du Pays Vert
-place du Perron
 Place du Perron
+place du Perron
 Place du Petit Bruxelles
 Place du Petit Marché
 Place du Petit Moulin
@@ -51985,8 +51985,8 @@ Recolettenlaan
 Recollettenlei
 Recollettenpoort
 Recollettenstraat
-Rector de Ramstraat
 Rector De Ramstraat
+Rector de Ramstraat
 Rector De Somerplein
 Rector De Somerstraat
 Rector Vermeylenlaan
@@ -52252,8 +52252,8 @@ Remy Alloingstraat
 Remy Soetensstraat
 Remylaan
 Renaat Braemstraat
-Renaat de Rudderlaan
 Renaat De Rudderlaan
+Renaat de Rudderlaan
 Renaat De Rudderstraat
 Renaat de Rudderstraat
 Renaat Desmedtstraat
@@ -54216,8 +54216,8 @@ Route du Waud
 Route dèl Baraque Boulet
 Route Gouvernementale
 Route Hawarden
-Route industrielle
 Route Industrielle
+Route industrielle
 Route Jean XXIII
 Route Marie-Thérèse
 Route Merveilleuse
@@ -54228,8 +54228,8 @@ Route Nationale 4
 Route Nationale 5
 Route Nationale-5
 Route Principale
-Route provinciale
 Route Provinciale
+Route provinciale
 Route Royale
 Route Saint Donat
 Route Saint-Quoilin
@@ -55079,8 +55079,8 @@ Rue Arthur Lheureux
 Rue Arthur Libert
 Rue Arthur Maes
 Rue Arthur Mahaux
-rue Arthur Masson
 Rue Arthur Masson
+rue Arthur Masson
 Rue Arthur Oleffe
 Rue Arthur Pansaerts
 Rue Arthur Pater
@@ -55109,8 +55109,8 @@ Rue Asty-Moulin
 Rue Ather
 Rue Athéna
 Rue au Beurre
-Rue au Bois
 Rue Au Bois
+Rue au Bois
 Rue Au Bois la Dame
 Rue au Bord de l'Eau
 Rue Au Camp
@@ -55248,8 +55248,8 @@ Rue aux deux croix
 Rue aux Escarbilles
 Rue aux Esprits
 Rue aux Fauvettes
-rue aux Fleurs
 Rue aux Fleurs
+rue aux Fleurs
 Rue aux Foires
 Rue aux Fraises
 Rue aux Gâdes
@@ -56476,8 +56476,8 @@ Rue Chants d'Oiseaux
 Rue Chapeau
 Rue Chapeau de Curé
 Rue Chapeauville
-rue Chapelle aux Sabots
 Rue Chapelle aux Sabots
+rue Chapelle aux Sabots
 Rue Chapelle Baussart
 Rue Chapelle Beaussart
 Rue Chapelle Brion
@@ -57218,8 +57218,8 @@ Rue Célestin-Demblon
 Rue Célestin-Hastir
 Rue Célestin-Thiry
 Rue César
-Rue César de Paepe
 Rue César De Paepe
+Rue César de Paepe
 Rue César Depaepe
 Rue César Dereume
 Rue César Despretz
@@ -57445,8 +57445,8 @@ Rue d'En Amont
 Rue d'En Bas
 Rue d'en Bas
 Rue d'en Dessous
-Rue d'en Haut
 Rue d'En Haut
+Rue d'en Haut
 Rue d'En-Bas
 Rue d'En-dessous
 Rue d'En-Haut
@@ -59051,8 +59051,8 @@ Rue de l'Amende
 Rue de l'American-Legion
 Rue de l'Amicale
 Rue de l'Amigo
-Rue de l'Amitié
 Rue de L'Amitié
+Rue de l'Amitié
 Rue de l'Amérique
 Rue de l'Améthyste
 Rue de l'Ancien Bourg
@@ -59314,8 +59314,8 @@ Rue de l'Epervier
 Rue de l'Epeule
 Rue de l'Epi d'Or
 Rue de l'Epincelle
-rue de l'Epine
 Rue de l'Epine
+rue de l'Epine
 Rue de l'Epine Blanche
 Rue de L'Epine du Prince
 Rue de l'Epine Pucelle
@@ -59393,8 +59393,8 @@ Rue de l'Etourneau
 Rue de l'Etuve
 Rue de l'Eté
 Rue de l'Etôt
-rue de l'Europe
 Rue de l'Europe
+rue de l'Europe
 Rue de l'Euros
 Rue de l'Euwelette
 Rue de l'Eventail
@@ -59455,8 +59455,8 @@ Rue de l'Hôpital (MP)
 Rue de l'Hôpital Notre-Dame
 Rue de l'Hôtel
 Rue de l'Hôtel Communal
-Rue de l'Hôtel de ville
 Rue de l'Hôtel de Ville
+Rue de l'Hôtel de ville
 Rue de l'Hôtel de Ville (MS)
 Rue de l'Hôtel des Monnaies
 Rue de l'Hôtel-Communal
@@ -59474,8 +59474,8 @@ Rue de l'Impasse
 Rue de l'Imprimerie
 Rue de l'Impératrice
 Rue de l'Incroyable
-Rue de l'industrie
 Rue de l'Industrie
+Rue de l'industrie
 Rue de l'Industrie (JT)
 Rue de l'Industrie (MM)
 Rue de l'Industrie (MT)
@@ -59590,8 +59590,8 @@ Rue de la Balastière
 Rue de la Ballade
 Rue de la Balle
 Rue de la Balligaine
-rue de la Balsamine
 Rue de la Balsamine
+rue de la Balsamine
 Rue de la Banière
 Rue de la Banque
 Rue de la Banse
@@ -59744,8 +59744,8 @@ Rue de la Bridelette
 Rue de la Brigade Piron
 Rue de la Brique
 Rue de la Brique d'Or
-rue de la Briqueterie
 Rue de la Briqueterie
+rue de la Briqueterie
 Rue de la Briquetterie
 Rue de la Brise
 Rue de la Brisée
@@ -59758,8 +59758,8 @@ Rue de la Brouille
 Rue de la Brousse
 rue de la Brulotte
 Rue de la Bruskaie
-Rue de la Bruyère
 Rue de La Bruyère
+Rue de la Bruyère
 Rue de la Bruyère d'Huleu
 Rue de la Bruyère de Haut-Ittre
 Rue de la Bruyère du Masy
@@ -60178,8 +60178,8 @@ Rue de la Falaise
 Rue de la Falgeotte
 Rue de la Faligeotte
 Rue de la Falise
-Rue de la Falize
 Rue de La Falize
+Rue de la Falize
 Rue de la Falloise
 Rue de la Faloise
 Rue de la Famenne
@@ -60293,8 +60293,8 @@ Rue de la Fontaine Saint-Pierre
 Rue de la Fontaine St Jean
 Rue de la Fontaine à Louche
 Rue de la Fontenalle
-rue de la Fontenelle
 Rue de la Fontenelle
+rue de la Fontenelle
 Rue de la Fontinelle
 Rue de la Forestière
 Rue de la Forge
@@ -60363,8 +60363,8 @@ Rue de la Galène
 Rue de la Garde
 Rue de la Garde-Dieu
 Rue de la Gardeuse d'Oies
-rue de la Gare
 Rue de la Gare
+rue de la Gare
 Rue de la Gare (R. Chanteroy)
 Rue de la Gare d'Autre-Eglise
 Rue de la Gare d'Hédenge
@@ -60524,8 +60524,8 @@ Rue de la Hauche
 Rue de la Haulette
 Rue de la Hausche
 Rue de la Haute Bise
-rue de la Haute Borne
 Rue de la Haute Borne
+rue de la Haute Borne
 Rue de la Haute Cour
 Rue de la Haute Folie
 Rue de la Haute Forière
@@ -60571,8 +60571,8 @@ Rue de la Houlotte
 Rue de la Houppe
 Rue de la Hourdelle
 Rue de la Houssaie
-rue de la Houssière
 Rue de la Houssière
+rue de la Houssière
 Rue de la Howarderie
 Rue de la Hoëgne
 Rue de la Hufnalle
@@ -60660,8 +60660,8 @@ Rue de la Linalux
 Rue de la Linière
 Rue de la Lionne
 Rue de la Lisbonne
-rue de la Lisière
 Rue de la Lisière
+rue de la Lisière
 Rue de la Lisonette
 Rue de la Litorne
 Rue de la Loge
@@ -60732,8 +60732,8 @@ Rue de la Maladerie
 Rue de la Maladrerie
 Rue de la Maladrie
 Rue de la Maladrée
-rue de la Malaise
 Rue de la Malaise
+rue de la Malaise
 Rue de la Malaquise
 Rue de la Malcense
 Rue de la Malgagnée
@@ -60765,8 +60765,8 @@ rue de la Margelle
 Rue de la Mariette
 Rue de la Marine (JT)
 Rue de la Marine (LT)
-rue de la Marjolaine
 Rue de la Marjolaine
+rue de la Marjolaine
 Rue de la Marka
 Rue de la Marlagne
 Rue de la Marlette
@@ -61097,8 +61097,8 @@ Rue de la Ramonerie
 Rue de la Ramonette
 Rue de la Ramourie
 Rue de la Rampe
-rue de la Ramée
 Rue de la Ramée
+rue de la Ramée
 Rue de la Rancune
 Rue de la Raquette
 Rue de la Rasière
@@ -61134,8 +61134,8 @@ Rue de la Rivière
 Rue de la Rivièrette
 Rue de la Rièze
 Rue de la Rocaille
-Rue de la Roche
 Rue de La Roche
+Rue de la Roche
 Rue de la Roche aux Corneilles
 Rue de la Roche aux Faucons
 Rue de la Roche Fatale
@@ -61206,12 +61206,12 @@ Rue de la Sambre (MM)
 Rue de la Samme
 Rue de la Santé
 Rue de la Sapinette
-rue de la Sapinière
 Rue de la Sapinière
+rue de la Sapinière
 Rue de la Sarasse
 Rue de la Sarcelle
-rue de la Sarriette
 Rue de la Sarriette
+rue de la Sarriette
 Rue de la Sarte
 Rue de la Sarte à Ben
 Rue de la Sartelle
@@ -61284,8 +61284,8 @@ Rue de la Spaumerie
 Rue de la Spinette
 Rue de la Spêche
 Rue de la State
-rue de la Station
 Rue de la Station
+rue de la Station
 Rue de la Station (JT)
 Rue de la Station (RT)
 Rue de la Station d'Acren
@@ -61420,8 +61420,8 @@ Rue de la Vacheresse
 Rue de la Vacherie
 Rue de la Valentinoise
 Rue de la Vallière
-rue de la Vallée
 Rue de la Vallée
+rue de la Vallée
 Rue de la Vallée Bailly
 Rue de la Vallée de Han
 Rue de la Vallée de l'Ourthe
@@ -62037,8 +62037,8 @@ Rue de Nalnico
 Rue de Namblery
 Rue de Namoisy
 Rue de Nampois
-rue de Namur
 Rue de Namur
+rue de Namur
 Rue de Namur (DY)
 Rue de Namur (GS)
 Rue de Namêche
@@ -62857,8 +62857,8 @@ Rue de Villencourt
 Rue de Villenval
 Rue de Villereau
 Rue de Villerot
-rue de Villers
 Rue de Villers
+rue de Villers
 Rue de Villers-en-F.
 Rue de Villers-l'Evêque
 Rue de Villers-la-Ville
@@ -63149,8 +63149,8 @@ Rue Derenne-Deldinne
 Rue Dernier Patard
 Rue Derouck
 Rue derrière l'eau
-Rue derrière l'Eglise
 Rue Derrière l'Eglise
+Rue derrière l'Eglise
 Rue derrière l'Hôpital
 Rue derrière l'église
 Rue derrière la Brouffe
@@ -63534,8 +63534,8 @@ Rue des Broux
 Rue des Brulins
 Rue des Brulées
 Rue des Bruynettes
-rue des Bruyères
 Rue des Bruyères
+rue des Bruyères
 Rue des Brûlins
 Rue des Brûlottes
 Rue des Brûlés
@@ -63543,8 +63543,8 @@ Rue des Bucherons
 Rue des Bugranes
 Rue des Buis
 Rue des Buissières
-rue des Buissons
 Rue des Buissons
+rue des Buissons
 Rue des Bungalows Fleuris
 Rue des Burdiaux
 Rue des Bureaux
@@ -63841,8 +63841,8 @@ Rue des Cots
 Rue des Cottages
 Rue des Cotteheustins
 Rue des Coucous
-rue des Coudriers
 Rue des Coudriers
+rue des Coudriers
 Rue des Coulinières
 Rue des Coulottes
 Rue des Couloûdes
@@ -64022,8 +64022,8 @@ Rue des Echavées
 Rue des Echelles
 Rue des Echevins
 Rue des Ecluses
-rue des Ecoles
 Rue des Ecoles
+rue des Ecoles
 Rue des Ecoliers
 Rue des Ecomennes
 Rue des Ecomi
@@ -64060,8 +64060,8 @@ Rue des Epingliers
 Rue des Epioux
 Rue des Epis
 Rue des Epérires
-rue des Erables
 Rue des Erables
+rue des Erables
 Rue des Eresses
 Rue des Ermites
 Rue des Escaliers
@@ -64233,8 +64233,8 @@ Rue des Frères Verkleeren
 Rue des Frênes
 Rue des Fuchsias
 Rue des Funkias
-rue des Fusillés
 Rue des Fusillés
+rue des Fusillés
 Rue des Futaies
 Rue des Fèves
 Rue des Fées
@@ -64380,8 +64380,8 @@ Rue des Hadjaux
 Rue des Hadrennes
 Rue des Hadrènes
 Rue des Hagnas
-rue des Haies
 Rue des Haies
+rue des Haies
 Rue des Haies de Tillet
 Rue des Haies Vertes
 Rue des Haignies
@@ -64574,8 +64574,8 @@ Rue des Linots
 Rue des Linottes
 Rue des Liserons
 Rue des Liègeois
-rue des Liégeois
 Rue des Liégeois
+rue des Liégeois
 Rue des Loches
 Rue des Loges
 Rue des Loires
@@ -64959,8 +64959,8 @@ Rue des Poiriers
 Rue des Poissonniers
 Rue des Polders
 Rue des Polonais
-rue des Pommiers
 Rue des Pommiers
+rue des Pommiers
 Rue des Pontonniers
 Rue des Pontons
 Rue des Ponts
@@ -64981,8 +64981,8 @@ Rue des Poulées
 Rue des Poussins
 rue des Poètes
 Rue des Poêtes
-rue des Prairies
 Rue des Prairies
+rue des Prairies
 Rue des Prairies (ML)
 Rue des Pralettes
 Rue des Praules
@@ -65018,8 +65018,8 @@ Rue des Prébendiers
 Rue des Précheurs
 Rue des Préelles
 Rue des Prémontrés
-rue des Prés
 Rue des Prés
+rue des Prés
 Rue des Prés Brion
 Rue des Prés Burniaux
 Rue des Prés Colin
@@ -65053,8 +65053,8 @@ Rue des Puits l'Eau
 Rue des Purnalîs
 Rue des Pyramides
 Rue des Pyrèthres
-rue des Pâchis
 Rue des Pâchis
+rue des Pâchis
 Rue des Pâquerettes
 Rue des Pâquis
 Rue des Pâturages
@@ -65101,8 +65101,8 @@ Rue des Quatre Fossés
 Rue des Quatre Grands
 Rue des Quatre Jalouses
 Rue des Quatre Jean
-Rue des Quatre maisons
 Rue des Quatre Maisons
+Rue des Quatre maisons
 Rue des Quatre Martyrs
 Rue des Quatre Moineaux
 Rue des Quatre Poteaux
@@ -65116,8 +65116,8 @@ Rue des Quatre Vents
 Rue des Quatre-Bonniers
 Rue des Quatre-Bras
 Rue des Quatre-Ponts
-Rue des Quatre-vents
 Rue des Quatre-Vents
+Rue des Quatre-vents
 Rue des Quatres Rois
 Rue des Quersenières
 Rue des Queumonts
@@ -65159,8 +65159,8 @@ Rue des Religieuses
 Rue des Remouleurs
 Rue des Remparts
 Rue des Renards
-rue des Renoncules
 Rue des Renoncules
+rue des Renoncules
 Rue des Rentiers
 Rue des Représentants
 Rue des Respes
@@ -65416,8 +65416,8 @@ Rue des Tiges
 Rue des Tigres
 Rue des Tilleuls
 Rue des Tiseurs
-rue des Tisserands
 Rue des Tisserands
+rue des Tisserands
 Rue des Toiliers
 Rue des Tombales
 Rue des Tomballes
@@ -65502,8 +65502,8 @@ Rue des Trévires
 Rue des Tubéreuses
 Rue des Tuileries
 Rue des Tuilleries
-rue des Tulipes
 Rue des Tulipes
+rue des Tulipes
 Rue des Tumuli
 Rue des Tumulus
 Rue des Tègnîres
@@ -65530,8 +65530,8 @@ Rue des Vennes
 Rue des Venniaux
 Rue des Ventaux
 Rue des Verdiers
-rue des Vergers
 Rue des Vergers
+rue des Vergers
 Rue des Vergiers
 Rue des Verreries
 Rue des Verriers
@@ -65626,8 +65626,8 @@ Rue Deseur les Fontaines
 Rue Desgain
 Rue Despars
 Rue Despreetz
-Rue dessous l'Eglise
 Rue Dessous l'Eglise
+Rue dessous l'Eglise
 Rue Dessous la Grande Fange
 Rue Dessous Mon Jacques
 Rue Dessous Plagne
@@ -65659,8 +65659,8 @@ Rue Devant Hazée
 Rue Devant l'Etang
 Rue Devant la Cour
 Rue Devant La Vaux
-Rue Devant la Ville
 Rue Devant La Ville
+Rue Devant la Ville
 Rue Devant la Vîye
 Rue Devant le Bois
 Rue Devant le Roc
@@ -66025,8 +66025,8 @@ Rue du Bercet
 Rue du Berchon
 Rue du Bercuit
 Rue du Bergeant
-rue du Berger
 Rue du Berger
+rue du Berger
 Rue du Berger David
 Rue du Berlaimont
 Rue du Berleur
@@ -66197,8 +66197,8 @@ Rue du Bois des Manants
 Rue du Bois des Moines
 Rue du Bois des Pauvres
 Rue du Bois des Romains
-rue du Bois des Rêves
 Rue du Bois des Rêves
+rue du Bois des Rêves
 Rue du Bois des Saules
 Rue du Bois Drî l'Aîte
 Rue du Bois du Bocq
@@ -66273,8 +66273,8 @@ Rue du Bola
 Rue du Bolland
 Rue du Boly
 Rue du Bon Accueil
-rue du Bon Air
 Rue du Bon Air
+rue du Bon Air
 Rue du Bon Bateau
 Rue du Bon Bois
 Rue du Bon Dieu
@@ -66438,8 +66438,8 @@ Rue du Buissot
 Rue du Buistay
 Rue du Bultia
 Rue du Bure Sainte-Barbe
-rue du Buret
 Rue du Buret
+rue du Buret
 Rue du Burg
 Rue du Burgknapp
 Rue du Burgot
@@ -66659,8 +66659,8 @@ Rue du Charmoie
 Rue du Charmois
 Rue du Charnet
 Rue du Charniat
-rue du Charnois
 Rue du Charnois
+rue du Charnois
 Rue du Charreau
 Rue du Charroi
 Rue du Charron
@@ -66826,8 +66826,8 @@ Rue du Chênois (LT)
 Rue du Chênois (MP)
 Rue du Chênois (MS)
 Rue du Ciel Bleu
-rue du Cimetière
 Rue du Cimetière
+rue du Cimetière
 Rue du Cimetière d'Honneur
 Rue du Cimorné
 Rue du Cinq Septembre
@@ -66893,8 +66893,8 @@ Rue du Commandant-Duchesne
 Rue du Commandant-Marchand
 Rue du Commandant-Naessens
 Rue du Commandant-Speesen
-rue du Commerce
 Rue du Commerce
+rue du Commerce
 Rue du Commerce (CH)
 Rue du Commerce (MT)
 Rue du Compas
@@ -66908,8 +66908,8 @@ Rue du Concerto
 Rue du Concours
 Rue du Condroz
 Rue du Confluent
-rue du Congo
 Rue du Congo
+rue du Congo
 Rue du Congrès
 Rue du Conroy
 Rue du Conroye
@@ -66926,8 +66926,8 @@ Rue du Coquelet
 Rue du Coquelicot
 Rue du Corai
 Rue du Corail
-rue du Corbeau
 Rue du Corbeau
+rue du Corbeau
 Rue du Corbeau Basse
 Rue du Corby
 Rue du Corbé
@@ -67011,8 +67011,8 @@ Rue du Cugné
 Rue du Cuisinier
 Rue du Cul de Sac
 Rue du Cul du Qu'vau
-rue du Culot
 Rue du Culot
+rue du Culot
 Rue du Culot Massin
 Rue du Cumont
 Rue du Cura
@@ -67663,8 +67663,8 @@ Rue du Jauviat
 Rue du Jeu de Balle
 Rue du Jeu de Fer
 Rue du Jeu de Paulme
-rue du Jeu de Paume
 Rue du Jeu de Paume
+rue du Jeu de Paume
 Rue du Jeune Homme
 Rue du Joli Bois
 Rue du Joli Fond
@@ -67700,8 +67700,8 @@ Rue du Lac
 rue du Lac
 Rue du Lac Bleu
 Rue du Laekenveld
-rue du Laid Burniat
 Rue du Laid Burniat
+rue du Laid Burniat
 Rue du Laid Pas
 Rue du Laid Trou
 Rue du Laid-Mâle
@@ -67853,8 +67853,8 @@ Rue du Marché aux Peaux
 Rue du Marché aux Poissons
 Rue du Marché aux Porcs
 Rue du Marché aux Poulets
-Rue du Marché couvert
 Rue du Marché Couvert
+Rue du Marché couvert
 Rue du Marché-au-Beurre
 Rue du Marcotia
 Rue du Marguillier
@@ -67989,8 +67989,8 @@ Rue du Monti
 Rue du Monty
 Rue du Montys
 Rue du Monténégro
-rue du Monument
 Rue du Monument
+rue du Monument
 Rue du Monument 14-18
 Rue du Monçay
 Rue du Moreau
@@ -68004,8 +68004,8 @@ Rue du Mouchon
 Rue du Mouchon d'Aunias
 Rue du Moulignat
 Rue du Mouligneau
-rue du Moulin
 Rue du Moulin
+rue du Moulin
 Rue du Moulin (GY)
 Rue du Moulin (MT)
 Rue du Moulin Al'Poudre
@@ -68054,8 +68054,8 @@ Rue du Moulin Rouge
 Rue du Moulin Sonnet
 Rue du Moulin Tilleu
 Rue du Moulin Van Oost
-rue du Moulin à Eau
 Rue du Moulin à Eau
+rue du Moulin à Eau
 Rue du Moulin à Huile
 Rue du Moulin à Papier
 Rue du Moulin à Thil
@@ -68194,8 +68194,8 @@ Rue du Pape
 Rue du Papillon
 Rue du Paquis
 Rue du Paquot
-rue du Paradis
 Rue du Paradis
+rue du Paradis
 Rue du Parc
 Rue du Parc Communal
 Rue du Parc de la Tassenière
@@ -68432,8 +68432,8 @@ Rue du Point du Jour
 Rue du Point-d'Arrêt
 Rue du Poinçon
 Rue du Poireau
-rue du Poirier
 Rue du Poirier
+rue du Poirier
 Rue du Poirier (MT)
 Rue du Poirier Leloup
 Rue du Poirier Saint-Etienne
@@ -69493,8 +69493,8 @@ Rue du Vindictive
 rue du Vingt Avril
 Rue du Vingt-deux Août
 Rue du Vingt-huit Juin
-Rue du Vingt-quatre Août
 Rue du Vingt-Quatre Août
+Rue du Vingt-quatre Août
 Rue du Vinâl
 Rue du Vinâve
 Rue du Viné
@@ -69873,6 +69873,7 @@ Rue Emile Hecq
 Rue Emile Hellebaut
 Rue Emile Henricot
 Rue Emile Herman
+Rue Emile Hermant
 Rue Emile Heuchon
 Rue Emile Heulers
 Rue Emile Heylens
@@ -71267,8 +71268,8 @@ Rue Grand'Mazures
 Rue Grand'Mère
 Rue Grand'mère
 Rue Grand'Peine
-rue Grand'Rue
 Rue Grand'rue
+rue Grand'Rue
 Rue Grand'Ville
 Rue Grand-Mère
 Rue Grand-Mère Hilson
@@ -71989,6 +71990,7 @@ Rue Higuet
 Rue Hilaire Bertinchamps
 Rue Hilaire Parmentier
 Rue Hillier
+Rue Himmer
 Rue Hinrau
 Rue Hippolyte
 Rue Hippolyte Binon
@@ -72974,8 +72976,8 @@ Rue Jules Depauw
 Rue Jules Deprez
 Rue Jules des Essarts
 Rue Jules Despy
-rue Jules Destrée
 Rue Jules Destrée
+rue Jules Destrée
 Rue Jules Deville
 Rue Jules Dohogne
 Rue Jules Doumont
@@ -73170,8 +73172,8 @@ Rue La Cour
 Rue La Forestière
 Rue La Gage
 Rue La Haie-le-Comte
-Rue la Haut
 Rue La Haut
+Rue la Haut
 Rue La Hutte
 Rue La Levée
 Rue La Louvière
@@ -73417,8 +73419,8 @@ Rue Les Claines
 Rue Les Combles
 Rue les Communes
 Rue les Coteaux du Tilleul
-Rue les Cours
 Rue Les Cours
+Rue les Cours
 Rue Les Croupets
 Rue Les Cullus
 Rue les Culots
@@ -73459,8 +73461,8 @@ Rue les Roches
 Rue Les Rochettes
 Rue les Routures
 Rue Les Rualles
-Rue les Ruelles
 Rue Les Ruelles
+Rue les Ruelles
 Rue Les Saules
 Rue Les Tiennes
 Rue les Tiennes
@@ -73628,8 +73630,8 @@ Rue Louis Coenen
 Rue Louis Corhay
 Rue Louis Dassonville
 Rue Louis De Blois
-Rue Louis de Brouckère
 Rue Louis De Brouckère
+Rue Louis de Brouckère
 Rue Louis De Gunst
 Rue Louis De Smet
 Rue Louis Debatty
@@ -74176,8 +74178,8 @@ Rue Marie Adam
 Rue Marie au Broux
 Rue Marie Colaux
 Rue Marie Collart
-rue Marie Curie
 Rue Marie Curie
+rue Marie Curie
 rue Marie d'Oignies
 Rue Marie Danse
 Rue Marie de Bourgogne
@@ -74934,8 +74936,8 @@ Rue Nouroute
 Rue Nouveau Monde
 Rue Nouveaux Puits
 Rue Nouvelaer
-rue Nouvelle
 Rue Nouvelle
+rue Nouvelle
 Rue Nouvelle (CH)
 Rue Nouvelle (GY)
 Rue Nouvelle Chasse
@@ -75326,8 +75328,8 @@ Rue Philippe de Marnix
 Rue Philippe Demoulin
 Rue Philippe Dewolfs
 Rue Philippe Dumont
-Rue Philippe le Bon
 Rue Philippe Le Bon
+Rue Philippe le Bon
 Rue Philippe Lobet
 Rue Philippe Marquis de Namur
 Rue Philippe Monnoyer
@@ -75865,8 +75867,8 @@ Rue Québelette
 Rue Quénique
 Rue R.A.F.
 Rue Rabauby
-rue Rabelais
 Rue Rabelais
+rue Rabelais
 Rue Rabooz
 Rue Racasse
 Rue Rachel Lagast
@@ -76025,8 +76027,8 @@ Rue René Lepers
 Rue René Limme
 Rue René Lorent
 Rue René Magotteaux
-rue René Magritte
 Rue René Magritte
+rue René Magritte
 Rue René Marcq
 Rue René Masuy
 Rue René Ménada
@@ -76516,8 +76518,8 @@ Rue Sainte-Bernadette
 Rue Sainte-Brigide
 Rue Sainte-Brigitte
 Rue Sainte-Caroline
-rue Sainte-Catherine
 Rue Sainte-Catherine
+rue Sainte-Catherine
 Rue Sainte-Cathérine
 Rue Sainte-Colombe
 Rue Sainte-Croix
@@ -76908,8 +76910,8 @@ Rue sur le Chermay
 Rue sur le Hour
 Rue sur le Mont
 Rue sur le Terme
-Rue sur le Thier
 Rue Sur le Thier
+Rue sur le Thier
 Rue Sur le Try
 Rue sur le Vivier
 Rue sur les Biez
@@ -76988,8 +76990,8 @@ Rue Séraphin
 Rue Séraphin Anthoine
 Rue Séronval
 Rue T'Kint
-Rue t'Serclaes
 Rue T'Serclaes
+Rue t'Serclaes
 Rue T. Marcotty
 Rue Tabaral
 Rue Tacquet
@@ -77231,8 +77233,8 @@ Rue Tilice
 Rue Tillesse
 Rue Tilleul
 Rue Tilleul au Bois
-Rue Tilleul del Motte
 Rue Tilleul Del Motte
+Rue Tilleul del Motte
 Rue Tilleul Saint-Joseph
 Rue Tilleul Sambrée
 Rue Tillieux
@@ -77682,8 +77684,8 @@ Rue Victor Hachez
 Rue Victor Hanotiau
 Rue Victor Heine
 Rue Victor Heptia
-rue Victor Horta
 Rue Victor Horta
+rue Victor Horta
 Rue Victor Hugo
 Rue Victor Juste
 Rue Victor Lagache
@@ -78622,8 +78624,8 @@ Ruelle Wérihet
 Ruelle à Aunes
 Ruelle à Blancs Pains
 Ruelle à Cafou
-Ruelle à l'eau
 Ruelle à l'Eau
+Ruelle à l'eau
 Ruelle à la Crème
 Ruelle à Leux
 Ruelle à Pierres
@@ -84723,8 +84725,8 @@ Ter Luchtedoorgang
 Ter Luchtepad
 Ter Luchteplein
 Ter Maelenbaan
-ter Meerenlaan
 Ter Meerenlaan
+ter Meerenlaan
 Ter Meerenstraat
 Ter Meire
 Ter Merenlaan
@@ -86813,8 +86815,8 @@ Van Ertbornstraat
 Van Espenlaan
 Van Espenstraat
 Van Eyckdreef
-van Eycklaan
 Van Eycklaan
+van Eycklaan
 Van Eycklei
 Van Eyckpark
 Van Eyckstraat
@@ -86833,8 +86835,8 @@ Van Gistelstraat
 Van Goethemstraat
 Van Gorplaan
 Van Grasenstraat
-van Groesbeekstraat
 Van Groesbeekstraat
+van Groesbeekstraat
 Van Gulickstraat
 Van Haeftenlaan
 Van Haelenstraat
@@ -86899,8 +86901,8 @@ Van Lissumstraat
 Van Loenoutstraat
 Van Luppenstraat
 Van Maelelaan
-van Maerlantlaan
 Van Maerlantlaan
+van Maerlantlaan
 Van Maerlantstraat
 van Maldeghemstraat
 Van Malderstraat
@@ -86943,8 +86945,8 @@ Van Praetlei
 Van Praetstraat
 Van Pulstraat
 Van Putlei
-van Raemdonckstraat
 Van Raemdonckstraat
+van Raemdonckstraat
 Van Reethstraat
 Van Regenmortelstraat
 Van Reyenstraat
@@ -87553,8 +87555,8 @@ Venneweg
 Vennewegel
 Vennhofstraße
 Vennknepp
-Vennstraße
 Vennstrasse
+Vennstraße
 Venstraat
 Vent
 Ventweg Zuid
@@ -88168,8 +88170,8 @@ Vieux Chemin de Louvain
 Vieux Chemin de Mons
 Vieux chemin de Mons
 Vieux Chemin de Musson
-Vieux chemin de Namur
 Vieux Chemin de Namur
+Vieux chemin de Namur
 Vieux Chemin de Nivelles
 Vieux Chemin de Petithan
 Vieux Chemin de Saint-Amand
@@ -90401,8 +90403,8 @@ Weg beneden de wijngaard
 Weg der Hoop
 Weg Gors-Opleeuw
 Weg Messelbroek
-Weg naar As
 Weg Naar As
+Weg naar As
 Weg naar Bijloos
 Weg Naar De Grauwe Steen
 Weg naar de Vaart

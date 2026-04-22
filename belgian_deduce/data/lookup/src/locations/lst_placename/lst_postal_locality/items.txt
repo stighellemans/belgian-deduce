@@ -1,3 +1,4 @@
+'s Gravenvoeren
 's Herenelderen
 's-Gravenbrakel
 's-Gravenvoeren
@@ -20,6 +21,7 @@ Acosse
 Acoz
 Adegem
 Adinkerke
+Adinkerque
 Affligem
 Afsnee
 Agimont
@@ -31,6 +33,7 @@ Aisemont
 Alken
 Alle
 Alleur
+Alost
 Alsemberg
 Alveringem
 Amay
@@ -54,8 +57,10 @@ Anlier
 Anloy
 Annevoie-Rouillon
 Ans
+Ansart
 Anseremme
 Anseroeul
+Anserœul
 Antheit
 Anthisnes
 Anthée
@@ -102,6 +107,11 @@ Aubechies
 Aubel
 Aublain
 Auby-sur-Semois
+Audeghem
+Audenarde
+Audenhove-Saint-Géry
+Audenhove-Sainte-Marie
+Auderghem
 Audregnies
 Aulnois
 Autelbas
@@ -128,6 +138,8 @@ Baarle-Hertog
 Baasrode
 Bachte-Maria-Leerne
 Baelen
+Baerle-Duc
+Baesrode
 Bagimont
 Baileux
 Bailièvre
@@ -147,12 +159,15 @@ Baronville
 Barry
 Barvaux
 Barvaux-Condroz
+Barvaux-sur-Ourthe
 Bas-Oha
+Bas-Warneton
 Basse-Bodeux
 Bassenge
 Bassevelde
 Bassilly
 Bastenaken
+Bastogne
 Basècles
 Batsheers
 Battice
@@ -190,6 +205,7 @@ Bekegem
 Bekkerzeel
 Bekkevoort
 Belgische Strijdkrachten in Duitsland
+Belgische strijdkrachten in Duitsland
 België
 Belgrade
 Bellaire
@@ -206,6 +222,7 @@ Ben-Ahin
 Bende
 Berbroek
 Berchem
+Berchem-Sainte-Agathe
 Berendrecht
 Berg
 Bergen
@@ -232,9 +249,10 @@ Bevel
 Bever
 Bevere
 Beveren
+Beveren-aan-den-IJzer
+Beveren-aan-den-Ijzer
 Beveren-Leie
 Beveren-Waas
-Beveren-aan-den-IJzer
 Beverlo
 Beverst
 Beyne-Heusay
@@ -261,6 +279,7 @@ Bissegem
 Bitsingen
 Bizet
 Bièvre
+Biévène
 Blaasveld
 Blaimont
 Blandain
@@ -276,6 +295,8 @@ Bleret
 Blicquy
 Bléharies
 Bocholt
+Bodeghem-Saint-Martin
+Bodegnée
 Boechout
 Boekhout
 Boekhoute
@@ -292,6 +313,7 @@ Bolbeek
 Bolinne
 Bolland
 Bomal
+Bomal-sur-Ourthe
 Bombaye
 Bommershoven
 Bon-Secours
@@ -325,10 +347,13 @@ Bossut-Gottechain
 Bost
 Bothey
 Bottelare
+Boucle-Saint-Blaise
+Boucle-Saint-Denis
 Bouffioulx
 Bouge
 Bougnies
 Bouillon
+Bourg-Léopold
 Bourlers
 Bourseigne-Neuve
 Bourseigne-Vieille
@@ -350,9 +375,11 @@ Boëlhe
 Bra
 Brabant
 Braffe
+Brages
 Braibant
 Braine-l'Alleud
 Braine-le-Château
+Braine-le-Comte
 Braives
 Brakel
 Branchon
@@ -365,18 +392,22 @@ Bredene
 Bree
 Breendonk
 Bressoux
+Breuvanne
 Brielen
 Broechem
 Broekom
 Brucargo
 Brugelette
+Bruges
 Brugge
 Brunehaut
 Brussegem
 Brussel
 Brustem
+Bruxelles
 Bruyelle
 Brye
+Brée
 Brûly
 Brûly-de-Pesche
 Budingen
@@ -385,6 +416,7 @@ Buissenal
 Buissonville
 Buizingen
 Buken
+Bullange
 Bulskamp
 Bunsbeek
 Burcht
@@ -393,6 +425,7 @@ Bure
 Burg-Reuland
 Burst
 Bury
+Butgenbach
 Buvingen
 Buvrinnes
 Buzenol
@@ -404,12 +437,14 @@ Callenelle
 Calonne
 Cambron-Casteau
 Cambron-Saint-Vincent
+Capelle-au-Bois
 Cargovil
 Carlsbourg
 Carnières
 Casteau
 Castillon
 Celles
+Cerexhe-Heuseux
 Cerfontaine
 Chaineux
 Chairière
@@ -418,6 +453,7 @@ Champlon
 Chanly
 Chantemelle
 Chapelle-lez-Herlaimont
+Chapelle-Saint-Ulric
 Chapelle-à-Oie
 Chapelle-à-Wattines
 Chapon-Seraing
@@ -452,10 +488,11 @@ Clermont
 Clermont-sous-Huy
 Cognelée
 Colfontaine
-Comblain-Fairon
 Comblain-au-Pont
+Comblain-Fairon
 Comblain-la-Tour
 Comines
+Comines-Warneton
 Conneux
 Corbais
 Corbion
@@ -469,15 +506,20 @@ Corroy-le-Grand
 Corswarem
 Cortil-Noirmont
 Cortil-Wodon
+Cortis
 Couillet
 Cour-sur-Heure
 Courcelles
 Courrière
+Coursel
 Court-Saint-Étienne
+Courtrai
+Courtrai-Dutsel
 Couthuin
 Coutisse
 Couture-Saint-Germain
 Couvin
+Coxyde
 Cras-Avernas
 Crehen
 Crisnée
@@ -490,7 +532,6 @@ Cul-des-Sarts
 Custinne
 Cérexhe-Heuseux
 Céroux-Mousty
-DANIEL JOUVANCE
 Dadizele
 Dailly
 Daknam
@@ -498,6 +539,7 @@ Dalhem
 Damme
 Dampicourt
 Dampremy
+DANIEL JOUVANCE
 Darion
 Daussois
 Daussoulx
@@ -512,6 +554,7 @@ Deerlijk
 Deftinge
 Deinze
 Denderbelle
+Denderhautem
 Denderhoutem
 Denderleeuw
 Dendermonde
@@ -536,11 +579,13 @@ Dikkele
 Dikkelvenne
 Diksmuide
 Dilbeek
+Dilsen
 Dilsen-Stokkem
 Dinant
 Dion
 Dion-Valmont
 Dison
+Dixmude
 Dochamps
 Doel
 Dohan
@@ -554,9 +599,11 @@ Doornik
 Dorinne
 Dormaal
 Dottenijs
+Dottignies
 Dour
 Dourbes
 Dranouter
+Dranoutre
 Driekapellen
 Drieslinter
 Drogenbos
@@ -572,8 +619,8 @@ Dworp
 Eben-Emael
 Ebly
 Ecaussinnes
-Ecaussinnes-Lalaing
 Ecaussinnes-d'Enghien
+Ecaussinnes-Lalaing
 Edegem
 Edelare
 Edingen
@@ -598,8 +645,8 @@ Eliksem
 Elingen
 Ellemelle
 Ellezelles
-Ellignies-Sainte-Anne
 Ellignies-lez-Frasnes
+Ellignies-Sainte-Anne
 Ellikom
 Elouges
 Elsegem
@@ -624,6 +671,7 @@ Eppegem
 Eprave
 Erbaut
 Erbisoeul
+Erbisœul
 Ere
 Erembodegem
 Ermeton-sur-Biert
@@ -641,10 +689,14 @@ Erquennes
 Ertvelde
 Erwetegem
 Escanaffles
+Escornaix
 Esen
 Esneux
+Espierres
+Espierres-Helchin
 Esplechin
 Esquelmes
+Essche-Saint-Liévin
 Essen
 Essene
 Estaimbourg
@@ -661,10 +713,13 @@ Eugies
 Eupen
 Evegnée
 Evelette
+Everbecq
 Everbeek
 Everberg
 Evere
 Evergem
+Everghem
+Evregnies
 Evrehailles
 Eynatten
 Ezemaal
@@ -679,6 +734,7 @@ Familleureux
 Farciennes
 Faulx-les-Tombes
 Fauroeulx
+Faurœulx
 Fauvillers
 Faymonville
 Fays-les-Veneurs
@@ -690,8 +746,8 @@ Feneur
 Fernelmont
 Ferrières
 Feschaux
-Fexhe-Slins
 Fexhe-le-Haut-Clocher
+Fexhe-Slins
 Filot
 Finnevaux
 Fize-Fontaine
@@ -712,11 +768,13 @@ Flémalle-Grande
 Flémalle-Haute
 Flénu
 Fléron
+Flétange
 Flône
 Focant
+Fologne
 Folx-les-Caves
-Fontaine-Valmont
 Fontaine-l'Évêque
+Fontaine-Valmont
 Fontenelle
 Fontenoille
 Fontenoy
@@ -732,6 +790,10 @@ Fosse
 Fosses-la-Ville
 Fouleng
 Fourbechies
+Fouron-le-Comte
+Fouron-Saint-Martin
+Fouron-Saint-Pierre
+Fourons
 Foy-Notre-Dame
 Fraipont
 Fraire
@@ -747,22 +809,28 @@ Frasnes-lez-Anvaing
 Frasnes-lez-Buissenal
 Frasnes-lez-Gosselies
 Freloux
+Fresin
 Freux
 Froidchapelle
 Froidfontaine
 Froidmont
 Fronville
 Froyennes
+Frères
 Fumal
 Furfooz
 Furnaux
+Furnes
 Gaasbeek
 Gages
 Gallaix
 Galmaarden
+Gammerages
+Gand
 Ganshoren
 Gaurain-Ramecroix
 Gavere
+Gavre
 Gedinne
 Geel
 Geer
@@ -829,6 +897,7 @@ Gooik
 Gors-Opleeuw
 Gorsem
 Gosselies
+Gossoncourt
 Gotem
 Gottem
 Gottignies
@@ -841,7 +910,9 @@ Gozée
 Goé
 Graide
 Grammene
+Grammont
 Grand-Axhe
+Grand-Bigard
 Grand-Hallet
 Grand-Halleux
 Grand-Leez
@@ -849,6 +920,7 @@ Grand-Manil
 Grand-Rechain
 Grand-Reng
 Grand-Rosière-Hottomont
+Grande-Jamine
 Grandglise
 Grandhan
 Grandmenil
@@ -863,6 +935,7 @@ Grazen
 Grembergen
 Grez-Doiceau
 Grimbergen
+Grimbiémont
 Grimminge
 Grivegnée
 Grobbendonk
@@ -903,9 +976,11 @@ Haine-Saint-Paul
 Haine-Saint-Pierre
 Hainin
 Hakendover
+Hal
 Halanzy
 Halen
 Hallaar
+Hallaer
 Halle
 Halle-Booienhoven
 Halleux
@@ -924,10 +999,12 @@ Hamois
 Hamont
 Hamont-Achel
 Hampteau
+Han
 Han-sur-Lesse
 Handzame
 Haneffe
 Hannuit
+Hannut
 Hannêche
 Hanret
 Hansbeke
@@ -948,12 +1025,16 @@ Hasselt
 Hastière
 Hastière-Lavaux
 Hastière-par-Delà
+Hastière-par-delà
 Hatrival
 Haulchin
 Hauset
 Haut-Fays
 Haut-Ittre
 Haut-le-Wastia
+Haute-Croix
+Hautem-Saint-Liévin
+Hautem-Sainte-Marguerite
 Hautrage
 Havay
 Havelange
@@ -970,10 +1051,12 @@ Heffen
 Heikruis
 Heindonk
 Heinsch
+Heist
 Heist -aan-Zee
 Heist-op-den-Berg
 Hekelgem
 Heks
+Helchin
 Helchteren
 Heldergem
 Helen-Bos
@@ -997,6 +1080,8 @@ Heppenbach
 Heppignies
 Herbeumont
 Herchies
+Herck-la-Ville
+Herck-Saint-Lambert
 Herderen
 Herdersem
 Herent
@@ -1011,18 +1096,21 @@ Hermeton-sur-Meuse
 Hermée
 Herne
 Herquegies
+Herseaux
 Herselt
 Herstal
 Herstappe
 Hertain
 Herten
 Hertsberge
+Herve
 Hervé
 Herzeeuw
 Herzele
 Heule
 Heure
 Heure-le-Romain
+Heure-le-Tixhe
 Heurne
 Heusden
 Heusden-Zolder
@@ -1059,6 +1147,7 @@ Hollogne-aux-Pierres
 Hollogne-sur-Geer
 Holsbeek
 Hombeek
+Hombourg
 Homburg
 Hompré
 Hondelange
@@ -1067,6 +1156,9 @@ Honnelles
 Hooglede
 Hoogstade
 Hoogstraten
+Hoorebeke
+Hoorebeke-Saint-Corneille
+Hoorebeke-Sainte-Marie
 Horebeke
 Horion-Hozémont
 Hornu
@@ -1076,12 +1168,14 @@ Hotton
 Houdemont
 Houdeng-Aimeries
 Houdeng-Goegnies
+Houdeng-Gœgnies
 Houdremont
 Houffalize
 Hour
 Housse
-Houtain-Saint-Siméon
+Houtain-l'Évêque
 Houtain-le-Val
+Houtain-Saint-Siméon
 Houtaing
 Houtave
 Houtem
@@ -1094,6 +1188,7 @@ Houwaart
 Houx
 Houyet
 Hove
+Hoves
 Howardries
 Ht.
 Huccorgne
@@ -1109,8 +1204,10 @@ Humbeek
 Hundelgem
 Huppaye
 Huy
+Huysse
 Hyon
 Hélécine
+Hérinnes
 Hérinnes-lez-Pecq
 Héron
 Hévillers
@@ -1123,12 +1220,15 @@ Incourt
 Ingelmunster
 Ingooigem
 Irchonwelz
+Iseghem
 Isières
 Isnes
 Itegem
+Iteghem
 Itterbeek
 Ittre
 Ivoz-Ramet
+Ixelles
 Izegem
 Izel
 Izenberge
@@ -1188,6 +1288,7 @@ Kemexhe
 Kemmel
 Kempen
 Kemzeke
+Kerckom-lez-Saint-Trond
 Kerkhove
 Kerkom
 Kerkom-bij-Sint-Truiden
@@ -1215,6 +1316,7 @@ Knesselare
 Knokke
 Knokke-Heist
 Kobbegem
+Kobbeghem
 Koekelare
 Koekelberg
 Koersel
@@ -1248,14 +1350,21 @@ Kuttekoven
 Kuurne
 Kwaadmechelen
 Kwaremont
+L'Escaillère
+l'Escaillère
+L'Écluse
+l'Écluse
 La Bouverie
 La Bruyère
 La Calamine
+La Clinge
 La Glanerie
 La Gleize
 La Hestre
 La Hulpe
 La Louvière
+La Panne
+La Pinte
 La Reid
 La Roche-en-Ardenne
 Laakdal
@@ -1264,7 +1373,12 @@ Laarne
 Labuissière
 Lacuisine
 Ladeuze
+Laeken
+Laerne
+Laethem-Saint-Martin
+Laethem-Sainte-Marie
 Laforêt
+Lahage
 Lahamaide
 Laken
 Lamain
@@ -1301,6 +1415,8 @@ Lauwe
 Lavacherie
 Lavaux-Sainte-Anne
 Lavoir
+Le Bizet
+Le Coq
 Le Mesnil
 Le Roux
 Le Rœulx
@@ -1308,12 +1424,15 @@ Lebbeke
 Lede
 Ledeberg
 Ledegem
+Ledeghem
 Leefdaal
 Leerbeek
+Leerne-Saint-Martin
 Leernes
-Leers-Nord
 Leers-et-Fosteau
+Leers-Nord
 Leest
+Leeuw-Saint-Pierre
 Leeuwergem
 Leffinge
 Leignon
@@ -1354,29 +1473,37 @@ Leval-Trahegnies
 Lg.
 Liberchies
 Libin
+Libramont
 Libramont-Chevigny
 Lichtaart
+Lichtaert
 Lichtervelde
 Liedekerke
 Lieferinge
 Liek
 Lier
 Lierde
+Lierde-Saint-Martin
+Lierde-Sainte-Marie
 Lierneux
 Liernu
+Lierre
 Liers
 Lievegem
 Lieze
 Liezele
 Ligne
 Ligney
+Lignières
 Ligny
 Lijsem
 Lille
+Lille-Saint-Hubert
 Lillo
 Lillois-Witterzée
 Limal
 Limb.
+Limbourg
 Limburg
 Limelette
 Limerlé
@@ -1393,6 +1520,7 @@ Lisogne
 Lissewege
 Lives-sur-Meuse
 Lixhe
+Liège
 Lo
 Lo-Reninge
 Lobbes
@@ -1403,6 +1531,8 @@ Loker
 Lokeren
 Loksbergen
 Lombardsijde
+Lombeek-Notre-Dame
+Lombeek-Sainte-Catherine
 Lombise
 Lommel
 Lommersweiler
@@ -1411,12 +1541,14 @@ Lomprez
 Loncin
 Londerzeel
 Longchamps
+Longdoz
 Longlier
 Longueville
 Longvilly
 Lontzen
 Lonzée
 Loonbeek
+Looz
 Loppem
 Lorcé
 Lot
@@ -1424,6 +1556,7 @@ Lotenhulle
 Louette-Saint-Denis
 Louette-Saint-Pierre
 Loupoigne
+Louvain
 Louvain-la-Neuve
 Louveigné
 Lovendegem
@@ -1438,6 +1571,7 @@ Lummen
 Lustin
 Luttre
 Lux.
+Léau
 Léglise
 Maarke-Kerkem
 Maarkedal
@@ -1445,6 +1579,7 @@ Maaseik
 Maasmechelen
 Mabompré
 Machelen
+Macon
 Macquenoise
 Maffe
 Maffle
@@ -1456,8 +1591,10 @@ Maissin
 Maizeret
 Mal
 Maldegem
+Maldeghem
 Malderen
 Malempré
+Malines
 Malle
 Malmedy
 Malonne
@@ -1473,6 +1610,7 @@ Marbaix
 Marche-en-Famenne
 Marche-les-Dames
 Marche-lez-Ecaussinnes
+Marche-lez-Écaussinnes
 Marchienne-au-Pont
 Marchin
 Marchipont
@@ -1487,7 +1625,9 @@ Mariembourg
 Marilles
 Mark
 Marke
+Markedal
 Markegem
+Marlinne
 Marloie
 Marneffe
 Marquain
@@ -1509,8 +1649,8 @@ Mazenzele
 Mazy
 Mazée
 Mechelen
-Mechelen-Bovelingen
 Mechelen-aan-de-Maas
+Mechelen-Bovelingen
 Meeffe
 Meensel-Kiezegem
 Meer
@@ -1527,6 +1667,10 @@ Mehaigne
 Meigem
 Meilegem
 Meise
+Meix-devant-Virton
+meix-Devant-Virton
+Meix-le-Tige
+meix-le-Tige
 Melden
 Meldert
 Melen
@@ -1544,8 +1688,9 @@ Membre
 Membruggen
 Mendonk
 Menen
-Merbes-Sainte-Marie
+Menin
 Merbes-le-Château
+Merbes-Sainte-Marie
 Merchtem
 Merdorp
 Mere
@@ -1562,6 +1707,7 @@ Mesnil-Église
 Mespelare
 Messancy
 Messelbroek
+Messines
 Mesvin
 Mettekoven
 Mettet
@@ -1570,6 +1716,7 @@ Meux
 Meyerode
 Michelbeke
 Micheroux
+Middelbourg
 Middelburg
 Middelkerke
 Mielen-boven-Aalst
@@ -1594,37 +1741,42 @@ Moignelée
 Moircy
 Mol
 Molenbaix
+Molenbeek-Saint-Jean
 Molenbeek-Wersbeek
 Molenbeersel
 Molenstede
 Mollem
 Momalle
 Momignies
-Monceau-Imbrechies
 Monceau-en-Ardenne
+Monceau-Imbrechies
 Monceau-sur-Sambre
+Mons
 Mons-lez-Liège
 Monstreux
 Mont
+Mont-de-l'Enclus
 Mont-Gauthier
 Mont-Saint-André
 Mont-Saint-Aubert
 Mont-Saint-Guibert
 Mont-Sainte-Aldegonde
 Mont-Sainte-Geneviève
-Mont-de-l'Enclus
 Mont-sur-Marchienne
+Montaigu
+Montaigu-Zichem
 Montbliart
 Montegnée
 Montenaken
-Montignies-Saint-Christophe
 Montignies-lez-Lens
+Montignies-Saint-Christophe
 Montignies-sur-Roc
 Montignies-sur-Sambre
 Montigny-le-Tilleul
 Montleban
 Montroeul-sur-Haine
 Montrœul-au-Bois
+Montrœul-sur-Haine
 Montzen
 Moorsel
 Moorsele
@@ -1644,8 +1796,10 @@ Mortier
 Mortroux
 Mortsel
 Morville
+Mouland
 Moulbaix
 Mourcourt
+Mouscron
 Moustier
 Moustier-sur-Sambre
 Mouzaive
@@ -1707,12 +1861,14 @@ Neufchâteau
 Neufmaison
 Neufvilles
 Neupré
+Neuve-Église
 Neuville
 Neuville-en-Condroz
 Nevele
 Niel
 Niel-bij-As
 Niel-bij-Sint-Truiden
+Nieuport
 Nieuwenhove
 Nieuwenrode
 Nieuwerkerken
@@ -1746,6 +1902,7 @@ Nothomb
 Nouvelles
 Noville
 Noville-les-Bois
+Noville-sur-Mehaigne
 Noville-sur-Méhaigne
 Nudorp
 Nukerke
@@ -1760,6 +1917,7 @@ Odeur
 Oedelem
 Oekene
 Oelegem
+Oeleghem
 Oeren
 Oerle
 Oeselgem
@@ -1805,6 +1963,7 @@ Oosterzele
 Oostham
 Oostkamp
 Oostkerke
+Oostmalle
 Oostmalle , Westmalle
 Oostnieuwkerke
 Oostrozebeke
@@ -1834,6 +1993,8 @@ Orcq
 Ordingen
 Oret
 Oreye
+Organisation du traité de l'Atlantique nord
+Organisations sociales chrétiennes
 Orgeo
 Ormeignies
 Orp-Jauche
@@ -1841,6 +2002,8 @@ Orp-le-Grand
 Orroir
 Orsmaal-Gussenhoven
 Ortho
+Ostdunkerque
+Ostende
 Ostiches
 Otegem
 Oteppe
@@ -1910,6 +2073,7 @@ Petit-Rœulx-lez-Braine
 Petit-Rœulx-lez-Nivelles
 Petit-Thier
 Petite-Chapelle
+Petite-Jamine
 Peutie
 Philippeville
 Pipaix
@@ -1931,6 +2095,8 @@ Pollare
 Polleur
 Pollinkhove
 Pommeroeul
+Pommerœul
+Poncelle
 Pondrôme
 Pont-de-Loup
 Pont-à-Celles
@@ -1955,11 +2121,15 @@ Purnode
 Pussemange
 Putte
 Puurs
+Pâturages
 Péronnes-lez-Antoing
 Péronnes-lez-Binche
 Péruwelz
 Quaregnon
+Quaremont
 Quartes
+quelques années sous le nom de Haren, fusion annulée
+quelques années sous le nom de Kolmont, fusion annulée
 Quenast
 Queue-du-Bois
 Quevaucamps
@@ -1995,9 +2165,11 @@ Reet
 Rekem
 Rekkem
 Relegem
+Releghem
 Remagne
 Remersdaal
 Remicourt
+Renaix
 Rendeux
 Reninge
 Reningelst
@@ -2010,6 +2182,9 @@ Retie
 Retinne
 Reuland
 Rhisnes
+Rhode-Saint-Genèse
+Rhode-Saint-Pierre
+Rhode-Sainte-Agathe
 Richelle
 Riemst
 Rienne
@@ -2061,6 +2236,7 @@ Rotem
 Rotheux-Rimière
 Rotselaar
 Roucourt
+Roulers
 Rouveroy
 Rouvreux
 Rouvroy
@@ -2073,8 +2249,8 @@ Ruette
 Ruien
 Ruisbroek
 Ruiselede
-Rukkelingen-Loon
 Rukkelingen-aan-de-Jeker
+Rukkelingen-Loon
 Rulles
 Rumbeke
 Rumes
@@ -2085,37 +2261,57 @@ Rumst
 Runkelen
 Rupelmonde
 Russeignies
+Russon
 Rutten
+Ryckel
 Rèves
+Rémersdael
 Saint-Amand
 Saint-André
+Saint-Antelinkx
 Saint-Aubin
 Saint-Denis
 Saint-Denis-Bovesse
+Saint-Denis-Westrem
+Saint-Genois
+Saint-Georges
 Saint-Georges-sur-Meuse
 Saint-Germain
 Saint-Ghislain
+Saint-Gilles
+Saint-Gilles-lez-Termonde
+Saint-Gilles-Waes
 Saint-Gérard
 Saint-Géry
 Saint-Hubert
 Saint-Jean-Geest
+Saint-Jean-in-Eremo
+Saint-Josse-ten-Noode
+Saint-Laurent
 Saint-Léger
+Saint-Léonard
 Saint-Marc
 Saint-Mard
 Saint-Martin
 Saint-Maur
 Saint-Médard
 Saint-Nicolas
+Saint-Paul
 Saint-Pierre
+Saint-Pierre-Capelle
 Saint-Remy
 Saint-Remy-Geest
 Saint-Sauveur
 Saint-Servais
 Saint-Symphorien
 Saint-Séverin
+Saint-Séverin-en-Condroz
+Saint-Trond
 Saint-Vaast
 Saint-Vincent
+Saint-Vith
 Sainte-Cécile
+Sainte-Marguerite
 Sainte-Marie-Chevigny
 Sainte-Marie-sur-Semois
 Sainte-Ode
@@ -2131,14 +2327,15 @@ Sars-la-Buissière
 Sart-Bernard
 Sart-Custinne
 Sart-Dames-Avelines
-Sart-Eustache
-Sart-Saint-Laurent
 Sart-en-Fagne
+Sart-Eustache
 Sart-lez-Spa
+Sart-Saint-Laurent
 Sautin
 Sautour
 Sauvenière
 Schaarbeek
+Schaerbeek
 Schaffen
 Schalkhoven
 Schaltin
@@ -2151,6 +2348,7 @@ Schepdaal
 Scherpenheuvel
 Scherpenheuvel-Zichem
 Schilde
+Schoenberg
 Schoonaarde
 Schore
 Schorisse
@@ -2179,6 +2377,7 @@ Signeulx
 Sijsele
 Silenrieux
 Silly
+Sinaai
 Sinaai-Waas
 Sinsin
 Sint-Agatha-Berchem
@@ -2197,8 +2396,8 @@ Sint-Eloois-Vijve
 Sint-Eloois-Winkel
 Sint-Genesius-Rode
 Sint-Gillis
-Sint-Gillis-Waas
 Sint-Gillis-bij-Dendermonde
+Sint-Gillis-Waas
 Sint-Goriks-Oudenhove
 Sint-Huibrechts-Hern
 Sint-Huibrechts-Lille
@@ -2256,6 +2455,7 @@ Sleidinge
 Slijpe
 Slins
 Sluizen
+Sluse
 Smeerebbe-Vloerzegem
 Smetlede
 Smuid
@@ -2306,6 +2506,7 @@ Steendorp
 Steenhuffel
 Steenhuize-Wijnhuize
 Steenkerke
+Steenkerque
 Steenokkerzeel
 Stekene
 Stembert
@@ -2332,6 +2533,7 @@ Sélange
 Tailles
 Taintignies
 Tamines
+Tamise
 Tarcienne
 Tavier
 Taviers
@@ -2344,6 +2546,7 @@ Tenneville
 Teralfene
 Terhagen
 Termes
+Termonde
 Ternaaien
 Ternat
 Tertre
@@ -2366,9 +2569,10 @@ Thirimont
 Thisnes
 Thommen
 Thon
-Thorembais-Saint-Trond
 Thorembais-les-Béguines
+Thorembais-Saint-Trond
 Thoricourt
+Thourout
 Thuillies
 Thuin
 Thulin
@@ -2394,6 +2598,7 @@ Tilly
 Tinlot
 Tintange
 Tintigny
+Tirlemont
 Tisselt
 Toernich
 Tohogne
@@ -2402,14 +2607,17 @@ Tongeren
 Tongerlo
 Tongre-Notre-Dame
 Tongre-Saint-Martin
+Tongres
 Tongrinne
 Tontelange
 Torgny
 Torhout
 Tourinne
-Tourinnes-Saint-Lambert
 Tourinnes-la-Grosse
+Tourinnes-Saint-Lambert
+Tournai
 Tournay
+Tourneppe
 Tourpes
 Transinne
 Trazegnies
@@ -2423,12 +2631,14 @@ Trooz
 Tubize
 Turnhout
 Twee-Akren
+Uccle
 Ucimont
 Uikhoven
 Uitbergen
 Uitkerke
 Ukkel
 Ulbeek
+Une partie de l'ancienne commune de Kallo
 Upigny
 Ursel
 Vaalbeek
@@ -2458,12 +2668,14 @@ Velroux
 Veltem-Beisem
 Velzeke-Ruddershove
 Vencimont
+Verdenne
 Vergnies
 Verlaine
 Verlée
 Verrebroek
 Vertrijk
 Verviers
+Vesdrin
 Vesqueville
 Veulen
 Veurne
@@ -2478,22 +2690,16 @@ Vierset-Barse
 Vierves-sur-Viroin
 Viesville
 Vieux-Genappe
+Vieux-Turnhout
 Vieux-Waleffe
 Vieuxville
 Villance
-Ville-Pommeroeul
 Ville-en-Hesbaye
+Ville-Pommeroeul
 Ville-sur-Haine
 Villerot
-Villers-Deux-Églises
-Villers-Notre-Dame
-Villers-Perwin
-Villers-Poterie
-Villers-Saint-Amand
-Villers-Saint-Ghislain
-Villers-Saint-Siméon
-Villers-Sainte-Gertrude
 Villers-aux-Tours
+Villers-Deux-Églises
 Villers-devant-Orval
 Villers-en-Fagne
 Villers-l'Évêque
@@ -2506,9 +2712,17 @@ Villers-le-Gambon
 Villers-le-Peuplier
 Villers-le-Temple
 Villers-lez-Heest
+Villers-Notre-Dame
+Villers-Perwin
+Villers-Poterie
+Villers-Saint-Amand
+Villers-Saint-Ghislain
+Villers-Saint-Siméon
+Villers-Sainte-Gertrude
 Villers-sur-Lesse
 Villers-sur-Semois
 Vilvoorde
+Vilvorde
 Vinalmont
 Vinderhoute
 Vinkem
@@ -2521,8 +2735,10 @@ Vissenaken
 Visé
 Vitrine Magique
 Vitrival
+Vive-Saint-Éloi
 Vivegnis
 Vivy
+Vlaamse Televisie Maatschappij
 Vladslo
 Vlamertinge
 Vlekkem
@@ -2559,6 +2775,7 @@ Vremde
 Vreren
 Vresse-sur-Semois
 Vroenhoven
+VTM, télévision privée flamande
 Vucht
 Vurste
 Vyle-et-Tharoul
@@ -2573,6 +2790,7 @@ Waasmunster
 Waasten
 Wachtebeke
 Wadelincourt
+Waerloos
 Wagnelée
 Waha
 Waillet
@@ -2587,6 +2805,7 @@ Walsbets
 Walshoutem
 Waltwilder
 Wambeek
+Wamont
 Wancennes
 Wandre
 Wanfercée-Baulet
@@ -2614,11 +2833,13 @@ Warsage
 Warzée
 Wasmes
 Wasmes-Audemez-Briffoeil
+Wasmes-Audemez-Briffœil
 Wasmuel
 Wasseiges
 Waterland-Oudeman
 Waterloo
 Watermaal-Bosvoorde
+Watermael-Boitsfort
 Watervliet
 Watou
 Wattripont
@@ -2626,6 +2847,8 @@ Waudrez
 Waulsort
 Wauthier-Braine
 Wavre
+Wavre-Notre-Dame
+Wavre-Sainte-Catherine
 Wavreille
 Wayaux
 Ways
@@ -2656,6 +2879,7 @@ Westende
 Westerlo
 Westkapelle
 Westkerke
+Westmalle
 Westmeerbeek
 Westouter
 Westrem
@@ -2698,6 +2922,9 @@ Wilskerke
 Wimmertingen
 Winenne
 Wingene
+Winghe-Saint-Georges
+Winkel-Saint-Éloi
+Winkel-Sainte-Croix
 Winksele
 Wintershoven
 Witry
@@ -2705,8 +2932,12 @@ Wodecq
 Woelingen
 Woesten
 Wolkrange
+Woluwe-Saint-Lambert
+Woluwe-Saint-Pierre
+Woluwe-Saint-Étienne
 Wolvertem
 Wommelgem
+Wommelghem
 Wommersom
 Wonck
 Wondelgem
@@ -2719,6 +2950,7 @@ Woumen
 Wouteringen
 Wulpen
 Wulvergem
+Wulverghem
 Wulveringem
 Wuustwezel
 Wépion
@@ -2727,6 +2959,7 @@ Xhendelesse
 Xhendremael
 Xhoris
 Yernée-Fraineux
+Ypres
 Yves Rocher
 Yves-Gomezée
 Yvoir
@@ -2736,10 +2969,12 @@ Zande
 Zandhoven
 Zandvliet
 Zandvoorde
+Zanvoorde
 Zarlardinge
 Zarren
 Zaventem
 Zedelgem
+Zeebruges
 Zeebrugge
 Zegelsem
 Zele
@@ -2780,11 +3015,22 @@ Zwevezele
 Zwijnaarde
 Zwijndrecht
 Zétrud-Lumay
-l'Escaillère
-l'Écluse
-meix-Devant-Virton
-meix-le-Tige
+Èthe
+Ében-Émael
+Ébly
+Écaussinnes
+Écaussinnes-d'Enghien
+Écaussinnes-Lalaing
+Éghezée
+Éhein
+Élouges
+Émines
 Énines
+Épinois
 Érezée
+Étalle
+Évegnée
+Évelette
 Évregnies
+Évrehailles
 Œudeghien
