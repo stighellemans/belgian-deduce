@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 4.1.0 (2026-04-22)
+
+### Changed
+
+- Expanded francophone coverage across Wallonia and Brussels with broader lookup
+  data for healthcare institutions, hospitals, streets, and postal localities.
+- Tightened postal locality derivation to reduce ambiguity in Belgian location
+  matching.
+- Hardened release CI so tag-driven releases are gated on the test matrix before
+  building, publishing, and creating the GitHub release.
+
 ## 4.0.1 (2026-04-17)
 
 ### Changed

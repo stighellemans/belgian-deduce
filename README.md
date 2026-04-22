@@ -173,6 +173,8 @@ Contribution guidance is available in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Versions
 
+* `4.1.0` - Improved francophone coverage in Wallonia and Brussels, especially
+  for healthcare institutions and locations
 * `4.0.1` - Polished the published package page and stabilized the tag-driven
   release workflow
 * `4.0.0` - First standalone `belgian_deduce` release with Belgian defaults and
