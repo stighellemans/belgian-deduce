@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 4.2.0 (2026-05-11)
+
+### Added
+
+- Added configurable date shifting in the redactor through
+  `redactor_date_strategy = "shift"`.
+- Added support for per-document `date_shift_days` metadata and deterministic
+  metadata-seeded date shifts through `redactor_date_shift_seed_key`.
+- Added runtime warnings for date shifts of 7 days or less, and for globally
+  configured fixed shifts that may be reused across a dataset.
+- Documented date-shift safety guidance, including patient-level or
+  hospitalization-level shifts instead of one dataset-wide shift.
+
 ## 4.1.0 (2026-04-22)
 
 ### Changed

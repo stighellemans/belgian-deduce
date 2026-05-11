@@ -2,6 +2,7 @@ from datetime import date
 
 import docdeid as dd
 
+from belgian_deduce import Deduce
 from belgian_deduce.metadata import Address, MetadataEntity, Person
 
 text = (
@@ -105,6 +106,44 @@ class TestDeduce:
 
         assert doc.deidentified_text == expected_deidentified
 
+    def test_deidentify_shifts_dates_when_configured(self):
+        model = Deduce(config={"redactor_date_strategy": "shift"})
+        metadata = {
+            "patient": Person(first_names=["Jan"], surname="Janssens"),
+            "date_shift_days": 10,
+        }
+
+        doc = model.deidentify(text, metadata=metadata)
+
+        expected_deidentified = (
+            "betreft: [PATIENT], rijksregisternummer [NATIONAL_REGISTER_NUMBER-1], "
+            "patnr [ID-1]. De patient [PATIENT] is [AGE-1] jaar oud en woont in "
+            "[LOCATION-1]. Hij werd op 20 oktober 2018 door arts [PERSON-1] "
+            "ontslagen uit [HOSPITAL-1]. Voor nazorg kan hij worden bereikt via "
+            "[EMAIL-1] of [PHONE_NUMBER-1]."
+        )
+
+        assert doc.deidentified_text == expected_deidentified
+
+    def test_deidentify_can_seed_date_shift_from_metadata(self):
+        model = Deduce(
+            config={
+                "redactor_date_strategy": "shift",
+                "redactor_date_strategy_include_key": "birth_date",
+            }
+        )
+        metadata = {
+            "patient": Person(first_names=["Jan"], surname="Janssens"),
+            "birth_date": date(1980, 3, 12),
+        }
+
+        first_doc = model.deidentify(text, metadata=metadata)
+        second_doc = model.deidentify(text, metadata=metadata)
+
+        assert first_doc.deidentified_text == second_doc.deidentified_text
+        assert "10 oktober 2018" not in first_doc.deidentified_text
+        assert "[DATE-1]" not in first_doc.deidentified_text
+
     def test_annotate_intext(self, model):
         metadata = {"patient": Person(first_names=["Jan"], surname="Janssens")}
         doc = model.deidentify(text, metadata=metadata)
@@ -164,24 +203,33 @@ class TestDeduce:
 
         doc = model.deidentify(text, metadata=metadata)
 
-        assert dd.Annotation(
-            text="Jan Jansen", start_char=8, end_char=18, tag="patient"
-        ) in doc.annotations
-        assert dd.Annotation(
-            text="12 maart 1980", start_char=31, end_char=44, tag="date"
-        ) in doc.annotations
-        assert dd.Annotation(
-            text="Kerkstraat 12A, 9000 Gent",
-            start_char=55,
-            end_char=80,
-            tag="location",
-        ) in doc.annotations
-        assert dd.Annotation(
-            text="Peter de Visser", start_char=87, end_char=102, tag="person"
-        ) in doc.annotations
-        assert dd.Annotation(
-            text="UZ Gent", start_char=112, end_char=119, tag="hospital"
-        ) in doc.annotations
+        assert (
+            dd.Annotation(text="Jan Jansen", start_char=8, end_char=18, tag="patient")
+            in doc.annotations
+        )
+        assert (
+            dd.Annotation(text="12 maart 1980", start_char=31, end_char=44, tag="date")
+            in doc.annotations
+        )
+        assert (
+            dd.Annotation(
+                text="Kerkstraat 12A, 9000 Gent",
+                start_char=55,
+                end_char=80,
+                tag="location",
+            )
+            in doc.annotations
+        )
+        assert (
+            dd.Annotation(
+                text="Peter de Visser", start_char=87, end_char=102, tag="person"
+            )
+            in doc.annotations
+        )
+        assert (
+            dd.Annotation(text="UZ Gent", start_char=112, end_char=119, tag="hospital")
+            in doc.annotations
+        )
 
         assert doc.deidentified_text == (
             "Patient [PATIENT], geboren op [DATE-1], woont op [LOCATION-1]. "
@@ -213,37 +261,52 @@ class TestDeduce:
 
         doc = model.deidentify(text, metadata=metadata)
 
-        assert dd.Annotation(
-            text="Jean Dupont",
-            start_char=text.index("Jean Dupont"),
-            end_char=text.index("Jean Dupont") + len("Jean Dupont"),
-            tag="patient",
-        ) in doc.annotations
-        assert dd.Annotation(
-            text="12 mars 1980",
-            start_char=text.index("12 mars 1980"),
-            end_char=text.index("12 mars 1980") + len("12 mars 1980"),
-            tag="date",
-        ) in doc.annotations
-        assert dd.Annotation(
-            text="Rue de la Loi 12, 1000 Bruxelles",
-            start_char=text.index("Rue de la Loi 12, 1000 Bruxelles"),
-            end_char=text.index("Rue de la Loi 12, 1000 Bruxelles")
-            + len("Rue de la Loi 12, 1000 Bruxelles"),
-            tag="location",
-        ) in doc.annotations
-        assert dd.Annotation(
-            text="Sophie Martin",
-            start_char=text.index("Sophie Martin"),
-            end_char=text.index("Sophie Martin") + len("Sophie Martin"),
-            tag="person",
-        ) in doc.annotations
-        assert dd.Annotation(
-            text="Hôpital Erasme",
-            start_char=text.index("Hôpital Erasme"),
-            end_char=text.index("Hôpital Erasme") + len("Hôpital Erasme"),
-            tag="hospital",
-        ) in doc.annotations
+        assert (
+            dd.Annotation(
+                text="Jean Dupont",
+                start_char=text.index("Jean Dupont"),
+                end_char=text.index("Jean Dupont") + len("Jean Dupont"),
+                tag="patient",
+            )
+            in doc.annotations
+        )
+        assert (
+            dd.Annotation(
+                text="12 mars 1980",
+                start_char=text.index("12 mars 1980"),
+                end_char=text.index("12 mars 1980") + len("12 mars 1980"),
+                tag="date",
+            )
+            in doc.annotations
+        )
+        assert (
+            dd.Annotation(
+                text="Rue de la Loi 12, 1000 Bruxelles",
+                start_char=text.index("Rue de la Loi 12, 1000 Bruxelles"),
+                end_char=text.index("Rue de la Loi 12, 1000 Bruxelles")
+                + len("Rue de la Loi 12, 1000 Bruxelles"),
+                tag="location",
+            )
+            in doc.annotations
+        )
+        assert (
+            dd.Annotation(
+                text="Sophie Martin",
+                start_char=text.index("Sophie Martin"),
+                end_char=text.index("Sophie Martin") + len("Sophie Martin"),
+                tag="person",
+            )
+            in doc.annotations
+        )
+        assert (
+            dd.Annotation(
+                text="Hôpital Erasme",
+                start_char=text.index("Hôpital Erasme"),
+                end_char=text.index("Hôpital Erasme") + len("Hôpital Erasme"),
+                tag="hospital",
+            )
+            in doc.annotations
+        )
 
         assert doc.deidentified_text == (
             "Patient [PATIENT], né le [DATE-1], habite [LOCATION-1]. "
@@ -253,10 +316,18 @@ class TestDeduce:
     def test_belgian_postcode_location_matching(self, model):
         cases = {
             "1000 Brussel": dd.AnnotationSet(
-                [dd.Annotation(text="1000 Brussel", start_char=0, end_char=12, tag="location")]
+                [
+                    dd.Annotation(
+                        text="1000 Brussel", start_char=0, end_char=12, tag="location"
+                    )
+                ]
             ),
             "Brussel 1000": dd.AnnotationSet(
-                [dd.Annotation(text="Brussel 1000", start_char=0, end_char=12, tag="location")]
+                [
+                    dd.Annotation(
+                        text="Brussel 1000", start_char=0, end_char=12, tag="location"
+                    )
+                ]
             ),
             "1348 Louvain-la-Neuve": dd.AnnotationSet(
                 [

@@ -119,6 +119,55 @@ metadata = {
 doc = deduce.deidentify(text, metadata=metadata)
 ```
 
+Dates are replaced by placeholders by default. To pseudonymize detected dates while
+preserving their format, enable date shifting and provide the actual shift through
+metadata for each logical time-conserving block:
+
+```python
+deduce = Deduce(config={"redactor_date_strategy": "shift"})
+
+for patient in patients:
+    doc = deduce.deidentify(
+        patient.text,
+        metadata={"date_shift_days": patient.date_shift_days},
+    )
+```
+
+Use a shift greater than 7 days. Shorter shifts are easier to reverse engineer from
+weekday patterns, document creation patterns, and explicit weekdays in the source
+text.
+
+Prefer a separate date shift for each time-conserving block of text, such as a
+patient-level or hospitalization-level block. Reusing one date shift for a whole
+dataset increases the attack surface for re-identifying the original dates. For
+this reason, pass `date_shift_days` in per-document metadata when possible instead
+of setting one fixed `redactor_date_shift_days` value on a model that processes a
+whole dataset.
+
+Avoid this pattern for production datasets:
+
+```python
+deduce = Deduce(
+    config={
+        "redactor_date_strategy": "shift",
+        "redactor_date_shift_days": 42,
+    }
+)
+```
+
+For repeated processing where you do not want to store explicit shift days, you can
+derive a stable safe offset from metadata such as a birth date:
+
+```python
+deduce = Deduce(
+    config={
+        "redactor_date_strategy": "shift",
+        "redactor_date_shift_seed_key": "birth_date",
+    }
+)
+doc = deduce.deidentify(text, metadata={"birth_date": date(1980, 3, 12)})
+```
+
 French-speaking notes can be handled through the same API. A practical path is to
 provide metadata for names, birth dates, addresses, and institutions:
 
@@ -173,6 +222,8 @@ Contribution guidance is available in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Versions
 
+* `4.2.0` - Added configurable date shifting with safety warnings and guidance
+  for patient-level or hospitalization-level shifts
 * `4.1.0` - Improved francophone coverage in Wallonia and Brussels, especially
   for healthcare institutions and locations
 * `4.0.1` - Polished the published package page and stabilized the tag-driven

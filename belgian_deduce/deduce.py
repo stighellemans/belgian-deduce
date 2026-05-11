@@ -10,8 +10,8 @@ from typing import Any, Optional, Union
 import docdeid as dd
 from frozendict import frozendict
 
-from belgian_deduce._version import __version__
 from belgian_deduce import utils
+from belgian_deduce._version import __version__
 from belgian_deduce.annotation_processor import (
     CleanAnnotationTag,
     DeduceMergeAdjacentAnnotations,
@@ -23,7 +23,6 @@ from belgian_deduce.lookup_struct_loader import load_interfix_lookup, load_prefi
 from belgian_deduce.lookup_structs import get_lookup_structs, load_raw_itemsets
 from belgian_deduce.redactor import DeduceRedactor
 from belgian_deduce.tokenizer import DeduceTokenizer
-
 
 _BASE_PATH = Path(__file__).parent
 _LOOKUP_LIST_PATH = _BASE_PATH / "data" / "lookup"
@@ -299,6 +298,15 @@ class _DeduceProcessorLoader:  # pylint: disable=R0903
             DeduceRedactor(
                 open_char=config["redactor_open_char"],
                 close_char=config["redactor_close_char"],
+                date_strategy=config.get("redactor_date_strategy", "replace"),
+                date_shift_days=config.get("redactor_date_shift_days"),
+                date_shift_days_key=config.get(
+                    "redactor_date_shift_days_key", "date_shift_days"
+                ),
+                date_shift_seed_key=config.get(
+                    "redactor_date_shift_seed_key",
+                    config.get("redactor_date_strategy_include_key"),
+                ),
             ),
         )
 

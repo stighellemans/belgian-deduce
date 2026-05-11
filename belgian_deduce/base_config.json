@@ -12,6 +12,8 @@
   },
   "redactor_open_char": "[",
   "redactor_close_char": "]",
+  "redactor_date_strategy": "replace",
+  "redactor_date_shift_days_key": "date_shift_days",
   "annotators": {
     "prefix_with_initial": {
       "annotator_type": "belgian_deduce.annotator.TokenPatternAnnotator",
