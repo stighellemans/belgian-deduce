@@ -2278,7 +2278,71 @@ def auto_add_patient_name_spans(
     return spans
 
 
-def post_process_spans(spans, text, metadata=None, *, regex_observer=None):
+_KNOWN_SPAN_SEP = r"[\s./()\-]*"
+
+
+def _known_value_regex(value):
+    """Separator-tolerant regex for a known identifier value, so that e.g.
+    ``"0470 12 34 56"`` matches ``"0470123456"`` or ``"0470-12-34-56"``."""
+    chars = [c for c in str(value) if c.isalnum()]
+    if len(chars) < 2:
+        return None
+    pattern = _KNOWN_SPAN_SEP.join(re.escape(c) for c in chars)
+    return re.compile(pattern, re.IGNORECASE)
+
+
+def auto_add_known_values(spans, text, known_values):
+    """Inject spans for known identifier values supplied in metadata.
+
+    ``known_values`` is a list of ``{"value": str, "label": str}`` entries (e.g.
+    a patient RRN, a caregiver RIZIV number, a phone number, an email). Each
+    value is located in ``text`` tolerant of separator/formatting differences
+    and added as a span carrying the given canonical label. Regions already
+    covered by an existing span at the same ``(begin, end)`` are not duplicated;
+    downstream ``deduplicate_spans`` resolves any remaining overlaps.
+    """
+    if not known_values:
+        return spans
+    covered = {(int(s["begin"]), int(s["end"])) for s in spans}
+    out = list(spans)
+    for entry in known_values:
+        if not isinstance(entry, dict):
+            continue
+        value = str(entry.get("value") or "").strip()
+        label = str(entry.get("label") or "").strip()
+        if not value or not label:
+            continue
+        # Prefer a verbatim (case-insensitive) match — handles emails, URLs,
+        # and IDs written the same way in the text. Fall back to the
+        # separator-tolerant regex for differently-formatted numbers.
+        matches = [(m.start(), m.end()) for m in re.finditer(re.escape(value), text, re.IGNORECASE)]
+        if not matches:
+            regex = _known_value_regex(value)
+            if regex is None:
+                continue
+            matches = [(m.start(), m.end()) for m in regex.finditer(text)]
+        category, _, subtype = label.partition(":")
+        for begin, end in matches:
+            if (begin, end) in covered:
+                continue
+            covered.add((begin, end))
+            span = {
+                "begin": begin,
+                "end": end,
+                "text": text[begin:end],
+                "label": label,
+                "category": category,
+            }
+            if subtype:
+                span["subtype"] = subtype
+            out.append(span)
+    out.sort(key=lambda s: (s["begin"], s["end"]))
+    return out
+
+
+def post_process_spans(
+    spans, text, metadata=None, *, recover_names=True, regex_observer=None
+):
     """
     Apply the full post-processing pipeline to a document.
 
@@ -2311,7 +2375,8 @@ def post_process_spans(spans, text, metadata=None, *, regex_observer=None):
     """
     patient_name = metadata.get("patient_name") if metadata else None
     caregiver_names = caregiver_name_entries_from_metadata(metadata)
-    if not spans and not patient_name and not caregiver_names:
+    known_values = metadata.get("known_values") if metadata else None
+    if not spans and not patient_name and not caregiver_names and not known_values:
         return []
 
     ordered_spans = sorted(spans, key=span_sort_key)
@@ -2322,12 +2387,20 @@ def post_process_spans(spans, text, metadata=None, *, regex_observer=None):
     # 1) drop spans that are only non-alphanumeric
     new_spans = drop_non_alnum_spans(new_spans)
 
-    # 2) automatically add patient/caregiver name spans
-    if patient_name:
-        new_spans = auto_add_patient_name_spans(new_spans, text, patient_name)
+    # 2) automatically add patient/caregiver name spans (from metadata names).
+    #    Skipped when recover_names=False so callers keep the recognizer's
+    #    native name labels while still using other metadata (known_values, dates).
+    if recover_names:
+        if patient_name:
+            new_spans = auto_add_patient_name_spans(new_spans, text, patient_name)
 
-    if caregiver_names:
-        new_spans = auto_add_caregiver_name_spans(new_spans, text, caregiver_names)
+        if caregiver_names:
+            new_spans = auto_add_caregiver_name_spans(new_spans, text, caregiver_names)
+
+    # 2b) inject known identifier spans (IDs, phone numbers, emails, ...) that
+    #     the caller supplies in metadata["known_values"] = [{value, label}, ...].
+    if known_values:
+        new_spans = auto_add_known_values(new_spans, text, known_values)
 
     # 3) merge adjacent Name:Patient spans and caregiver title prefixes
     new_spans = merge_adjacent_name_patient(new_spans, text)

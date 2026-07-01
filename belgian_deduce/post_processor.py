@@ -47,6 +47,7 @@ class DeducePostProcessor(dd.process.DocProcessor):
             len(doc.annotations) == 0
             and not metadata.get("patient_name")
             and not metadata.get("caregiver_names")
+            and not metadata.get("known_values")
         ):
             return
 
@@ -134,6 +135,10 @@ def post_process_metadata(metadata: dd.MetaData | Mapping[str, Any]) -> dict[str
     document_creation_date = metadata_get(metadata, "document_creation_date")
     if document_creation_date:
         result["document_creation_date"] = str(document_creation_date)
+
+    known_values = metadata_get(metadata, "known_values")
+    if known_values:
+        result["known_values"] = known_values
 
     return result
 
