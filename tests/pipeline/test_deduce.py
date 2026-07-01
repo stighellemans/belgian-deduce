@@ -64,9 +64,9 @@ class TestDeduce:
                     tag="date",
                 ),
                 dd.Annotation(
-                    text="64",
+                    text="64 jaar",
                     start_char=text.index("64"),
-                    end_char=text.index("64") + len("64"),
+                    end_char=text.index("64 jaar") + len("64 jaar"),
                     tag="age",
                 ),
                 dd.Annotation(
@@ -98,7 +98,7 @@ class TestDeduce:
 
         expected_deidentified = (
             "betreft: [PATIENT], rijksregisternummer [NATIONAL_REGISTER_NUMBER-1], "
-            "patnr [ID-1]. De patient [PATIENT] is [AGE-1] jaar oud en woont in "
+            "patnr [ID-1]. De patient [PATIENT] is [AGE-1] oud en woont in "
             "[LOCATION-1]. Hij werd op [DATE-1] door arts [PERSON-1] ontslagen uit "
             "[HOSPITAL-1]. Voor nazorg kan hij worden bereikt via [EMAIL-1] of "
             "[PHONE_NUMBER-1]."
@@ -117,7 +117,7 @@ class TestDeduce:
 
         expected_deidentified = (
             "betreft: [PATIENT], rijksregisternummer [NATIONAL_REGISTER_NUMBER-1], "
-            "patnr [ID-1]. De patient [PATIENT] is [AGE-1] jaar oud en woont in "
+            "patnr [ID-1]. De patient [PATIENT] is [AGE-1] oud en woont in "
             "[LOCATION-1]. Hij werd op 20 oktober 2018 door arts [PERSON-1] "
             "ontslagen uit [HOSPITAL-1]. Voor nazorg kan hij worden bereikt via "
             "[EMAIL-1] of [PHONE_NUMBER-1]."
@@ -152,7 +152,7 @@ class TestDeduce:
             "betreft: <PATIENT>Jan Janssens</PATIENT>, rijksregisternummer "
             "<NATIONAL_REGISTER_NUMBER>85.07.30-033.28</NATIONAL_REGISTER_NUMBER>, patnr "
             "<ID>000334433</ID>. De patient <PATIENT>J. Janssens</PATIENT> is "
-            "<AGE>64</AGE> jaar oud en woont in <LOCATION>Leuven</LOCATION>. "
+            "<AGE>64 jaar</AGE> oud en woont in <LOCATION>Leuven</LOCATION>. "
             "Hij werd op <DATE>10 oktober 2018</DATE> door arts "
             "<PERSON>Peter de Smet</PERSON> ontslagen uit "
             "<HOSPITAL>UZ Leuven</HOSPITAL>. Voor nazorg kan hij worden bereikt "

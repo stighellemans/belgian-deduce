@@ -21,6 +21,7 @@ from belgian_deduce.annotation_processor import (
 )
 from belgian_deduce.lookup_struct_loader import load_interfix_lookup, load_prefix_lookup
 from belgian_deduce.lookup_structs import get_lookup_structs, load_raw_itemsets
+from belgian_deduce.post_processor import DeducePostProcessor
 from belgian_deduce.redactor import DeduceRedactor
 from belgian_deduce.tokenizer import DeduceTokenizer
 
@@ -292,6 +293,9 @@ class _DeduceProcessorLoader:  # pylint: disable=R0903
                 slack_regexp=config["adjacent_annotations_slack"], check_overlap=False
             ),
         )
+
+        if config.get("post_processing_enabled", True):
+            post_group.add_processor("post_processor", DeducePostProcessor())
 
         post_group.add_processor(
             "redactor",

@@ -116,7 +116,7 @@ class TestDeduceRedactor:
             == "Controle op 20 oktober 2018 en 2018-11-11."
         )
 
-    def test_redact_shift_dates_falls_back_for_unsupported_date_literals(self):
+    def test_redact_shift_dates_uses_year_granularity_for_year_only_dates(self):
         with pytest.warns(RuntimeWarning, match="same date shift"):
             proc = DeduceRedactor(date_strategy="shift", date_shift_days=10)
         text = "Controle in 2018:"
@@ -132,7 +132,7 @@ class TestDeduceRedactor:
             ]
         )
 
-        assert proc.redact(text, annotations) == "Controle in [DATE-1]:"
+        assert proc.redact(text, annotations) == "Controle in 2018/2019:"
 
     def test_warns_for_short_date_shift(self):
         proc = DeduceRedactor(date_strategy="shift")

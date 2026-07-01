@@ -3,12 +3,15 @@ from __future__ import annotations
 import hashlib
 import re
 import warnings
+from collections.abc import Mapping
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
 from typing import Optional
 
 import docdeid as dd
 from rapidfuzz.distance import DamerauLevenshtein
+
+from belgian_deduce.date_pseudonyms import pseudonymize_date_text_body
 
 _DATE_TAGS = {"date", "datum"}
 _MIN_RECOMMENDED_ABS_DATE_SHIFT_DAYS = 8
@@ -470,6 +473,33 @@ def _safe_deterministic_shift_days(value) -> Optional[int]:
     return direction * weeks * 7
 
 
+def _metadata_get(metadata: Optional[dd.MetaData | Mapping], key: str):
+    if metadata is None:
+        return None
+    if isinstance(metadata, Mapping):
+        return metadata.get(key)
+    return metadata[key]
+
+
+def _document_creation_date_from_metadata(
+    metadata: Optional[dd.MetaData | Mapping],
+) -> Optional[str]:
+    value = _metadata_get(metadata, "document_creation_date")
+    return str(value) if value else None
+
+
+def _context_before(text: str, annotation: dd.Annotation) -> str:
+    return text[max(0, annotation.start_char - 80) : annotation.start_char]
+
+
+def _context_after(text: str, annotation: dd.Annotation) -> str:
+    return text[annotation.end_char : min(len(text), annotation.end_char + 80)]
+
+
+def _is_degree_prefixed_date(text: str, annotation: dd.Annotation) -> bool:
+    return annotation.start_char > 0 and text[annotation.start_char - 1] in {"°", "º"}
+
+
 def _warn_if_short_date_shift(date_shift_days: Optional[int]) -> None:
     if date_shift_days is None:
         return
@@ -526,6 +556,7 @@ class DeduceRedactor(dd.process.SimpleRedactor):
                 doc.text,
                 doc.annotations,
                 date_shift_days=self._date_shift_days_from_metadata(doc.metadata),
+                metadata=doc.metadata,
             )
         )
 
@@ -554,12 +585,31 @@ class DeduceRedactor(dd.process.SimpleRedactor):
     def _date_replacement(
         self,
         annotation: dd.Annotation,
+        text: str,
         date_shift_days: Optional[int],
+        metadata: Optional[dd.MetaData | Mapping] = None,
     ) -> Optional[str]:
         if self.date_strategy != "shift" or annotation.tag not in _DATE_TAGS:
             return None
 
         if date_shift_days is None:
+            return None
+
+        label = (
+            "Age_Birthdate" if _is_degree_prefixed_date(text, annotation) else "Date"
+        )
+        substitute = pseudonymize_date_text_body(
+            annotation.text,
+            label=label,
+            date_shift_days=date_shift_days,
+            context_before=_context_before(text, annotation),
+            context_after=_context_after(text, annotation),
+            document_creation_date=_document_creation_date_from_metadata(metadata),
+        )
+        if substitute is not None:
+            return substitute
+
+        if label != "Date":
             return None
 
         try:
@@ -572,6 +622,7 @@ class DeduceRedactor(dd.process.SimpleRedactor):
         text: str,
         annotations: dd.AnnotationSet,
         date_shift_days: Optional[int] = None,
+        metadata: Optional[dd.MetaData | Mapping] = None,
     ) -> str:
         if date_shift_days is None:
             date_shift_days = _coerce_date_shift_days(self.date_shift_days)
@@ -590,7 +641,9 @@ class DeduceRedactor(dd.process.SimpleRedactor):
             for annotation in sorted(
                 annotation_group, key=lambda a: a.get_sort_key(by=("end_char",))
             ):
-                date_replacement = self._date_replacement(annotation, date_shift_days)
+                date_replacement = self._date_replacement(
+                    annotation, text, date_shift_days, metadata
+                )
 
                 if date_replacement is not None:
                     annotations_to_intext_replacement[annotation] = date_replacement
